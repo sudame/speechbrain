@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.utils.distributed.rst:5
+msgid "speechbrain.utils.distributed module"
+msgstr ""
+
+#: of speechbrain.utils.distributed:1
+msgid "Guard for running certain operations on main process only"
+msgstr ""
+
+#: of speechbrain.utils.distributed:5
+msgid "Authors:"
+msgstr ""
+
+#: of speechbrain.utils.distributed:4
+msgid "Abdel Heba 2020"
+msgstr ""
+
+#: of speechbrain.utils.distributed:5
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: ../../API/speechbrain.utils.distributed.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.utils.distributed.rst:18
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.utils.distributed.rst:34:<autosummary>:1
+msgid ":obj:`ddp_barrier <speechbrain.utils.distributed.ddp_barrier>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.distributed.rst:34:<autosummary>:1
+msgid "In DDP mode, this function will synchronize all processes."
+msgstr ""
+
+#: ../../API/speechbrain.utils.distributed.rst:34:<autosummary>:1
+msgid ":obj:`ddp_init_group <speechbrain.utils.distributed.ddp_init_group>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.distributed.rst:34:<autosummary>:1 of
+#: speechbrain.utils.distributed.ddp_init_group:1
+msgid ""
+"This function will initialize the ddp group if distributed_launch=True "
+"bool is given in the python command line."
+msgstr ""
+
+#: ../../API/speechbrain.utils.distributed.rst:34:<autosummary>:1
+msgid ":obj:`if_main_process <speechbrain.utils.distributed.if_main_process>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.distributed.rst:34:<autosummary>:1
+msgid ""
+"Checks if the current process is the main process and authorized to run "
+"I/O commands."
+msgstr ""
+
+#: ../../API/speechbrain.utils.distributed.rst:34:<autosummary>:1
+msgid ":obj:`run_on_main <speechbrain.utils.distributed.run_on_main>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.distributed.rst:34:<autosummary>:1 of
+#: speechbrain.utils.distributed.run_on_main:1
+msgid "Runs a function with DPP (multi-gpu) support."
+msgstr ""
+
+#: ../../API/speechbrain.utils.distributed.rst:36
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.utils.distributed.run_on_main:3
+msgid ""
+"The main function is only run on the main process. A post_function can be"
+" specified, to be on non-main processes after the main func completes. "
+"This way whatever the main func produces can be loaded on the other "
+"processes."
+msgstr ""
+
+#: of speechbrain.utils.distributed.ddp_init_group
+#: speechbrain.utils.distributed.run_on_main
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.utils.distributed.run_on_main:8
+msgid "Function to run on the main process."
+msgstr ""
+
+#: of speechbrain.utils.distributed.run_on_main:10
+msgid "Positional args to pass to func."
+msgstr ""
+
+#: of speechbrain.utils.distributed.run_on_main:12
+msgid "Keyword args to pass to func."
+msgstr ""
+
+#: of speechbrain.utils.distributed.run_on_main:14
+msgid ""
+"Function to run after func has finished on main. By default only run on "
+"non-main processes."
+msgstr ""
+
+#: of speechbrain.utils.distributed.run_on_main:17
+msgid "Positional args to pass to post_func."
+msgstr ""
+
+#: of speechbrain.utils.distributed.run_on_main:19
+msgid "Keyword args to pass to post_func."
+msgstr ""
+
+#: of speechbrain.utils.distributed.run_on_main:21
+msgid "Whether to run post_func on main process as well. (default: False)"
+msgstr ""
+
+#: of speechbrain.utils.distributed.if_main_process:1
+msgid ""
+"Checks if the current process is the main process and authorized to run "
+"I/O commands. In DDP mode, the main process is the one with RANK == 0. In"
+" standard mode, the process will not have `RANK` Unix var and will be "
+"authorized to run the I/O commands."
+msgstr ""
+
+#: of speechbrain.utils.distributed.ddp_barrier:1
+msgid ""
+"In DDP mode, this function will synchronize all processes. "
+"torch.distributed.barrier() will block processes until the whole group "
+"enters this function."
+msgstr ""
+
+#: of speechbrain.utils.distributed.ddp_init_group:4
+msgid ""
+"The ddp group will use distributed_backend arg for setting the DDP "
+"communication protocol. `RANK` Unix variable will be used for registring "
+"the subprocess to the ddp group."
+msgstr ""
+
+#: of speechbrain.utils.distributed.ddp_init_group:8
+msgid "A list of arguments to parse, most often from `sys.argv[1:]`."
+msgstr ""
+

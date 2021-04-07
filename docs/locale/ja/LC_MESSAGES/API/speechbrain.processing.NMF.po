@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.processing.NMF.rst:5
+msgid "speechbrain.processing.NMF module"
+msgstr ""
+
+#: of speechbrain.processing.NMF:1
+msgid "Non-negative matrix factorization"
+msgstr ""
+
+#: of speechbrain.processing.NMF:4
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.processing.NMF:4
+msgid "Cem Subakan"
+msgstr ""
+
+#: ../../API/speechbrain.processing.NMF.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.processing.NMF.rst:18
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.processing.NMF.rst:33:<autosummary>:1
+msgid ""
+":obj:`NMF_separate_spectra "
+"<speechbrain.processing.NMF.NMF_separate_spectra>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.NMF.rst:33:<autosummary>:1 of
+#: speechbrain.processing.NMF.NMF_separate_spectra:1
+msgid "This function separates the mixture signals, given NMF template matrices."
+msgstr ""
+
+#: ../../API/speechbrain.processing.NMF.rst:33:<autosummary>:1
+msgid ""
+":obj:`reconstruct_results "
+"<speechbrain.processing.NMF.reconstruct_results>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.NMF.rst:33:<autosummary>:1 of
+#: speechbrain.processing.NMF.reconstruct_results:1
+msgid "This function reconstructs the separated spectra into waveforms."
+msgstr ""
+
+#: ../../API/speechbrain.processing.NMF.rst:33:<autosummary>:1
+msgid ":obj:`spectral_phase <speechbrain.processing.NMF.spectral_phase>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.NMF.rst:33:<autosummary>:1 of
+#: speechbrain.processing.NMF.spectral_phase:1
+msgid "Returns the phase of a complex spectrogram."
+msgstr ""
+
+#: ../../API/speechbrain.processing.NMF.rst:35
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.processing.NMF.NMF_separate_spectra
+#: speechbrain.processing.NMF.reconstruct_results
+#: speechbrain.processing.NMF.spectral_phase
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.processing.NMF.spectral_phase:3
+msgid "A tensor, output from the stft function."
+msgstr ""
+
+#: of speechbrain.processing.NMF.NMF_separate_spectra:21
+#: speechbrain.processing.NMF.reconstruct_results:25
+#: speechbrain.processing.NMF.spectral_phase:7
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.processing.NMF.NMF_separate_spectra:3
+msgid ""
+"This list contains the list [W1, W2], where W1 W2 are respectively the "
+"NMF template matrices that correspond to source1 and source2. W1, W2 are "
+"of size [nfft/2 + 1, K], where nfft is the fft size for STFT, and K is "
+"the number of vectors (templates) in W."
+msgstr ""
+
+#: of speechbrain.processing.NMF.NMF_separate_spectra:8
+msgid ""
+"This is the magnitude spectra for the mixtures. The size is [BS x T x "
+"nfft//2 + 1] where, BS = batch size, nfft = fft size, T = number of time "
+"steps in the spectra."
+msgstr ""
+
+#: of speechbrain.processing.NMF.NMF_separate_spectra:14
+msgid ""
+"Size = [BS x (nfft/2 +1) x T] where, BS = batch size, nfft = fft size, T "
+"= number of time steps in the spectra."
+msgstr ""
+
+#: of speechbrain.processing.NMF.NMF_separate_spectra:17
+msgid "The size definitions are the same as above."
+msgstr ""
+
+#: of speechbrain.processing.NMF.reconstruct_results:3
+msgid ""
+"The separated spectrum for source 1 of size [BS, nfft/2 + 1, T], where,  "
+"BS = batch size, nfft = fft size, T = length of the spectra."
+msgstr ""
+
+#: of speechbrain.processing.NMF.reconstruct_results:6
+msgid ""
+"The separated spectrum for source 2 of size [BS, nfft/2 + 1, T]. The size"
+" definitions are the same as Xhat1."
+msgstr ""
+
+#: of speechbrain.processing.NMF.reconstruct_results:9
+msgid ""
+"This is the magnitude spectra for the mixtures. The size is [BS x nfft//2"
+" + 1 x T x 2] where, BS = batch size, nfft = fft size, T = number of time"
+" steps in the spectra. The last dimension is to represent complex "
+"numbers."
+msgstr ""
+
+#: of speechbrain.processing.NMF.reconstruct_results:14
+msgid "The sampling rate (in Hz) in which we would like to save the results."
+msgstr ""
+
+#: of speechbrain.processing.NMF.reconstruct_results:16
+msgid "The length of stft windows (in ms)."
+msgstr ""
+
+#: of speechbrain.processing.NMF.reconstruct_results:18
+msgid "The length with which we shift the STFT windows (in ms)."
+msgstr ""
+
+#: of speechbrain.processing.NMF.reconstruct_results
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.processing.NMF.reconstruct_results:21
+msgid ""
+"* **x1hats** (*list*) -- List of waveforms for source 1. * **x2hats** "
+"(*list*) -- List of waveforms for source 2."
+msgstr ""
+
+#: of speechbrain.processing.NMF.reconstruct_results:21
+msgid "**x1hats** (*list*) -- List of waveforms for source 1."
+msgstr ""
+
+#: of speechbrain.processing.NMF.reconstruct_results:22
+msgid "**x2hats** (*list*) -- List of waveforms for source 2."
+msgstr ""
+

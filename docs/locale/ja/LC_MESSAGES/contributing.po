@@ -1,0 +1,547 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../contributing.md:1
+msgid "Contributing"
+msgstr ""
+
+#: ../../contributing.md:3
+msgid ""
+"The goal is to write a set of libraries that process audio and speech in "
+"several ways. It is crucial to write a set of homogeneous libraries that "
+"are all compliant with the guidelines described in the following sub-"
+"sections."
+msgstr ""
+
+#: ../../contributing.md:5
+msgid "Zen of Speechbrain"
+msgstr ""
+
+#: ../../contributing.md:6
+msgid ""
+"SpeechBrain could be used for research, academic, commercial, non-"
+"commercial purposes. Ideally, the code should have the following "
+"features:"
+msgstr ""
+
+#: ../../contributing.md:8
+msgid ""
+"Simple:  the code must be easy to understand even by students or by users"
+" that are not professional programmers or speech researchers. Try to "
+"design your code such that it can be easily read. Given alternatives with"
+" the same level of performance, code the simplest one. (the most explicit"
+" and straightforward manner is preferred)"
+msgstr ""
+
+#: ../../contributing.md:10
+msgid ""
+"Readable: SpeechBrain mostly adopts the code style conventions in PEP8. "
+"The code written by the users must be compliant with that. We test code "
+"style with flake8"
+msgstr ""
+
+#: ../../contributing.md:12
+msgid ""
+"Efficient: The code should be as efficient as possible. When possible, "
+"users should maximize the use of pytorch native operations.  Remember "
+"that in generally very convenient to process in parallel multiple signals"
+" rather than processing them one by one (e.g try to use batch_size > 1 "
+"when possible). Test the code carefully with your favorite profiler (e.g,"
+" torch.utils.bottleneck https://pytorch.org/docs/stable/bottleneck.html )"
+" to make sure there are no bottlenecks in your code.  Since we are not "
+"working in c++ directly, the speed can be an issue. Despite that, our "
+"goal is to make SpeechBrain as fast as possible."
+msgstr ""
+
+#: ../../contributing.md:14
+msgid ""
+"Modular: Write your code such that it is very modular and fits well with "
+"the other functionalities of the toolkit. The idea is to develop a bunch "
+"of models that can be naturally interconnected with each other."
+msgstr ""
+
+#: ../../contributing.md:16
+msgid ""
+"Well documented:  Given the goals of SpeechBrain, writing rich and good "
+"documentation is a crucial step."
+msgstr ""
+
+#: ../../contributing.md:18
+msgid "How to get your code in SpeechBrain"
+msgstr ""
+
+#: ../../contributing.md:20
+msgid "Practically, development goes as follows:"
+msgstr ""
+
+#: ../../contributing.md:22
+msgid "We use git and GitHub."
+msgstr ""
+
+#: ../../contributing.md:23
+msgid ""
+"Fork the speechbrain repository "
+"(https://github.com/speechbrain/speechbrain) on GitHub under your own "
+"account. (This creates a copy of SpeechBrain under your account, and "
+"GitHub knows where it came from, and we typically call this "
+"\"upstream\".)"
+msgstr ""
+
+#: ../../contributing.md:27
+msgid ""
+"Clone your own speechbrain repository. git clone https://github.com"
+"/<your-account>/speechbrain (This downloads the git repository to your "
+"machine, git knows where it came from, and calls it \"origin\".)"
+msgstr ""
+
+#: ../../contributing.md:31
+msgid ""
+"Create a branch for each specific feature you are developing. git "
+"checkout -b your-branch-name"
+msgstr ""
+
+#: ../../contributing.md:33
+msgid ""
+"Make + commit changes. git add files-you-changed ... git commit -m "
+"\"Short message about what you did\""
+msgstr ""
+
+#: ../../contributing.md:36
+msgid ""
+"Push the branch to your GitHub repository. git push origin your-branch-"
+"name"
+msgstr ""
+
+#: ../../contributing.md:38
+msgid ""
+"Navigate to GitHub, and create a pull request from your branch to the "
+"upstream repository speechbrain/speechbrain, to the \"develop\" branch."
+msgstr ""
+
+#: ../../contributing.md:40
+msgid ""
+"The Pull Request (PR) appears on the upstream repository. Discuss your "
+"contribution there. If you push more changes to your branch on GitHub (on"
+" your repository), they are added to the PR."
+msgstr ""
+
+#: ../../contributing.md:43
+msgid ""
+"When the reviewer is satisfied that the code improves repository quality,"
+" they can merge."
+msgstr ""
+
+#: ../../contributing.md:45
+msgid ""
+"Note that CI tests will be run when you create a PR. If you want to be "
+"sure that your code will not fail these tests, we have set up pre-commit "
+"hooks that you can install. See the section on pre-commit."
+msgstr ""
+
+#: ../../contributing.md:49
+msgid "These will automatically check the code when you commit and when you push."
+msgstr ""
+
+#: ../../contributing.md:51
+msgid "Python"
+msgstr ""
+
+#: ../../contributing.md:52
+msgid "Version"
+msgstr ""
+
+#: ../../contributing.md:53
+msgid "SpeechBrain targets Python >= 3.8."
+msgstr ""
+
+#: ../../contributing.md:55
+msgid "Formatting"
+msgstr ""
+
+#: ../../contributing.md:56
+msgid ""
+"To settle code formatting, SpeechBrain adopts the black code formatter. "
+"Before submitting  pull requests, please run the black formatter on your "
+"code."
+msgstr ""
+
+#: ../../contributing.md:58
+msgid ""
+"In addition, we use flake8 to test code style. Black as a tool does not "
+"enforce everything that flake8 tests."
+msgstr ""
+
+#: ../../contributing.md:61
+msgid ""
+"You can run the formatter with: black <file-or-directory>. Similarly the "
+"flake8 tests can be run with flake8 <file-or-directory>."
+msgstr ""
+
+#: ../../contributing.md:64
+msgid "Adding dependencies"
+msgstr ""
+
+#: ../../contributing.md:65
+msgid ""
+"In general, we strive to have as few dependencies as possible. However, "
+"we will debate dependencies on a case-by-case basis. We value easy "
+"installability via pip."
+msgstr ""
+
+#: ../../contributing.md:69
+msgid ""
+"In case the dependency is only needed for a specific recipe or specific "
+"niche module, we suggest the extra tools pattern: don't add the "
+"dependency to general requirements, but add it in the extra-"
+"requirement.txt file of the specific recipe."
+msgstr ""
+
+#: ../../contributing.md:73
+msgid "Testing"
+msgstr ""
+
+#: ../../contributing.md:74
+msgid "We are adopting unit tests using pytest. Run unit tests with pytest tests"
+msgstr ""
+
+#: ../../contributing.md:78
+msgid ""
+"Additionally, we have runnable doctests, though primarily these serve as "
+"examples of the documented code. Run doctests with pytest --doctest-"
+"modules <file-or-directory>"
+msgstr ""
+
+#: ../../contributing.md:82
+msgid "Documentation"
+msgstr ""
+
+#: ../../contributing.md:83
+msgid "In SpeechBrain, we plan to provide documentation at different levels:"
+msgstr ""
+
+#: ../../contributing.md:85
+msgid ""
+"Docstrings: For each class/function in the repository, there should be a "
+"header that properly describes its functionality, inputs, and outputs. It"
+" is also crucial to provide an example that shows how it can be used as a"
+" stand-alone function. We use Numpy-style docstrings. Consistent "
+"docstring style enables automatic API documentation. Also note the "
+"automatic doctests (see here."
+msgstr ""
+
+#: ../../contributing.md:87
+msgid ""
+"Comments: We encourage developers to write self-documenting code, and use"
+" proper comments where the implementation is surprising (to a Python-"
+"literate audience) and where the implemented algorithm needs "
+"clarification."
+msgstr ""
+
+#: ../../contributing.md:91
+msgid ""
+"Website documentation.  On the SpeechBrain website, you can find detailed"
+" documentation for each of the functionalities currently implemented in "
+"the toolkit."
+msgstr ""
+
+#: ../../contributing.md:93
+msgid ""
+"Tutorials:  Tutorials are a good way to familiarize yourself with "
+"SpeechBrain with interactive codes and explanations."
+msgstr ""
+
+#: ../../contributing.md:95
+msgid "Development tools"
+msgstr ""
+
+#: ../../contributing.md:97
+msgid "flake8"
+msgstr ""
+
+#: ../../contributing.md:98
+msgid ""
+"A bit like pycodestyle: make sure the codestyle is according to "
+"guidelines."
+msgstr ""
+
+#: ../../contributing.md:99
+msgid ""
+"Compatible with black, in fact, current flake8 config directly taken from"
+" black"
+msgstr ""
+
+#: ../../contributing.md:100
+msgid "Code compliance can be tested simply with: flake8 <file-or-directory>"
+msgstr ""
+
+#: ../../contributing.md:101
+msgid ""
+"You can bypass flake8 for a line with # noqa: <QA-CODE> E.G. # noqa: E731"
+" to allow lambda assignment"
+msgstr ""
+
+#: ../../contributing.md:103
+msgid "pre-commit"
+msgstr ""
+
+#: ../../contributing.md:104
+msgid ""
+"Python tool which takes a configuration file (.pre-commit-config.yaml) "
+"and installs the git commit hooks specified in it."
+msgstr ""
+
+#: ../../contributing.md:105
+msgid ""
+"Git commit hooks are local so all who want to use them need to install "
+"them separately. This is done by: pre-commit install"
+msgstr ""
+
+#: ../../contributing.md:106
+msgid ""
+"The tool can also install pre-push hooks. This is done separately with: "
+"pre-commit install --hook-type pre-push --config .pre-push-config.yaml"
+msgstr ""
+
+#: ../../contributing.md:108
+msgid "the git pre-commit hooks"
+msgstr ""
+
+#: ../../contributing.md:109
+msgid "Automatically run black"
+msgstr ""
+
+#: ../../contributing.md:110
+msgid "Automatically fix trailing whitespace, end of file, sort requirements.txt"
+msgstr ""
+
+#: ../../contributing.md:111
+msgid "Check that no large (>512kb) files are added by accident"
+msgstr ""
+
+#: ../../contributing.md:112
+msgid "Automatically run flake8"
+msgstr ""
+
+#: ../../contributing.md:113
+msgid ""
+"NOTE: If the hooks fix something (e.g. trailing whitespace or reformat "
+"with black), these changes are not automatically added and committed. "
+"You’ll have to add the fixed files again and run the commit again. I "
+"guess this is a safeguard: don’t blindly accept changes from git hooks."
+msgstr ""
+
+#: ../../contributing.md:114
+msgid ""
+"NOTE2: The hooks are only run on the files you git added to the commit. "
+"This is in contrast to the CI pipeline, which always tests everything."
+msgstr ""
+
+#: ../../contributing.md:116
+msgid "the git pre-push hooks"
+msgstr ""
+
+#: ../../contributing.md:117
+msgid "Black and flake8 as checks on the whole repo"
+msgstr ""
+
+#: ../../contributing.md:118
+msgid "Unit-tests and doctests run on the whole repo"
+msgstr ""
+
+#: ../../contributing.md:119
+msgid ""
+"These hooks can only be run in the full environment, so if you install "
+"these, you’ll need to e.g. activate virtualenv before pushing."
+msgstr ""
+
+#: ../../contributing.md:121
+msgid "pytest doctests"
+msgstr ""
+
+#: ../../contributing.md:122
+msgid ""
+"This is not an additional dependency, but just that doctests are now run "
+"with pytest. Use: pytest --doctest-modules <file-or-directory>"
+msgstr ""
+
+#: ../../contributing.md:123
+msgid ""
+"Thus you may use some pytest features in docstring examples. Most notably"
+" IMO: tmpdir = getfixture('tmpdir') which makes a temp dir and gives you "
+"a path to it, without needing a with tempfile.TemporaryDirectory() as "
+"tmpdir:"
+msgstr ""
+
+#: ../../contributing.md:125
+msgid "Continuous integration"
+msgstr ""
+
+#: ../../contributing.md:127
+msgid "What is CI?"
+msgstr ""
+
+#: ../../contributing.md:128
+msgid "loose term for a tight merge schedule"
+msgstr ""
+
+#: ../../contributing.md:129
+msgid "typically assisted by automated testing and code review tools + practices"
+msgstr ""
+
+#: ../../contributing.md:131
+msgid "CI / CD Pipelines"
+msgstr ""
+
+#: ../../contributing.md:132
+msgid ""
+"GitHub Actions (and also available as a third-party solution) feature, "
+"which automatically runs basically anything in reaction to git events."
+msgstr ""
+
+#: ../../contributing.md:133
+msgid "The CI pipeline is triggered by pull requests."
+msgstr ""
+
+#: ../../contributing.md:134
+msgid "Runs in a Ubuntu environment provided by GitHub"
+msgstr ""
+
+#: ../../contributing.md:135
+msgid "GitHub offers a limited amount of CI pipeline minutes for free."
+msgstr ""
+
+#: ../../contributing.md:136
+msgid "CD would stand for continuous deployment, though we’re not doing that yet"
+msgstr ""
+
+#: ../../contributing.md:138
+msgid "Our test suite"
+msgstr ""
+
+#: ../../contributing.md:139
+msgid ""
+"Code linters are run. This means black and flake8. These are run on "
+"everything in speechbrain (the library directory), everything in recipes "
+"and everything in tests."
+msgstr ""
+
+#: ../../contributing.md:140
+msgid ""
+"Note that black will only error out if it would change a file here, but "
+"won’t reformat anything at this stage. You’ll have to run black on your "
+"code and push a new commit. The black commit hook helps avoid these "
+"errors."
+msgstr ""
+
+#: ../../contributing.md:141
+msgid ""
+"All unit-tests and doctests are run. You can check that these pass by "
+"running them yourself before pushing, with pytest tests  and pytest "
+"--doctest-modules speechbrain"
+msgstr ""
+
+#: ../../contributing.md:142
+msgid ""
+"Integration tests (minimal examples). The minimal examples serve both to "
+"illustrate basic tasks and experiment running, but also as integration "
+"tests for the toolkit. For this purpose, any file which is prefixed with "
+"example_ gets collected by pytest, and we add a short test_ function at "
+"the end of the minimal examples."
+msgstr ""
+
+#: ../../contributing.md:147
+msgid ""
+"Currently, these are not run: docstring format tests (this should be "
+"added once the docstring conversion is done)."
+msgstr ""
+
+#: ../../contributing.md:148
+msgid "If all tests pass, the whole pipeline takes a couple of minutes."
+msgstr ""
+
+#: ../../contributing.md:150
+msgid "Pull Request review guide"
+msgstr ""
+
+#: ../../contributing.md:152
+msgid ""
+"This is not a comprehensive code review guide, but some rough guidelines "
+"to unify the general review practices across this project."
+msgstr ""
+
+#: ../../contributing.md:154
+msgid ""
+"Firstly, let the review take some time. Try to read every line that was "
+"added, if possible. Try also to run some tests. Read the surrounding "
+"context of the code if needed to understand the changes introduced. "
+"Possibly ask for clarifications if you don't understand. If the pull "
+"request changes are hard to understand, maybe that's a sign that the code"
+" is not clear enough yet. However, don't nitpick every detail."
+msgstr ""
+
+#: ../../contributing.md:160
+msgid ""
+"Secondly, focus on the major things first, and only then move on to "
+"smaller, things. Level of importance:"
+msgstr ""
+
+#: ../../contributing.md:162
+msgid ""
+"Immediate deal breakers (code does the wrong thing, or feature shouldn't "
+"be added etc.)"
+msgstr ""
+
+#: ../../contributing.md:163
+msgid ""
+"Things to fix before merging (Add more documentation, reduce complexity, "
+"etc.)"
+msgstr ""
+
+#: ../../contributing.md:164
+msgid ""
+"More subjective things could be changed if the author also agrees with "
+"you."
+msgstr ""
+
+#: ../../contributing.md:166
+msgid ""
+"Thirdly, approve the pull request only once you believe the changes "
+"\"improve overall code health\" as attested to here. However, this also "
+"means the pull request does not have to be perfect. Some features are "
+"best implemented incrementally over many pull requests, and you should be"
+" more concerned with making sure that the changes introduced lend "
+"themselves to painless further improvements."
+msgstr ""
+
+#: ../../contributing.md:169
+msgid ""
+"Fourthly, use the tools that GitHub has: comment on specific code lines, "
+"suggest edits, and once everyone involved has agreed that the PR is ready"
+" to merge, merge the request and delete the feature branch."
+msgstr ""
+
+#: ../../contributing.md:171
+msgid ""
+"Fifthly, the code review is a place for professional constructive "
+"criticism, a nice strategy to show (and validate) that you understand "
+"what the PR is really doing is to provide some affirmative comments on "
+"its strengths."
+msgstr ""
+

@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.utils.torch_audio_backend.rst:5
+msgid "speechbrain.utils.torch_audio_backend module"
+msgstr ""
+
+#: ../../API/speechbrain.utils.torch_audio_backend.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.utils.torch_audio_backend.rst:18
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.utils.torch_audio_backend.rst:31:<autosummary>:1
+msgid ""
+":obj:`get_torchaudio_backend "
+"<speechbrain.utils.torch_audio_backend.get_torchaudio_backend>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.torch_audio_backend.rst:31:<autosummary>:1 of
+#: speechbrain.utils.torch_audio_backend.get_torchaudio_backend:1
+msgid ""
+"Get the backend for torchaudio between soundfile and sox_io accoding to "
+"the os."
+msgstr ""
+
+#: ../../API/speechbrain.utils.torch_audio_backend.rst:33
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.utils.torch_audio_backend.get_torchaudio_backend:3
+msgid "Allow users to use soundfile or sox_io according to their os."
+msgstr ""
+
+#: of speechbrain.utils.torch_audio_backend.get_torchaudio_backend
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.utils.torch_audio_backend.get_torchaudio_backend:5
+msgid "The torchaudio backend to use."
+msgstr ""
+
+#: of speechbrain.utils.torch_audio_backend.get_torchaudio_backend
+msgid "Return type"
+msgstr ""
+

@@ -1,0 +1,451 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.utils.data_utils.rst:5
+msgid "speechbrain.utils.data_utils module"
+msgstr ""
+
+#: of speechbrain.utils.data_utils:1
+msgid "This library gathers utilities for data io operation."
+msgstr ""
+
+#: of speechbrain.utils.data_utils:6
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.utils.data_utils:4
+msgid "Mirco Ravanelli 2020"
+msgstr ""
+
+#: of speechbrain.utils.data_utils:5
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: of speechbrain.utils.data_utils:6
+msgid "Samuele Cornell 2020"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:18
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1
+msgid ":obj:`batch_pad_right <speechbrain.utils.data_utils.batch_pad_right>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1 of
+#: speechbrain.utils.data_utils.batch_pad_right:1
+msgid ""
+"Given a list of torch tensors it batches them together by padding to the "
+"right on each dimension in order to get same length for all."
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1
+msgid ":obj:`download_file <speechbrain.utils.data_utils.download_file>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1 of
+#: speechbrain.utils.data_utils.download_file:1
+msgid ""
+"Downloads the file from the given source and saves it in the given "
+"destination path."
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1
+msgid ":obj:`get_all_files <speechbrain.utils.data_utils.get_all_files>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1 of
+#: speechbrain.utils.data_utils.get_all_files:1
+msgid "Returns a list of files found within a folder."
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1
+msgid ""
+":obj:`mod_default_collate "
+"<speechbrain.utils.data_utils.mod_default_collate>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1 of
+#: speechbrain.utils.data_utils.mod_default_collate:1
+msgid "Makes a tensor from list of batch values."
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1
+msgid ":obj:`pad_right_to <speechbrain.utils.data_utils.pad_right_to>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1 of
+#: speechbrain.utils.data_utils.pad_right_to:1
+msgid ""
+"This function takes a torch tensor of arbitrary shape and pads it to "
+"target shape by appending values on the right."
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1
+msgid ":obj:`recursive_items <speechbrain.utils.data_utils.recursive_items>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1 of
+#: speechbrain.utils.data_utils.recursive_items:1
+msgid "Yield each (key, value) of a nested dictionary."
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1
+msgid ":obj:`recursive_to <speechbrain.utils.data_utils.recursive_to>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1 of
+#: speechbrain.utils.data_utils.recursive_to:1
+msgid "Moves data to device, or other type, and handles containers."
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1
+msgid ":obj:`recursive_update <speechbrain.utils.data_utils.recursive_update>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1 of
+#: speechbrain.utils.data_utils.recursive_update:1
+msgid "Similar function to `dict.update`, but for a nested `dict`."
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1
+msgid ""
+":obj:`split_by_whitespace "
+"<speechbrain.utils.data_utils.split_by_whitespace>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1 of
+#: speechbrain.utils.data_utils.split_by_whitespace:1
+msgid "A very basic functional version of str.split"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1
+msgid ":obj:`split_list <speechbrain.utils.data_utils.split_list>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1 of
+#: speechbrain.utils.data_utils.split_list:1
+msgid "Returns a list of splits in the sequence."
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1
+msgid ":obj:`split_path <speechbrain.utils.data_utils.split_path>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1 of
+#: speechbrain.utils.data_utils.split_path:1
+msgid "Splits a path to source and filename"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1
+msgid ":obj:`undo_padding <speechbrain.utils.data_utils.undo_padding>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:42:<autosummary>:1 of
+#: speechbrain.utils.data_utils.undo_padding:1
+msgid ""
+"Produces Python lists given a batch of sentences with their corresponding"
+" relative lengths."
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_utils.rst:44
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.batch_pad_right
+#: speechbrain.utils.data_utils.get_all_files
+#: speechbrain.utils.data_utils.pad_right_to
+#: speechbrain.utils.data_utils.recursive_items
+#: speechbrain.utils.data_utils.recursive_update
+#: speechbrain.utils.data_utils.split_list
+#: speechbrain.utils.data_utils.split_path
+#: speechbrain.utils.data_utils.undo_padding
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.undo_padding:4
+msgid "Batch of sentences gathered in a batch."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.undo_padding:6
+msgid "Relative length of each sentence in the batch."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.get_all_files:22
+#: speechbrain.utils.data_utils.recursive_items:9
+#: speechbrain.utils.data_utils.recursive_update:29
+#: speechbrain.utils.data_utils.split_list:9
+#: speechbrain.utils.data_utils.undo_padding:10
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.get_all_files:3
+msgid ""
+"Different options can be used to restrict the search to some specific "
+"patterns."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.get_all_files:6
+msgid "The directory to search."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.get_all_files:8
+msgid ""
+"A list that contains patterns to match. The file is returned if it "
+"matches all the entries in `match_and`."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.get_all_files:11
+msgid ""
+"A list that contains patterns to match. The file is returned if it "
+"matches one or more of the entries in `match_or`."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.get_all_files:14
+msgid ""
+"A list that contains patterns to match. The file is returned if it "
+"matches none of the entries in `exclude_and`."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.get_all_files:17
+msgid ""
+"A list that contains pattern to match. The file is returned if it fails "
+"to match one of the entries in `exclude_or`."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.split_list:3
+msgid "The input list, to be split."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.split_list:5
+msgid "The number of chunks to produce."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.recursive_items:3
+msgid "The nested dictionary to list."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.recursive_items
+msgid "Yields"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.recursive_items:6
+msgid "`(key, value)` tuples from the dictionary."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.recursive_update:3
+msgid "From: https://stackoverflow.com/a/3233356"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.recursive_update:5
+msgid "If you have to a nested mapping structure, for example:"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.recursive_update:7
+msgid "{\"a\": 1, \"b\": {\"c\": 2}}"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.recursive_update:9
+msgid "Say you want to update the above structure with:"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.recursive_update:11
+msgid "{\"b\": {\"d\": 3}}"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.recursive_update:13
+msgid "This function will produce:"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.recursive_update:15
+msgid "{\"a\": 1, \"b\": {\"c\": 2, \"d\": 3}}"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.recursive_update:17
+msgid "Instead of:"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.recursive_update:19
+msgid "{\"a\": 1, \"b\": {\"d\": 3}}"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.recursive_update:21
+msgid "Mapping to be updated."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.recursive_update:23
+msgid "Mapping to update with."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.recursive_update:25
+msgid "Whether to throw an error if the key in `u` does not exist in `d`."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.download_file:4
+msgid "Arguments"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.download_file:7
+msgid "source"
+msgstr ""
+
+#: of
+msgid "path or url"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.download_file:7
+msgid ""
+"Path of the source file. If the source is an URL, it downloads it from "
+"the web."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.download_file:9
+msgid "dest"
+msgstr ""
+
+#: of
+msgid "path"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.download_file:10
+msgid "Destination path."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.download_file:11
+msgid "unpack"
+msgstr ""
+
+#: of
+msgid "bool"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.download_file:12
+msgid "If True, it unpacks the data in the dest folder."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.download_file:13
+msgid "replace_exsisting"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.download_file:14
+msgid "If True, replaces the existing files."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.pad_right_to:4
+msgid "Input tensor whose dimension we need to pad."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.pad_right_to:6
+msgid ""
+"Target shape we want for the target tensor its len must be equal to "
+"tensor.ndim"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.pad_right_to:8
+msgid "Pad mode, please refer to torch.nn.functional.pad documentation."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.pad_right_to:10
+msgid "Pad value, please refer to torch.nn.functional.pad documentation."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.batch_pad_right
+#: speechbrain.utils.data_utils.pad_right_to
+#: speechbrain.utils.data_utils.split_path
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.batch_pad_right:11
+#: speechbrain.utils.data_utils.pad_right_to:13
+msgid ""
+"* **tensor** (*torch.Tensor*) -- Padded tensor. * **valid_vals** (*list*)"
+" -- List containing proportion for each dimension of original, non-padded"
+" values."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.batch_pad_right:11
+#: speechbrain.utils.data_utils.pad_right_to:13
+msgid "**tensor** (*torch.Tensor*) -- Padded tensor."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.batch_pad_right:12
+#: speechbrain.utils.data_utils.pad_right_to:14
+msgid ""
+"**valid_vals** (*list*) -- List containing proportion for each dimension "
+"of original, non-padded values."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.batch_pad_right:4
+msgid "List of tensor we wish to pad together."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.batch_pad_right:6
+msgid "Padding mode see torch.nn.functional.pad documentation."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.batch_pad_right:8
+msgid "Padding value see torch.nn.functional.pad documentation."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.recursive_to:3
+msgid ""
+"Very similar to torch.utils.data._utils.pin_memory.pin_memory, but "
+"applies .to() instead."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.mod_default_collate:3
+msgid ""
+"Note that this doesn't need to zip(*) values together as PaddedBatch "
+"connects them already (by key)."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.mod_default_collate:6
+msgid "Here the idea is not to error out."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.mod_default_collate:8
+msgid ""
+"This is modified from: "
+"https://github.com/pytorch/pytorch/blob/c0deb231db76dbea8a9d326401417f7d1ce96ed5/torch/utils/data/_utils/collate.py#L42"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.split_path:3
+msgid ""
+"This also handles URLs and Huggingface hub paths, in addition to regular "
+"paths."
+msgstr ""
+
+#: of speechbrain.utils.data_utils.split_path:9
+msgid "* *str* -- Source * *str* -- Filename"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.split_path:9
+msgid "*str* -- Source"
+msgstr ""
+
+#: of speechbrain.utils.data_utils.split_path:10
+msgid "*str* -- Filename"
+msgstr ""
+

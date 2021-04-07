@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.nnet.complex_networks.c_CNN.rst:5
+msgid "speechbrain.nnet.complex_networks.c_CNN module"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN:1
+msgid "Library implementing complex-valued convolutional neural networks."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN:4
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN:4
+msgid "Titouan Parcollet 2020"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_CNN.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_CNN.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_CNN.rst:32:<autosummary>:1
+msgid ":obj:`CConv1d <speechbrain.nnet.complex_networks.c_CNN.CConv1d>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_CNN.rst:32:<autosummary>:1 of
+#: speechbrain.nnet.complex_networks.c_CNN.CConv1d:1
+#: speechbrain.nnet.complex_networks.c_CNN.CConv2d:1
+msgid "This function implements complex-valued 1d convolution."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_CNN.rst:32:<autosummary>:1
+msgid ":obj:`CConv2d <speechbrain.nnet.complex_networks.c_CNN.CConv2d>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_CNN.rst:34
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv1d:1
+#: speechbrain.nnet.complex_networks.c_CNN.CConv2d:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv1d
+#: speechbrain.nnet.complex_networks.c_CNN.CConv1d.forward
+#: speechbrain.nnet.complex_networks.c_CNN.CConv2d
+#: speechbrain.nnet.complex_networks.c_CNN.CConv2d.forward
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv1d:3
+#: speechbrain.nnet.complex_networks.c_CNN.CConv2d:3
+msgid ""
+"Number of output channels. Please note that these are complex-valued "
+"neurons. If 256 channels are specified, the output dimension will be 512."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv1d:8
+#: speechbrain.nnet.complex_networks.c_CNN.CConv2d:8
+msgid "Kernel size of the convolutional filters."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv1d:10
+#: speechbrain.nnet.complex_networks.c_CNN.CConv2d:10
+msgid "Stride factor of the convolutional filters (default 1)."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv1d:12
+#: speechbrain.nnet.complex_networks.c_CNN.CConv2d:12
+msgid "Dilation factor of the convolutional filters (default 1)."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv1d:14
+#: speechbrain.nnet.complex_networks.c_CNN.CConv2d:14
+msgid ""
+"(same, valid, causal). If \"valid\", no padding is performed. If \"same\""
+" and stride is 1, output shape is same as input shape. \"causal\" results"
+" in causal (dilated) convolutions. (default \"same\")"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv1d:18
+msgid ""
+"This flag specifies the type of padding. See torch.nn documentation for "
+"more information (default \"reflect\")."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv1d:21
+msgid ""
+"This option specifies the convolutional groups. See torch.nn "
+"documentation for more information (default 1)."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv1d:24
+#: speechbrain.nnet.complex_networks.c_CNN.CConv2d:24
+msgid "If True, the additive bias b is adopted (default True)."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv1d:26
+msgid ""
+"(glorot, he). This parameter controls the initialization criterion of the"
+" weights. It is combined with weights_init to build the initialization "
+"method of the complex-valued weights. (default \"glorot\")"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv1d:31
+msgid ""
+"(complex, unitary). This parameter defines the initialization procedure "
+"of the complex-valued weights. \"complex\" will generate random complex-"
+"valued weights following the init_criterion and the complex polar form. "
+"\"unitary\" will normalize the weights to lie on the unit circle. "
+"(default \"complex\") More details in: \"Deep Complex Networks\", "
+"Trabelsi C. et al."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv1d:40
+#: speechbrain.nnet.complex_networks.c_CNN.CConv2d:40
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv1d.forward:1
+#: speechbrain.nnet.complex_networks.c_CNN.CConv2d.forward:1
+msgid "Returns the output of the convolution."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv1d.forward:3
+msgid "(batch, time, channel). Input to convolve. 3d or 4d tensors are expected."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv2d:18
+msgid ""
+"This flag specifies the type of padding (default \"reflect\"). See "
+"torch.nn documentation for more information."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv2d:21
+msgid ""
+"This option specifies the convolutional groups (default 1). See torch.nn "
+"documentation for more information."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv2d:26
+msgid ""
+"(glorot, he). This parameter controls the initialization criterion of the"
+" weights (default \"glorot\"). It is combined with weights_init to build "
+"the initialization method of the complex-valued weights."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv2d:31
+msgid ""
+"(complex, unitary). This parameter defines the initialization procedure "
+"of the complex-valued weights (default complex). \"complex\" will "
+"generate random complex-valued weights following the init_criterion and "
+"the complex polar form. \"unitary\" will normalize the weights to lie on "
+"the unit circle. More details in: \"Deep Complex Networks\", Trabelsi C. "
+"et al."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_CNN.CConv2d.forward:3
+msgid ""
+"(batch, time, feature, channels). Input to convolve. 3d or 4d tensors are"
+" expected."
+msgstr ""
+

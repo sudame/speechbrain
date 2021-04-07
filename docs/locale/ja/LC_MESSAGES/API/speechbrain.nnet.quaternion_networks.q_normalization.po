@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_normalization.rst:5
+msgid "speechbrain.nnet.quaternion_networks.q_normalization module"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_normalization:1
+msgid "Library implementing quaternion-valued normalization."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_normalization:4
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_normalization:4
+msgid "Titouan Parcollet 2020"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_normalization.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_normalization.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_normalization.rst:31:<autosummary>:1
+msgid ""
+":obj:`QBatchNorm "
+"<speechbrain.nnet.quaternion_networks.q_normalization.QBatchNorm>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_normalization.rst:31:<autosummary>:1
+msgid ""
+"This class implements the simplest form of a quaternion batchnorm as "
+"described in : \"Quaternion Convolutional Neural Network for Color Image "
+"Classification and Forensics\", Qilin Y."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_normalization.rst:33
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_normalization.QBatchNorm:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_normalization.QBatchNorm:1
+msgid ""
+"This class implements the simplest form of a quaternion batchnorm as "
+"described in : \"Quaternion Convolutional Neural Network for Color Image "
+"Classification and Forensics\", Qilin Y. et al."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_normalization.QBatchNorm
+#: speechbrain.nnet.quaternion_networks.q_normalization.QBatchNorm.forward
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_normalization.QBatchNorm:5
+msgid "Expected size of the dimension to be normalized."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_normalization.QBatchNorm:7
+msgid ""
+"It defines the axis that should be normalized. It usually correspond to "
+"the channel dimension (default -1)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_normalization.QBatchNorm:10
+msgid "First value of gamma to be used (mean) (default 1.0)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_normalization.QBatchNorm:12
+msgid "When set to True the beta parameter of the BN is applied (default True)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_normalization.QBatchNorm:14
+msgid ""
+"It defines the momentum as for the real-valued batch-normalization "
+"(default 0.1)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_normalization.QBatchNorm:16
+msgid "Term used to stabilize operation (default 1e-4)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_normalization.QBatchNorm:18
+msgid ""
+"Equivalent to the real-valued batchnormalization parameter. When True, "
+"stats are tracked. When False, solely statistics computed over the batch "
+"are used (default True)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_normalization.QBatchNorm:24
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_normalization.QBatchNorm.forward:1
+msgid "Returns the normalized input tensor."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_normalization.QBatchNorm.forward:3
+msgid "Input to normalize. It can be 2d, 3d, 4d."
+msgstr ""
+

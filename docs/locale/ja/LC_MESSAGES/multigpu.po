@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../multigpu.md:1
+msgid "Basics of multi-GPU"
+msgstr ""
+
+#: ../../multigpu.md:3
+msgid ""
+"SpeechBrain provides two different ways of using multiple gpus while "
+"training or inferring. For further information, please see our multi-gpu "
+"tutorial: amazing multi-gpu tutorial"
+msgstr ""
+
+#: ../../multigpu.md:5
+msgid "Multi-GPU training using Data Parallel"
+msgstr ""
+
+#: ../../multigpu.md:6
+msgid ""
+"The common pattern for using multi-GPU training over a single machine "
+"with Data Parallel is:"
+msgstr ""
+
+#: ../../multigpu.md:13
+msgid ""
+"Important: the batch size for each GPU process will be: batch_size / "
+"data_parallel_count. So you should consider changing the batch_size value"
+" according to you need."
+msgstr ""
+
+#: ../../multigpu.md:15
+msgid "Multi-GPU training using Distributed Data Parallel (DDP)"
+msgstr ""
+
+#: ../../multigpu.md:17
+msgid ""
+"We would like to advise our users that despite being more efficient, DDP "
+"is also more prone to exhibit unexpected bugs. Indeed, DDP is quite "
+"server dependent and some setups might generate errors with the PyTorch "
+"implementation of DDP. If you encounter an issue, please report it on our"
+" github with as much information as possible. Indeed, DDP bugs are very "
+"challenging to replicate ..."
+msgstr ""
+
+#: ../../multigpu.md:20
+msgid ""
+"The common pattern for using multi-GPU training with DDP (on a single "
+"machine with 4 GPUs):"
+msgstr ""
+
+#: ../../multigpu.md:25
+msgid "Try to switch the DDP backend if you have issues with nccl."
+msgstr ""
+
+#: ../../multigpu.md:27
+msgid ""
+"To using DDP, you should consider using torch.distributed.launch for "
+"setting the subprocess with the right Unix variables local_rank and rank."
+" The local_rank variable allows setting the right device argument for "
+"each DDP subprocess, while the rank variable (which is unique for each "
+"subprocess) will be used for registering the subprocess rank to the DDP "
+"group. In that way, we can manage multi-GPU training over multiple "
+"machines."
+msgstr ""
+
+#: ../../multigpu.md:29
+msgid "With multiple machines (suppose you have 2 servers with 2 GPUs):"
+msgstr ""
+
+#: ../../multigpu.md:39
+msgid ""
+"Machine 1 will have 2 subprocess (subprocess1: with local_rank=0, rank=0,"
+" and subprocess2: with local_rank=1, rank=1). Machine 2 will have 2 "
+"subprocess (subprocess1: with local_rank=0, rank=2, and subprocess2: with"
+" local_rank=1, rank=3)."
+msgstr ""
+
+#: ../../multigpu.md:42
+msgid "In this way, the current DDP group will contain 4 GPUs."
+msgstr ""
+

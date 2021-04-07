@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.lobes.models.Xvector.rst:5
+msgid "speechbrain.lobes.models.Xvector module"
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector:1
+msgid "A popular speaker recognition and diarization model."
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector:5
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector:4
+msgid "Nauman Dawalatabad 2020"
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector:5
+msgid "Mirco Ravanelli 2020"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.Xvector.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.Xvector.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.Xvector.rst:33:<autosummary>:1
+msgid ":obj:`Classifier <speechbrain.lobes.models.Xvector.Classifier>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.Xvector.rst:33:<autosummary>:1 of
+#: speechbrain.lobes.models.Xvector.Classifier:1
+msgid "This class implements the last MLP on the top of xvector features."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.Xvector.rst:33:<autosummary>:1
+msgid ":obj:`Discriminator <speechbrain.lobes.models.Xvector.Discriminator>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.Xvector.rst:33:<autosummary>:1 of
+#: speechbrain.lobes.models.Xvector.Discriminator:1
+msgid "This class implements a discriminator on the top of xvector features."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.Xvector.rst:33:<autosummary>:1
+msgid ":obj:`Xvector <speechbrain.lobes.models.Xvector.Xvector>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.Xvector.rst:33:<autosummary>:1 of
+#: speechbrain.lobes.models.Xvector.Xvector:1
+msgid "This model extracts X-vectors for speaker recognition and diarization."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.Xvector.rst:35
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector.Xvector:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector.Classifier
+#: speechbrain.lobes.models.Xvector.Discriminator
+#: speechbrain.lobes.models.Xvector.Xvector
+#: speechbrain.lobes.models.Xvector.Xvector.forward
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector.Xvector:3
+msgid "Device used e.g. \"cpu\" or \"cuda\"."
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector.Classifier:5
+#: speechbrain.lobes.models.Xvector.Discriminator:5
+#: speechbrain.lobes.models.Xvector.Xvector:5
+msgid "A class for constructing the activation layers."
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector.Xvector:7
+msgid "Number of time-delay neural (TDNN) layers."
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector.Xvector:9
+msgid "Output channels for TDNN layer."
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector.Xvector:11
+msgid "List of kernel sizes for each TDNN layer."
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector.Xvector:13
+msgid "List of dilations for kernels in each TDNN layer."
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector.Classifier:9
+#: speechbrain.lobes.models.Xvector.Discriminator:9
+#: speechbrain.lobes.models.Xvector.Xvector:15
+msgid "Number of neurons in linear layers."
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector.Classifier:15
+#: speechbrain.lobes.models.Xvector.Discriminator:13
+#: speechbrain.lobes.models.Xvector.Xvector:19
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector.Xvector.forward:1
+msgid "Returns the x-vectors."
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector.Classifier:1
+#: speechbrain.lobes.models.Xvector.Discriminator:1
+msgid "Bases: :class:`speechbrain.nnet.containers.Sequential`"
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector.Classifier:3
+msgid "Expected shape of an example input."
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector.Classifier:7
+#: speechbrain.lobes.models.Xvector.Discriminator:7
+msgid "Number of linear layers."
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector.Classifier:11
+msgid "Number of output neurons."
+msgstr ""
+
+#: of speechbrain.lobes.models.Xvector.Discriminator:3
+msgid "Device used e.g. \"cpu\" or \"cuda\""
+msgstr ""
+

@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.nnet.pooling.rst:5
+msgid "speechbrain.nnet.pooling module"
+msgstr ""
+
+#: of speechbrain.nnet.pooling:1
+msgid "Library implementing pooling."
+msgstr ""
+
+#: of speechbrain.nnet.pooling:7
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.nnet.pooling:4
+msgid "Titouan Parcollet 2020"
+msgstr ""
+
+#: of speechbrain.nnet.pooling:5
+msgid "Mirco Ravanelli 2020"
+msgstr ""
+
+#: of speechbrain.nnet.pooling:6
+msgid "Nauman Dawalatabad 2020"
+msgstr ""
+
+#: of speechbrain.nnet.pooling:7
+msgid "Jianyuan Zhong 2020"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.pooling.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.pooling.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.pooling.rst:34:<autosummary>:1
+msgid ":obj:`AdaptivePool <speechbrain.nnet.pooling.AdaptivePool>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.pooling.rst:34:<autosummary>:1 of
+#: speechbrain.nnet.pooling.AdaptivePool:1
+msgid "This class implements the adaptive average pooling."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.pooling.rst:34:<autosummary>:1
+msgid ":obj:`Pooling1d <speechbrain.nnet.pooling.Pooling1d>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.pooling.rst:34:<autosummary>:1 of
+#: speechbrain.nnet.pooling.Pooling1d:1
+msgid "This function implements 1d pooling of the input tensor."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.pooling.rst:34:<autosummary>:1
+msgid ":obj:`Pooling2d <speechbrain.nnet.pooling.Pooling2d>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.pooling.rst:34:<autosummary>:1 of
+#: speechbrain.nnet.pooling.Pooling2d:1
+msgid "This function implements 2d pooling of the input tensor."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.pooling.rst:34:<autosummary>:1
+msgid ":obj:`StatisticsPooling <speechbrain.nnet.pooling.StatisticsPooling>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.pooling.rst:34:<autosummary>:1 of
+#: speechbrain.nnet.pooling.StatisticsPooling:1
+msgid "This class implements a statistic pooling layer."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.pooling.rst:36
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.nnet.pooling.AdaptivePool:1
+#: speechbrain.nnet.pooling.Pooling1d:1 speechbrain.nnet.pooling.Pooling2d:1
+#: speechbrain.nnet.pooling.StatisticsPooling:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.nnet.pooling.AdaptivePool speechbrain.nnet.pooling.Pooling1d
+#: speechbrain.nnet.pooling.Pooling2d
+#: speechbrain.nnet.pooling.StatisticsPooling.forward
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.nnet.pooling.Pooling1d:3 speechbrain.nnet.pooling.Pooling2d:3
+msgid "It is the type of pooling function to use ('avg','max')."
+msgstr ""
+
+#: of speechbrain.nnet.pooling.Pooling1d:5
+msgid ""
+"It is the kernel size that defines the pooling dimension. For instance, "
+"kernel size=3 applies a 1D Pooling with a size=3."
+msgstr ""
+
+#: of speechbrain.nnet.pooling.Pooling1d:8
+msgid "The count of dimensions expected in the input."
+msgstr ""
+
+#: of speechbrain.nnet.pooling.Pooling1d:10
+msgid "The axis where the pooling is applied."
+msgstr ""
+
+#: of speechbrain.nnet.pooling.Pooling1d:12
+#: speechbrain.nnet.pooling.Pooling2d:11
+msgid "It is the stride size."
+msgstr ""
+
+#: of speechbrain.nnet.pooling.Pooling1d:14
+#: speechbrain.nnet.pooling.Pooling2d:13
+msgid "It is the number of padding elements to apply."
+msgstr ""
+
+#: of speechbrain.nnet.pooling.Pooling1d:16
+#: speechbrain.nnet.pooling.Pooling2d:15
+msgid "Controls the dilation factor of pooling."
+msgstr ""
+
+#: of speechbrain.nnet.pooling.Pooling1d:18
+#: speechbrain.nnet.pooling.Pooling2d:17
+msgid "When True, will use ceil instead of floor to compute the output shape."
+msgstr ""
+
+#: of speechbrain.nnet.pooling.AdaptivePool:7
+#: speechbrain.nnet.pooling.Pooling1d:22 speechbrain.nnet.pooling.Pooling2d:21
+#: speechbrain.nnet.pooling.StatisticsPooling:6
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.nnet.pooling.Pooling2d:5
+msgid "It is a list containing the axis that will be considered during pooling."
+msgstr ""
+
+#: of speechbrain.nnet.pooling.Pooling2d:8
+msgid ""
+"It is the kernel size that defines the pooling dimension. For instance, "
+"kernel size=3,3 performs a 2D Pooling with a 3x3 kernel."
+msgstr ""
+
+#: of speechbrain.nnet.pooling.StatisticsPooling:3
+msgid "It returns the concatenated mean and std of input tensor."
+msgstr ""
+
+#: of speechbrain.nnet.pooling.StatisticsPooling.forward:1
+msgid "Calculates mean and std for a batch (input tensor)."
+msgstr ""
+
+#: of speechbrain.nnet.pooling.StatisticsPooling.forward:3
+msgid "It represents a tensor for a mini-batch."
+msgstr ""
+
+#: of speechbrain.nnet.pooling.AdaptivePool:3
+msgid "The size of the output."
+msgstr ""
+

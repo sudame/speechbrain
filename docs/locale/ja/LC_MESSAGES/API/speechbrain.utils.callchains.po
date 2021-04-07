@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.utils.callchains.rst:5
+msgid "speechbrain.utils.callchains module"
+msgstr ""
+
+#: of speechbrain.utils.callchains:1
+msgid "Chaining together callables, if some require relative lengths"
+msgstr ""
+
+#: ../../API/speechbrain.utils.callchains.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.utils.callchains.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.utils.callchains.rst:24:<autosummary>:1
+msgid ""
+":obj:`LengthsCapableChain "
+"<speechbrain.utils.callchains.LengthsCapableChain>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.callchains.rst:24:<autosummary>:1
+msgid "Chain together callables."
+msgstr ""
+
+#: ../../API/speechbrain.utils.callchains.rst:25
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.utils.callchains.rst:38:<autosummary>:1
+msgid ""
+":obj:`lengths_arg_exists "
+"<speechbrain.utils.callchains.lengths_arg_exists>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.callchains.rst:38:<autosummary>:1 of
+#: speechbrain.utils.callchains.lengths_arg_exists:1
+msgid "Returns True if func takes ``lengths`` keyword argument."
+msgstr ""
+
+#: ../../API/speechbrain.utils.callchains.rst:40
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.utils.callchains.LengthsCapableChain
+#: speechbrain.utils.callchains.LengthsCapableChain.__call__
+#: speechbrain.utils.callchains.lengths_arg_exists
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.utils.callchains.lengths_arg_exists:3
+msgid "The function, method, or other callable to search for the lengths arg."
+msgstr ""
+
+#: of speechbrain.utils.callchains.LengthsCapableChain:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: of speechbrain.utils.callchains.LengthsCapableChain:1
+msgid "Chain together callables. Can handle relative lengths."
+msgstr ""
+
+#: of speechbrain.utils.callchains.LengthsCapableChain:3
+msgid ""
+"This is a more light-weight version of "
+"speechbrain.nnet.containers.LengthsCapableSequential"
+msgstr ""
+
+#: of speechbrain.utils.callchains.LengthsCapableChain:6
+msgid "Any number of functions or other callables, given in order of execution."
+msgstr ""
+
+#: of speechbrain.utils.callchains.LengthsCapableChain
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.utils.callchains.LengthsCapableChain:10
+msgid ""
+"The input as processed by each function. If no functions were given, "
+"simply returns the input."
+msgstr ""
+
+#: of speechbrain.utils.callchains.LengthsCapableChain
+msgid "Return type"
+msgstr ""
+
+#: of speechbrain.utils.callchains.LengthsCapableChain.__call__:1
+msgid "Run the chain of callables on the given input"
+msgstr ""
+
+#: of speechbrain.utils.callchains.LengthsCapableChain.__call__:3
+msgid "The main input"
+msgstr ""
+
+#: of speechbrain.utils.callchains.LengthsCapableChain.__call__:5
+msgid ""
+"The lengths argument which will be conditionally passed to any functions "
+"in the chain that take a 'lengths' argument. In SpeechBrain the "
+"convention is to use relative lengths."
+msgstr ""
+
+#: of speechbrain.utils.callchains.LengthsCapableChain.__call__:12
+msgid ""
+"By convention, if a callable in the chain returns multiple outputs "
+"(returns a tuple), only the first output is passed to the next callable "
+"in the chain."
+msgstr ""
+
+#: of speechbrain.utils.callchains.LengthsCapableChain.append:1
+msgid "Add a function to the chain"
+msgstr ""
+

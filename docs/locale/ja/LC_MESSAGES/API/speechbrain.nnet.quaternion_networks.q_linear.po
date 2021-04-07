@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_linear.rst:5
+msgid "speechbrain.nnet.quaternion_networks.q_linear module"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_linear:1
+msgid "Library implementing quaternion-valued linear transformation."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_linear:4
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_linear:4
+msgid "Titouan Parcollet 2020"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_linear.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_linear.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_linear.rst:31:<autosummary>:1
+msgid ":obj:`QLinear <speechbrain.nnet.quaternion_networks.q_linear.QLinear>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_linear.rst:31:<autosummary>:1
+msgid ""
+"This function implements a fully connected quaternion-valued linear "
+"layer: y = Wx + b."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_linear.rst:33
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_linear.QLinear:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_linear.QLinear:1
+msgid ""
+"This function implements a fully connected quaternion-valued linear "
+"layer: y = Wx + b. y, W, x and b are thus quaternion numbers. A "
+"quaternion number is written as: r + xi + yj + zk. A tensor of quaternion"
+" numbers x = [batch, 32] can be understood as [batch, 0:7] = R, [batch, "
+"8:15] = Xi, [batch, 16:23] = Yi, and [batch, 24:31] = Xi. Thus the "
+"features dimension is cut in four (must be dividible by 4)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_linear.QLinear
+#: speechbrain.nnet.quaternion_networks.q_linear.QLinear.forward
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_linear.QLinear:9
+msgid ""
+"It is the number of output neurons (i.e, the dimensionality of the "
+"output). Please note that these are quaternion-valued neurons. If 256 "
+"neurons are specified, the output dimension will be 1024."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_linear.QLinear:13
+msgid "Expected size of the input."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_linear.QLinear:15
+msgid "If True, the additive bias b is adopted."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_linear.QLinear:17
+msgid ""
+"(glorot, he). This parameter controls the initialization criterion of the"
+" weights. It is combined with weights_init to build the initialization "
+"method of the quaternion-valued weights (default \"glorot\")."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_linear.QLinear:22
+msgid ""
+"(quaternion, unitary). This parameter defines the initialization "
+"procedure of the quaternion-valued weights. \"quaternion\" will generate "
+"quaternion-valued weights following the init_criterion and the quaternion"
+"  polar form. \"unitary\" will normalize the weights to lie on the unit "
+"circle (default \"quaternion\"). More details in: \"Quaternion recurrent "
+"neural networks\", Parcollet T."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_linear.QLinear:29
+msgid ""
+"When True, the default PyTorch autograd will be used. When False, a "
+"custom backpropagation will be used, reducing by a factor 3 to 4 the "
+"memory consumption. It is also 2x slower. This only works with spinor = "
+"False (default True)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_linear.QLinear:34
+msgid ""
+"When True, the layer will be turned into a spinor layer. More precisely "
+"W*x will be turned into W*x*W-1. The input x will be rotated by W such as"
+" in a spinor neural network. However, x MUST be a quaternion with the "
+"real part equal to zero. (0 + xi + yj + zk). Indeed, the rotation "
+"operation only acts on the vector part. Note that W will always be "
+"normalized before the rotation to ensure the quaternion algebra (default "
+"False). More details in: \"Quaternion neural networks\", Parcollet T."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_linear.QLinear:42
+msgid ""
+"The vector_scale is only used when spinor = True. In the context of a "
+"spinor neural network, multiple rotations of the input vector x are "
+"performed and summed. Hence, the norm of the output vector always "
+"increases with the number of layers, making the neural network instable "
+"with deep configurations. The vector_scale parameters are learnable "
+"parameters that acts like gates by multiplying the output vector with a "
+"small trainable parameter (default False)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_linear.QLinear:52
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_linear.QLinear.forward:1
+msgid "Returns the linear transformation of input tensor."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_linear.QLinear.forward:3
+msgid "Input to transform linearly."
+msgstr ""
+

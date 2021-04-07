@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 14:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../README.md:1
+msgid "SpeechBrain documentation"
+msgstr ""
+
+#: ../../README.md:3
+msgid "Please install additional dependencies:"
+msgstr ""
+
+#: ../../README.md:9
+msgid "Then run:"
+msgstr ""
+
+#: ../../README.md:13
+msgid "to build HTML documentation. Then open build/html/index.html"
+msgstr ""
+
+#: ../../README.md:15
+msgid "Translation"
+msgstr ""
+
+#: ../../README.md:17
+msgid "We follow the Phenix Internationalization document."
+msgstr ""
+
+#: ../../README.md:19
+msgid "Additional Requirements"
+msgstr ""
+
+#: ../../README.md:21
+msgid "phenix-intl is required."
+msgstr ""
+
+#: ../../README.md:27
+msgid "Translate"
+msgstr ""
+
+#: ../../README.md:29
+msgid ""
+"First, generate .pot (Portable Object Template) file. The following "
+"command will generate .pot files under the /docs/build/gettext directory."
+msgstr ""
+
+#: ../../README.md:35
+msgid ""
+"Second, copy .pot files to translation-target directory. The following "
+"command will generate .po files under the /docs/locale/ja/LC_MESSAGES "
+"directory."
+msgstr ""
+
+#: ../../README.md:41
+msgid "Then, edit .po files."
+msgstr ""
+
+#: ../../README.md:49
+msgid "Final, build html doc files."
+msgstr ""
+
+#: ../../README.md:55
+msgid "Automatic API documentation from docstrings"
+msgstr ""
+
+#: ../../README.md:57
+msgid ""
+"The documentation uses sphinx.ext.napoleon to support Google-style "
+"docstrings. Sphinx natively supports reStructuredText directives."
+msgstr ""
+
+#: ../../README.md:60
+msgid ""
+"Automatically generating documentation based on docstrings is not the "
+"core of Sphinx. For this, after much searching, we use better-apidoc."
+msgstr ""
+
+#: ../../README.md:63
+msgid "Future work"
+msgstr ""
+
+#: ../../README.md:65
+msgid ""
+"Besides automatic API documentation, Sphinx will facilitate manual prose "
+"documentation."
+msgstr ""
+

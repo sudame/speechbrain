@@ -1,0 +1,602 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:5
+msgid "speechbrain.processing.PLDA_LDA module"
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA:1
+msgid "A popular speaker recognition/diarization model (LDA and PLDA)."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA:5
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA:4
+msgid "Anthony Larcher 2020"
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA:5
+msgid "Nauman Dawalatabad 2020"
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA:17
+msgid "Relevant Papers"
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA:8
+msgid "This implementation of PLDA is based on the following papers."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA:12
+msgid "PLDA model Training"
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA:11
+msgid ""
+"Ye Jiang et. al, \"PLDA Modeling in I-Vector and Supervector Space for "
+"Speaker Verification,\" in Interspeech, 2012."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA:12
+msgid ""
+"Patrick Kenny et. al, \"PLDA for speaker verification with utterances of "
+"arbitrary duration,\" in ICASSP, 2013."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA:17
+msgid "PLDA scoring (fast scoring)"
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA:15
+msgid ""
+"Daniel Garcia-Romero et. al, “Analysis of i-vector length normalization "
+"in speaker recognition systems,” in Interspeech, 2011."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA:16
+msgid ""
+"Weiwei-LIN et. al, \"Fast Scoring for PLDA with Uncertainty "
+"Propagation,\" in Odyssey, 2016."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA:17
+msgid ""
+"Kong Aik Lee et. al, \"Multi-session PLDA Scoring of I-vector for "
+"Partially Open-Set Speaker Detection,\" in Interspeech 2013."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA:20
+msgid "Credits"
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA:20
+msgid "This code is adapted from: https://git-lium.univ-lemans.fr/Larcher/sidekit"
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:28:<autosummary>:1
+msgid ":obj:`LDA <speechbrain.processing.PLDA_LDA.LDA>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:28:<autosummary>:1 of
+#: speechbrain.processing.PLDA_LDA.LDA:1
+msgid "A class to perform Linear Discriminant Analysis."
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:28:<autosummary>:1
+msgid ":obj:`Ndx <speechbrain.processing.PLDA_LDA.Ndx>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:28:<autosummary>:1
+msgid "A class that encodes trial index information."
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:28:<autosummary>:1
+msgid ":obj:`PLDA <speechbrain.processing.PLDA_LDA.PLDA>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:28:<autosummary>:1 of
+#: speechbrain.processing.PLDA_LDA.PLDA:1
+msgid "A class to train PLDA model from embeddings."
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:28:<autosummary>:1
+msgid ":obj:`Scores <speechbrain.processing.PLDA_LDA.Scores>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:28:<autosummary>:1
+msgid "A class for storing scores for trials."
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:28:<autosummary>:1
+msgid ":obj:`StatObject_SB <speechbrain.processing.PLDA_LDA.StatObject_SB>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:28:<autosummary>:1 of
+#: speechbrain.processing.PLDA_LDA.StatObject_SB:1
+msgid "A utility class for PLDA class used for statistics calculations."
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:29
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:45:<autosummary>:1
+msgid ":obj:`diff <speechbrain.processing.PLDA_LDA.diff>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:45:<autosummary>:1
+msgid ":obj:`fa_model_loop <speechbrain.processing.PLDA_LDA.fa_model_loop>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:45:<autosummary>:1 of
+#: speechbrain.processing.PLDA_LDA.fa_model_loop:1
+msgid "A function for PLDA estimation."
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:45:<autosummary>:1
+msgid ""
+":obj:`fast_PLDA_scoring "
+"<speechbrain.processing.PLDA_LDA.fast_PLDA_scoring>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:45:<autosummary>:1
+msgid "Compute the PLDA scores between to sets of vectors."
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:45:<autosummary>:1
+msgid ":obj:`ismember <speechbrain.processing.PLDA_LDA.ismember>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.PLDA_LDA.rst:47
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.LDA:1
+#: speechbrain.processing.PLDA_LDA.Ndx:1 speechbrain.processing.PLDA_LDA.PLDA:1
+#: speechbrain.processing.PLDA_LDA.Scores:1
+#: speechbrain.processing.PLDA_LDA.StatObject_SB:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB:3
+msgid ""
+"This is also used to pack deep embeddings and meta-information in one "
+"object."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.LDA
+#: speechbrain.processing.PLDA_LDA.LDA.do_lda
+#: speechbrain.processing.PLDA_LDA.Ndx
+#: speechbrain.processing.PLDA_LDA.Ndx.__init__
+#: speechbrain.processing.PLDA_LDA.Ndx.filter
+#: speechbrain.processing.PLDA_LDA.PLDA
+#: speechbrain.processing.PLDA_LDA.PLDA.plda
+#: speechbrain.processing.PLDA_LDA.Scores
+#: speechbrain.processing.PLDA_LDA.Scores.__init__
+#: speechbrain.processing.PLDA_LDA.StatObject_SB
+#: speechbrain.processing.PLDA_LDA.StatObject_SB.align_models
+#: speechbrain.processing.PLDA_LDA.StatObject_SB.align_segments
+#: speechbrain.processing.PLDA_LDA.StatObject_SB.center_stat1
+#: speechbrain.processing.PLDA_LDA.StatObject_SB.get_lda_matrix_stat1
+#: speechbrain.processing.PLDA_LDA.StatObject_SB.get_model_segsets
+#: speechbrain.processing.PLDA_LDA.StatObject_SB.get_model_start
+#: speechbrain.processing.PLDA_LDA.StatObject_SB.get_model_stat0
+#: speechbrain.processing.PLDA_LDA.StatObject_SB.get_model_stat1
+#: speechbrain.processing.PLDA_LDA.StatObject_SB.get_model_stop
+#: speechbrain.processing.PLDA_LDA.StatObject_SB.rotate_stat1
+#: speechbrain.processing.PLDA_LDA.StatObject_SB.whiten_stat1
+#: speechbrain.processing.PLDA_LDA.fa_model_loop
+#: speechbrain.processing.PLDA_LDA.fast_PLDA_scoring
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB:5
+msgid "List of model IDs for each session as an array of strings."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB:7
+msgid "List of session IDs as an array of strings."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB:9
+msgid "Index of the first frame of the segment."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB:11
+msgid "Index of the last frame of the segment."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB:13
+msgid ""
+"An ndarray of float64. Each line contains 0-th order statistics from the "
+"corresponding session."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB:16
+msgid ""
+"An ndarray of float64. Each line contains 1-st order statistics from the "
+"corresponding session."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.get_model_segsets:1
+msgid "Return segments of a given model."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.get_model_segsets:3
+msgid "ID of the model for which segments will be returned."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.get_model_start:1
+msgid "Return start of segment of a given model."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.get_model_start:3
+msgid "ID of the model for which start will be returned."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.get_model_stop:1
+msgid "Return stop of segment of a given model."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.get_model_stop:3
+msgid "ID of the model which stop will be returned."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.get_mean_stat1:1
+msgid "Return the mean of first order statistics."
+msgstr ""
+
+#: of
+#: speechbrain.processing.PLDA_LDA.StatObject_SB.get_total_covariance_stat1:1
+msgid ""
+"Compute and return the total covariance matrix of the first-order "
+"statistics."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.get_model_stat0:1
+msgid "Return zero-order statistics of a given model"
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.get_model_stat0:3
+msgid "ID of the model which stat0 will be returned."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.get_model_stat1:1
+msgid "Return first-order statistics of a given model."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.get_model_stat1:3
+msgid "ID of the model which stat1 will be returned."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.sum_stat_per_model:1
+msgid ""
+"Sum the zero- and first-order statistics per model and store them in a "
+"new StatObject_SB. Returns a StatObject_SB object with the statistics "
+"summed per model and a numpy array with session_per_model."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.center_stat1:1
+msgid "Center first order statistics."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.center_stat1:3
+msgid "Array to center on."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.norm_stat1:1
+msgid "Divide all first-order statistics by their euclidian norm."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.rotate_stat1:1
+msgid "Rotate first-order statistics by a right-product."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.rotate_stat1:3
+msgid "Matrix to use for right product on the first order statistics."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.whiten_stat1:1
+msgid ""
+"Whiten first-order statistics If sigma.ndim == 1, case of a diagonal "
+"covariance. If sigma.ndim == 2, case of a single Gaussian with full "
+"covariance. If sigma.ndim == 3, case of a full covariance UBM."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.whiten_stat1:6
+msgid "Mean vector to be subtracted from the statistics."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.whiten_stat1:8
+msgid "Co-variance matrix or covariance super-vector."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.whiten_stat1:10
+msgid ""
+"True if the input Sigma matrix is the inverse of the square root of a "
+"covariance matrix."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.align_models:3
+msgid "Align models of the current StatServer to match a list of models"
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.align_models:2
+msgid ""
+"provided as input parameter. The size of the StatServer might be reduced "
+"to match the input list of models."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.align_models:5
+msgid "List of models to match."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.align_segments:3
+msgid "Align segments of the current StatServer to match a list of segment"
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.align_segments:2
+msgid ""
+"provided as input parameter. The size of the StatServer might be reduced "
+"to match the input list of segments."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.align_segments:5
+msgid "list of segments to match"
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.get_lda_matrix_stat1:3
+msgid "Compute and return the Linear Discriminant Analysis matrix"
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.get_lda_matrix_stat1:2
+msgid ""
+"on the first-order statistics. Columns of the LDA matrix are ordered "
+"according to the corresponding eigenvalues in descending order."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.StatObject_SB.get_lda_matrix_stat1:5
+msgid "Rank of the LDA matrix to return."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.Ndx:1
+msgid ""
+"A class that encodes trial index information.  It has a list of model "
+"names and a list of test segment names and a matrix indicating which "
+"combinations of model and test segment are trials of interest."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.Ndx:6
+#: speechbrain.processing.PLDA_LDA.Scores:6
+msgid "List of unique models in a ndarray."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.Ndx:8
+#: speechbrain.processing.PLDA_LDA.Scores:8
+msgid "List of unique test segments in a ndarray."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.Ndx:10
+msgid ""
+"Rows correspond to the models and columns to the test segments. True, if "
+"the trial is of interest."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.Ndx.__init__:1
+msgid "Initialize a Ndx object by loading information from a file."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.Ndx.__init__:3
+#: speechbrain.processing.PLDA_LDA.Scores.__init__:3
+msgid "Name of the file to load."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.Ndx.filter:1
+msgid ""
+"Removes some of the information in an Ndx. Useful for creating a gender "
+"specific Ndx from a pooled gender Ndx.  Depending on the value of 'keep',"
+" the two input lists indicate the strings to retain or the strings to "
+"discard."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.Ndx.filter:6
+msgid ""
+"A cell array of strings which will be compared with the modelset of "
+"'inndx'."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.Ndx.filter:8
+msgid "A cell array of strings which will be compared with the segset of 'inndx'."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.Ndx.filter:10
+msgid "Indicating whether modlist and seglist are the models to keep or discard."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.Ndx.validate:1
+msgid ""
+"Checks that an object of type Ndx obeys certain rules that must always be"
+" true. Returns a boolean value indicating whether the object is valid"
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.Scores:1
+msgid ""
+"A class for storing scores for trials.  The modelset and segset fields "
+"are lists of model and test segment names respectively. The element i,j "
+"of scoremat and scoremask corresponds to the trial involving model i and "
+"test segment j."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.Scores:10
+msgid ""
+"Indicates the trials of interest, i.e., the entry i,j in scoremat should "
+"be ignored if scoremask[i,j] is False."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.Scores:13
+msgid "Scores matrix."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.Scores.__init__:1
+msgid "Initialize a Scores object by loading information from a file HDF5 format."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.fa_model_loop:3
+msgid "Index to start at in the list."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.fa_model_loop:5
+msgid "Indices of the elements in the list (should start at zero)."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.fa_model_loop:7
+msgid "PLDA class object."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.fa_model_loop:9
+msgid "Matrix of zero-order statistics."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.fa_model_loop:11
+msgid "Matrix of first-order statistics."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.fa_model_loop:13
+#: speechbrain.processing.PLDA_LDA.fa_model_loop:15
+msgid "An accumulator matrix."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.fast_PLDA_scoring:1
+msgid ""
+"Compute the PLDA scores between to sets of vectors. The list of trials to"
+" perform is given in an Ndx object. PLDA matrices have to be pre-"
+"computed. i-vectors/x-vectors are supposed to be whitened before."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.fast_PLDA_scoring:5
+#: speechbrain.processing.PLDA_LDA.fast_PLDA_scoring:7
+msgid "A StatServer in which stat1 are xvectors."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.fast_PLDA_scoring:9
+msgid "An Ndx object defining the list of trials to perform."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.fast_PLDA_scoring:11
+msgid "The mean vector of the PLDA gaussian."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.fast_PLDA_scoring:13
+msgid "The between-class co-variance matrix of the PLDA."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.fast_PLDA_scoring:15
+msgid "The residual covariance matrix."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.fast_PLDA_scoring:17
+msgid ""
+"Probability of having a known speaker for open-set identification case "
+"(=1 for the verification task and =0 for the closed-set case)."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.fast_PLDA_scoring:21
+msgid "If True, check that all models and segments exist."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.LDA:3
+msgid "It returns the low dimensional representation as per LDA."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.LDA:5
+msgid "The dimension of the output representation."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.LDA.do_lda:1
+msgid "Performs LDA and projects the vectors onto lower dimension space."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.LDA.do_lda:3
+msgid "Contains vectors and meta-information to perform LDA."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.LDA.do_lda:5
+msgid "Dimension of the reduced space."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.PLDA:3
+msgid ""
+"The input is in speechbrain.utils.StatObject_SB format. Trains a "
+"simplified PLDA model no within-class covariance matrix but full residual"
+" covariance matrix."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.PLDA:6
+msgid "Mean of the vectors."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.PLDA:8
+msgid "Eigenvoice matrix."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.PLDA:10
+msgid "Residual matrix."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.PLDA:14
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.PLDA.plda:1
+msgid ""
+"Trains PLDA model with no within class covariance matrix but full "
+"residual covariance matrix."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.PLDA.plda:3
+msgid "Contains vectors and meta-information to perform PLDA"
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.PLDA.plda:5
+msgid "Rank of the between-class covariance matrix."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.PLDA.plda:7
+msgid "Number of iterations to run."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.PLDA.plda:9
+msgid "Scaling factor to downscale statistics (value between 0 and 1)."
+msgstr ""
+
+#: of speechbrain.processing.PLDA_LDA.PLDA.plda:11
+msgid "Name of the output file where to store PLDA model."
+msgstr ""
+

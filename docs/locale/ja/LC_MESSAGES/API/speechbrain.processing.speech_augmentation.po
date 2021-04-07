@@ -1,0 +1,478 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:5
+msgid "speechbrain.processing.speech_augmentation module"
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation:1
+msgid "Classes for mutating speech data for data augmentation."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation:3
+msgid ""
+"This module provides classes that produce realistic distortions of speech"
+" data for the purpose of training speech processing models. The list of "
+"distortions includes adding noise, adding reverberation, changing speed, "
+"and more. All the classes are of type `torch.nn.Module`. This gives the "
+"possibility to have end-to-end differentiability and backpropagate the "
+"gradient through them. In addition, all operations are expected to be "
+"performed on the GPU (where available) for efficiency."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation:12
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation:12
+msgid "Peter Plantinga 2020"
+msgstr ""
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:38:<autosummary>:1
+msgid ":obj:`AddBabble <speechbrain.processing.speech_augmentation.AddBabble>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:38:<autosummary>:1
+#: of speechbrain.processing.speech_augmentation.AddBabble:1
+msgid "Simulate babble noise by mixing the signals in a batch."
+msgstr ""
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:38:<autosummary>:1
+msgid ":obj:`AddNoise <speechbrain.processing.speech_augmentation.AddNoise>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:38:<autosummary>:1
+#: of speechbrain.processing.speech_augmentation.AddNoise:1
+msgid "This class additively combines a noise signal to the input signal."
+msgstr ""
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:38:<autosummary>:1
+msgid ":obj:`AddReverb <speechbrain.processing.speech_augmentation.AddReverb>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:38:<autosummary>:1
+#: of speechbrain.processing.speech_augmentation.AddReverb:1
+msgid "This class convolves an audio signal with an impulse response."
+msgstr ""
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:38:<autosummary>:1
+msgid ":obj:`DoClip <speechbrain.processing.speech_augmentation.DoClip>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:38:<autosummary>:1
+#: of speechbrain.processing.speech_augmentation.DoClip:1
+msgid "This function mimics audio clipping by clamping the input tensor."
+msgstr ""
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:38:<autosummary>:1
+msgid ":obj:`DropChunk <speechbrain.processing.speech_augmentation.DropChunk>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:38:<autosummary>:1
+#: of speechbrain.processing.speech_augmentation.DropChunk:1
+msgid "This class drops portions of the input signal."
+msgstr ""
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:38:<autosummary>:1
+msgid ":obj:`DropFreq <speechbrain.processing.speech_augmentation.DropFreq>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:38:<autosummary>:1
+#: of speechbrain.processing.speech_augmentation.DropFreq:1
+msgid "This class drops a random frequency from the signal."
+msgstr ""
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:38:<autosummary>:1
+msgid ":obj:`Resample <speechbrain.processing.speech_augmentation.Resample>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:38:<autosummary>:1
+#: of speechbrain.processing.speech_augmentation.Resample:1
+msgid "This class resamples an audio signal using sinc-based interpolation."
+msgstr ""
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:38:<autosummary>:1
+msgid ""
+":obj:`SpeedPerturb "
+"<speechbrain.processing.speech_augmentation.SpeedPerturb>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:38:<autosummary>:1
+#: of speechbrain.processing.speech_augmentation.SpeedPerturb:1
+msgid "Slightly speed up or slow down an audio signal."
+msgstr ""
+
+#: ../../API/speechbrain.processing.speech_augmentation.rst:40
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddBabble:1
+#: speechbrain.processing.speech_augmentation.AddNoise:1
+#: speechbrain.processing.speech_augmentation.AddReverb:1
+#: speechbrain.processing.speech_augmentation.DoClip:1
+#: speechbrain.processing.speech_augmentation.DropChunk:1
+#: speechbrain.processing.speech_augmentation.DropFreq:1
+#: speechbrain.processing.speech_augmentation.Resample:1
+#: speechbrain.processing.speech_augmentation.SpeedPerturb:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddBabble
+#: speechbrain.processing.speech_augmentation.AddBabble.forward
+#: speechbrain.processing.speech_augmentation.AddNoise
+#: speechbrain.processing.speech_augmentation.AddNoise.forward
+#: speechbrain.processing.speech_augmentation.AddReverb
+#: speechbrain.processing.speech_augmentation.AddReverb.forward
+#: speechbrain.processing.speech_augmentation.DoClip
+#: speechbrain.processing.speech_augmentation.DoClip.forward
+#: speechbrain.processing.speech_augmentation.DropChunk
+#: speechbrain.processing.speech_augmentation.DropChunk.forward
+#: speechbrain.processing.speech_augmentation.DropFreq
+#: speechbrain.processing.speech_augmentation.DropFreq.forward
+#: speechbrain.processing.speech_augmentation.Resample
+#: speechbrain.processing.speech_augmentation.Resample.forward
+#: speechbrain.processing.speech_augmentation.SpeedPerturb
+#: speechbrain.processing.speech_augmentation.SpeedPerturb.forward
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddNoise:3
+msgid ""
+"The name of a csv file containing the location of the noise audio files. "
+"If none is provided, white noise will be used."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddNoise:6
+msgid ""
+"Default: None . One data entry for the noise data should be specified. If"
+" None, the csv file is expected to have only one data entry."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddNoise:9
+#: speechbrain.processing.speech_augmentation.AddReverb:6
+msgid ""
+"The order to iterate the csv file, from one of the following options: "
+"random, original, ascending, and descending."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddNoise:12
+msgid "Number of workers in the DataLoader (See PyTorch DataLoader docs)."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddBabble:5
+#: speechbrain.processing.speech_augmentation.AddNoise:14
+msgid "The low end of the mixing ratios, in decibels."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddBabble:7
+#: speechbrain.processing.speech_augmentation.AddNoise:16
+msgid "The high end of the mixing ratios, in decibels."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddNoise:18
+msgid ""
+"If True, copy noise signals that are shorter than their corresponding "
+"clean signals so as to cover the whole clean signal. Otherwise, leave the"
+" noise un-padded."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddNoise:22
+msgid ""
+"The probability that a batch of signals will be mixed with a noise "
+"signal. By default, every batch is mixed with noise."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddNoise:25
+msgid ""
+"The index in the noise waveforms to start from. By default, chooses a "
+"random index in [0, len(noise) - len(waveforms)]."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddNoise:28
+msgid ""
+"If True, output noisy signals that exceed [-1,1] will be normalized to "
+"[-1,1]."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddNoise:31
+#: speechbrain.processing.speech_augmentation.AddReverb:17
+msgid ""
+"A set of string replacements to carry out in the csv file. Each time a "
+"key is found in the text, it will be replaced with the corresponding "
+"value."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddBabble:14
+#: speechbrain.processing.speech_augmentation.AddNoise:37
+#: speechbrain.processing.speech_augmentation.AddReverb:23
+#: speechbrain.processing.speech_augmentation.DoClip:12
+#: speechbrain.processing.speech_augmentation.DropChunk:33
+#: speechbrain.processing.speech_augmentation.DropFreq:24
+#: speechbrain.processing.speech_augmentation.Resample:16
+#: speechbrain.processing.speech_augmentation.SpeedPerturb:17
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddNoise.forward:1
+#: speechbrain.processing.speech_augmentation.AddReverb.forward:1
+#: speechbrain.processing.speech_augmentation.DoClip.forward:1
+#: speechbrain.processing.speech_augmentation.DropChunk.forward:1
+#: speechbrain.processing.speech_augmentation.DropFreq.forward:1
+#: speechbrain.processing.speech_augmentation.Resample.forward:1
+#: speechbrain.processing.speech_augmentation.SpeedPerturb.forward:1
+msgid "Shape should be `[batch, time]` or `[batch, time, channels]`."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddNoise.forward:3
+#: speechbrain.processing.speech_augmentation.AddReverb.forward:3
+#: speechbrain.processing.speech_augmentation.DropChunk.forward:3
+#: speechbrain.processing.speech_augmentation.Resample.forward:3
+#: speechbrain.processing.speech_augmentation.SpeedPerturb.forward:3
+msgid "Shape should be a single dimension, `[batch]`."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddBabble.forward
+#: speechbrain.processing.speech_augmentation.AddNoise.forward
+#: speechbrain.processing.speech_augmentation.AddReverb.forward
+#: speechbrain.processing.speech_augmentation.DoClip.forward
+#: speechbrain.processing.speech_augmentation.DropChunk.forward
+#: speechbrain.processing.speech_augmentation.DropFreq.forward
+#: speechbrain.processing.speech_augmentation.Resample.forward
+#: speechbrain.processing.speech_augmentation.SpeedPerturb.forward
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddBabble.forward
+#: speechbrain.processing.speech_augmentation.AddNoise.forward
+#: speechbrain.processing.speech_augmentation.AddReverb.forward
+#: speechbrain.processing.speech_augmentation.DoClip.forward
+#: speechbrain.processing.speech_augmentation.DropChunk.forward
+#: speechbrain.processing.speech_augmentation.DropFreq.forward
+#: speechbrain.processing.speech_augmentation.Resample.forward
+#: speechbrain.processing.speech_augmentation.SpeedPerturb.forward
+msgid "Return type"
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddNoise.forward:7
+#: speechbrain.processing.speech_augmentation.AddReverb.forward:7
+#: speechbrain.processing.speech_augmentation.DropFreq.forward:5
+#: speechbrain.processing.speech_augmentation.Resample.forward:7
+#: speechbrain.processing.speech_augmentation.SpeedPerturb.forward:7
+msgid "Tensor of shape `[batch, time]` or `[batch, time, channels]`."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddReverb:3
+msgid ""
+"The name of a csv file containing the location of the impulse response "
+"files."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddReverb:9
+msgid ""
+"The chance that the audio signal will be reverbed. By default, every "
+"batch is reverbed."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddReverb:12
+msgid ""
+"It compresses or dilates the given impulse response. If 0 < scale_factor "
+"< 1, the impulse response is compressed (less reverb), while if "
+"scale_factor > 1 it is dilated (more reverb)."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.SpeedPerturb:3
+msgid ""
+"Resample the audio signal at a rate that is similar to the original rate,"
+" to achieve a slightly slower or slightly faster signal. This technique "
+"is outlined in the paper: \"Audio Augmentation for Speech Recognition\""
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.SpeedPerturb:7
+msgid "The frequency of the original signal."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.SpeedPerturb:9
+msgid ""
+"The speeds that the signal should be changed to, as a percentage of the "
+"original signal (i.e. `speeds` is divided by 100 to get a ratio)."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.SpeedPerturb:12
+msgid ""
+"The chance that the batch will be speed- perturbed. By default, every "
+"batch is perturbed."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.Resample:3
+msgid ""
+"It is a modification of the `resample` function from torchaudio "
+"(https://pytorch.org/audio/transforms.html#resample)"
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.Resample:6
+msgid "the sampling frequency of the input signal."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.Resample:8
+msgid "the new sampling frequency after this operation is performed."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.Resample:10
+msgid ""
+"Controls the sharpness of the filter, larger numbers result in a sharper "
+"filter, but they are less efficient. Values from 4 to 10 are allowed."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddBabble:3
+msgid "The number of signals to mix with the original signal."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddBabble:9
+msgid ""
+"The probability that the batch of signals will be mixed with babble "
+"noise. By default, every signal is mixed."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddBabble.forward:1
+msgid ""
+"A batch of audio signals to process, with shape `[batch, time]` or "
+"`[batch, time, channels]`."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.AddBabble.forward:4
+msgid "The length of each audio in the batch, with shape `[batch]`."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DropFreq:3
+msgid ""
+"The purpose of this class is to teach models to learn to rely on all "
+"parts of the signal, not just a few frequency bands."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DropFreq:6
+msgid ""
+"The low end of frequencies that can be dropped, as a fraction of the "
+"sampling rate / 2."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DropFreq:9
+msgid ""
+"The high end of frequencies that can be dropped, as a fraction of the "
+"sampling rate / 2."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DropFreq:12
+msgid "The low end of number of frequencies that could be dropped."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DropFreq:14
+msgid "The high end of number of frequencies that could be dropped."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DropFreq:16
+msgid ""
+"The width of the frequency band to drop, as a fraction of the "
+"sampling_rate / 2."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DropFreq:19
+msgid ""
+"The probability that the batch of signals will  have a frequency dropped."
+" By default, every batch has frequencies dropped."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DropChunk:3
+msgid ""
+"Using `DropChunk` as an augmentation strategy helps a models learn to "
+"rely on all parts of the signal, since it can't expect a given part to be"
+" present."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DropChunk:7
+msgid "The low end of lengths for which to set the signal to zero, in samples."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DropChunk:10
+msgid "The high end of lengths for which to set the signal to zero, in samples."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DropChunk:13
+msgid "The low end of number of times that the signal can be dropped to zero."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DropChunk:16
+msgid "The high end of number of times that the signal can be dropped to zero."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DropChunk:19
+msgid "The first index for which dropping will be allowed."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DropChunk:21
+msgid "The last index for which dropping will be allowed."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DropChunk:23
+msgid ""
+"The probability that the batch of signals will have a portion dropped. By"
+" default, every batch has portions dropped."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DropChunk:27
+msgid ""
+"The factor relative to average amplitude of an utterance to use for "
+"scaling the white noise inserted. 1 keeps the average amplitude the same,"
+" while 0 inserts all 0's."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DropChunk.forward:6
+msgid "`[batch, time, channels]`"
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DropChunk.forward:7
+msgid "Tensor of shape `[batch, time]` or"
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DoClip:3
+msgid "The low end of amplitudes for which to clip the signal."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DoClip:5
+msgid "The high end of amplitudes for which to clip the signal."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DoClip:7
+msgid ""
+"The probability that the batch of signals will have a portion clipped. By"
+" default, every batch has portions clipped."
+msgstr ""
+
+#: of speechbrain.processing.speech_augmentation.DoClip.forward:5
+msgid "Tensor of shape `[batch, time]` or `[batch, time, channels]`"
+msgstr ""
+

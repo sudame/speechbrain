@@ -1,0 +1,500 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.alignment.aligner.rst:5
+msgid "speechbrain.alignment.aligner module"
+msgstr ""
+
+#: of speechbrain.alignment.aligner:1
+msgid "Alignment code"
+msgstr ""
+
+#: of speechbrain.alignment.aligner:5
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.alignment.aligner:4
+msgid "Elena Rastorgueva 2020"
+msgstr ""
+
+#: of speechbrain.alignment.aligner:5
+msgid "Loren Lugosch 2020"
+msgstr ""
+
+#: ../../API/speechbrain.alignment.aligner.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.alignment.aligner.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.alignment.aligner.rst:24:<autosummary>:1
+msgid ":obj:`HMMAligner <speechbrain.alignment.aligner.HMMAligner>`"
+msgstr ""
+
+#: ../../API/speechbrain.alignment.aligner.rst:24:<autosummary>:1 of
+#: speechbrain.alignment.aligner.HMMAligner:1
+msgid "This class calculates Viterbi alignments in the forward method."
+msgstr ""
+
+#: ../../API/speechbrain.alignment.aligner.rst:25
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.alignment.aligner.rst:40:<autosummary>:1
+msgid ""
+":obj:`batch_log_matvecmul "
+"<speechbrain.alignment.aligner.batch_log_matvecmul>`"
+msgstr ""
+
+#: ../../API/speechbrain.alignment.aligner.rst:40:<autosummary>:1 of
+#: speechbrain.alignment.aligner.batch_log_matvecmul:1
+msgid ""
+"For each 'matrix' and 'vector' pair in the batch, do matrix-vector "
+"multiplication in the log domain, i.e., logsumexp instead of add, add "
+"instead of multiply."
+msgstr ""
+
+#: ../../API/speechbrain.alignment.aligner.rst:40:<autosummary>:1
+msgid ""
+":obj:`batch_log_maxvecmul "
+"<speechbrain.alignment.aligner.batch_log_maxvecmul>`"
+msgstr ""
+
+#: ../../API/speechbrain.alignment.aligner.rst:40:<autosummary>:1
+msgid "Similar to batch_log_matvecmul, but takes a maximum instead of logsumexp."
+msgstr ""
+
+#: ../../API/speechbrain.alignment.aligner.rst:40:<autosummary>:1
+msgid ""
+":obj:`map_inds_to_intersect "
+"<speechbrain.alignment.aligner.map_inds_to_intersect>`"
+msgstr ""
+
+#: ../../API/speechbrain.alignment.aligner.rst:40:<autosummary>:1 of
+#: speechbrain.alignment.aligner.map_inds_to_intersect:1
+msgid ""
+"Converts 2 lists containing indices for phonemes from different phoneme "
+"sets to a single phoneme so that comparing the equality of the indices of"
+" the resulting lists will yield the correct accuracy."
+msgstr ""
+
+#: ../../API/speechbrain.alignment.aligner.rst:42
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner:3
+msgid ""
+"It also records alignments and creates batches of them for use in Viterbi"
+" training."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner
+#: speechbrain.alignment.aligner.HMMAligner.calc_accuracy
+#: speechbrain.alignment.aligner.HMMAligner.collapse_alignments
+#: speechbrain.alignment.aligner.HMMAligner.expand_phns_by_states_per_phoneme
+#: speechbrain.alignment.aligner.HMMAligner.forward
+#: speechbrain.alignment.aligner.HMMAligner.get_prev_alignments
+#: speechbrain.alignment.aligner.HMMAligner.store_alignments
+#: speechbrain.alignment.aligner.HMMAligner.use_lexicon
+#: speechbrain.alignment.aligner.batch_log_matvecmul
+#: speechbrain.alignment.aligner.batch_log_maxvecmul
+#: speechbrain.alignment.aligner.map_inds_to_intersect
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner:6
+msgid "Number of hidden states to use per phoneme."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner:8
+msgid ""
+"It is the folder that the alignments will be stored in when saved to "
+"disk. Not yet implemented."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner:11
+msgid ""
+"The float used to represent a negative infinite log probability. Using "
+"`-float(\"Inf\")` tends to give numerical instability. A number more "
+"negative than -1e5 also sometimes gave errors when the `genbmm` library "
+"was used (currently not in use). (default: -1e5)"
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner:16
+msgid ""
+"One of \"none\", \"sum\" or \"mean\". What kind of batch-level reduction "
+"to apply to the loss calculated in the forward method."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner:20
+msgid ""
+"Whether to normalize the loss in the forward method by the length of the "
+"inputs."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner:23
+msgid ""
+"Whether to normalize the loss in the forward method by the length of the "
+"targets."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner:26
+msgid "The location of the lexicon."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner:30
+#: speechbrain.alignment.aligner.HMMAligner.calc_accuracy:24
+#: speechbrain.alignment.aligner.HMMAligner.collapse_alignments:10
+#: speechbrain.alignment.aligner.HMMAligner.expand_phns_by_states_per_phoneme:13
+#: speechbrain.alignment.aligner.HMMAligner.get_prev_alignments:23
+#: speechbrain.alignment.aligner.HMMAligner.store_alignments:10
+#: speechbrain.alignment.aligner.HMMAligner.use_lexicon:25
+#: speechbrain.alignment.aligner.batch_log_matvecmul:15
+#: speechbrain.alignment.aligner.batch_log_maxvecmul:16
+#: speechbrain.alignment.aligner.map_inds_to_intersect:20
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.use_lexicon:1
+msgid ""
+"Do processing using the lexicon to return a sequence of the possible "
+"phonemes, the transition/pi probabilities, and the possible final states."
+" Does processing on an utterance-by-utterance basis. Each utterance in "
+"the batch is processed by a helper method `_use_lexicon`."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.use_lexicon:7
+msgid "List of the words in the transcript"
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.use_lexicon:9
+msgid ""
+"If True, optional silences will be inserted between every word. If False,"
+" optional silences will only be placed at the beginning and end of each "
+"utterance."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.use_lexicon:13
+msgid ""
+"If True, it will sample a single possible sequence of phonemes. If False,"
+" it will return statistics for all possible sequences of phonemes."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.calc_accuracy
+#: speechbrain.alignment.aligner.HMMAligner.collapse_alignments
+#: speechbrain.alignment.aligner.HMMAligner.expand_phns_by_states_per_phoneme
+#: speechbrain.alignment.aligner.HMMAligner.forward
+#: speechbrain.alignment.aligner.HMMAligner.get_prev_alignments
+#: speechbrain.alignment.aligner.HMMAligner.use_lexicon
+#: speechbrain.alignment.aligner.map_inds_to_intersect
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.use_lexicon:18
+msgid ""
+"* **poss_phns** (*torch.Tensor (batch, phoneme in possible phn "
+"sequence)*) -- The phonemes that are thought to be in each utterance. * "
+"**poss_phn_lens** (*torch.Tensor (batch)*) -- The relative length of each"
+" possible phoneme sequence in the batch. * **trans_prob** (*torch.Tensor "
+"(batch, from, to)*) -- Tensor containing transition (log) probabilities. "
+"* **pi_prob** (*torch.Tensor (batch, state)*) -- Tensor containing "
+"initial (log) probabilities. * **final_state** (*list of lists of ints*) "
+"-- A list of lists of possible final states for each utterance."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.use_lexicon:18
+msgid ""
+"**poss_phns** (*torch.Tensor (batch, phoneme in possible phn sequence)*) "
+"-- The phonemes that are thought to be in each utterance."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.use_lexicon:19
+msgid ""
+"**poss_phn_lens** (*torch.Tensor (batch)*) -- The relative length of each"
+" possible phoneme sequence in the batch."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.use_lexicon:20
+msgid ""
+"**trans_prob** (*torch.Tensor (batch, from, to)*) -- Tensor containing "
+"transition (log) probabilities."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.use_lexicon:21
+msgid ""
+"**pi_prob** (*torch.Tensor (batch, state)*) -- Tensor containing initial "
+"(log) probabilities."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.use_lexicon:22
+msgid ""
+"**final_state** (*list of lists of ints*) -- A list of lists of possible "
+"final states for each utterance."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.forward:1
+msgid ""
+"Prepares relevant (log) probability tensors and does dynamic programming:"
+" either the forward or the Viterbi algorithm. Applies reduction as "
+"specified during object initialization."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.forward:5
+msgid "Posterior probabilities from our acoustic model."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.forward:7
+#: speechbrain.alignment.aligner.HMMAligner.get_prev_alignments:12
+msgid "The relative duration of each utterance sound file."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.forward:9
+msgid "The phonemes that are known/thought to be in each utterance"
+msgstr ""
+
+#: of
+#: speechbrain.alignment.aligner.HMMAligner.expand_phns_by_states_per_phoneme:6
+#: speechbrain.alignment.aligner.HMMAligner.forward:11
+#: speechbrain.alignment.aligner.HMMAligner.get_prev_alignments:16
+msgid "The relative length of each phoneme sequence in the batch."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.forward:13
+msgid "Either \"forward\" or \"viterbi\"."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.forward:15
+msgid ""
+"(Optional) Must contain keys 'trans_prob', 'pi_prob' and 'final_states'. "
+"Used to override the default forward and viterbi operations which force "
+"traversal over all of the states in the `phns` sequence."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.forward:20
+msgid ""
+"(1) if dp_algorithm == \"forward\".      ``forward_scores`` : "
+"torch.Tensor (batch, or scalar)      The (log) likelihood of each "
+"utterance in the batch, with reduction     applied if specified. (OR)  "
+"(2) if dp_algorithm == \"viterbi\".      ``viterbi_scores`` : "
+"torch.Tensor (batch, or scalar)      The (log) likelihood of the Viterbi "
+"path for each utterance, with     reduction applied if specified.      "
+"``alignments`` : list of lists of int      Viterbi alignments for the "
+"files in the batch."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.forward:22
+msgid "if dp_algorithm == \"forward\"."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.forward:24
+msgid "``forward_scores`` : torch.Tensor (batch, or scalar)"
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.forward:26
+msgid ""
+"The (log) likelihood of each utterance in the batch, with reduction "
+"applied if specified. (OR)"
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.forward:29
+msgid "if dp_algorithm == \"viterbi\"."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.forward:31
+msgid "``viterbi_scores`` : torch.Tensor (batch, or scalar)"
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.forward:33
+msgid ""
+"The (log) likelihood of the Viterbi path for each utterance, with "
+"reduction applied if specified."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.forward:36
+msgid "``alignments`` : list of lists of int"
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.forward:38
+msgid "Viterbi alignments for the files in the batch."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.calc_accuracy
+#: speechbrain.alignment.aligner.HMMAligner.collapse_alignments
+#: speechbrain.alignment.aligner.HMMAligner.expand_phns_by_states_per_phoneme
+#: speechbrain.alignment.aligner.HMMAligner.forward
+#: speechbrain.alignment.aligner.HMMAligner.get_prev_alignments
+msgid "Return type"
+msgstr ""
+
+#: of
+#: speechbrain.alignment.aligner.HMMAligner.expand_phns_by_states_per_phoneme:1
+msgid ""
+"Expands each phoneme in the phn sequence by the number of hidden states "
+"per phoneme defined in the HMM."
+msgstr ""
+
+#: of
+#: speechbrain.alignment.aligner.HMMAligner.expand_phns_by_states_per_phoneme:4
+#: speechbrain.alignment.aligner.HMMAligner.get_prev_alignments:14
+msgid "The phonemes that are known/thought to be in each utterance."
+msgstr ""
+
+#: of
+#: speechbrain.alignment.aligner.HMMAligner.expand_phns_by_states_per_phoneme:9
+msgid "**expanded_phns**"
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.store_alignments:1
+msgid "Records Viterbi alignments in `self.align_dict`."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.get_prev_alignments:7
+#: speechbrain.alignment.aligner.HMMAligner.store_alignments:3
+msgid "IDs of the files in the batch."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.store_alignments:5
+msgid "Viterbi alignments for the files in the batch. Without padding."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.get_prev_alignments:1
+msgid ""
+"Fetches previously recorded Viterbi alignments if they are available. If "
+"not, fetches flat start alignments. Currently, assumes that if a Viterbi "
+"alignment is not available for the first utterance in the batch, it will "
+"not be available for the rest of the utterances."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.get_prev_alignments:9
+msgid ""
+"Posterior probabilities from our acoustic model. Used to infer the "
+"duration of the longest utterance in the batch."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.get_prev_alignments:19
+msgid "Zero-padded alignments."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.calc_accuracy:1
+msgid ""
+"Calculates mean accuracy between predicted alignments and ground truth "
+"alignments. Ground truth alignments are derived from ground truth phns "
+"and their ends in the audio sample."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.calc_accuracy:5
+msgid "The predicted alignments for each utterance in the batch."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.calc_accuracy:7
+msgid ""
+"A list of lists of sample indices where each ground truth phoneme ends, "
+"according to the transcription. Note: current implementation assumes that"
+" 'ends' mark the index where the next phoneme begins."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.calc_accuracy:12
+msgid "The unpadded list of lists of ground truth phonemes in the batch."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.calc_accuracy:14
+msgid ""
+"(Optional) Contains the original index-to-label dicts for the first and "
+"second sequence of phonemes."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.calc_accuracy:19
+msgid ""
+"**mean_acc** -- The mean percentage of times that the upsampled predicted"
+" alignment matches the ground truth alignment."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.collapse_alignments:1
+msgid "Converts alignments to 1 state per phoneme style."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.collapse_alignments:3
+msgid "Predicted alignments for a single utterance."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.HMMAligner.collapse_alignments:6
+msgid ""
+"**sequence** -- The predicted alignments converted to a 1 state per "
+"phoneme style."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.map_inds_to_intersect:6
+msgid "Contains the indices of the first sequence of phonemes."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.map_inds_to_intersect:8
+msgid "Contains the indices of the second sequence of phonemes."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.map_inds_to_intersect:10
+msgid ""
+"Contains the original index-to-label dicts for the first and second "
+"sequence of phonemes."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.map_inds_to_intersect:14
+msgid ""
+"* **lists1_new** (*list of lists of ints*) -- Contains the indices of the"
+" first sequence of phonemes, mapped   to the new phoneme set. * "
+"**lists2_new** (*list of lists of ints*) -- Contains the indices of the "
+"second sequence of phonemes, mapped   to the new phoneme set."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.map_inds_to_intersect:14
+msgid ""
+"**lists1_new** (*list of lists of ints*) -- Contains the indices of the "
+"first sequence of phonemes, mapped to the new phoneme set."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.map_inds_to_intersect:16
+msgid ""
+"**lists2_new** (*list of lists of ints*) -- Contains the indices of the "
+"second sequence of phonemes, mapped to the new phoneme set."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.batch_log_matvecmul:5
+#: speechbrain.alignment.aligner.batch_log_maxvecmul:6
+msgid "Tensor"
+msgstr ""
+
+#: of speechbrain.alignment.aligner.batch_log_matvecmul:7
+#: speechbrain.alignment.aligner.batch_log_maxvecmul:4
+#: speechbrain.alignment.aligner.batch_log_maxvecmul:10
+#: speechbrain.alignment.aligner.batch_log_maxvecmul:12
+msgid "Tensor."
+msgstr ""
+
+#: of speechbrain.alignment.aligner.batch_log_maxvecmul:1
+msgid ""
+"Similar to batch_log_matvecmul, but takes a maximum instead of logsumexp."
+" Returns both the max and the argmax."
+msgstr ""
+

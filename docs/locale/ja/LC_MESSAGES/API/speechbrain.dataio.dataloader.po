@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.dataio.dataloader.rst:5
+msgid "speechbrain.dataio.dataloader module"
+msgstr ""
+
+#: of speechbrain.dataio.dataloader:1
+msgid "PyTorch compatible DataLoaders"
+msgstr ""
+
+#: of speechbrain.dataio.dataloader:3
+msgid ""
+"Essentially we extend PyTorch DataLoader by adding the ability to save "
+"the data loading state, so that a checkpoint may be saved in the middle "
+"of an epoch."
+msgstr ""
+
+#: of speechbrain.dataio.dataloader:8
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.dataio.dataloader:35
+msgid "Authors:"
+msgstr ""
+
+#: of speechbrain.dataio.dataloader:35
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataloader.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataloader.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataloader.rst:24:<autosummary>:1
+msgid ""
+":obj:`SaveableDataLoader "
+"<speechbrain.dataio.dataloader.SaveableDataLoader>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataloader.rst:24:<autosummary>:1 of
+#: speechbrain.dataio.dataloader.SaveableDataLoader:1
+msgid "A saveable version of the PyTorch DataLoader."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataloader.rst:25
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataloader.rst:38:<autosummary>:1
+msgid ":obj:`make_dataloader <speechbrain.dataio.dataloader.make_dataloader>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataloader.rst:38:<autosummary>:1 of
+#: speechbrain.dataio.dataloader.make_dataloader:1
+msgid "Makes a basic DataLoader with SpeechBrain defaults."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataloader.rst:40
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.dataio.dataloader.make_dataloader:3
+msgid ""
+"For DynamicItemDatasets (which return dicts), use PaddedBatch as the "
+"default collate_fn."
+msgstr ""
+
+#: of speechbrain.dataio.dataloader.make_dataloader:6
+msgid "Shuffling gets implemented by ReproducibleRandomSampler."
+msgstr ""
+
+#: of speechbrain.dataio.dataloader.make_dataloader:8
+msgid ""
+"If the Dataset is not an IterableDataset, the DataLoader is a "
+"SaveableDataLoader."
+msgstr ""
+
+#: of speechbrain.dataio.dataloader.make_dataloader
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.dataio.dataloader.make_dataloader:11
+msgid "The dataset to make a DataLoader for."
+msgstr ""
+
+#: of speechbrain.dataio.dataloader.make_dataloader:13
+msgid "Keyword args to DataLoader, see PyTorch DataLoader for options."
+msgstr ""
+
+#: of speechbrain.dataio.dataloader.make_dataloader
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.dataio.dataloader.make_dataloader
+msgid "Return type"
+msgstr ""
+
+#: of speechbrain.dataio.dataloader.SaveableDataLoader:1
+msgid "Bases: :class:`Generic`\\ [:obj:`torch.utils.data.dataloader.T_co`]"
+msgstr ""
+
+#: of speechbrain.dataio.dataloader.SaveableDataLoader:3
+msgid ""
+"See `torch.utils.data.DataLoader` for usage. This class should work "
+"exactly like the PyTorch basic DataLoader, but this can be checkpointed "
+"with SpeechBrain's Checkpointer."
+msgstr ""
+
+#: of speechbrain.dataio.dataloader.SaveableDataLoader:9
+msgid ""
+"1. The saveability is implemented via some unfortunately slightly magical"
+" means. 2. The data loader cannot recover after entering __iter__. "
+"Normally this is not a problem, as recovery should happen before training"
+" begins.  However, just before evaluation, it is also typical to recover "
+"the checkpoint at which performance was the best. Thus, if a checkpoint "
+"is loaded after entering __iter__, we just assume it is for this reason. "
+"A warning is logged, but that is all."
+msgstr ""
+

@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.lobes.models.ESPnetVGG.rst:5
+msgid "speechbrain.lobes.models.ESPnetVGG module"
+msgstr ""
+
+#: of speechbrain.lobes.models.ESPnetVGG:1
+msgid "This lobes replicate the encoder first introduced in ESPNET v1"
+msgstr ""
+
+#: of speechbrain.lobes.models.ESPnetVGG:3
+msgid ""
+"source: "
+"https://github.com/espnet/espnet/blob/master/espnet/nets/pytorch_backend/rnn/encoders.py"
+msgstr ""
+
+#: of speechbrain.lobes.models.ESPnetVGG:6
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.lobes.models.ESPnetVGG:6
+msgid "Titouan Parcollet 2020"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ESPnetVGG.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ESPnetVGG.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ESPnetVGG.rst:31:<autosummary>:1
+msgid ":obj:`ESPnetVGG <speechbrain.lobes.models.ESPnetVGG.ESPnetVGG>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ESPnetVGG.rst:31:<autosummary>:1 of
+#: speechbrain.lobes.models.ESPnetVGG.ESPnetVGG:2
+msgid "This model is a combination of CNNs and RNNs following"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ESPnetVGG.rst:33
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.lobes.models.ESPnetVGG.ESPnetVGG:1
+msgid "Bases: :class:`speechbrain.nnet.containers.Sequential`"
+msgstr ""
+
+#: of speechbrain.lobes.models.ESPnetVGG.ESPnetVGG:2
+msgid "the ESPnet encoder. (VGG+RNN+MLP+tanh())"
+msgstr ""
+
+#: of speechbrain.lobes.models.ESPnetVGG.ESPnetVGG
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.lobes.models.ESPnetVGG.ESPnetVGG:4
+msgid "The shape of an example expected input."
+msgstr ""
+
+#: of speechbrain.lobes.models.ESPnetVGG.ESPnetVGG:6
+msgid "A class used for constructing the activation layers. For CNN and DNN."
+msgstr ""
+
+#: of speechbrain.lobes.models.ESPnetVGG.ESPnetVGG:8
+msgid "Neuron dropout rate, applied to RNN only."
+msgstr ""
+
+#: of speechbrain.lobes.models.ESPnetVGG.ESPnetVGG:10
+msgid "A list of the number of output channels for each CNN block."
+msgstr ""
+
+#: of speechbrain.lobes.models.ESPnetVGG.ESPnetVGG:12
+msgid "The type of RNN to use (LiGRU, LSTM, GRU, RNN)"
+msgstr ""
+
+#: of speechbrain.lobes.models.ESPnetVGG.ESPnetVGG:14
+msgid "The number of recurrent layers to include."
+msgstr ""
+
+#: of speechbrain.lobes.models.ESPnetVGG.ESPnetVGG:16
+msgid "Number of neurons in each layer of the RNN."
+msgstr ""
+
+#: of speechbrain.lobes.models.ESPnetVGG.ESPnetVGG:18
+msgid "Whether this model will process just forward or both directions."
+msgstr ""
+
+#: of speechbrain.lobes.models.ESPnetVGG.ESPnetVGG:20
+msgid "The number of neurons in the last linear layer."
+msgstr ""
+
+#: of speechbrain.lobes.models.ESPnetVGG.ESPnetVGG:24
+msgid "Example"
+msgstr ""
+

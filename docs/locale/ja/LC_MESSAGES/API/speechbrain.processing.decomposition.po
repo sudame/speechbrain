@@ -1,0 +1,328 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.processing.decomposition.rst:5
+msgid "speechbrain.processing.decomposition module"
+msgstr ""
+
+#: of speechbrain.processing.decomposition:1
+msgid "Generalized Eigenvalue Decomposition."
+msgstr ""
+
+#: of speechbrain.processing.decomposition:3
+msgid ""
+"This library contains different methods to adjust the format of complex "
+"Hermitian matrices and find their eigenvectors and eigenvalues."
+msgstr ""
+
+#: of speechbrain.processing.decomposition:9
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.processing.decomposition:8
+msgid "William Aris 2020"
+msgstr ""
+
+#: of speechbrain.processing.decomposition:9
+msgid "Francois Grondin 2020"
+msgstr ""
+
+#: ../../API/speechbrain.processing.decomposition.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.processing.decomposition.rst:18
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.processing.decomposition.rst:38:<autosummary>:1
+msgid ":obj:`f <speechbrain.processing.decomposition.f>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.decomposition.rst:38:<autosummary>:1 of
+#: speechbrain.processing.decomposition.f:1
+msgid "Transform 1."
+msgstr ""
+
+#: ../../API/speechbrain.processing.decomposition.rst:38:<autosummary>:1
+msgid ":obj:`finv <speechbrain.processing.decomposition.finv>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.decomposition.rst:38:<autosummary>:1 of
+#: speechbrain.processing.decomposition.finv:1
+msgid "Inverse transform 1"
+msgstr ""
+
+#: ../../API/speechbrain.processing.decomposition.rst:38:<autosummary>:1
+msgid ":obj:`g <speechbrain.processing.decomposition.g>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.decomposition.rst:38:<autosummary>:1 of
+#: speechbrain.processing.decomposition.g:1
+msgid "Transform 2."
+msgstr ""
+
+#: ../../API/speechbrain.processing.decomposition.rst:38:<autosummary>:1
+msgid ":obj:`gevd <speechbrain.processing.decomposition.gevd>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.decomposition.rst:38:<autosummary>:1
+msgid ""
+"This method computes the eigenvectors and the eigenvalues of complex "
+"Hermitian matrices."
+msgstr ""
+
+#: ../../API/speechbrain.processing.decomposition.rst:38:<autosummary>:1
+msgid ":obj:`ginv <speechbrain.processing.decomposition.ginv>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.decomposition.rst:38:<autosummary>:1 of
+#: speechbrain.processing.decomposition.ginv:1
+msgid "Inverse transform 2."
+msgstr ""
+
+#: ../../API/speechbrain.processing.decomposition.rst:38:<autosummary>:1
+msgid ":obj:`inv <speechbrain.processing.decomposition.inv>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.decomposition.rst:38:<autosummary>:1 of
+#: speechbrain.processing.decomposition.inv:1
+msgid "Inverse Hermitian Matrix."
+msgstr ""
+
+#: ../../API/speechbrain.processing.decomposition.rst:38:<autosummary>:1
+msgid ":obj:`pos_def <speechbrain.processing.decomposition.pos_def>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.decomposition.rst:38:<autosummary>:1 of
+#: speechbrain.processing.decomposition.pos_def:1
+msgid "Diagonal modification."
+msgstr ""
+
+#: ../../API/speechbrain.processing.decomposition.rst:38:<autosummary>:1
+msgid ":obj:`svdl <speechbrain.processing.decomposition.svdl>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.decomposition.rst:38:<autosummary>:1 of
+#: speechbrain.processing.decomposition.svdl:1
+msgid "Singular Value Decomposition (Left Singular Vectors)."
+msgstr ""
+
+#: ../../API/speechbrain.processing.decomposition.rst:40
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.gevd:1
+msgid ""
+"This method computes the eigenvectors and the eigenvalues of complex "
+"Hermitian matrices. The method finds a solution to the problem AV = BVD "
+"where V are the eigenvectors and D are the eigenvalues."
+msgstr ""
+
+#: of speechbrain.processing.decomposition.gevd:6
+msgid ""
+"The eigenvectors returned by the method (vs) are stored in a tensor with "
+"the following format (*,C,C,2)."
+msgstr ""
+
+#: of speechbrain.processing.decomposition.gevd:9
+msgid ""
+"The eigenvalues returned by the method (ds) are stored in a tensor with "
+"the following format (*,C,C,2)."
+msgstr ""
+
+#: of speechbrain.processing.decomposition.f
+#: speechbrain.processing.decomposition.finv
+#: speechbrain.processing.decomposition.g
+#: speechbrain.processing.decomposition.gevd
+#: speechbrain.processing.decomposition.ginv
+#: speechbrain.processing.decomposition.inv
+#: speechbrain.processing.decomposition.pos_def
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.gevd:12
+msgid ""
+"A first input matrix. It is equivalent to the matrix A in the equation in"
+" the description above. The tensor must have the following format: "
+"(*,2,C+P)."
+msgstr ""
+
+#: of speechbrain.processing.decomposition.gevd:16
+msgid ""
+"A second input matrix. It is equivalent tot the matrix B in the equation "
+"in the description above. The tensor must have the following format: "
+"(*,2,C+P). This argument is optional and its default value is None. If b "
+"== None, then b is replaced by the identity matrix in the computations."
+msgstr ""
+
+#: of speechbrain.processing.decomposition.gevd:25
+#: speechbrain.processing.decomposition.inv:12
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.gevd:26
+msgid ""
+"Suppose we would like to compute eigenvalues/eigenvectors on the "
+"following complex Hermitian matrix:"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.gevd:31
+msgid "A = [ 52        34 + 37j  16 + j28 ;"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.gevd:30
+msgid "34 - 37j  125       41 + j3  ; 16 - 28j  41 - j3   62       ]"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.gevd:36
+msgid "This corresponds to:"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.gevd:40
+msgid "D = [ 20.9513  0        0        ;"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.gevd:39
+msgid "0        43.9420  0        ; 0        0        174.1067 ]"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.gevd:44
+msgid "V = [ 0.085976 - 0.85184j  -0.24620 + 0.12244j  -0.24868 - 0.35991j  ;"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.gevd:43
+msgid ""
+"-0.16006 + 0.20244j   0.37084 + 0.40173j  -0.79175 - 0.087312j ; -0.43990"
+" + 0.082884j  -0.36724 - 0.70045j -0.41728 + 0 j       ]"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.gevd:46
+msgid "where"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.gevd:48
+msgid "A = VDV^-1"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.svdl:3
+msgid ""
+"This function finds the eigenvalues and eigenvectors of the input "
+"multiplied by its transpose (a x a.T)."
+msgstr ""
+
+#: of speechbrain.processing.decomposition.svdl:8
+msgid "The function will return (in this order):"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.svdl:7
+msgid "The eigenvalues in a tensor with the format (*,C,C,2)"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.svdl:8
+msgid "The eigenvectors in a tensor with the format (*,C,C,2)"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.svdl:14
+msgid "a"
+msgstr ""
+
+#: of
+msgid "tensor"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.svdl:13
+msgid ""
+"A complex input matrix to work with. The tensor must have the following "
+"format: (*,2,C+P)."
+msgstr ""
+
+#: of speechbrain.processing.decomposition.f:3
+msgid ""
+"This method takes a complex Hermitian matrix represented by its upper "
+"triangular part and converts it to a block matrix representing the full "
+"original matrix with real numbers. The output tensor will have the "
+"following format: (*,2C,2C)"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.f:9
+#: speechbrain.processing.decomposition.pos_def:8
+msgid "An input matrix. The tensor must have the following format: (*,2,C+P)"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.finv:3
+msgid ""
+"This method takes a block matrix representing a complex Hermitian matrix "
+"and converts it to a complex matrix represented by its upper triangular "
+"part. The result will have the following format: (*,2,C+P)"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.finv:8
+#: speechbrain.processing.decomposition.ginv:8
+msgid "An input matrix. The tensor must have the following format: (*,2C,2C)"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.g:3
+msgid ""
+"This method takes a full complex matrix and converts it to a block "
+"matrix. The result will have the following format: (*,2C,2C)."
+msgstr ""
+
+#: of speechbrain.processing.decomposition.g:7
+msgid "An input matrix. The tensor must have the following format: (*,C,C,2)"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.ginv:3
+msgid ""
+"This method takes a complex Hermitian matrix represented by a block "
+"matrix and converts it to a full complex complex matrix. The result will "
+"have the following format: (*,C,C,2)"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.pos_def:3
+msgid ""
+"This method takes a complex Hermitian matrix represented by its upper "
+"triangular part and adds the value of its trace multiplied by alpha to "
+"the real part of its diagonal. The output will have the format: (*,2,C+P)"
+msgstr ""
+
+#: of speechbrain.processing.decomposition.pos_def:11
+msgid "A coefficient to multiply the trace. The default value is 0.001."
+msgstr ""
+
+#: of speechbrain.processing.decomposition.pos_def:13
+msgid ""
+"A small value to increase the real part of the diagonal. The default "
+"value is 1e-20."
+msgstr ""
+
+#: of speechbrain.processing.decomposition.inv:3
+msgid ""
+"This method finds the inverse of a complex Hermitian matrix represented "
+"by its upper triangular part. The result will have the following format: "
+"(*, C, C, 2)."
+msgstr ""
+
+#: of speechbrain.processing.decomposition.inv:7
+msgid ""
+"An input matrix to work with. The tensor must have the following format: "
+"(*, 2, C+P)"
+msgstr ""
+

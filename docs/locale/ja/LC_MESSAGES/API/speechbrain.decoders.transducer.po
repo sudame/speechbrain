@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.decoders.transducer.rst:5
+msgid "speechbrain.decoders.transducer module"
+msgstr ""
+
+#: of speechbrain.decoders.transducer:1
+msgid "Decoders and output normalization for Transducer sequence."
+msgstr ""
+
+#: of speechbrain.decoders.transducer:5
+msgid "Author:"
+msgstr ""
+
+#: of speechbrain.decoders.transducer:4
+msgid "Abdelwahab HEBA 2020 Sung-Lin Yeh 2020"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.transducer.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.transducer.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.transducer.rst:31:<autosummary>:1
+msgid ""
+":obj:`TransducerBeamSearcher "
+"<speechbrain.decoders.transducer.TransducerBeamSearcher>`"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.transducer.rst:31:<autosummary>:1 of
+#: speechbrain.decoders.transducer.TransducerBeamSearcher:1
+msgid "This class implements the beam-search algorithm for the transducer model."
+msgstr ""
+
+#: ../../API/speechbrain.decoders.transducer.rst:33
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.decoders.transducer.TransducerBeamSearcher:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.decoders.transducer.TransducerBeamSearcher
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.forward
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_beam_search_decode
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_greedy_decode
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.decoders.transducer.TransducerBeamSearcher:3
+msgid "List of prediction network (PN) layers."
+msgstr ""
+
+#: of speechbrain.decoders.transducer.TransducerBeamSearcher:5
+msgid "This module perform the joint between TN and PN."
+msgstr ""
+
+#: of speechbrain.decoders.transducer.TransducerBeamSearcher:7
+msgid ""
+"List of output layers (after performing joint between TN and PN) exp: "
+"(TN,PN) => joint => classifier_network_list [DNN bloc, Linear..] => chars"
+" prob"
+msgstr ""
+
+#: of speechbrain.decoders.transducer.TransducerBeamSearcher:10
+msgid "The blank symbol/index."
+msgstr ""
+
+#: of speechbrain.decoders.transducer.TransducerBeamSearcher:12
+msgid "The width of beam. Greedy Search is used when beam = 1."
+msgstr ""
+
+#: of speechbrain.decoders.transducer.TransducerBeamSearcher:14
+msgid "Number of hypotheses to keep."
+msgstr ""
+
+#: of speechbrain.decoders.transducer.TransducerBeamSearcher:16
+msgid "Neural networks modules for LM."
+msgstr ""
+
+#: of speechbrain.decoders.transducer.TransducerBeamSearcher:18
+msgid ""
+"The weight of LM when performing beam search (λ). log P(y|x) + λ log "
+"P_LM(y). (default: 0.3)"
+msgstr ""
+
+#: of speechbrain.decoders.transducer.TransducerBeamSearcher:21
+msgid ""
+"The threshold coefficient in log space to decide if hyps in A "
+"(process_hyps) is likely to compete with hyps in B (beam_hyps), if not, "
+"end the while loop. Reference: https://arxiv.org/pdf/1911.01629.pdf"
+msgstr ""
+
+#: of speechbrain.decoders.transducer.TransducerBeamSearcher:25
+msgid ""
+"The threshold coefficient to limit the number of expanded hypotheses that"
+" are added in A (process_hyp). Reference: "
+"https://arxiv.org/pdf/1911.01629.pdf Reference: https://github.com/kaldi-"
+"asr/kaldi/blob/master/src/decoder/simple-decoder.cc (See PruneToks)"
+msgstr ""
+
+#: of speechbrain.decoders.transducer.TransducerBeamSearcher:32
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.decoders.transducer.TransducerBeamSearcher:42
+msgid "searcher = TransducerBeamSearcher("
+msgstr ""
+
+#: of speechbrain.decoders.transducer.TransducerBeamSearcher:34
+msgid ""
+"decode_network_lst=[hparams[\"emb\"], hparams[\"dec\"]], "
+"tjoint=hparams[\"Tjoint\"], "
+"classifier_network=[hparams[\"transducer_lin\"]], blank_id=0, "
+"beam_size=hparams[\"beam_size\"], nbest=hparams[\"nbest\"], "
+"lm_module=hparams[\"lm_model\"], lm_weight=hparams[\"lm_weight\"], "
+"state_beam=2.3, expand_beam=2.3,"
+msgstr ""
+
+#: of speechbrain.decoders.transducer.TransducerBeamSearcher:44
+msgid ""
+") >>> from speechbrain.nnet.transducer.transducer_joint import "
+"Transducer_joint >>> import speechbrain as sb >>> emb = "
+"sb.nnet.embedding.Embedding( ...     num_embeddings=35, ...     "
+"embedding_dim=3, ...     consider_as_one_hot=True, ...     blank_id=0 ..."
+" ) >>> dec = sb.nnet.RNN.GRU( ...     hidden_size=5, input_shape=(1, 40, "
+"34), bidirectional=True ... ) >>> lin = "
+"sb.nnet.linear.Linear(input_shape=(1, 40, 10), n_neurons=35) >>> "
+"joint_network= sb.nnet.linear.Linear(input_shape=(1, 1, 40, 35), "
+"n_neurons=35) >>> tjoint = Transducer_joint(joint_network, joint=\"sum\")"
+" >>> searcher = TransducerBeamSearcher( ...     decode_network_lst=[emb, "
+"dec], ...     tjoint=tjoint, ...     classifier_network=[lin], ...     "
+"blank_id=0, ...     beam_size=1, ...     nbest=1, ...     lm_module=None,"
+" ...     lm_weight=0.0, ... ) >>> enc = torch.rand([1, 20, 10]) >>> hyps,"
+" scores, _, _ = searcher(enc)"
+msgstr ""
+
+#: of speechbrain.decoders.transducer.TransducerBeamSearcher.forward:1
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_beam_search_decode:10
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_greedy_decode:8
+msgid "Output from transcription network with shape [batch, time_len, hiddens]."
+msgstr ""
+
+#: of speechbrain.decoders.transducer.TransducerBeamSearcher.forward
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_beam_search_decode
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_greedy_decode
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.decoders.transducer.TransducerBeamSearcher.forward
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_beam_search_decode
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_greedy_decode
+msgid "Return type"
+msgstr ""
+
+#: of
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_greedy_decode:6
+msgid ""
+"Transducer greedy decoder is a greedy decoder over batch which apply "
+"Transducer rules:"
+msgstr ""
+
+#: of
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_greedy_decode:6
+msgid "1- for each time step in the Transcription Network (TN) output:"
+msgstr ""
+
+#: of
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_greedy_decode:3
+msgid "-> Update the ith utterance only if"
+msgstr ""
+
+#: of
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_greedy_decode:4
+msgid "the previous target != the new one (we save the hiddens and the target)"
+msgstr ""
+
+#: of
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_greedy_decode:5
+msgid "-> otherwise: ---> keep the previous target prediction from the decoder"
+msgstr ""
+
+#: of
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_beam_search_decode:14
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_greedy_decode:12
+msgid "Outputs a logits tensor [B,T,1,Output_Dim]; padding has not been removed."
+msgstr ""
+
+#: of
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_beam_search_decode:8
+msgid ""
+"Transducer beam search decoder is a beam search decoder over batch which "
+"apply Transducer rules:"
+msgstr ""
+
+#: of
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_beam_search_decode:8
+msgid "1- for each utterance:"
+msgstr ""
+
+#: of
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_beam_search_decode:8
+msgid "2- for each time steps in the Transcription Network (TN) output:"
+msgstr ""
+
+#: of
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_beam_search_decode:4
+msgid ""
+"-> Do forward on PN and Joint network -> Select topK <= beam -> Do a "
+"while loop extending the hyps until we reach blank"
+msgstr ""
+
+#: of
+#: speechbrain.decoders.transducer.TransducerBeamSearcher.transducer_beam_search_decode:7
+msgid "-> otherwise: --> extend hyp by the new token"
+msgstr ""
+

@@ -1,0 +1,256 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.nnet.complex_networks.c_normalization.rst:5
+msgid "speechbrain.nnet.complex_networks.c_normalization module"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization:1
+msgid "Library implementing complex-valued normalization."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization:4
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization:4
+msgid "Titouan Parcollet 2020"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_normalization.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_normalization.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_normalization.rst:25:<autosummary>:1
+msgid ""
+":obj:`CBatchNorm "
+"<speechbrain.nnet.complex_networks.c_normalization.CBatchNorm>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_normalization.rst:25:<autosummary>:1
+msgid ""
+"This class is implements the complex-valued batch-normalization as "
+"introduced by \"Deep Complex Networks\", Trabelsi C."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_normalization.rst:25:<autosummary>:1
+msgid ""
+":obj:`CLayerNorm "
+"<speechbrain.nnet.complex_networks.c_normalization.CLayerNorm>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_normalization.rst:25:<autosummary>:1
+msgid ""
+"This class is used to instanciate the complex layer-normalization as "
+"introduced by \"Deep Complex Networks\", Trabelsi C."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_normalization.rst:26
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_normalization.rst:40:<autosummary>:1
+msgid ":obj:`c_norm <speechbrain.nnet.complex_networks.c_normalization.c_norm>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_normalization.rst:40:<autosummary>:1
+msgid ""
+"This function is used to apply the complex normalization as introduced by"
+" \"Deep Complex Networks\", Trabelsi C."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_normalization.rst:40:<autosummary>:1
+msgid ""
+":obj:`c_standardization "
+"<speechbrain.nnet.complex_networks.c_normalization.c_standardization>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_normalization.rst:40:<autosummary>:1
+#: of speechbrain.nnet.complex_networks.c_normalization.c_standardization:1
+msgid ""
+"This function is used to standardize a centred tensor of complex numbers "
+"(mean of the set must be 0)."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_normalization.rst:42
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.CBatchNorm:1
+#: speechbrain.nnet.complex_networks.c_normalization.CLayerNorm:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.CBatchNorm:1
+msgid ""
+"This class is implements the complex-valued batch-normalization as "
+"introduced by \"Deep Complex Networks\", Trabelsi C. et al."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.CBatchNorm
+#: speechbrain.nnet.complex_networks.c_normalization.CBatchNorm.forward
+#: speechbrain.nnet.complex_networks.c_normalization.CLayerNorm
+#: speechbrain.nnet.complex_networks.c_normalization.c_norm
+#: speechbrain.nnet.complex_networks.c_normalization.c_standardization
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.CBatchNorm:4
+#: speechbrain.nnet.complex_networks.c_normalization.CLayerNorm:5
+msgid "Expected shape of the input."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.CBatchNorm:6
+msgid "Expected size of the input."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.CBatchNorm:8
+#: speechbrain.nnet.complex_networks.c_normalization.CLayerNorm:9
+msgid ""
+"It defines the axis that should be normalized. It usually correspond to "
+"the channel dimension (default -1)."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.CBatchNorm:11
+#: speechbrain.nnet.complex_networks.c_normalization.CLayerNorm:12
+msgid "Term used to stabilize operation (default 1e-4)."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.CBatchNorm:13
+msgid ""
+"It defines the momentum as for the real-valued batch-normalization "
+"(default 0.1)."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.CBatchNorm:16
+#: speechbrain.nnet.complex_networks.c_normalization.CLayerNorm:14
+#: speechbrain.nnet.complex_networks.c_normalization.c_norm:26
+msgid ""
+"It defines if scaling should be used or not. It is equivalent to the "
+"real-valued batchnormalization scaling (default True)."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.CBatchNorm:19
+#: speechbrain.nnet.complex_networks.c_normalization.CLayerNorm:17
+#: speechbrain.nnet.complex_networks.c_normalization.c_norm:30
+msgid ""
+"It defines if centering should be used or not. It is equivalent to the "
+"real-valued batchnormalization centering (default True)."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.CBatchNorm:23
+msgid ""
+"Equivalent to the real-valued batchnormalization parameter. When True, "
+"stats are tracked. When False, solely statistics computed over the batch "
+"are used (default True)."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.CBatchNorm:29
+#: speechbrain.nnet.complex_networks.c_normalization.CLayerNorm:23
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.CBatchNorm.forward:1
+msgid "Returns the normalized input tensor."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.CBatchNorm.forward:3
+msgid "Input to normalize. It can be 2d, 3d, 4d."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.CLayerNorm:1
+msgid ""
+"This class is used to instanciate the complex layer-normalization as "
+"introduced by \"Deep Complex Networks\", Trabelsi C. et al."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.CLayerNorm:7
+msgid "Expected size of the input dimension."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.c_norm:1
+msgid ""
+"This function is used to apply the complex normalization as introduced by"
+" \"Deep Complex Networks\", Trabelsi C. et al."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.c_norm:4
+#: speechbrain.nnet.complex_networks.c_normalization.c_standardization:4
+msgid ""
+"It is the tensor to be normalized. The features dimension is divided by 2"
+" with the first half corresponding to the real-parts and the second half "
+"to the imaginary parts."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.c_norm:9
+#: speechbrain.nnet.complex_networks.c_normalization.c_standardization:9
+msgid "It is a tensor that contains the covariance between real-parts."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.c_norm:11
+#: speechbrain.nnet.complex_networks.c_normalization.c_standardization:11
+msgid "It is a tensor that contains the covariance between imaginary-parts."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.c_norm:13
+#: speechbrain.nnet.complex_networks.c_normalization.c_standardization:13
+msgid ""
+"It is a tensor that contains the covariance between real-parts and "
+"imaginary-parts."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.c_norm:16
+msgid ""
+"It is a tensor corresponding to the beta parameter on the real-valued "
+"batch-normalization, but in the complex-valued space."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.c_norm:19
+msgid "It is a tensor that contains the gamma between real-parts."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.c_norm:21
+msgid "It is a tensor that contains the gamma between imaginary-parts."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.c_norm:23
+msgid ""
+"It is a tensor that contains the gamma between real-parts and imaginary-"
+"parts."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.c_norm:34
+#: speechbrain.nnet.complex_networks.c_normalization.c_standardization:16
+msgid ""
+"It defines is c_standardization is called from a layernorm or a batchnorm"
+" layer (default False)."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_normalization.c_norm:37
+#: speechbrain.nnet.complex_networks.c_normalization.c_standardization:19
+msgid ""
+"It defines the axis that should be considered as the complex-valued axis "
+"(divided by 2 to get r and i) (default -1)."
+msgstr ""
+

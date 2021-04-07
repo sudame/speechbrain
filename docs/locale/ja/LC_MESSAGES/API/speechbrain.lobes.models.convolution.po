@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.lobes.models.convolution.rst:5
+msgid "speechbrain.lobes.models.convolution module"
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution:1
+msgid ""
+"This is a module to ensemble a convolution (depthwise) encoder with or "
+"without residule connection."
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution:4
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution:4
+msgid "Jianyuan Zhong 2020"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.convolution.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.convolution.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.convolution.rst:32:<autosummary>:1
+msgid ":obj:`ConvBlock <speechbrain.lobes.models.convolution.ConvBlock>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.convolution.rst:32:<autosummary>:1 of
+#: speechbrain.lobes.models.convolution.ConvBlock:1
+msgid ""
+"An implementation of convolution block with 1d or 2d convolutions "
+"(depthwise)."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.convolution.rst:32:<autosummary>:1
+msgid ""
+":obj:`ConvolutionFrontEnd "
+"<speechbrain.lobes.models.convolution.ConvolutionFrontEnd>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.convolution.rst:32:<autosummary>:1 of
+#: speechbrain.lobes.models.convolution.ConvolutionFrontEnd:1
+msgid ""
+"This is a module to ensemble a convolution (depthwise) encoder with or "
+"without residual connection."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.convolution.rst:34
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvolutionFrontEnd:1
+msgid "Bases: :class:`speechbrain.nnet.containers.Sequential`"
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvolutionFrontEnd:4
+msgid "Arguments"
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvolutionFrontEnd:6
+msgid "out_channels: int"
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvBlock:3
+#: speechbrain.lobes.models.convolution.ConvolutionFrontEnd:7
+msgid "Number of output channels of this model (default 640)."
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvolutionFrontEnd:8
+msgid "out_channels: Optional(list[int])"
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvolutionFrontEnd:9
+msgid "Number of output channels for each of block."
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvolutionFrontEnd:10
+msgid "kernel_size: int"
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvBlock:5
+#: speechbrain.lobes.models.convolution.ConvolutionFrontEnd:11
+msgid "Kernel size of convolution layers (default 3)."
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvolutionFrontEnd:12
+msgid "strides: Optional(list[int])"
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvolutionFrontEnd:13
+msgid ""
+"Striding factor for each block, this stride is applied at the last "
+"convolution layer at each block."
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvolutionFrontEnd:14
+msgid "num_blocks: int"
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvolutionFrontEnd:15
+msgid "Number of block (default 21)."
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvolutionFrontEnd:16
+msgid "num_per_layers: int"
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvolutionFrontEnd:17
+msgid "Number of convolution layers for each block (default 5)."
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvolutionFrontEnd:18
+msgid "dropout: float"
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvolutionFrontEnd:19
+msgid "Dropout (default 0.15)."
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvolutionFrontEnd:20
+msgid "activation: torch class"
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvolutionFrontEnd:21
+msgid "Activation function for each block (default Swish)."
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvolutionFrontEnd:22
+msgid "norm: torch class"
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvBlock:13
+#: speechbrain.lobes.models.convolution.ConvolutionFrontEnd:23
+msgid "Normalization to regularize the model (default BatchNorm1d)."
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvolutionFrontEnd:25
+msgid "residuals: Optional(list[bool])"
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvolutionFrontEnd:25
+msgid "Whether apply residual connection at each block (default None)."
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvBlock:19
+#: speechbrain.lobes.models.convolution.ConvolutionFrontEnd:28
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvBlock:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvBlock
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvBlock:7
+msgid "Striding factor for this block (default 1)."
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvBlock:9
+msgid "Number of depthwise convolution layers for this block."
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvBlock:11
+msgid "Activation function for this block."
+msgstr ""
+
+#: of speechbrain.lobes.models.convolution.ConvBlock:15
+msgid "Whether apply residual connection at this block (default None)."
+msgstr ""
+

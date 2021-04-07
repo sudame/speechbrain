@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.lobes.models.VanillaNN.rst:5
+msgid "speechbrain.lobes.models.VanillaNN module"
+msgstr ""
+
+#: of speechbrain.lobes.models.VanillaNN:1
+msgid "Vanilla Neural Network for simple tests."
+msgstr ""
+
+#: of speechbrain.lobes.models.VanillaNN:3
+msgid "Authors * Elena Rastorgueva 2020"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.VanillaNN.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.VanillaNN.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.VanillaNN.rst:31:<autosummary>:1
+msgid ":obj:`VanillaNN <speechbrain.lobes.models.VanillaNN.VanillaNN>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.VanillaNN.rst:31:<autosummary>:1 of
+#: speechbrain.lobes.models.VanillaNN.VanillaNN:1
+msgid "A simple vanilla Deep Neural Network."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.VanillaNN.rst:33
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.lobes.models.VanillaNN.VanillaNN:1
+msgid "Bases: :class:`speechbrain.nnet.containers.Sequential`"
+msgstr ""
+
+#: of speechbrain.lobes.models.VanillaNN.VanillaNN
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.lobes.models.VanillaNN.VanillaNN:3
+msgid "A class used for constructing the activation layers."
+msgstr ""
+
+#: of speechbrain.lobes.models.VanillaNN.VanillaNN:5
+msgid "The number of linear neural blocks to include."
+msgstr ""
+
+#: of speechbrain.lobes.models.VanillaNN.VanillaNN:7
+msgid "The number of neurons in the linear layers."
+msgstr ""
+
+#: of speechbrain.lobes.models.VanillaNN.VanillaNN:11
+msgid "Example"
+msgstr ""
+

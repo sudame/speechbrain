@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.lobes.models.ContextNet.rst:5
+msgid "speechbrain.lobes.models.ContextNet module"
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet:1
+msgid ""
+"The SpeechBrain implementation of ContextNet by "
+"https://arxiv.org/pdf/2005.03191.pdf"
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet:5
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet:5
+msgid "Jianyuan Zhong 2020"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ContextNet.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ContextNet.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ContextNet.rst:33:<autosummary>:1
+msgid ":obj:`ContextNet <speechbrain.lobes.models.ContextNet.ContextNet>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ContextNet.rst:33:<autosummary>:1 of
+#: speechbrain.lobes.models.ContextNet.ContextNet:1
+msgid "This class implements the ContextNet."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ContextNet.rst:33:<autosummary>:1
+msgid ""
+":obj:`ContextNetBlock "
+"<speechbrain.lobes.models.ContextNet.ContextNetBlock>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ContextNet.rst:33:<autosummary>:1 of
+#: speechbrain.lobes.models.ContextNet.ContextNetBlock:1
+msgid "This class implements a block in ContextNet."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ContextNet.rst:33:<autosummary>:1
+msgid ":obj:`SEmodule <speechbrain.lobes.models.ContextNet.SEmodule>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ContextNet.rst:33:<autosummary>:1 of
+#: speechbrain.lobes.models.ContextNet.SEmodule:1
+msgid "This class implements the Squeeze-and-Excitation module."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ContextNet.rst:35
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNet:1
+msgid "Bases: :class:`speechbrain.nnet.containers.Sequential`"
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNet:3
+msgid "Reference paper: https://arxiv.org/pdf/2005.03191.pdf"
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNet
+#: speechbrain.lobes.models.ContextNet.ContextNetBlock
+#: speechbrain.lobes.models.ContextNet.SEmodule
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNet:5
+#: speechbrain.lobes.models.ContextNet.ContextNetBlock:3
+msgid "Number of output channels of this model (default 640)."
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNet:7
+msgid ""
+"Number of output channels for each of the contextnet block. If not "
+"provided, it will be initialized as the defualt setting of above "
+"mentioned paper."
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNet:9
+#: speechbrain.lobes.models.ContextNet.ContextNetBlock:5
+msgid "Kernel size of convolution layers (default 3)."
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNet:11
+msgid ""
+"Striding factor for each context block. This stride is applied at the "
+"last convolution layer at each context block. If not provided, it will be"
+" initialize as the default setting of above paper."
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNet:13
+msgid "Number of context block (default 21)."
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNet:15
+msgid "Number of depthwise convolution layers for each context block (default 5)."
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNet:17
+#: speechbrain.lobes.models.ContextNet.ContextNetBlock:11
+#: speechbrain.lobes.models.ContextNet.SEmodule:3
+msgid "Inner dimension of bottle-neck network of the SE Module (default 12)."
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNet:19
+msgid "The factor to scale the output channel of the network (default 1)."
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNet:21
+#: speechbrain.lobes.models.ContextNet.ContextNetBlock:13
+msgid "Beta to scale the Swish activation (default 1)."
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNet:23
+#: speechbrain.lobes.models.ContextNet.ContextNetBlock:15
+msgid "Dropout (default 0.15)."
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNet:25
+msgid "Activation function for each context block (default Swish)."
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNet:27
+#: speechbrain.lobes.models.ContextNet.ContextNetBlock:19
+#: speechbrain.lobes.models.ContextNet.SEmodule:5
+msgid "Activation function for SE Module (default torch.nn.Sigmoid)."
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNet:29
+#: speechbrain.lobes.models.ContextNet.ContextNetBlock:21
+#: speechbrain.lobes.models.ContextNet.SEmodule:7
+msgid "Normalization to regularize the model (default BatchNorm1d)."
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNet:31
+msgid "Whether to apply residual connection at each context block (default None)."
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNet:35
+#: speechbrain.lobes.models.ContextNet.ContextNetBlock:27
+#: speechbrain.lobes.models.ContextNet.SEmodule:11
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNetBlock:1
+#: speechbrain.lobes.models.ContextNet.SEmodule:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNetBlock:7
+msgid "Striding factor for this context block (default 1)."
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNetBlock:9
+msgid "Number of depthwise convolution layers for this context block (default 5)."
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNetBlock:17
+msgid "Activation function for this context block (default Swish)."
+msgstr ""
+
+#: of speechbrain.lobes.models.ContextNet.ContextNetBlock:23
+msgid "Whether to apply residual connection at this context block (default None)."
+msgstr ""
+

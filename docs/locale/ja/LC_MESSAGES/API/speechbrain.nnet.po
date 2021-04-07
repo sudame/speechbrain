@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.nnet.rst:5
+msgid "speechbrain.nnet"
+msgstr ""
+
+#: of speechbrain.nnet:1
+msgid "Package containing the different neural networks layers"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid ":obj:`speechbrain.nnet.CNN <speechbrain.nnet.CNN>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid "Library implementing convolutional neural networks."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid ":obj:`speechbrain.nnet.RNN <speechbrain.nnet.RNN>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid "Library implementing recurrent neural networks."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid ":obj:`speechbrain.nnet.activations <speechbrain.nnet.activations>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid "Library implementing activation functions."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid ":obj:`speechbrain.nnet.attention <speechbrain.nnet.attention>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid "Library implementing attention modules."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid ":obj:`speechbrain.nnet.containers <speechbrain.nnet.containers>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid "Library for implementing cascade (sequences) of different neural modules."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid ":obj:`speechbrain.nnet.dropout <speechbrain.nnet.dropout>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid "Library implementing dropout."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid ":obj:`speechbrain.nnet.embedding <speechbrain.nnet.embedding>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid "Library implementing embedding."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid ":obj:`speechbrain.nnet.linear <speechbrain.nnet.linear>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid "Library implementing linear transformation."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid ":obj:`speechbrain.nnet.losses <speechbrain.nnet.losses>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid "Losses for training neural networks."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid ":obj:`speechbrain.nnet.normalization <speechbrain.nnet.normalization>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid "Library implementing normalization."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid ":obj:`speechbrain.nnet.pooling <speechbrain.nnet.pooling>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid "Library implementing pooling."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid ":obj:`speechbrain.nnet.schedulers <speechbrain.nnet.schedulers>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:44:<autosummary>:1
+msgid "Schedulers for updating hyperparameters (such as learning rate)."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:63:<autosummary>:1
+msgid ""
+":obj:`speechbrain.nnet.complex_networks "
+"<speechbrain.nnet.complex_networks>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:63:<autosummary>:1
+msgid "Package containing complex neural networks"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:63:<autosummary>:1
+msgid ":obj:`speechbrain.nnet.loss <speechbrain.nnet.loss>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:63:<autosummary>:1
+msgid "Package containing specific losses (transducer, stoi ...)"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:63:<autosummary>:1
+msgid ""
+":obj:`speechbrain.nnet.quaternion_networks "
+"<speechbrain.nnet.quaternion_networks>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:63:<autosummary>:1
+msgid "Package containing quaternion neural networks"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:63:<autosummary>:1
+msgid ":obj:`speechbrain.nnet.transducer <speechbrain.nnet.transducer>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:63:<autosummary>:1
+msgid "Package containing transducer neural networks"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:65
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.rst:70
+msgid "Reference"
+msgstr ""
+

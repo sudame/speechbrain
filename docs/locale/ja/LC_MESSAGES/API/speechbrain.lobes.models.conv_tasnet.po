@@ -1,0 +1,429 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:5
+msgid "speechbrain.lobes.models.conv_tasnet module"
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet:1
+msgid "Implementation of a popular speech separation model."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:32:<autosummary>:1
+msgid ""
+":obj:`ChannelwiseLayerNorm "
+"<speechbrain.lobes.models.conv_tasnet.ChannelwiseLayerNorm>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:32:<autosummary>:1 of
+#: speechbrain.lobes.models.conv_tasnet.ChannelwiseLayerNorm:1
+msgid "Channel-wise Layer Normalization (cLN)."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:32:<autosummary>:1
+msgid ":obj:`Chomp1d <speechbrain.lobes.models.conv_tasnet.Chomp1d>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:32:<autosummary>:1 of
+#: speechbrain.lobes.models.conv_tasnet.Chomp1d:1
+msgid "This class cuts out a portion of the signal from the end."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:32:<autosummary>:1
+msgid ":obj:`Decoder <speechbrain.lobes.models.conv_tasnet.Decoder>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:32:<autosummary>:1 of
+#: speechbrain.lobes.models.conv_tasnet.Decoder:1
+msgid "This class implements the decoder for the ConvTasnet."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:32:<autosummary>:1
+msgid ""
+":obj:`DepthwiseSeparableConv "
+"<speechbrain.lobes.models.conv_tasnet.DepthwiseSeparableConv>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:32:<autosummary>:1 of
+#: speechbrain.lobes.models.conv_tasnet.DepthwiseSeparableConv:1
+msgid "Building block for the Temporal Blocks of Masknet in ConvTasNet."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:32:<autosummary>:1
+msgid ":obj:`Encoder <speechbrain.lobes.models.conv_tasnet.Encoder>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:32:<autosummary>:1 of
+#: speechbrain.lobes.models.conv_tasnet.Encoder:1
+msgid "This class learns the adaptive frontend for the ConvTasnet model."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:32:<autosummary>:1
+msgid ""
+":obj:`GlobalLayerNorm "
+"<speechbrain.lobes.models.conv_tasnet.GlobalLayerNorm>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:32:<autosummary>:1 of
+#: speechbrain.lobes.models.conv_tasnet.GlobalLayerNorm:1
+msgid "Global Layer Normalization (gLN)."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:32:<autosummary>:1
+msgid ":obj:`MaskNet <speechbrain.lobes.models.conv_tasnet.MaskNet>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:32:<autosummary>
+msgid "param N"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:32:<autosummary>:1 of
+#: speechbrain.lobes.models.conv_tasnet.MaskNet:1
+msgid "Number of filters in autoencoder."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:32:<autosummary>:1
+msgid ":obj:`TemporalBlock <speechbrain.lobes.models.conv_tasnet.TemporalBlock>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:32:<autosummary>:1 of
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlock:1
+msgid "The conv1d compound layers used in Masknet."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:32:<autosummary>:1
+msgid ""
+":obj:`TemporalBlocksSequential "
+"<speechbrain.lobes.models.conv_tasnet.TemporalBlocksSequential>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:32:<autosummary>:1 of
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlocksSequential:1
+msgid "A wrapper for the temporal-block layer to replicate it"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:33
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:46:<autosummary>:1
+msgid ":obj:`choose_norm <speechbrain.lobes.models.conv_tasnet.choose_norm>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:46:<autosummary>:1 of
+#: speechbrain.lobes.models.conv_tasnet.choose_norm:1
+msgid "This function returns the chosen normalization type."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.conv_tasnet.rst:48
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.ChannelwiseLayerNorm:1
+#: speechbrain.lobes.models.conv_tasnet.Chomp1d:1
+#: speechbrain.lobes.models.conv_tasnet.Decoder:1
+#: speechbrain.lobes.models.conv_tasnet.Encoder:1
+#: speechbrain.lobes.models.conv_tasnet.GlobalLayerNorm:1
+#: speechbrain.lobes.models.conv_tasnet.MaskNet:1
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlock:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.ChannelwiseLayerNorm
+#: speechbrain.lobes.models.conv_tasnet.Chomp1d
+#: speechbrain.lobes.models.conv_tasnet.Decoder
+#: speechbrain.lobes.models.conv_tasnet.Decoder.forward
+#: speechbrain.lobes.models.conv_tasnet.DepthwiseSeparableConv
+#: speechbrain.lobes.models.conv_tasnet.Encoder
+#: speechbrain.lobes.models.conv_tasnet.Encoder.forward
+#: speechbrain.lobes.models.conv_tasnet.GlobalLayerNorm
+#: speechbrain.lobes.models.conv_tasnet.GlobalLayerNorm.forward
+#: speechbrain.lobes.models.conv_tasnet.MaskNet
+#: speechbrain.lobes.models.conv_tasnet.MaskNet.forward
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlock
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlock.forward
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlocksSequential
+#: speechbrain.lobes.models.conv_tasnet.choose_norm
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.Encoder:3
+msgid "The filter kernel size. Needs to be an odd number."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.Encoder:5
+msgid "Number of dimensions at the output of the adaptive front end."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.ChannelwiseLayerNorm:7
+#: speechbrain.lobes.models.conv_tasnet.Chomp1d:10
+#: speechbrain.lobes.models.conv_tasnet.Decoder:10
+#: speechbrain.lobes.models.conv_tasnet.DepthwiseSeparableConv:22
+#: speechbrain.lobes.models.conv_tasnet.Encoder:9
+#: speechbrain.lobes.models.conv_tasnet.GlobalLayerNorm:7
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlocksSequential:19
+#: speechbrain.lobes.models.conv_tasnet.choose_norm:9
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.Encoder.forward:1
+msgid "Tesor shape is [M, T]. M is batch size. T is #samples"
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.Chomp1d.forward
+#: speechbrain.lobes.models.conv_tasnet.Decoder.forward
+#: speechbrain.lobes.models.conv_tasnet.Encoder.forward
+#: speechbrain.lobes.models.conv_tasnet.GlobalLayerNorm.forward
+#: speechbrain.lobes.models.conv_tasnet.MaskNet.forward
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlock.forward
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.Encoder.forward:4
+msgid ""
+"**mixture_w** -- Tensor shape is [M, K, N], where K = (T-L)/(L/2)+1 = "
+"2T/L-1"
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.Chomp1d.forward
+#: speechbrain.lobes.models.conv_tasnet.Decoder.forward
+#: speechbrain.lobes.models.conv_tasnet.Encoder.forward
+#: speechbrain.lobes.models.conv_tasnet.GlobalLayerNorm.forward
+#: speechbrain.lobes.models.conv_tasnet.MaskNet.forward
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlock.forward
+msgid "Return type"
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.Decoder:3
+msgid ""
+"The separated source embeddings are fed to the decoder to reconstruct the"
+" estimated sources in the time domain."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.Decoder:6
+msgid "Number of bases to use when reconstructing."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.Decoder.forward:1
+msgid "Tensor shape is [M, K, N]."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.Decoder.forward:3
+msgid "Tensor shape is [M, K, C, N]."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.Decoder.forward:6
+msgid "**est_source** -- Tensor shape is [M, T, C]."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.DepthwiseSeparableConv:1
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlocksSequential:1
+msgid "Bases: :class:`speechbrain.nnet.containers.Sequential`"
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.DepthwiseSeparableConv:3
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlocksSequential:3
+msgid "Expected shape of the input."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.TemporalBlock:5
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlocksSequential:5
+msgid "The number of intermediate channels."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.DepthwiseSeparableConv:7
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlock:7
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlocksSequential:7
+msgid "The kernel size in the convolutions."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.TemporalBlocksSequential:9
+msgid "The number of times to replicate the multilayer Temporal Blocks."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.TemporalBlocksSequential:11
+msgid "The number of layers of Temporal Blocks with different dilations."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.DepthwiseSeparableConv:16
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlock:16
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlocksSequential:13
+msgid "The type of normalization, in ['gLN', 'cLN']."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.DepthwiseSeparableConv:18
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlock:18
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlocksSequential:15
+msgid "To use causal or non-causal convolutions, in [True, False]."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.MaskNet:3
+msgid "Number of channels in bottleneck 1 × 1-conv block."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.MaskNet:5
+msgid "Number of channels in convolutional blocks."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.MaskNet:7
+msgid "Kernel size in convolutional blocks."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.MaskNet:9
+msgid "Number of convolutional blocks in each repeat."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.MaskNet:11
+msgid "Number of repeats."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.MaskNet:13
+msgid "Number of speakers."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.MaskNet:15
+msgid "One of BN, gLN, cLN."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.MaskNet:17
+msgid "Causal or non-causal."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.MaskNet:19
+msgid "Use which non-linear function to generate mask, in ['softmax', 'relu']."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.MaskNet.forward:1
+msgid "Keep this API same with TasNet."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.MaskNet.forward:3
+msgid "Tensor shape is [M, K, N], M is batch size."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.MaskNet.forward:6
+msgid "**est_mask** -- Tensor shape is [M, K, C, N]."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.TemporalBlock:3
+msgid "The expected shape of the input."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.DepthwiseSeparableConv:9
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlock:9
+msgid "Convolution stride in convolutional layers."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.DepthwiseSeparableConv:11
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlock:11
+msgid ""
+"The type of padding in the convolutional layers, (same, valid, causal). "
+"If \"valid\", no padding is performed."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.DepthwiseSeparableConv:14
+#: speechbrain.lobes.models.conv_tasnet.TemporalBlock:14
+msgid "Amount of dilation in convolutional layers."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.TemporalBlock.forward:1
+msgid "Tensor shape is [M, K, B]."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.TemporalBlock.forward:4
+msgid "**x** -- Tensor shape is [M, K, B]."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.DepthwiseSeparableConv:5
+msgid "Number of output channels."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.Chomp1d:3
+msgid ""
+"It is written as a class to be able to incorporate it inside a sequential"
+" wrapper."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.Chomp1d:6
+msgid "The size of the portion to discard (in samples)."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.Chomp1d.forward:1
+msgid "Arguments x : Tensor"
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.Chomp1d.forward:3
+msgid "Tensor shape is [M, Kpad, H]."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.Chomp1d.forward:5
+msgid "**x** -- Tensor shape is [M, K, H]."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.choose_norm:3
+msgid "One of ['gLN', 'cLN', 'batchnorm']."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.choose_norm:5
+msgid "Number of channels."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.ChannelwiseLayerNorm:3
+msgid "Number of channels in the normalization dimension (the third dimension)."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.ChannelwiseLayerNorm.forward:1
+msgid "Args:"
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.ChannelwiseLayerNorm.forward:2
+msgid "y: [M, K, N], M is batch size, N is channel size, K is length"
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.ChannelwiseLayerNorm.forward:3
+msgid "Returns:"
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.ChannelwiseLayerNorm.forward:4
+msgid "cLN_y: [M, K, N]"
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.GlobalLayerNorm:3
+msgid "Number of channels in the third dimension."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.GlobalLayerNorm.forward:1
+msgid ""
+"Tensor shape [M, K, N]. M is batch size, N is channel size, and K is "
+"length."
+msgstr ""
+
+#: of speechbrain.lobes.models.conv_tasnet.GlobalLayerNorm.forward:4
+msgid "**gLN_y** -- Tensor shape [M, K. N]"
+msgstr ""
+

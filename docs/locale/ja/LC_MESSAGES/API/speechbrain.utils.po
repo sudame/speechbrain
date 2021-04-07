@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.utils.rst:5
+msgid "speechbrain.utils"
+msgstr ""
+
+#: of speechbrain.utils:1
+msgid "Package containing various tools (accuracy, checkpoints ...)"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid ":obj:`speechbrain.utils.Accuracy <speechbrain.utils.Accuracy>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid "Calculate accuracy."
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid ":obj:`speechbrain.utils.DER <speechbrain.utils.DER>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid ""
+"Calculates Diarization Error Rate (DER) which is the sum of Missed "
+"Speaker (MS), False Alarm (FA), and Speaker Error Rate (SER) using md-"
+"eval-22.pl from NIST RT Evaluation."
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid ":obj:`speechbrain.utils.callchains <speechbrain.utils.callchains>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid "Chaining together callables, if some require relative lengths"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid ":obj:`speechbrain.utils.checkpoints <speechbrain.utils.checkpoints>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid "This module implements a checkpoint saver and loader."
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid ":obj:`speechbrain.utils.data_pipeline <speechbrain.utils.data_pipeline>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid "A pipeline for data transformations."
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid ":obj:`speechbrain.utils.data_utils <speechbrain.utils.data_utils>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid "This library gathers utilities for data io operation."
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid ":obj:`speechbrain.utils.depgraph <speechbrain.utils.depgraph>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid "A dependency graph for finding evaluation order."
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid ":obj:`speechbrain.utils.distributed <speechbrain.utils.distributed>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid "Guard for running certain operations on main process only"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid ":obj:`speechbrain.utils.edit_distance <speechbrain.utils.edit_distance>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid "Edit distance and WER computation."
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid ":obj:`speechbrain.utils.epoch_loop <speechbrain.utils.epoch_loop>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid "Implements a checkpointable epoch counter (loop)."
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid ":obj:`speechbrain.utils.logger <speechbrain.utils.logger>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid "Managing the logger, utilities"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid ":obj:`speechbrain.utils.metric_stats <speechbrain.utils.metric_stats>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid ""
+"The ``metric_stats`` module provides an abstract class for storing "
+"statistics produced over the course of an experiment and summarizing "
+"them."
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid ""
+":obj:`speechbrain.utils.parameter_transfer "
+"<speechbrain.utils.parameter_transfer>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid "Convenience functions for the simplest parameter transfer cases."
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid ":obj:`speechbrain.utils.superpowers <speechbrain.utils.superpowers>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid "Superpowers which should be rarely used."
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid ""
+":obj:`speechbrain.utils.torch_audio_backend "
+"<speechbrain.utils.torch_audio_backend>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid ":obj:`speechbrain.utils.train_logger <speechbrain.utils.train_logger>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:55:<autosummary>:1
+msgid "Loggers for experiment monitoring."
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:57
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.utils.rst:62
+msgid "Reference"
+msgstr ""
+

@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.tokenizers.SentencePiece.rst:5
+msgid "speechbrain.tokenizers.SentencePiece module"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece:1
+msgid "Library for Byte-pair-encoding (BPE) tokenization."
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece:5
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece:4
+msgid "Abdelwahab Heba 2020"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece:5
+msgid "Loren Lugosch 2020"
+msgstr ""
+
+#: ../../API/speechbrain.tokenizers.SentencePiece.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.tokenizers.SentencePiece.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.tokenizers.SentencePiece.rst:31:<autosummary>:1
+msgid ":obj:`SentencePiece <speechbrain.tokenizers.SentencePiece.SentencePiece>`"
+msgstr ""
+
+#: ../../API/speechbrain.tokenizers.SentencePiece.rst:31:<autosummary>:1 of
+#: speechbrain.tokenizers.SentencePiece.SentencePiece:1
+msgid "BPE class call the SentencePiece unsupervised text tokenizer from Google."
+msgstr ""
+
+#: ../../API/speechbrain.tokenizers.SentencePiece.rst:33
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece:3
+msgid "Reference: https://github.com/google/sentencepiece"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece:5
+msgid ""
+"SetencePiece lib is an unsupervised text tokenizer and detokenizer. It "
+"implements subword units like Byte-pair-encoding (BPE), Unigram language "
+"model and char/word tokenizer."
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece
+#: speechbrain.tokenizers.SentencePiece.SentencePiece.__call__
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece:9
+msgid "The directory where the model will be saved (or already stored)."
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece:11
+msgid ""
+"Vocab size for the chosen tokenizer type (BPE, Unigram). The vocab_size "
+"is optional for char, and mandatory for BPE & unigram tokenization."
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece:15
+msgid ""
+"Path of the annotation file which is used to learn the tokenizer. It can "
+"be in JSON or csv format."
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece:18
+msgid "The data entry which contains the word sequence in the annotation file."
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece:20
+msgid ""
+"(bpe, char, unigram). If \"bpe\", train unsupervised tokenization of "
+"piece of words. see: https://www.aclweb.org/anthology/P16-1162/ If "
+"\"word\" take the vocabulary from the input text. If \"unigram\" do piece"
+" of word tokenization using unigram language model, see: "
+"https://arxiv.org/abs/1804.10959"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece:27
+msgid ""
+"Whether the read entry contains characters format input. (default: False)"
+" (e.g., a p p l e _ i s _ g o o d)"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece:31
+msgid ""
+"Amount of characters covered by the model, good defaults are: 0.9995 for "
+"languages with a rich character set like Japanse or Chinese and 1.0 for "
+"other languages with small character set. (default: 1.0)"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece:36
+msgid ""
+"String contained a list of symbols separated by a comma. User-defined "
+"symbols are handled as one piece in any context. (default: None)"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece:40
+msgid "Maximum number of characters for the tokens. (default: 10)"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece:42
+#: speechbrain.tokenizers.SentencePiece.SentencePiece:44
+msgid "If -1 the bos_id = unk_id = 0. otherwise, bos_id = int. (default: -1)"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece:46
+msgid ""
+"If False, allow the sentenciepiece to extract piece crossing multiple "
+"words. This feature is important for : Chinese/Japenese/Korean. (default:"
+" True)"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece:50
+msgid ""
+"If not none, use at most this many sequences to train the tokenizer (for "
+"large datasets). (default: None)"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece:53
+msgid ""
+"List of the annotation file which is used for checking the accuracy of "
+"recovering words from the tokenizer."
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece:56
+msgid "The format of the annotation file. JSON or csv are the formats supported."
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece:60
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece.__call__:1
+msgid ""
+"This __call__ function implements the tokenizer encoder and decoder "
+"(restoring the string of word) for BPE, Regularized BPE (with unigram), "
+"and char (speechbrain/nnet/RNN.py)."
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece.__call__:5
+msgid ""
+"List if ( batch_lens = None and task = \"decode_from_list\") Contains the"
+" original labels. Shape: [batch_size, max_length]"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece.__call__:8
+msgid ""
+"Cotaining the relative length of each label sequences. Must be 1D tensor "
+"of shape: [batch_size]. (default: None)"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece.__call__:11
+msgid ""
+"Dictionnary which map the index from label sequences (batch tensor) to "
+"string label."
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece.__call__:14
+msgid ""
+"(\"encode\", \"decode\", \"decode_from_list) \"encode\": convert the "
+"batch tensor into sequence of tokens.     the output contain a list of "
+"(tokens_seq, tokens_lens) \"decode\": convert a tensor of tokens to a "
+"list of word sequences. \"decode_from_list\": convert a list of token "
+"sequences to a list     of word sequences."
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece.__call__:14
+msgid ""
+"(\"encode\", \"decode\", \"decode_from_list) \"encode\": convert the "
+"batch tensor into sequence of tokens."
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece.__call__:16
+msgid "the output contain a list of (tokens_seq, tokens_lens)"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece.__call__:17
+msgid ""
+"\"decode\": convert a tensor of tokens to a list of word sequences. "
+"\"decode_from_list\": convert a list of token sequences to a list"
+msgstr ""
+
+#: of speechbrain.tokenizers.SentencePiece.SentencePiece.__call__:19
+msgid "of word sequences."
+msgstr ""
+

@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.rst:5
+msgid "speechbrain"
+msgstr ""
+
+#: of speechbrain:1
+msgid "Comprehensive speech processing toolkit"
+msgstr ""
+
+#: ../../API/speechbrain.rst:22:<autosummary>:1
+msgid ":obj:`speechbrain.core <speechbrain.core>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.rst:22:<autosummary>:1
+msgid "Core SpeechBrain code for running experiments."
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid ":obj:`speechbrain.alignment <speechbrain.alignment>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid "Tools for aligning transcripts and speech signals"
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid ":obj:`speechbrain.dataio <speechbrain.dataio>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid "Data loading and dataset preprocessing"
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid ":obj:`speechbrain.decoders <speechbrain.decoders>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid "Package containing the different decoders (ctc, beamsearch ...)"
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid ":obj:`speechbrain.lm <speechbrain.lm>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid "Package defining language models"
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid ":obj:`speechbrain.lobes <speechbrain.lobes>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid "Package defining common blocks (DNN models, processing ...)"
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid ":obj:`speechbrain.nnet <speechbrain.nnet>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid "Package containing the different neural networks layers"
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid ":obj:`speechbrain.pretrained <speechbrain.pretrained>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid "Pretrained models"
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid ":obj:`speechbrain.processing <speechbrain.processing>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid "Package containing various techniques of speech processing"
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid ":obj:`speechbrain.tokenizers <speechbrain.tokenizers>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid "Package defining the SentencePiece tokenizer"
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid ":obj:`speechbrain.utils <speechbrain.utils>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.rst:53:<autosummary>:1
+msgid "Package containing various tools (accuracy, checkpoints ...)"
+msgstr ""
+
+#: ../../API/speechbrain.rst:55
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.rst:57
+msgid "``__all__`` Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.rst:62
+msgid ":class:`Brain <speechbrain.core.Brain>`"
+msgstr ""
+
+#: ../../API/speechbrain.rst:63
+msgid "Brain class abstracts away the details of data loops."
+msgstr ""
+
+#: ../../API/speechbrain.rst:64
+msgid ":class:`Stage <speechbrain.core.Stage>`"
+msgstr ""
+
+#: ../../API/speechbrain.rst:65
+msgid "Simple enum to track stage of experiments."
+msgstr ""
+
+#: ../../API/speechbrain.rst:68
+msgid "``__all__`` Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.rst:73
+msgid ""
+":func:`create_experiment_directory "
+"<speechbrain.core.create_experiment_directory>`"
+msgstr ""
+
+#: ../../API/speechbrain.rst:74
+msgid "Create the output folder and relevant experimental files."
+msgstr ""
+
+#: ../../API/speechbrain.rst:75
+msgid ":func:`parse_arguments <speechbrain.core.parse_arguments>`"
+msgstr ""
+
+#: ../../API/speechbrain.rst:76
+msgid "Parse command-line arguments to the experiment."
+msgstr ""
+
+#: ../../API/speechbrain.rst:82
+msgid "Reference"
+msgstr ""
+

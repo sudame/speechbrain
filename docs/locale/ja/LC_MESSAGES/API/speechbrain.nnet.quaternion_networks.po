@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.nnet.quaternion_networks.rst:5
+msgid "speechbrain.nnet.quaternion_networks"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks:1
+msgid "Package containing quaternion neural networks"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.rst:28:<autosummary>:1
+msgid ""
+":obj:`speechbrain.nnet.quaternion_networks.q_CNN "
+"<speechbrain.nnet.quaternion_networks.q_CNN>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.rst:28:<autosummary>:1
+msgid "Library implementing quaternion-valued convolutional neural networks."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.rst:28:<autosummary>:1
+msgid ""
+":obj:`speechbrain.nnet.quaternion_networks.q_RNN "
+"<speechbrain.nnet.quaternion_networks.q_RNN>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.rst:28:<autosummary>:1
+msgid "Library implementing quaternion-valued recurrent neural networks."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.rst:28:<autosummary>:1
+msgid ""
+":obj:`speechbrain.nnet.quaternion_networks.q_linear "
+"<speechbrain.nnet.quaternion_networks.q_linear>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.rst:28:<autosummary>:1
+msgid "Library implementing quaternion-valued linear transformation."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.rst:28:<autosummary>:1
+msgid ""
+":obj:`speechbrain.nnet.quaternion_networks.q_normalization "
+"<speechbrain.nnet.quaternion_networks.q_normalization>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.rst:28:<autosummary>:1
+msgid "Library implementing quaternion-valued normalization."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.rst:28:<autosummary>:1
+msgid ""
+":obj:`speechbrain.nnet.quaternion_networks.q_ops "
+"<speechbrain.nnet.quaternion_networks.q_ops>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.rst:28:<autosummary>:1
+msgid ""
+"This library implements different operations needed by quaternion- valued"
+" architectures."
+msgstr ""
+

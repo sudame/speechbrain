@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.dataio.batch.rst:5
+msgid "speechbrain.dataio.batch module"
+msgstr ""
+
+#: of speechbrain.dataio.batch:1
+msgid "Batch collation"
+msgstr ""
+
+#: of speechbrain.dataio.batch:4
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.dataio.batch:4
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.batch.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.batch.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.batch.rst:32:<autosummary>:1
+msgid ":obj:`PaddedBatch <speechbrain.dataio.batch.PaddedBatch>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.batch.rst:32:<autosummary>:1 of
+#: speechbrain.dataio.batch.PaddedBatch:1
+msgid "Collate_fn when examples are dicts and have variable-length sequences."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.batch.rst:32:<autosummary>:1
+msgid ":obj:`PaddedData <speechbrain.dataio.batch.PaddedData>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.batch.rst:34
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.dataio.batch.PaddedData:1
+msgid "Bases: :class:`tuple`"
+msgstr ""
+
+#: ../../docstring of speechbrain.dataio.batch.PaddedData.data:1
+msgid "Alias for field number 0"
+msgstr ""
+
+#: ../../docstring of speechbrain.dataio.batch.PaddedData.lengths:1
+msgid "Alias for field number 1"
+msgstr ""
+
+#: of speechbrain.dataio.batch.PaddedBatch:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: of speechbrain.dataio.batch.PaddedBatch:3
+msgid ""
+"Different elements in the examples get matched by key. All numpy tensors "
+"get converted to Torch (PyTorch default_convert) Then, by default, all "
+"torch.Tensor valued elements get padded and support collective "
+"pin_memory() and to() calls. Regular Python data types are just collected"
+" in a list."
+msgstr ""
+
+#: of speechbrain.dataio.batch.PaddedBatch
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.dataio.batch.PaddedBatch:9
+msgid "List of example dicts, as produced by Dataloader."
+msgstr ""
+
+#: of speechbrain.dataio.batch.PaddedBatch:11
+msgid "(Optional) List of keys to pad on. If None, pad all torch.Tensors"
+msgstr ""
+
+#: of speechbrain.dataio.batch.PaddedBatch:13
+msgid ""
+"(Optional) Only these keys participate in collective memory pinning and "
+"moving with to(). If None, defaults to all items with torch.Tensor "
+"values."
+msgstr ""
+
+#: of speechbrain.dataio.batch.PaddedBatch:17
+msgid ""
+"Called with a list of tensors to be padded together. Needs to return two "
+"tensors: the padded data, and another tensor for the data lengths."
+msgstr ""
+
+#: of speechbrain.dataio.batch.PaddedBatch:20
+msgid "(Optional) Extra kwargs to pass to padding_func. E.G. mode, value"
+msgstr ""
+
+#: of speechbrain.dataio.batch.PaddedBatch:22
+msgid ""
+"Whether to apply PyTorch default_convert (numpy to torch recursively, "
+"etc.) on all data. Default:True, usually does the right thing."
+msgstr ""
+
+#: of speechbrain.dataio.batch.PaddedBatch:25
+msgid ""
+"Whether to apply PyTorch-default_collate-like stacking on values that "
+"didn't get padded. This stacks if it can, but doesn't error out if it "
+"cannot. Default:True, usually does the right thing."
+msgstr ""
+
+#: of speechbrain.dataio.batch.PaddedBatch:31
+#: speechbrain.dataio.batch.PaddedBatch.__iter__:4
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.dataio.batch.PaddedBatch.__iter__:1
+msgid "Iterates over the different elements of the batch."
+msgstr ""
+
+#: of speechbrain.dataio.batch.PaddedBatch.pin_memory:1
+msgid "In-place, moves relevant elements to pinned memory."
+msgstr ""
+
+#: of speechbrain.dataio.batch.PaddedBatch.to:1
+msgid "In-place move/cast relevant elements."
+msgstr ""
+
+#: of speechbrain.dataio.batch.PaddedBatch.to:3
+msgid "Passes all arguments to torch.Tensor.to, see its documentation."
+msgstr ""
+
+#: of speechbrain.dataio.batch.PaddedBatch.at_position:1
+msgid "Fetch an item by its position in the batch."
+msgstr ""
+

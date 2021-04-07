@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../installation.md:2
+msgid "Quick installation"
+msgstr ""
+
+#: ../../installation.md:4
+msgid ""
+"SpeechBrain is constantly evolving. New features, tutorials, and "
+"documentation will appear over time. SpeechBrain can be installed via "
+"PyPI to rapidly use the standard library. Moreover, a local installation "
+"can be used to run experiments and modify/customize the toolkit."
+msgstr ""
+
+#: ../../installation.md:6
+msgid ""
+"SpeechBrain supports both CPU and GPU computations. For most recipes, "
+"however, a GPU is necessary during training. Please note that CUDA must "
+"be properly installed to use GPUs."
+msgstr ""
+
+#: ../../installation.md:8
+msgid "We support pytorch >= 1.7 (https://pytorch.org/) and Python >= 3.7."
+msgstr ""
+
+#: ../../installation.md:10
+msgid "Install via PyPI"
+msgstr ""
+
+#: ../../installation.md:12 ../../installation.md:26
+msgid ""
+"Once you have created your Python environment (see instructions below) "
+"you can simply type:"
+msgstr ""
+
+#: ../../installation.md:18
+msgid "Then you can then access SpeechBrain with:"
+msgstr ""
+
+#: ../../installation.md:24
+msgid "Install locally"
+msgstr ""
+
+#: ../../installation.md:35
+msgid "Then you can access SpeechBrain with:"
+msgstr ""
+
+#: ../../installation.md:41
+msgid ""
+"Any modification made to the speechbrain package will be automatically "
+"interpreted as we installed it with the --editable flag."
+msgstr ""
+
+#: ../../installation.md:43
+msgid "Test installation"
+msgstr ""
+
+#: ../../installation.md:44
+msgid ""
+"Please, run the following script  from the main folder to make sure your "
+"installation is working:"
+msgstr ""
+
+#: ../../installation.md:50
+msgid "Operating Systems"
+msgstr ""
+
+#: ../../installation.md:52
+msgid ""
+"SpeechBrain supports Linux-based distributions and macOS. A solution for "
+"windows users can be found in this GitHub issue."
+msgstr ""
+
+#: ../../installation.md:55
+msgid "Anaconda and venv"
+msgstr ""
+
+#: ../../installation.md:57
+msgid ""
+"A good practice is to have different python environments for your "
+"different tools and toolkits, so they do not interfere with each other. "
+"This can be done either with Anaconda or venv."
+msgstr ""
+
+#: ../../installation.md:61
+msgid ""
+"Anaconda can be installed by simply following this tutorial. In practice,"
+" it is a matter of downloading the installation script and executing it."
+msgstr ""
+
+#: ../../installation.md:63
+msgid "Anaconda setup"
+msgstr ""
+
+#: ../../installation.md:65
+msgid "Once Anaconda is installed, you can create a new environment with:"
+msgstr ""
+
+#: ../../installation.md:71
+msgid "Then, activate it with:"
+msgstr ""
+
+#: ../../installation.md:77 ../../installation.md:95
+msgid "Now, you can install all the needed packages!"
+msgstr ""
+
+#: ../../installation.md:79
+msgid ""
+"More information on managing environments with Anaconda can be found in "
+"the documentation."
+msgstr ""
+
+#: ../../installation.md:81
+msgid "venv setup"
+msgstr ""
+
+#: ../../installation.md:83
+msgid "venv is even simpler. To create your environment:"
+msgstr ""
+
+#: ../../installation.md:89
+msgid "And to activate it:"
+msgstr ""
+
+#: ../../installation.md:99
+msgid "Test your GPU installation"
+msgstr ""
+
+#: ../../installation.md:101
+msgid ""
+"As SpeechBrain only relies on PyTorch, its GPU usage is also linked to "
+"it. Hence, if PyTorch sees your GPUs, SpeechBrain will. Many functions "
+"can be called from the torch package to verify that your GPUs are "
+"detected:"
+msgstr ""
+

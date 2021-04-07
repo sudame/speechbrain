@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.utils.superpowers.rst:5
+msgid "speechbrain.utils.superpowers module"
+msgstr ""
+
+#: of speechbrain.utils.superpowers:1
+msgid "Superpowers which should be rarely used."
+msgstr ""
+
+#: of speechbrain.utils.superpowers:3
+msgid ""
+"This library contains functions for importing python classes and for "
+"running shell commands. Remember, with great power comes great "
+"responsibility."
+msgstr ""
+
+#: of speechbrain.utils.superpowers:8
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.utils.superpowers:8
+msgid "Mirco Ravanelli 2020"
+msgstr ""
+
+#: ../../API/speechbrain.utils.superpowers.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.utils.superpowers.rst:18
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.utils.superpowers.rst:31:<autosummary>:1
+msgid ":obj:`run_shell <speechbrain.utils.superpowers.run_shell>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.superpowers.rst:31:<autosummary>:1 of
+#: speechbrain.utils.superpowers.run_shell:1
+msgid "This function can be used to run a command in the bash shell."
+msgstr ""
+
+#: ../../API/speechbrain.utils.superpowers.rst:33
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.utils.superpowers.run_shell
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.utils.superpowers.run_shell:3
+msgid "Shell command to run."
+msgstr ""
+
+#: of speechbrain.utils.superpowers.run_shell
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.utils.superpowers.run_shell:6
+msgid ""
+"* *bytes* -- The captured standard output. * *bytes* -- The captured "
+"standard error. * *int* -- The returncode."
+msgstr ""
+
+#: of speechbrain.utils.superpowers.run_shell:6
+msgid "*bytes* -- The captured standard output."
+msgstr ""
+
+#: of speechbrain.utils.superpowers.run_shell:7
+msgid "*bytes* -- The captured standard error."
+msgstr ""
+
+#: of speechbrain.utils.superpowers.run_shell:8
+msgid "*int* -- The returncode."
+msgstr ""
+
+#: of speechbrain.utils.superpowers.run_shell
+msgid "Raises"
+msgstr ""
+
+#: of speechbrain.utils.superpowers.run_shell:10
+msgid "If returncode is not 0, i.e., command failed."
+msgstr ""
+
+#: of speechbrain.utils.superpowers.run_shell:13
+msgid "Example"
+msgstr ""
+

@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.utils.epoch_loop.rst:5
+msgid "speechbrain.utils.epoch_loop module"
+msgstr ""
+
+#: of speechbrain.utils.epoch_loop:1
+msgid "Implements a checkpointable epoch counter (loop)."
+msgstr ""
+
+#: of speechbrain.utils.epoch_loop:4
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.utils.epoch_loop:4
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: ../../API/speechbrain.utils.epoch_loop.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.utils.epoch_loop.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.utils.epoch_loop.rst:31:<autosummary>:1
+msgid ":obj:`EpochCounter <speechbrain.utils.epoch_loop.EpochCounter>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.epoch_loop.rst:31:<autosummary>:1 of
+#: speechbrain.utils.epoch_loop.EpochCounter:1
+msgid "An epoch counter which can save and recall its state."
+msgstr ""
+
+#: ../../API/speechbrain.utils.epoch_loop.rst:33
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.utils.epoch_loop.EpochCounter:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: of speechbrain.utils.epoch_loop.EpochCounter:3
+msgid ""
+"Use this as the iterator for epochs. Note that this iterator gives you "
+"the numbers from [1 ... limit] not [0 ... limit-1] as range(limit) would."
+msgstr ""
+
+#: of speechbrain.utils.epoch_loop.EpochCounter:8
+msgid "Example"
+msgstr ""
+

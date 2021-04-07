@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:5
+msgid "speechbrain.lobes.models.ECAPA_TDNN module"
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN:1
+msgid "A popular speaker recognition and diarization model."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN:4
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN:4
+msgid "Hwidong Na 2020"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:39:<autosummary>:1
+msgid ""
+":obj:`AttentiveStatisticsPooling "
+"<speechbrain.lobes.models.ECAPA_TDNN.AttentiveStatisticsPooling>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:39:<autosummary>:1
+msgid ""
+"This class implements an attentive statistic pooling layer for each "
+"channel."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:39:<autosummary>:1
+msgid ":obj:`BatchNorm1d <speechbrain.lobes.models.ECAPA_TDNN.BatchNorm1d>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:39:<autosummary>:1
+msgid ":obj:`Classifier <speechbrain.lobes.models.ECAPA_TDNN.Classifier>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:39:<autosummary>:1 of
+#: speechbrain.lobes.models.ECAPA_TDNN.Classifier:1
+msgid "This class implements the cosine similarity on the top of features."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:39:<autosummary>:1
+msgid ":obj:`Conv1d <speechbrain.lobes.models.ECAPA_TDNN.Conv1d>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:39:<autosummary>:1
+msgid ":obj:`ECAPA_TDNN <speechbrain.lobes.models.ECAPA_TDNN.ECAPA_TDNN>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:39:<autosummary>:1
+msgid "An implementation of the speaker embedding model in a paper."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:39:<autosummary>:1
+msgid ":obj:`Res2NetBlock <speechbrain.lobes.models.ECAPA_TDNN.Res2NetBlock>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:39:<autosummary>:1 of
+#: speechbrain.lobes.models.ECAPA_TDNN.Res2NetBlock:1
+msgid "An implementation of Res2NetBlock w/ dilation."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:39:<autosummary>:1
+msgid ":obj:`SEBlock <speechbrain.lobes.models.ECAPA_TDNN.SEBlock>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:39:<autosummary>:1 of
+#: speechbrain.lobes.models.ECAPA_TDNN.SEBlock:1
+msgid "An implementation of squeeuze-and-excitation block."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:39:<autosummary>:1
+msgid ":obj:`SERes2NetBlock <speechbrain.lobes.models.ECAPA_TDNN.SERes2NetBlock>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:39:<autosummary>:1 of
+#: speechbrain.lobes.models.ECAPA_TDNN.SERes2NetBlock:1
+msgid ""
+"An implementation of building block in ECAPA-TDNN, i.e., TDNN-Res2Net-"
+"TDNN-SEBlock."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:39:<autosummary>:1
+msgid ":obj:`TDNNBlock <speechbrain.lobes.models.ECAPA_TDNN.TDNNBlock>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:39:<autosummary>:1 of
+#: speechbrain.lobes.models.ECAPA_TDNN.TDNNBlock:1
+msgid "An implementation of TDNN."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.ECAPA_TDNN.rst:41
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.Conv1d:1
+msgid "Bases: :class:`speechbrain.nnet.CNN.Conv1d`"
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.BatchNorm1d:1
+msgid "Bases: :class:`speechbrain.nnet.normalization.BatchNorm1d`"
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.AttentiveStatisticsPooling:1
+#: speechbrain.lobes.models.ECAPA_TDNN.Classifier:1
+#: speechbrain.lobes.models.ECAPA_TDNN.ECAPA_TDNN:1
+#: speechbrain.lobes.models.ECAPA_TDNN.Res2NetBlock:1
+#: speechbrain.lobes.models.ECAPA_TDNN.SEBlock:1
+#: speechbrain.lobes.models.ECAPA_TDNN.SERes2NetBlock:1
+#: speechbrain.lobes.models.ECAPA_TDNN.TDNNBlock:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.TDNNBlock:5
+msgid "in_channels"
+msgstr ""
+
+#: of
+msgid "int"
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.TDNNBlock:6
+msgid "Number of input channels."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.TDNNBlock:7
+msgid "out_channels"
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.Res2NetBlock:5
+#: speechbrain.lobes.models.ECAPA_TDNN.SEBlock:7
+#: speechbrain.lobes.models.ECAPA_TDNN.SERes2NetBlock:4
+#: speechbrain.lobes.models.ECAPA_TDNN.TDNNBlock:8
+msgid "The number of output channels."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.TDNNBlock:9
+msgid "kernel_size"
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.SERes2NetBlock:8
+#: speechbrain.lobes.models.ECAPA_TDNN.TDNNBlock:10
+msgid "The kernel size of the TDNN blocks."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.TDNNBlock:11
+msgid "dilation"
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.Res2NetBlock:9
+#: speechbrain.lobes.models.ECAPA_TDNN.SERes2NetBlock:10
+#: speechbrain.lobes.models.ECAPA_TDNN.TDNNBlock:12
+msgid "The dilation of the Res2Net block."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.TDNNBlock:14
+msgid "activation"
+msgstr ""
+
+#: of
+msgid "torch class"
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.ECAPA_TDNN:7
+#: speechbrain.lobes.models.ECAPA_TDNN.SERes2NetBlock:12
+#: speechbrain.lobes.models.ECAPA_TDNN.TDNNBlock:14
+msgid "A class for constructing the activation layers."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.AttentiveStatisticsPooling:10
+#: speechbrain.lobes.models.ECAPA_TDNN.Classifier:13
+#: speechbrain.lobes.models.ECAPA_TDNN.ECAPA_TDNN:19
+#: speechbrain.lobes.models.ECAPA_TDNN.Res2NetBlock:13
+#: speechbrain.lobes.models.ECAPA_TDNN.SEBlock:11
+#: speechbrain.lobes.models.ECAPA_TDNN.SERes2NetBlock:16
+#: speechbrain.lobes.models.ECAPA_TDNN.TDNNBlock:17
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.AttentiveStatisticsPooling
+#: speechbrain.lobes.models.ECAPA_TDNN.AttentiveStatisticsPooling.forward
+#: speechbrain.lobes.models.ECAPA_TDNN.Classifier
+#: speechbrain.lobes.models.ECAPA_TDNN.Classifier.forward
+#: speechbrain.lobes.models.ECAPA_TDNN.ECAPA_TDNN
+#: speechbrain.lobes.models.ECAPA_TDNN.ECAPA_TDNN.forward
+#: speechbrain.lobes.models.ECAPA_TDNN.Res2NetBlock
+#: speechbrain.lobes.models.ECAPA_TDNN.SEBlock
+#: speechbrain.lobes.models.ECAPA_TDNN.SERes2NetBlock
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.Res2NetBlock:3
+msgid "The number of channels expected in the input."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.Res2NetBlock:7
+#: speechbrain.lobes.models.ECAPA_TDNN.SERes2NetBlock:6
+msgid "The scale of the Res2Net block."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.AttentiveStatisticsPooling:4
+#: speechbrain.lobes.models.ECAPA_TDNN.SEBlock:3
+msgid "The number of input channels."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.SEBlock:5
+msgid "The number of output channels after squeeze."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.AttentiveStatisticsPooling:1
+msgid ""
+"This class implements an attentive statistic pooling layer for each "
+"channel. It returns the concatenated mean and std of the input tensor."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.AttentiveStatisticsPooling:6
+msgid "The number of attention channels."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.AttentiveStatisticsPooling.forward:1
+msgid "Calculates mean and std for a batch (input tensor)."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.AttentiveStatisticsPooling.forward:3
+msgid "Tensor of shape [N, C, L]."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.ECAPA_TDNN:1
+msgid ""
+"An implementation of the speaker embedding model in a paper. \"ECAPA-"
+"TDNN: Emphasized Channel Attention, Propagation and Aggregation in TDNN "
+"Based Speaker Verification\" (https://arxiv.org/abs/2005.07143)."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.Classifier:3
+#: speechbrain.lobes.models.ECAPA_TDNN.ECAPA_TDNN:5
+msgid "Device used, e.g., \"cpu\" or \"cuda\"."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.ECAPA_TDNN:9
+msgid "Output channels for TDNN/SERes2Net layer."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.ECAPA_TDNN:11
+msgid "List of kernel sizes for each layer."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.ECAPA_TDNN:13
+msgid "List of dilations for kernels in each layer."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.Classifier:7
+#: speechbrain.lobes.models.ECAPA_TDNN.ECAPA_TDNN:15
+msgid "Number of neurons in linear layers."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.ECAPA_TDNN.forward:1
+msgid "Returns the embedding vector."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.ECAPA_TDNN.forward:3
+msgid "Tensor of shape (batch, time, channel)."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.Classifier:5
+msgid "Number of linear layers."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.Classifier:9
+msgid "Number of classes."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.Classifier.forward:1
+msgid "Returns the output probabilities over speakers."
+msgstr ""
+
+#: of speechbrain.lobes.models.ECAPA_TDNN.Classifier.forward:3
+msgid "Torch tensor."
+msgstr ""
+

@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.lm.arpa.rst:5
+msgid "speechbrain.lm.arpa module"
+msgstr ""
+
+#: of speechbrain.lm.arpa:1
+msgid "Tools for working with ARPA format N-gram models"
+msgstr ""
+
+#: of speechbrain.lm.arpa:3
+msgid ""
+"Expects the ARPA format to have: - a \\data\\ header - counts of ngrams "
+"in the order that they are later listed - line breaks between \\data\\ "
+"and \\n-grams: sections - \\end\\ E.G."
+msgstr ""
+
+#: of speechbrain.lm.arpa:9
+msgid "``` \\data\\ ngram 1=2 ngram 2=1"
+msgstr ""
+
+#: of speechbrain.lm.arpa:14
+msgid "\\1-grams: -1.0000 Hello -0.23 -0.6990 world -0.2553"
+msgstr ""
+
+#: of speechbrain.lm.arpa:18
+msgid "\\2-grams: -0.2553 Hello world"
+msgstr ""
+
+#: of speechbrain.lm.arpa:21
+msgid "\\end\\ ```"
+msgstr ""
+
+#: of speechbrain.lm.arpa:26
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.lm.arpa:59
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.lm.arpa:59
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: ../../API/speechbrain.lm.arpa.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.lm.arpa.rst:18
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.lm.arpa.rst:31:<autosummary>:1
+msgid ":obj:`read_arpa <speechbrain.lm.arpa.read_arpa>`"
+msgstr ""
+
+#: ../../API/speechbrain.lm.arpa.rst:31:<autosummary>:1 of
+#: speechbrain.lm.arpa.read_arpa:1
+msgid "Reads an ARPA format N-gram language model from a stream"
+msgstr ""
+
+#: ../../API/speechbrain.lm.arpa.rst:33
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.lm.arpa.read_arpa
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.lm.arpa.read_arpa:3
+msgid "Text file stream (as commonly returned by open()) to read the model from."
+msgstr ""
+
+#: of speechbrain.lm.arpa.read_arpa
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.lm.arpa.read_arpa:7
+msgid ""
+"* *dict* -- Maps N-gram orders to the number ngrams of that order. "
+"Essentially the   \\data\\ section of an ARPA format file. * *dict* -- "
+"The log probabilities (first column) in the ARPA file.   This is a triply"
+" nested dict.   The first layer is indexed by N-gram order (integer).   "
+"The second layer is indexed by the context (tuple of tokens).   The third"
+" layer is indexed by tokens, and maps to the log prob.   This format is "
+"compatible with `speechbrain.lm.ngram.BackoffNGramLM`   Example:   In "
+"ARPA format, log(P(fox|a quick red)) = -5.3 is expressed:       `-5.3 a "
+"quick red fox`   And to access that probability, use:       "
+"`ngrams_by_order[4][('a', 'quick', 'red')]['fox']` * *dict* -- The log "
+"backoff weights (last column) in the ARPA file.   This is a doubly nested"
+" dict.   The first layer is indexed by N-gram order (integer).   The "
+"second layer is indexed by the backoff history (tuple of tokens)   i.e. "
+"the context on which the probability distribution is conditioned   on. "
+"This maps to the log weights.   This format is compatible with "
+"`speechbrain.lm.ngram.BackoffNGramLM`   Example:   If log(P(fox|a quick "
+"red)) is not listed, we find   log(backoff(a quick red)) = -23.4 which in"
+" ARPA format is:       `<logp> a quick red -23.4`   And to access that "
+"here, use:       `backoffs_by_order[3][('a', 'quick', 'red')]`"
+msgstr ""
+
+#: of speechbrain.lm.arpa.read_arpa:7
+msgid ""
+"*dict* -- Maps N-gram orders to the number ngrams of that order. "
+"Essentially the \\data\\ section of an ARPA format file."
+msgstr ""
+
+#: of speechbrain.lm.arpa.read_arpa:9
+msgid ""
+"*dict* -- The log probabilities (first column) in the ARPA file. This is "
+"a triply nested dict. The first layer is indexed by N-gram order "
+"(integer). The second layer is indexed by the context (tuple of tokens). "
+"The third layer is indexed by tokens, and maps to the log prob. This "
+"format is compatible with `speechbrain.lm.ngram.BackoffNGramLM` Example: "
+"In ARPA format, log(P(fox|a quick red)) = -5.3 is expressed:"
+msgstr ""
+
+#: of speechbrain.lm.arpa.read_arpa:17
+msgid "`-5.3 a quick red fox`"
+msgstr ""
+
+#: of speechbrain.lm.arpa.read_arpa:18
+msgid "And to access that probability, use:"
+msgstr ""
+
+#: of speechbrain.lm.arpa.read_arpa:19
+msgid "`ngrams_by_order[4][('a', 'quick', 'red')]['fox']`"
+msgstr ""
+
+#: of speechbrain.lm.arpa.read_arpa:20
+msgid ""
+"*dict* -- The log backoff weights (last column) in the ARPA file. This is"
+" a doubly nested dict. The first layer is indexed by N-gram order "
+"(integer). The second layer is indexed by the backoff history (tuple of "
+"tokens) i.e. the context on which the probability distribution is "
+"conditioned on. This maps to the log weights. This format is compatible "
+"with `speechbrain.lm.ngram.BackoffNGramLM` Example: If log(P(fox|a quick "
+"red)) is not listed, we find log(backoff(a quick red)) = -23.4 which in "
+"ARPA format is:"
+msgstr ""
+
+#: of speechbrain.lm.arpa.read_arpa:30
+msgid "`<logp> a quick red -23.4`"
+msgstr ""
+
+#: of speechbrain.lm.arpa.read_arpa:32
+msgid "And to access that here, use:"
+msgstr ""
+
+#: of speechbrain.lm.arpa.read_arpa:32
+msgid "`backoffs_by_order[3][('a', 'quick', 'red')]`"
+msgstr ""
+
+#: of speechbrain.lm.arpa.read_arpa
+msgid "Raises"
+msgstr ""
+
+#: of speechbrain.lm.arpa.read_arpa:34
+msgid "If no LM is found or the file is badly formatted."
+msgstr ""
+

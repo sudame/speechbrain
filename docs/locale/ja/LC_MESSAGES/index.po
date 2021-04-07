@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../index.rst:44
+msgid "Getting started:"
+msgstr "はじめに:"
+
+#: ../../index.rst:57
+msgid "Core library (speechbrain)"
+msgstr "コアライブラリ (speechbrain)"
+
+#: ../../index.rst:57
+msgid "HyperPyYAML (hyperpyyaml)"
+msgstr ""
+
+#: ../../index.rst:57
+msgid "API Documentation:"
+msgstr "APIドキュメント"
+
+#: ../../index.rst:7
+msgid "SpeechBrain"
+msgstr ""
+
+#: ../../index.rst:13
+msgid ""
+"SpeechBrain is an open-source and all-in-one speech toolkit based on "
+"PyTorch. This documentation is intended to give SpeechBrain users all the"
+" API information necessary to develop their projects. For tutorials, "
+"please refer to the official `Github "
+"<https://github.com/speechbrain/speechbrain>`_ or the official `Website "
+"<https://speechbrain.github.io>`"
+msgstr ""
+"SpeachBrain は PyTorch で動く、オープンソースな会話のオールインワンツールです。"
+"このドキュメントは、SpeechBrain を用いた開発に必要なすべてのAPIドキュメントを提供することを目的にしています。"
+"チュートリアルは `GitHub <https://github.com/speechbrain/speechbrain>`_ か"
+" `公式ウェブサイト <https://speechbrain.github.io>`_ を参照してください。"
+
+#: ../../index.rst:21
+msgid "Licence"
+msgstr "ライセンス(原文)"
+
+#: ../../index.rst:23
+msgid ""
+"SpeechBrain is released under the Apache license, version 2.0. The Apache"
+" license is a popular BSD-like license. SpeechBrain can be redistributed "
+"for free, even for commercial purposes, although you can not take off the"
+" license headers (and under some circumstances you may have to distribute"
+" a license document). Apache is not a viral license like the GPL, which "
+"forces you to release your modifications to the source code. Also note "
+"that this project has no connection to the Apache Foundation, other than "
+"that we use the same license terms."
+msgstr ""
+
+#: ../../index.rst:27
+msgid ""
+"It is a community project, which means that discussions are engaged "
+"community-wide while decisions are taken by Dr. Ravanelli and Dr. "
+"Parcollet with respect to the community views. There is no legal "
+"institution associated as an owner of SpeechBrain. Furthermore, and due "
+"to the Apache Licence, anyone that would disagree with the way the "
+"project is being run can fork it and start a new toolkit."
+msgstr ""
+
+#: ../../index.rst:31
+msgid "Referencing SpeechBrain"
+msgstr "SpeechBrain を引用する場合"
+
+#: ../../index.rst:55
+msgid "API Documentation"
+msgstr "API ドキュメント"
+
+#: ../../index.rst:76:<autosummary>:1
+msgid ":obj:`speechbrain <speechbrain>`\\"
+msgstr ""
+
+#: ../../index.rst:76:<autosummary>:1
+msgid "Comprehensive speech processing toolkit"
+msgstr "全体を統括するツール群"
+
+#: ../../index.rst:76:<autosummary>:1
+msgid ":obj:`speechbrain.alignment <speechbrain.alignment>`\\"
+msgstr ""
+
+#: ../../index.rst:76:<autosummary>:1
+msgid "Tools for aligning transcripts and speech signals"
+msgstr "音声信号と文字起こしのためのツール群"
+
+#: ../../index.rst:76:<autosummary>:1
+msgid ":obj:`speechbrain.dataio <speechbrain.dataio>`\\"
+msgstr ""
+
+#: ../../index.rst:76:<autosummary>:1
+msgid "Data loading and dataset preprocessing"
+msgstr "データの読み込みとデータセットの前処理のツール群"
+
+#: ../../index.rst:76:<autosummary>:1
+msgid ":obj:`speechbrain.decoders <speechbrain.decoders>`\\"
+msgstr ""
+
+#: ../../index.rst:76:<autosummary>:1
+msgid "Package containing the different decoders (ctc, beamsearch ...)"
+msgstr "さまざまなデコーダー (ctc, beamsearch, ...) を取り扱うパッケージ"
+
+#: ../../index.rst:76:<autosummary>:1
+msgid ":obj:`speechbrain.lm <speechbrain.lm>`\\"
+msgstr ""
+
+#: ../../index.rst:76:<autosummary>:1
+msgid "Package defining language models"
+msgstr "言語モデルを定義するパッケージ"
+
+#: ../../index.rst:76:<autosummary>:1
+msgid ":obj:`speechbrain.lobes <speechbrain.lobes>`\\"
+msgstr ""
+
+#: ../../index.rst:76:<autosummary>:1
+msgid "Package defining common blocks (DNN models, processing ...)"
+msgstr "一般的なブロック (DNNモデル, プロセッシング, ...) を取り扱うパッケージ"
+
+#: ../../index.rst:76:<autosummary>:1
+msgid ":obj:`speechbrain.nnet <speechbrain.nnet>`\\"
+msgstr ""
+
+#: ../../index.rst:76:<autosummary>:1
+msgid "Package containing the different neural networks layers"
+msgstr "さまざまなニューラルネットワークレイヤーを取り扱うパッケージ"
+
+#: ../../index.rst:76:<autosummary>:1
+msgid ":obj:`speechbrain.processing <speechbrain.processing>`\\"
+msgstr ""
+
+#: ../../index.rst:76:<autosummary>:1
+msgid "Package containing various techniques of speech processing"
+msgstr "音声処理に関する様々な処理を取り扱うパッケージ"
+
+#: ../../index.rst:76:<autosummary>:1
+msgid ":obj:`speechbrain.tokenizers <speechbrain.tokenizers>`\\"
+msgstr ""
+
+#: ../../index.rst:76:<autosummary>:1
+msgid "Package defining the SentencePiece tokenizer"
+msgstr "SentencePiece のトークナイザを取り扱うパッケージ"
+
+#: ../../index.rst:76:<autosummary>:1
+msgid ":obj:`speechbrain.utils <speechbrain.utils>`\\"
+msgstr ""
+
+#: ../../index.rst:76:<autosummary>:1
+msgid "Package containing various tools (accuracy, checkpoints ...)"
+msgstr "さまざまなユーティリティを取り扱うパッケージ (accuracy, checkpoints, ...)"
+

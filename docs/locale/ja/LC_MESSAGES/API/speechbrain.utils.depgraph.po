@@ -1,0 +1,236 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.utils.depgraph.rst:5
+msgid "speechbrain.utils.depgraph module"
+msgstr ""
+
+#: of speechbrain.utils.depgraph:1
+msgid "A dependency graph for finding evaluation order."
+msgstr ""
+
+#: of speechbrain.utils.depgraph:4
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.utils.depgraph:55
+msgid "Authors:"
+msgstr ""
+
+#: of speechbrain.utils.depgraph:55
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: ../../API/speechbrain.utils.depgraph.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.utils.depgraph.rst:18
+msgid "Exceptions:"
+msgstr ""
+
+#: ../../API/speechbrain.utils.depgraph.rst:24:<autosummary>:1
+msgid ""
+":obj:`CircularDependencyError "
+"<speechbrain.utils.depgraph.CircularDependencyError>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.depgraph.rst:24:<autosummary>:1 of
+#: speechbrain.utils.depgraph.CircularDependencyError:1
+msgid ""
+"An error caused by running into circular dependencies while searching for"
+" an evaluation order in a DependencyGraph."
+msgstr ""
+
+#: ../../API/speechbrain.utils.depgraph.rst:25
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.utils.depgraph.rst:39:<autosummary>:1
+msgid ":obj:`DGNode <speechbrain.utils.depgraph.DGNode>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.depgraph.rst:39:<autosummary>:1
+msgid ":obj:`DependencyGraph <speechbrain.utils.depgraph.DependencyGraph>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.depgraph.rst:39:<autosummary>:1 of
+#: speechbrain.utils.depgraph.DependencyGraph:1
+msgid "General-purpose dependency graph."
+msgstr ""
+
+#: ../../API/speechbrain.utils.depgraph.rst:41
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.utils.depgraph.CircularDependencyError:1
+msgid "Bases: :class:`ValueError`"
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DGNode:1
+msgid "Bases: :class:`tuple`"
+msgstr ""
+
+#: ../../docstring of speechbrain.utils.depgraph.DGNode.data:1
+msgid "Alias for field number 2"
+msgstr ""
+
+#: ../../docstring of speechbrain.utils.depgraph.DGNode.edges:1
+msgid "Alias for field number 1"
+msgstr ""
+
+#: ../../docstring of speechbrain.utils.depgraph.DGNode.key:1
+msgid "Alias for field number 0"
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph:3
+msgid ""
+"Essentially a directed acyclic graph. Usually used to find an evaluation "
+"order for e.g. variable substitution The relation that an edge between A "
+"and B represents is: \"A depends on B, i.e. B should be evaluated before "
+"A\""
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph:8
+msgid ""
+"Nodes can be added explicitly or they can be created implicitly while "
+"adding edges. Nodes have keys, which should be some hashable value that "
+"identifies the elements the graph represents in your use case. E.G. they "
+"can just be the variable name you want to substitute. However, if needed,"
+" more generally you can attach any data to a node (e.g. a path in your "
+"tree), and if so desired, a unique key can be created for you. You'll "
+"only need to know that key while adding edges to/from it. Implicit keys "
+"and explicit keys can also be mixed."
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.add_node:1
+msgid "Adds a node explicitly."
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.add_edge
+#: speechbrain.utils.depgraph.DependencyGraph.add_node
+#: speechbrain.utils.depgraph.DependencyGraph.get_evaluation_order
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.add_node:3
+msgid "If not given, a key is created for you."
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.add_node:5
+msgid "Any additional data you wish to attach to this node."
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.add_edge
+#: speechbrain.utils.depgraph.DependencyGraph.add_node
+#: speechbrain.utils.depgraph.DependencyGraph.is_valid
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.add_node:8
+msgid "The key that was used (either yours or generated)."
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.add_edge
+#: speechbrain.utils.depgraph.DependencyGraph.add_node
+#: speechbrain.utils.depgraph.DependencyGraph.is_valid
+msgid "Return type"
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.add_node
+#: speechbrain.utils.depgraph.DependencyGraph.get_evaluation_order
+msgid "Raises"
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.add_node:11
+msgid ""
+"If node with the given key has already been added explicitly     (with "
+"this method, not \"add_edge\")."
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.add_edge:1
+msgid ""
+"Adds an edge, and implicitly also creates nodes for keys which have not "
+"been seen before. This will not let you add data to your nodes. The "
+"relation encodes: \"from_key depends on to_key\" (to_key must be "
+"evaluated before from_key)."
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.add_edge:6
+msgid "The key which depends on."
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.add_edge:8
+msgid "The key which is depended on."
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.is_valid:1
+msgid "Checks if an evaluation order can be found."
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.is_valid:3
+msgid ""
+"A dependency graph is evaluatable if there are no circular dependencies, "
+"i.e., the graph is acyclic."
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.is_valid:6
+msgid "Indicating if the graph is evaluatable."
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.get_evaluation_order:1
+msgid "Finds one valid evaluation order."
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.get_evaluation_order:3
+msgid ""
+"There can be many different valid orders. NOTE: Generates output one "
+"DGNode at a time. May generate DGNodes before it finds a circular "
+"dependency. If you really need to know whether an order can be found, "
+"check is_valid() first. However, the algorithm for finding cycles is "
+"essentially the same as the one used for finding an evaluation order, so "
+"for very large graphs... Ah well, but maybe then you should be using some"
+" other solution anyway."
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.get_evaluation_order:13
+msgid ""
+"List of keys. If not None, only the selected keys are guaranteed in the "
+"evaluation order (along with the keys they depend on)."
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.get_evaluation_order
+msgid "Yields"
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.get_evaluation_order:17
+msgid ""
+"*DGNode* -- The added DGNodes in a valid evaluation order. See the DGNode"
+" namedtuple above."
+msgstr ""
+
+#: of speechbrain.utils.depgraph.DependencyGraph.get_evaluation_order:20
+msgid "If a circular dependency is found."
+msgstr ""
+

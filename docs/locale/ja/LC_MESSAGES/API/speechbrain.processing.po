@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.processing.rst:5
+msgid "speechbrain.processing"
+msgstr ""
+
+#: of speechbrain.processing:1
+msgid "Package containing various techniques of speech processing"
+msgstr ""
+
+#: ../../API/speechbrain.processing.rst:34:<autosummary>:1
+msgid ":obj:`speechbrain.processing.NMF <speechbrain.processing.NMF>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.processing.rst:34:<autosummary>:1
+msgid "Non-negative matrix factorization"
+msgstr ""
+
+#: ../../API/speechbrain.processing.rst:34:<autosummary>:1
+msgid ":obj:`speechbrain.processing.PLDA_LDA <speechbrain.processing.PLDA_LDA>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.processing.rst:34:<autosummary>:1
+msgid "A popular speaker recognition/diarization model (LDA and PLDA)."
+msgstr ""
+
+#: ../../API/speechbrain.processing.rst:34:<autosummary>:1
+msgid ""
+":obj:`speechbrain.processing.decomposition "
+"<speechbrain.processing.decomposition>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.processing.rst:34:<autosummary>:1
+msgid "Generalized Eigenvalue Decomposition."
+msgstr ""
+
+#: ../../API/speechbrain.processing.rst:34:<autosummary>:1
+msgid ":obj:`speechbrain.processing.features <speechbrain.processing.features>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.processing.rst:34:<autosummary>:1
+msgid "Low-level feature pipeline components"
+msgstr ""
+
+#: ../../API/speechbrain.processing.rst:34:<autosummary>:1
+msgid ""
+":obj:`speechbrain.processing.multi_mic "
+"<speechbrain.processing.multi_mic>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.processing.rst:34:<autosummary>:1
+msgid "Multi-microphone components."
+msgstr ""
+
+#: ../../API/speechbrain.processing.rst:34:<autosummary>:1
+msgid ""
+":obj:`speechbrain.processing.signal_processing "
+"<speechbrain.processing.signal_processing>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.processing.rst:34:<autosummary>:1
+msgid "Low level signal processing utilities"
+msgstr ""
+
+#: ../../API/speechbrain.processing.rst:34:<autosummary>:1
+msgid ""
+":obj:`speechbrain.processing.speech_augmentation "
+"<speechbrain.processing.speech_augmentation>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.processing.rst:34:<autosummary>:1
+msgid "Classes for mutating speech data for data augmentation."
+msgstr ""
+

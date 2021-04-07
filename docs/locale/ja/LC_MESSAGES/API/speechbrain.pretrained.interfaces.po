@@ -1,0 +1,655 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.pretrained.interfaces.rst:5
+msgid "speechbrain.pretrained.interfaces module"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces:1
+msgid "Defines interfaces for simple inference with pretrained models"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces:8
+msgid "Authors:"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces:4
+msgid "Aku Rouhe 2021"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces:5
+msgid "Peter Plantinga 2021"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces:6
+msgid "Loren Lugosch 2020"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces:7
+msgid "Mirco Ravanelli 2020"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces:8
+msgid "Titouan Parcollet 2021"
+msgstr ""
+
+#: ../../API/speechbrain.pretrained.interfaces.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.pretrained.interfaces.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.pretrained.interfaces.rst:37:<autosummary>:1
+msgid ""
+":obj:`EncoderDecoderASR "
+"<speechbrain.pretrained.interfaces.EncoderDecoderASR>`"
+msgstr ""
+
+#: ../../API/speechbrain.pretrained.interfaces.rst:37:<autosummary>:1 of
+#: speechbrain.pretrained.interfaces.EncoderDecoderASR:1
+msgid "A ready-to-use Encoder-Decoder ASR model"
+msgstr ""
+
+#: ../../API/speechbrain.pretrained.interfaces.rst:37:<autosummary>:1
+msgid ":obj:`EndToEndSLU <speechbrain.pretrained.interfaces.EndToEndSLU>`"
+msgstr ""
+
+#: ../../API/speechbrain.pretrained.interfaces.rst:37:<autosummary>:1 of
+#: speechbrain.pretrained.interfaces.EndToEndSLU:1
+msgid "A end-to-end SLU model."
+msgstr ""
+
+#: ../../API/speechbrain.pretrained.interfaces.rst:37:<autosummary>:1
+msgid ":obj:`Pretrained <speechbrain.pretrained.interfaces.Pretrained>`"
+msgstr ""
+
+#: ../../API/speechbrain.pretrained.interfaces.rst:37:<autosummary>:1 of
+#: speechbrain.pretrained.interfaces.Pretrained:1
+msgid "Takes a trained model and makes predictions on new data."
+msgstr ""
+
+#: ../../API/speechbrain.pretrained.interfaces.rst:37:<autosummary>:1
+msgid ""
+":obj:`SepformerSeparation "
+"<speechbrain.pretrained.interfaces.SepformerSeparation>`"
+msgstr ""
+
+#: ../../API/speechbrain.pretrained.interfaces.rst:37:<autosummary>:1 of
+#: speechbrain.pretrained.interfaces.SepformerSeparation:1
+msgid "A \"ready-to-use\" speech separation model."
+msgstr ""
+
+#: ../../API/speechbrain.pretrained.interfaces.rst:37:<autosummary>:1
+msgid ""
+":obj:`SpeakerRecognition "
+"<speechbrain.pretrained.interfaces.SpeakerRecognition>`"
+msgstr ""
+
+#: ../../API/speechbrain.pretrained.interfaces.rst:37:<autosummary>:1
+msgid "A ready-to-use model for speaker recognition."
+msgstr ""
+
+#: ../../API/speechbrain.pretrained.interfaces.rst:37:<autosummary>:1
+msgid ""
+":obj:`SpectralMaskEnhancement "
+"<speechbrain.pretrained.interfaces.SpectralMaskEnhancement>`"
+msgstr ""
+
+#: ../../API/speechbrain.pretrained.interfaces.rst:37:<autosummary>:1 of
+#: speechbrain.pretrained.interfaces.SpectralMaskEnhancement:1
+msgid "A ready-to-use model for speech enhancement."
+msgstr ""
+
+#: ../../API/speechbrain.pretrained.interfaces.rst:37:<autosummary>:1
+msgid ":obj:`TransformerASR <speechbrain.pretrained.interfaces.TransformerASR>`"
+msgstr ""
+
+#: ../../API/speechbrain.pretrained.interfaces.rst:37:<autosummary>:1
+msgid "A ready-to-use Transformer ASR model."
+msgstr ""
+
+#: ../../API/speechbrain.pretrained.interfaces.rst:39
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained:3
+msgid ""
+"This is a base class which handles some common boilerplate. It "
+"intentionally has an interface similar to ``Brain`` - these base classes "
+"handle similar things."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained:7
+msgid ""
+"Subclasses of Pretrained should implement the actual logic of how the "
+"pretrained system runs, and add methods with descriptive names (e.g. "
+"transcribe_file() for ASR)."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EncoderDecoderASR.encode_batch
+#: speechbrain.pretrained.interfaces.EncoderDecoderASR.transcribe_batch
+#: speechbrain.pretrained.interfaces.EncoderDecoderASR.transcribe_file
+#: speechbrain.pretrained.interfaces.EndToEndSLU.decode_batch
+#: speechbrain.pretrained.interfaces.EndToEndSLU.decode_file
+#: speechbrain.pretrained.interfaces.EndToEndSLU.encode_batch
+#: speechbrain.pretrained.interfaces.Pretrained
+#: speechbrain.pretrained.interfaces.Pretrained.from_hparams
+#: speechbrain.pretrained.interfaces.SepformerSeparation.separate_batch
+#: speechbrain.pretrained.interfaces.SepformerSeparation.separate_file
+#: speechbrain.pretrained.interfaces.SpeakerRecognition.encode_batch
+#: speechbrain.pretrained.interfaces.SpeakerRecognition.verify_batch
+#: speechbrain.pretrained.interfaces.SpectralMaskEnhancement
+#: speechbrain.pretrained.interfaces.SpectralMaskEnhancement.compute_features
+#: speechbrain.pretrained.interfaces.SpectralMaskEnhancement.enhance_batch
+#: speechbrain.pretrained.interfaces.SpectralMaskEnhancement.enhance_file
+#: speechbrain.pretrained.interfaces.TransformerASR.encode_batch
+#: speechbrain.pretrained.interfaces.TransformerASR.transcribe_batch
+#: speechbrain.pretrained.interfaces.TransformerASR.transcribe_file
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained:11
+msgid ""
+"The Torch modules that make up the learned system. These can be treated "
+"in special ways (put on the right device, frozen, etc.)"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained:14
+msgid ""
+"Each key:value pair should consist of a string key and a hyperparameter "
+"that is used within the overridden methods. These will be accessible via "
+"an ``hparams`` attribute, using \"dot\" notation: e.g., "
+"self.hparams.model(x)."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained:19
+msgid ""
+"Options parsed from command line. See ``speechbrain.parse_arguments()``. "
+"List that are supported here:  * device  * data_parallel_count  * "
+"data_parallel_backend  * distributed_launch  * distributed_backend  * "
+"jit_module_keys"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained:19
+msgid ""
+"Options parsed from command line. See ``speechbrain.parse_arguments()``. "
+"List that are supported here:"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained:21
+msgid "device"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained:22
+msgid "data_parallel_count"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained:23
+msgid "data_parallel_backend"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained:24
+msgid "distributed_launch"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained:25
+msgid "distributed_backend"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained:26
+msgid "jit_module_keys"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained:28
+msgid ""
+"To freeze (requires_grad=False) parameters or not. Normally in inference "
+"you want to freeze the params. Also calls .eval() on all modules."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained.load_audio:1
+msgid "Load an audio file with this model\"s input spec"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained.load_audio:3
+msgid ""
+"When using a speech model, it is important to use the same type of data, "
+"as was used to train the model. This means for example using the same "
+"sampling rate and number of channels. It is, however, possible to convert"
+" a file from a higher sampling rate to a lower one (downsampling). "
+"Similarly, it is simple to downmix a stereo file to mono. The path can be"
+" a local path, a web url, or a link to a huggingface repo."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained.from_hparams:1
+msgid "Fetch and load based from outside source based on HyperPyYAML file"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained.from_hparams:3
+msgid "The source can be a location on the filesystem or online/huggingface"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained.from_hparams:5
+msgid ""
+"The hyperparams file should contain a \"modules\" key, which is a "
+"dictionary of torch modules used for computation."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained.from_hparams:8
+msgid ""
+"The hyperparams file should contain a \"pretrainer\" key, which is a "
+"speechbrain.utils.parameter_transfer.Pretrainer"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained.from_hparams:11
+msgid ""
+"The location to use for finding the model. See "
+"``speechbrain.pretrained.fetching.fetch`` for details."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained.from_hparams:14
+msgid ""
+"The name of the hyperparameters file to use for constructing the modules "
+"necessary for inference. Must contain two keys: \"modules\" and "
+"\"pretrainer\", as described."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained.from_hparams:18
+msgid "Any changes to make to the hparams file when it is loaded."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.Pretrained.from_hparams:20
+msgid ""
+"Where to put the pretraining material. If not given, will use "
+"./pretrained_checkpoints/<class-name>-hash(source)."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EncoderDecoderASR:1
+#: speechbrain.pretrained.interfaces.EndToEndSLU:1
+#: speechbrain.pretrained.interfaces.SepformerSeparation:1
+#: speechbrain.pretrained.interfaces.SpeakerRecognition:1
+#: speechbrain.pretrained.interfaces.SpectralMaskEnhancement:1
+#: speechbrain.pretrained.interfaces.TransformerASR:1
+msgid "Bases: :class:`speechbrain.pretrained.interfaces.Pretrained`"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EndToEndSLU:3
+msgid ""
+"The class can be used either to run only the encoder (encode()) to "
+"extract features or to run the entire model (decode()) to map the speech "
+"to its semantics."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EncoderDecoderASR:8
+#: speechbrain.pretrained.interfaces.EndToEndSLU:7
+#: speechbrain.pretrained.interfaces.SepformerSeparation:6
+#: speechbrain.pretrained.interfaces.SpeakerRecognition:10
+#: speechbrain.pretrained.interfaces.SpectralMaskEnhancement:6
+#: speechbrain.pretrained.interfaces.TransformerASR:7
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EndToEndSLU.decode_file:1
+msgid ""
+"Maps the given audio file to a string representing the semantic "
+"dictionary for the utterance."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EndToEndSLU.decode_file:4
+msgid "Path to audio file to decode."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EncoderDecoderASR.encode_batch
+#: speechbrain.pretrained.interfaces.EncoderDecoderASR.transcribe_batch
+#: speechbrain.pretrained.interfaces.EncoderDecoderASR.transcribe_file
+#: speechbrain.pretrained.interfaces.EndToEndSLU.decode_batch
+#: speechbrain.pretrained.interfaces.EndToEndSLU.decode_file
+#: speechbrain.pretrained.interfaces.EndToEndSLU.encode_batch
+#: speechbrain.pretrained.interfaces.SepformerSeparation.separate_batch
+#: speechbrain.pretrained.interfaces.SepformerSeparation.separate_file
+#: speechbrain.pretrained.interfaces.SpeakerRecognition.encode_batch
+#: speechbrain.pretrained.interfaces.SpeakerRecognition.verify_batch
+#: speechbrain.pretrained.interfaces.SpeakerRecognition.verify_files
+#: speechbrain.pretrained.interfaces.SpectralMaskEnhancement.enhance_batch
+#: speechbrain.pretrained.interfaces.TransformerASR.encode_batch
+#: speechbrain.pretrained.interfaces.TransformerASR.transcribe_batch
+#: speechbrain.pretrained.interfaces.TransformerASR.transcribe_file
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EndToEndSLU.decode_file:7
+msgid "The predicted semantics."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EncoderDecoderASR.encode_batch
+#: speechbrain.pretrained.interfaces.EncoderDecoderASR.transcribe_file
+#: speechbrain.pretrained.interfaces.EndToEndSLU.decode_file
+#: speechbrain.pretrained.interfaces.EndToEndSLU.encode_batch
+#: speechbrain.pretrained.interfaces.SepformerSeparation.separate_batch
+#: speechbrain.pretrained.interfaces.SepformerSeparation.separate_file
+#: speechbrain.pretrained.interfaces.SpeakerRecognition.encode_batch
+#: speechbrain.pretrained.interfaces.SpectralMaskEnhancement.enhance_batch
+#: speechbrain.pretrained.interfaces.TransformerASR.encode_batch
+#: speechbrain.pretrained.interfaces.TransformerASR.transcribe_file
+msgid "Return type"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EncoderDecoderASR.encode_batch:1
+#: speechbrain.pretrained.interfaces.EndToEndSLU.encode_batch:1
+msgid "Encodes the input audio into a sequence of hidden states"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EncoderDecoderASR.encode_batch:8
+#: speechbrain.pretrained.interfaces.EncoderDecoderASR.transcribe_batch:8
+#: speechbrain.pretrained.interfaces.EndToEndSLU.decode_batch:3
+#: speechbrain.pretrained.interfaces.EndToEndSLU.encode_batch:3
+#: speechbrain.pretrained.interfaces.TransformerASR.encode_batch:7
+#: speechbrain.pretrained.interfaces.TransformerASR.transcribe_batch:7
+msgid ""
+"Batch of waveforms [batch, time, channels] or [batch, time] depending on "
+"the model."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EncoderDecoderASR.encode_batch:11
+#: speechbrain.pretrained.interfaces.EncoderDecoderASR.transcribe_batch:11
+#: speechbrain.pretrained.interfaces.EndToEndSLU.decode_batch:6
+#: speechbrain.pretrained.interfaces.EndToEndSLU.encode_batch:6
+#: speechbrain.pretrained.interfaces.SpeakerRecognition.encode_batch:11
+#: speechbrain.pretrained.interfaces.TransformerASR.encode_batch:10
+#: speechbrain.pretrained.interfaces.TransformerASR.transcribe_batch:10
+msgid ""
+"Lengths of the waveforms relative to the longest one in the batch, tensor"
+" of shape [batch]. The longest one should have relative length 1.0 and "
+"others len(waveform) / max_length. Used for ignoring padding."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EncoderDecoderASR.encode_batch:17
+#: speechbrain.pretrained.interfaces.EndToEndSLU.encode_batch:12
+#: speechbrain.pretrained.interfaces.SpeakerRecognition.encode_batch:20
+#: speechbrain.pretrained.interfaces.TransformerASR.encode_batch:16
+msgid "The encoded batch"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EndToEndSLU.decode_batch:1
+msgid "Maps the input audio to its semantics"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EndToEndSLU.decode_batch:12
+msgid ""
+"* *list* -- Each waveform in the batch decoded. * *tensor* -- Each "
+"predicted token id."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EndToEndSLU.decode_batch:12
+msgid "*list* -- Each waveform in the batch decoded."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EncoderDecoderASR.transcribe_batch:18
+#: speechbrain.pretrained.interfaces.EndToEndSLU.decode_batch:13
+#: speechbrain.pretrained.interfaces.TransformerASR.transcribe_batch:17
+msgid "*tensor* -- Each predicted token id."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EncoderDecoderASR:3
+msgid ""
+"The class can be used either to run only the encoder (encode()) to "
+"extract features or to run the entire encoder-decoder model "
+"(transcribe()) to transcribe speech."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EncoderDecoderASR.transcribe_file:1
+#: speechbrain.pretrained.interfaces.TransformerASR.transcribe_file:1
+msgid "Transcribes the given audiofile into a sequence of words."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EncoderDecoderASR.transcribe_file:3
+#: speechbrain.pretrained.interfaces.TransformerASR.transcribe_file:3
+msgid "Path to audio file which to transcribe."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EncoderDecoderASR.transcribe_file:6
+#: speechbrain.pretrained.interfaces.TransformerASR.transcribe_file:6
+msgid "The audiofile transcription produced by this ASR system."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EncoderDecoderASR.encode_batch:3
+#: speechbrain.pretrained.interfaces.EncoderDecoderASR.transcribe_batch:3
+msgid ""
+"The waveforms should already be in the model's desired format. You can "
+"call: ``normalized = EncoderDecoderASR.normalizer(signal, sample_rate)`` "
+"to get a correctly converted signal in most cases."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EncoderDecoderASR.transcribe_batch:1
+msgid "Transcribes the input audio into a sequence of words"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EncoderDecoderASR.transcribe_batch:17
+#: speechbrain.pretrained.interfaces.TransformerASR.transcribe_batch:16
+msgid ""
+"* *list* -- Each waveform in the batch transcribed. * *tensor* -- Each "
+"predicted token id."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.EncoderDecoderASR.transcribe_batch:17
+#: speechbrain.pretrained.interfaces.TransformerASR.transcribe_batch:16
+msgid "*list* -- Each waveform in the batch transcribed."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.TransformerASR:1
+msgid ""
+"A ready-to-use Transformer ASR model. The class can be used either to run"
+" only the encoder (encode()) to extract features or to run the entire "
+"encoder-decoder model (transcribe()) to transcribe speech."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.TransformerASR.encode_batch:1
+msgid ""
+"Encodes the input audio into a sequence of hidden states The waveforms "
+"should already be in the model's desired format. You can call: "
+"``normalized = TransformerASR.normalizer(signal, sample_rate)`` to get a "
+"correctly converted signal in most cases."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.TransformerASR.transcribe_batch:1
+msgid ""
+"Transcribes the input audio into a sequence of words The waveforms should"
+" already be in the model's desired format. You can call: ``normalized = "
+"TransformerASR.normalizer(signal, sample_rate)`` to get a correctly "
+"converted signal in most cases."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpeakerRecognition:1
+msgid ""
+"A ready-to-use model for speaker recognition. It can be used to compute "
+"the speaker embeddings as well."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpeakerRecognition:4
+msgid ""
+"The class can be used either to run only the encoder (encode_batch()) to "
+"extract embeddings or to run the entire verification system "
+"(verify_batch()) to check speaker identifies. ```"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpeakerRecognition.encode_batch:1
+msgid "Encodes the input audio into a single vector embedding."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpeakerRecognition.encode_batch:3
+msgid ""
+"The waveforms should already be in the model's desired format. You can "
+"call: ``normalized = <this>.normalizer(signal, sample_rate)`` to get a "
+"correctly converted signal in most cases."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpeakerRecognition.encode_batch:8
+msgid ""
+"Batch of waveforms [batch, time, channels] or [batch, time] depending on "
+"the model. Make sure the sample rate is fs=16000 Hz."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpeakerRecognition.encode_batch:16
+msgid ""
+"If True, it normalizes the embeddings with the statistics contained in "
+"mean_var_norm_emb."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpeakerRecognition.verify_batch:1
+msgid "Performs speaker verification with cosine distance."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpeakerRecognition.verify_batch:3
+msgid ""
+"It returns the score and the decision (0 different speakers, 1 same "
+"speakers)."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpeakerRecognition.verify_batch:6
+msgid ""
+"Tensor containing the speech waveform1 (batch, time). Make sure the "
+"sample rate is fs=16000 Hz."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpeakerRecognition.verify_batch:9
+msgid ""
+"Tensor containing the speech waveform2 (batch, time). Make sure the "
+"sample rate is fs=16000 Hz."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpeakerRecognition.verify_batch:12
+#: speechbrain.pretrained.interfaces.SpeakerRecognition.verify_batch:15
+msgid ""
+"Tensor containing the relative length for each sentence in the length "
+"(e.g., [0.8 0.6 1.0])"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpeakerRecognition.verify_batch:18
+msgid ""
+"Threshold applied to the cosine distance to decide if the speaker is "
+"different (0) or the same (1)."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpeakerRecognition.verify_batch:22
+#: speechbrain.pretrained.interfaces.SpeakerRecognition.verify_files:6
+msgid ""
+"* *score* -- The score associated to the binary verification output   "
+"(cosine distance). * *prediction* -- The prediction is 1 if the two "
+"signals in input are from the same   speaker and 0 otherwise."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpeakerRecognition.verify_batch:22
+#: speechbrain.pretrained.interfaces.SpeakerRecognition.verify_files:6
+msgid ""
+"*score* -- The score associated to the binary verification output (cosine"
+" distance)."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpeakerRecognition.verify_batch:24
+#: speechbrain.pretrained.interfaces.SpeakerRecognition.verify_files:8
+msgid ""
+"*prediction* -- The prediction is 1 if the two signals in input are from "
+"the same speaker and 0 otherwise."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpeakerRecognition.verify_files:1
+msgid "Speaker verification with cosine distance"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpeakerRecognition.verify_files:3
+msgid ""
+"Returns the score and the decision (0 different speakers, 1 same "
+"speakers)."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SepformerSeparation:3
+msgid "Uses Sepformer architecture."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SepformerSeparation.separate_batch:1
+msgid "Run source separation on batch of audio."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SepformerSeparation.separate_batch:3
+msgid "The mixture of sources."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SepformerSeparation.separate_batch:6
+#: speechbrain.pretrained.interfaces.SepformerSeparation.separate_file:9
+msgid "Separated sources"
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SepformerSeparation.separate_file:1
+msgid "Separate sources from file."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SepformerSeparation.separate_file:3
+msgid ""
+"Path to file which has a mixture of sources. It can be a local path, a "
+"web url, or a huggingface repo."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SepformerSeparation.separate_file:6
+msgid "Path where to store the wav signals (when downloaded from the web)."
+msgstr ""
+
+#: of
+#: speechbrain.pretrained.interfaces.SpectralMaskEnhancement.compute_features:1
+msgid "Compute the log spectral magnitude features for masking."
+msgstr ""
+
+#: of
+#: speechbrain.pretrained.interfaces.SpectralMaskEnhancement.compute_features:3
+msgid "A batch of waveforms to convert to log spectral mags."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpectralMaskEnhancement.enhance_batch:1
+msgid "Enhance a batch of noisy waveforms."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpectralMaskEnhancement.enhance_batch:3
+msgid "A batch of waveforms to perform enhancement on."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpectralMaskEnhancement.enhance_batch:5
+msgid "The lengths of the waveforms if the enhancement model handles them."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpectralMaskEnhancement.enhance_batch:8
+msgid "A batch of enhanced waveforms of the same shape as input."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpectralMaskEnhancement.enhance_file:1
+msgid "Enhance a wav file."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpectralMaskEnhancement.enhance_file:3
+msgid "Location on disk to load file for enhancement."
+msgstr ""
+
+#: of speechbrain.pretrained.interfaces.SpectralMaskEnhancement.enhance_file:5
+msgid "If provided, writes enhanced data to this file."
+msgstr ""
+

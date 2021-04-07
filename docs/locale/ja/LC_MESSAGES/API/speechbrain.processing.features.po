@@ -1,0 +1,498 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.processing.features.rst:5
+msgid "speechbrain.processing.features module"
+msgstr ""
+
+#: of speechbrain.processing.features:1
+msgid "Low-level feature pipeline components"
+msgstr ""
+
+#: of speechbrain.processing.features:3
+msgid ""
+"This library gathers functions that compute popular speech  features over"
+" batches of data. All the classes are of type nn.Module. This gives the "
+"possibility to have end-to-end  differentiability and to backpropagate "
+"the gradient through them. Our functions are a modified version the ones "
+"in torch audio toolkit (https://github.com/pytorch/audio)."
+msgstr ""
+
+#: of speechbrain.processing.features:10
+#: speechbrain.processing.features.ContextWindow:13
+#: speechbrain.processing.features.DCT:14
+#: speechbrain.processing.features.Deltas:7
+#: speechbrain.processing.features.Filterbank:45
+#: speechbrain.processing.features.ISTFT:33
+#: speechbrain.processing.features.InputNormalization:18
+#: speechbrain.processing.features.STFT:38
+#: speechbrain.processing.features.spectral_magnitude:13
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.processing.features:34
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.processing.features:34
+msgid "Mirco Ravanelli 2020"
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:30:<autosummary>:1
+msgid ":obj:`ContextWindow <speechbrain.processing.features.ContextWindow>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:30:<autosummary>:1 of
+#: speechbrain.processing.features.ContextWindow:1
+msgid "Computes the context window."
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:30:<autosummary>:1
+msgid ":obj:`DCT <speechbrain.processing.features.DCT>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:30:<autosummary>:1 of
+#: speechbrain.processing.features.DCT:1
+msgid "Computes the discrete cosine transform."
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:30:<autosummary>:1
+msgid ":obj:`Deltas <speechbrain.processing.features.Deltas>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:30:<autosummary>:1 of
+#: speechbrain.processing.features.Deltas:1
+msgid "Computes delta coefficients (time derivatives)."
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:30:<autosummary>:1
+msgid ":obj:`Filterbank <speechbrain.processing.features.Filterbank>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:30:<autosummary>:1 of
+#: speechbrain.processing.features.Filterbank:1
+msgid "computes filter bank (FBANK) features given spectral magnitudes."
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:30:<autosummary>:1
+msgid ":obj:`ISTFT <speechbrain.processing.features.ISTFT>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:30:<autosummary>:1 of
+#: speechbrain.processing.features.ISTFT:1
+msgid "Computes the Inverse Short-Term Fourier Transform (ISTFT)"
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:30:<autosummary>:1
+msgid ""
+":obj:`InputNormalization "
+"<speechbrain.processing.features.InputNormalization>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:30:<autosummary>:1 of
+#: speechbrain.processing.features.InputNormalization:1
+msgid "Performs mean and variance normalization of the input tensor."
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:30:<autosummary>:1
+msgid ":obj:`STFT <speechbrain.processing.features.STFT>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:30:<autosummary>:1 of
+#: speechbrain.processing.features.STFT:1
+msgid "computes the Short-Term Fourier Transform (STFT)."
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:31
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:44:<autosummary>:1
+msgid ""
+":obj:`spectral_magnitude "
+"<speechbrain.processing.features.spectral_magnitude>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:44:<autosummary>:1 of
+#: speechbrain.processing.features.spectral_magnitude:1
+msgid "Returns the magnitude of a complex spectrogram."
+msgstr ""
+
+#: ../../API/speechbrain.processing.features.rst:46
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.processing.features.ContextWindow:1
+#: speechbrain.processing.features.DCT:1
+#: speechbrain.processing.features.Deltas:1
+#: speechbrain.processing.features.Filterbank:1
+#: speechbrain.processing.features.ISTFT:1
+#: speechbrain.processing.features.InputNormalization:1
+#: speechbrain.processing.features.STFT:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.processing.features.STFT:3
+msgid ""
+"This class computes the Short-Term Fourier Transform of an audio signal. "
+"It supports multi-channel audio inputs (batch, time, channels)."
+msgstr ""
+
+#: of speechbrain.processing.features.ContextWindow
+#: speechbrain.processing.features.ContextWindow.forward
+#: speechbrain.processing.features.DCT
+#: speechbrain.processing.features.DCT.forward
+#: speechbrain.processing.features.Deltas
+#: speechbrain.processing.features.Deltas.forward
+#: speechbrain.processing.features.Filterbank
+#: speechbrain.processing.features.Filterbank.forward
+#: speechbrain.processing.features.ISTFT
+#: speechbrain.processing.features.ISTFT.forward
+#: speechbrain.processing.features.InputNormalization
+#: speechbrain.processing.features.InputNormalization.forward
+#: speechbrain.processing.features.STFT
+#: speechbrain.processing.features.STFT.forward
+#: speechbrain.processing.features.spectral_magnitude
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.processing.features.STFT:6
+msgid "Sample rate of the input audio signal (e.g 16000)."
+msgstr ""
+
+#: of speechbrain.processing.features.STFT:8
+msgid "Length (in ms) of the sliding window used to compute the STFT."
+msgstr ""
+
+#: of speechbrain.processing.features.STFT:10
+msgid "Length (in ms) of the hope of the sliding window used to compute the STFT."
+msgstr ""
+
+#: of speechbrain.processing.features.STFT:13
+msgid ""
+"Number of fft point of the STFT. It defines the frequency resolution "
+"(n_fft should be <= than win_len)."
+msgstr ""
+
+#: of speechbrain.processing.features.STFT:16
+msgid ""
+"A function that takes an integer (number of samples) and outputs a tensor"
+" to be multiplied with each window before fft."
+msgstr ""
+
+#: of speechbrain.processing.features.STFT:19
+msgid ""
+"If True, the function returns the  normalized STFT results, i.e., "
+"multiplied by win_length^-0.5 (default is False)."
+msgstr ""
+
+#: of speechbrain.processing.features.STFT:22
+msgid ""
+"If True (default), the input will be padded on both sides so that the "
+"t-th frame is centered at time t×hop_length. Otherwise, the t-th frame "
+"begins at time t×hop_length."
+msgstr ""
+
+#: of speechbrain.processing.features.STFT:26
+msgid ""
+"It can be 'constant','reflect','replicate', 'circular', 'reflect' "
+"(default). 'constant' pads the input tensor boundaries with a constant "
+"value. 'reflect' pads the input tensor using the reflection of the input "
+"boundary. 'replicate' pads the input tensor using replication of the "
+"input boundary. 'circular' pads using  circular replication."
+msgstr ""
+
+#: of speechbrain.processing.features.STFT:33
+msgid ""
+"If True (default) only returns nfft/2 values. Note that the other samples"
+" are redundant due to the Fourier transform conjugate symmetry."
+msgstr ""
+
+#: of speechbrain.processing.features.STFT.forward:1
+msgid "Returns the STFT generated from the input waveforms."
+msgstr ""
+
+#: of speechbrain.processing.features.STFT.forward:3
+msgid "A batch of audio signals to transform."
+msgstr ""
+
+#: of speechbrain.processing.features.ISTFT:3
+msgid ""
+"This class computes the Inverse Short-Term Fourier Transform of an audio "
+"signal. It supports multi-channel audio inputs (batch, time_step, n_fft, "
+"n_channels [optional], 2)."
+msgstr ""
+
+#: of speechbrain.processing.features.ISTFT:7
+msgid "Sample rate of the input audio signal (e.g. 16000)."
+msgstr ""
+
+#: of speechbrain.processing.features.ISTFT:9
+msgid "Length (in ms) of the sliding window used when computing the STFT."
+msgstr ""
+
+#: of speechbrain.processing.features.ISTFT:11
+msgid ""
+"Length (in ms) of the hope of the sliding window used when computing the "
+"STFT."
+msgstr ""
+
+#: of speechbrain.processing.features.ISTFT:14
+msgid ""
+"A function that takes an integer (number of samples) and outputs a tensor"
+" to be used as a window for ifft."
+msgstr ""
+
+#: of speechbrain.processing.features.ISTFT:17
+msgid ""
+"If True, the function assumes that it's working with the normalized STFT "
+"results. (default is False)"
+msgstr ""
+
+#: of speechbrain.processing.features.ISTFT:20
+msgid ""
+"If True (default), the function assumes that the STFT result was padded "
+"on both sides."
+msgstr ""
+
+#: of speechbrain.processing.features.ISTFT:23
+msgid ""
+"If True (default), the function assumes that there are n_fft/2 values for"
+" each time frame of the STFT."
+msgstr ""
+
+#: of speechbrain.processing.features.ISTFT:26
+msgid ""
+"A small value to avoid division by 0 when normalizing by the sum of the "
+"squared window. Playing with it can fix some abnormalities at the "
+"beginning and at the end of the reconstructed signal. The default value "
+"of epsilon is 1e-12."
+msgstr ""
+
+#: of speechbrain.processing.features.ISTFT.forward:1
+msgid "Returns the ISTFT generated from the input signal."
+msgstr ""
+
+#: of speechbrain.processing.features.ISTFT.forward:3
+msgid "A batch of audio signals in the frequency domain to transform."
+msgstr ""
+
+#: of speechbrain.processing.features.ISTFT.forward:5
+msgid ""
+"The length of the output signal in number of samples. If not specified "
+"will be equal to: (time_step - 1) * hop_length + n_fft"
+msgstr ""
+
+#: of speechbrain.processing.features.spectral_magnitude:3
+msgid "A tensor, output from the stft function."
+msgstr ""
+
+#: of speechbrain.processing.features.spectral_magnitude:5
+msgid ""
+"What power to use in computing the magnitude. Use power=1 for the power "
+"spectrogram. Use power=0.5 for the magnitude spectrogram."
+msgstr ""
+
+#: of speechbrain.processing.features.spectral_magnitude:9
+msgid "Whether to apply log to the spectral features."
+msgstr ""
+
+#: of speechbrain.processing.features.Filterbank:3
+msgid "Number of Mel filters used to average the spectrogram."
+msgstr ""
+
+#: of speechbrain.processing.features.Filterbank:5
+msgid "If True, it computes the log of the FBANKs."
+msgstr ""
+
+#: of speechbrain.processing.features.Filterbank:7
+msgid "Shape of the filters ('triangular', 'rectangular', 'gaussian')."
+msgstr ""
+
+#: of speechbrain.processing.features.Filterbank:9
+msgid "Lowest frequency for the Mel filters."
+msgstr ""
+
+#: of speechbrain.processing.features.Filterbank:11
+msgid "Highest frequency for the Mel filters."
+msgstr ""
+
+#: of speechbrain.processing.features.Filterbank:13
+msgid ""
+"Number of fft points of the STFT. It defines the frequency resolution "
+"(n_fft should be<= than win_len)."
+msgstr ""
+
+#: of speechbrain.processing.features.Filterbank:16
+msgid "Sample rate of the input audio signal (e.g, 16000)"
+msgstr ""
+
+#: of speechbrain.processing.features.Filterbank:18
+msgid "Exponent used for spectrogram computation."
+msgstr ""
+
+#: of speechbrain.processing.features.Filterbank:20
+msgid "Minimum amplitude (used for numerical stability)."
+msgstr ""
+
+#: of speechbrain.processing.features.Filterbank:22
+msgid "Reference value used for the dB scale."
+msgstr ""
+
+#: of speechbrain.processing.features.Filterbank:24
+msgid "Top dB valu used for log-mels."
+msgstr ""
+
+#: of speechbrain.processing.features.Filterbank:26
+msgid ""
+"If False, it the central frequency and the band of each filter are added "
+"into nn.parameters. If True, the standard frozen features are computed."
+msgstr ""
+
+#: of speechbrain.processing.features.Filterbank:30
+msgid ""
+"If freeze=False, this parameter affects the speed at which the filter "
+"parameters (i.e., central_freqs and bands) can be changed.  When high "
+"(e.g., param_change_factor=1) the filters change a lot during training. "
+"When low (e.g. param_change_factor=0.1) the filter parameters are more "
+"stable during training"
+msgstr ""
+
+#: of speechbrain.processing.features.Filterbank:36
+#, python-format
+msgid ""
+"This parameter can be used to randomly change the filter parameters (i.e,"
+" central frequencies and bands) during training.  It is thus a sort of "
+"regularization. param_rand_factor=0 does not affect, while "
+"param_rand_factor=0.15 allows random variations within +-15% of the "
+"standard values of the filter parameters (e.g., if the central freq is "
+"100 Hz, we can randomly change it from 85 Hz to 115 Hz)."
+msgstr ""
+
+#: of speechbrain.processing.features.Filterbank.forward:1
+msgid "Returns the FBANks."
+msgstr ""
+
+#: of speechbrain.processing.features.Filterbank.forward:3
+msgid "A batch of spectrogram tensors."
+msgstr ""
+
+#: of speechbrain.processing.features.DCT:3
+msgid ""
+"This class is primarily used to compute MFCC features of an audio signal "
+"given a set of FBANK features as input."
+msgstr ""
+
+#: of speechbrain.processing.features.DCT:6
+msgid "Expected size of the last dimension in the input."
+msgstr ""
+
+#: of speechbrain.processing.features.DCT:8
+msgid "Number of output coefficients."
+msgstr ""
+
+#: of speechbrain.processing.features.DCT:10
+msgid "Whether to use orthogonal norm."
+msgstr ""
+
+#: of speechbrain.processing.features.DCT.forward:1
+msgid "Returns the DCT of the input tensor."
+msgstr ""
+
+#: of speechbrain.processing.features.DCT.forward:3
+msgid "A batch of tensors to transform, usually fbank features."
+msgstr ""
+
+#: of speechbrain.processing.features.Deltas:3
+msgid "Length of the window used to compute the time derivatives."
+msgstr ""
+
+#: of speechbrain.processing.features.Deltas.forward:1
+msgid "Returns the delta coefficients."
+msgstr ""
+
+#: of speechbrain.processing.features.ContextWindow.forward:3
+#: speechbrain.processing.features.Deltas.forward:3
+#: speechbrain.processing.features.InputNormalization.forward:3
+msgid "A batch of tensors."
+msgstr ""
+
+#: of speechbrain.processing.features.ContextWindow:3
+msgid ""
+"This class applies a context window by gathering multiple time steps in a"
+" single feature vector. The operation is performed with a convolutional "
+"layer based on a fixed kernel designed for that."
+msgstr ""
+
+#: of speechbrain.processing.features.ContextWindow:7
+msgid "Number of left frames (i.e, past frames) to collect."
+msgstr ""
+
+#: of speechbrain.processing.features.ContextWindow:9
+msgid "Number of right frames (i.e, future frames) to collect."
+msgstr ""
+
+#: of speechbrain.processing.features.ContextWindow.forward:1
+#: speechbrain.processing.features.InputNormalization.forward:1
+msgid "Returns the tensor with the surrounding context."
+msgstr ""
+
+#: of speechbrain.processing.features.InputNormalization:3
+msgid "If True, the mean will be normalized."
+msgstr ""
+
+#: of speechbrain.processing.features.InputNormalization:5
+msgid "If True, the standard deviation will be normalized."
+msgstr ""
+
+#: of speechbrain.processing.features.InputNormalization:7
+msgid ""
+"It defines how the statistics are computed ('sentence' computes them at "
+"sentence level, 'batch' at batch level, 'speaker' at speaker level, while"
+" global computes a single normalization vector for all the sentences in "
+"the dataset). Speaker and global statistics are computed with a moving "
+"average approach."
+msgstr ""
+
+#: of speechbrain.processing.features.InputNormalization:13
+msgid ""
+"It can be used to manually set the weighting factor between current "
+"statistics and accumulated ones."
+msgstr ""
+
+#: of speechbrain.processing.features.InputNormalization.forward:5
+msgid ""
+"A batch of tensors containing the relative length of each sentence (e.g, "
+"[0.7, 0.9, 1.0]). It is used to avoid computing stats on zero-padded "
+"steps."
+msgstr ""
+
+#: of speechbrain.processing.features.InputNormalization.forward:9
+msgid "It is used to perform per-speaker normalization when norm_type='speaker'."
+msgstr ""
+

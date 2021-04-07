@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.lobes.models.transformer.TransformerLM.rst:5
+msgid "speechbrain.lobes.models.transformer.TransformerLM module"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerLM:1
+msgid "An implementation of Transformer Language model."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerLM:3
+msgid "Authors * Jianyuan Zhong"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.TransformerLM.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.TransformerLM.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.TransformerLM.rst:31:<autosummary>:1
+msgid ""
+":obj:`TransformerLM "
+"<speechbrain.lobes.models.transformer.TransformerLM.TransformerLM>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.TransformerLM.rst:31:<autosummary>:1
+#: of speechbrain.lobes.models.transformer.TransformerLM.TransformerLM:1
+msgid "This is an implementation of transformer language model."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.TransformerLM.rst:33
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerLM.TransformerLM:1
+msgid ""
+"Bases: "
+":class:`speechbrain.lobes.models.transformer.Transformer.TransformerInterface`"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerLM.TransformerLM:3
+msgid ""
+"The architecture is based on the paper \"Attention Is All You Need\": "
+"https://arxiv.org/pdf/1706.03762.pdf"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerLM.TransformerLM
+#: speechbrain.lobes.models.transformer.TransformerLM.TransformerLM.forward
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerLM.TransformerLM:5
+msgid ""
+"The number of expected features in the encoder/decoder inputs "
+"(default=512)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerLM.TransformerLM:7
+msgid "The number of heads in the multiheadattention models (default=8)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerLM.TransformerLM:9
+msgid "The number of sub-encoder-layers in the encoder (default=6)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerLM.TransformerLM:11
+msgid "The number of sub-decoder-layers in the decoder (default=6)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerLM.TransformerLM:13
+msgid "The dimension of the feedforward network model (default=2048)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerLM.TransformerLM:15
+msgid "The dropout value (default=0.1)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerLM.TransformerLM:17
+msgid ""
+"The activation function of encoder/decoder intermediate layer, relu or "
+"gelu (default=relu)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerLM.TransformerLM:21
+msgid "Example"
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.TransformerLM.TransformerLM.forward:1
+msgid "The sequence to the encoder (required)."
+msgstr ""
+

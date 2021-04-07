@@ -1,0 +1,884 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.utils.checkpoints.rst:5
+msgid "speechbrain.utils.checkpoints module"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints:1
+msgid "This module implements a checkpoint saver and loader."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints:3
+msgid ""
+"A checkpoint in an experiment usually needs to save the state of many "
+"different things: the model parameters, optimizer parameters, what epoch "
+"is this, etc. The save format for a checkpoint is a directory, where each"
+" of these separate saveable things gets its own file. Additionally, a "
+"special file holds meta information about the checkpoint (by default just"
+" time of creation, but you can specify anything else you may wish, e.g. "
+"validation loss)."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints:10
+msgid ""
+"The interface for the checkpoint system requires you to specify what "
+"things to save. This approach is flexible and agnostic of how your "
+"experiment is actually run."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints:14
+msgid ""
+"The interface requires you to specify names for each thing to save. This "
+"name is used to give the right parameter file to the right object when "
+"recovering."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints:17
+msgid ""
+"Default saving and loading methods are only added for torch.nn.Modules "
+"(and their subclasses), and torch.optim.Optimizers. If those methods do "
+"not work for your object, you can specify your own saving and/or loading "
+"methods, either for a particular instance or a for a class."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints:23
+#: speechbrain.utils.checkpoints.Checkpointer:33
+#: speechbrain.utils.checkpoints.average_checkpoints:32
+#: speechbrain.utils.checkpoints.get_default_hook:16
+#: speechbrain.utils.checkpoints.register_checkpoint_hooks:10
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints:48
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints:48
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:25:<autosummary>:1
+msgid ":obj:`Checkpoint <speechbrain.utils.checkpoints.Checkpoint>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:25:<autosummary>:1 of
+#: speechbrain.utils.checkpoints.Checkpoint:1
+msgid "NamedTuple describing one saved checkpoint"
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:25:<autosummary>:1
+msgid ":obj:`Checkpointer <speechbrain.utils.checkpoints.Checkpointer>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:25:<autosummary>:1 of
+#: speechbrain.utils.checkpoints.Checkpointer:1
+msgid "Saves checkpoints and recovers from them."
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:26
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1
+msgid ""
+":obj:`average_checkpoints "
+"<speechbrain.utils.checkpoints.average_checkpoints>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1 of
+#: speechbrain.utils.checkpoints.average_checkpoints:1
+msgid "Average parameters from multiple checkpoints."
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1
+msgid ""
+":obj:`average_state_dicts "
+"<speechbrain.utils.checkpoints.average_state_dicts>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1 of
+#: speechbrain.utils.checkpoints.average_state_dicts:1
+msgid "Produces an average state_dict from an iterator over state_dicts."
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1
+msgid ":obj:`ckpt_recency <speechbrain.utils.checkpoints.ckpt_recency>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1 of
+#: speechbrain.utils.checkpoints.ckpt_recency:1
+msgid "Recency as Checkpoint importance metric."
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1
+msgid ":obj:`get_default_hook <speechbrain.utils.checkpoints.get_default_hook>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1 of
+#: speechbrain.utils.checkpoints.get_default_hook:1
+msgid "Finds the default save/load hook to use with the given object."
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1
+msgid ":obj:`mark_as_loader <speechbrain.utils.checkpoints.mark_as_loader>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1 of
+#: speechbrain.utils.checkpoints.mark_as_loader:1
+msgid "Method decorator which marks given method as checkpoint loading hook."
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1
+msgid ":obj:`mark_as_saver <speechbrain.utils.checkpoints.mark_as_saver>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1 of
+#: speechbrain.utils.checkpoints.mark_as_saver:1
+msgid "Method decorator which marks given method as the checkpoint saving hook."
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1
+msgid ":obj:`mark_as_transfer <speechbrain.utils.checkpoints.mark_as_transfer>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1 of
+#: speechbrain.utils.checkpoints.mark_as_transfer:1
+msgid "Method decorator which marks given method as a parameter transfer hook."
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1
+msgid ""
+":obj:`register_checkpoint_hooks "
+"<speechbrain.utils.checkpoints.register_checkpoint_hooks>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1 of
+#: speechbrain.utils.checkpoints.register_checkpoint_hooks:1
+msgid "Class decorator which registers the load, save and transfer hooks."
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1
+msgid ""
+":obj:`torch_parameter_transfer "
+"<speechbrain.utils.checkpoints.torch_parameter_transfer>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1 of
+#: speechbrain.utils.checkpoints.torch_parameter_transfer:1
+msgid "Non-strict Torch Module state_dict load."
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1
+msgid ":obj:`torch_recovery <speechbrain.utils.checkpoints.torch_recovery>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1 of
+#: speechbrain.utils.checkpoints.torch_recovery:1
+msgid "Loads a torch.nn.Module state_dict from the given path instantly."
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1
+msgid ":obj:`torch_save <speechbrain.utils.checkpoints.torch_save>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:49:<autosummary>:1 of
+#: speechbrain.utils.checkpoints.torch_save:1
+msgid "Saves the obj's parameters to path."
+msgstr ""
+
+#: ../../API/speechbrain.utils.checkpoints.rst:51
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.torch_recovery:3
+msgid ""
+"This can be made the default for torch.nn.Modules with: >>> "
+"DEFAULT_LOAD_HOOKS[torch.nn.Module] = torch_recovery"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.add_recoverable
+#: speechbrain.utils.checkpoints.Checkpointer.add_recoverables
+#: speechbrain.utils.checkpoints.Checkpointer.delete_checkpoints
+#: speechbrain.utils.checkpoints.Checkpointer.find_checkpoint
+#: speechbrain.utils.checkpoints.Checkpointer.find_checkpoints
+#: speechbrain.utils.checkpoints.Checkpointer.load_checkpoint
+#: speechbrain.utils.checkpoints.Checkpointer.recover_if_possible
+#: speechbrain.utils.checkpoints.Checkpointer.save_and_keep_only
+#: speechbrain.utils.checkpoints.Checkpointer.save_checkpoint
+#: speechbrain.utils.checkpoints.average_checkpoints
+#: speechbrain.utils.checkpoints.average_state_dicts
+#: speechbrain.utils.checkpoints.get_default_hook
+#: speechbrain.utils.checkpoints.mark_as_loader
+#: speechbrain.utils.checkpoints.mark_as_saver
+#: speechbrain.utils.checkpoints.mark_as_transfer
+#: speechbrain.utils.checkpoints.register_checkpoint_hooks
+#: speechbrain.utils.checkpoints.torch_parameter_transfer
+#: speechbrain.utils.checkpoints.torch_recovery
+#: speechbrain.utils.checkpoints.torch_save
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.torch_parameter_transfer:8
+#: speechbrain.utils.checkpoints.torch_recovery:6
+msgid "Instance for which to load the parameters."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.torch_parameter_transfer:10
+#: speechbrain.utils.checkpoints.torch_recovery:8
+msgid "Path where to load from."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.torch_recovery:10
+msgid "Whether the recovery comes from an end of epoch checkpoint."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.torch_recovery:12
+msgid "Torch device, where to map the loaded parameters."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.find_checkpoint
+#: speechbrain.utils.checkpoints.Checkpointer.find_checkpoints
+#: speechbrain.utils.checkpoints.Checkpointer.list_checkpoints
+#: speechbrain.utils.checkpoints.Checkpointer.recover_if_possible
+#: speechbrain.utils.checkpoints.Checkpointer.save_and_keep_only
+#: speechbrain.utils.checkpoints.Checkpointer.save_checkpoint
+#: speechbrain.utils.checkpoints.average_checkpoints
+#: speechbrain.utils.checkpoints.average_state_dicts
+#: speechbrain.utils.checkpoints.get_default_hook
+#: speechbrain.utils.checkpoints.torch_parameter_transfer
+#: speechbrain.utils.checkpoints.torch_recovery
+#: speechbrain.utils.checkpoints.torch_save
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.torch_recovery:15
+msgid "Given object is modified in place."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.find_checkpoints
+#: speechbrain.utils.checkpoints.Checkpointer.list_checkpoints
+#: speechbrain.utils.checkpoints.Checkpointer.save_and_keep_only
+#: speechbrain.utils.checkpoints.Checkpointer.save_checkpoint
+#: speechbrain.utils.checkpoints.average_checkpoints
+#: speechbrain.utils.checkpoints.average_state_dicts
+#: speechbrain.utils.checkpoints.get_default_hook
+#: speechbrain.utils.checkpoints.torch_parameter_transfer
+#: speechbrain.utils.checkpoints.torch_recovery
+#: speechbrain.utils.checkpoints.torch_save
+msgid "Return type"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.torch_save:3
+msgid ""
+"Default save hook for torch.nn.Modules For saving torch.nn.Module "
+"state_dicts."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.torch_save:6
+msgid "Instance to save."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.torch_save:8
+msgid "Path where to save to."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.torch_save:11
+msgid "State dict is written to disk."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.torch_parameter_transfer:3
+msgid ""
+"Loads a set of parameters from path to obj. If obj has layers for which "
+"parameters can't be found, only a warning is logged. Same thing if the "
+"path has parameters for layers which don't find a counterpart in obj."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.torch_parameter_transfer:13
+msgid "The object is modified in place."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.mark_as_saver:3
+msgid "See register_checkpoint_hooks for example."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.mark_as_saver:5
+msgid ""
+"Method of the class to decorate. Must be callable with signature "
+"(instance, path) using positional arguments. This is satisfied by for "
+"example: def saver(self, path):"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.mark_as_loader:11
+#: speechbrain.utils.checkpoints.mark_as_saver:12
+#: speechbrain.utils.checkpoints.mark_as_transfer:11
+msgid ""
+"This will not add the hook (not possible via a method decorator), you "
+"must also decorate the class with @register_checkpoint_hooks Only one "
+"method can be added as the hook."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.mark_as_loader:3
+msgid ""
+"Method of the class to decorate. Must be callable with signature "
+"(instance, path, end_of_epoch, device) using positional arguments. This "
+"is satisfied by for example: `def loader(self, path, end_of_epoch, "
+"device):`"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.mark_as_transfer:3
+msgid ""
+"Method of the class to decorate. Must be callable with signature "
+"(instance, path, device) using positional arguments. This is satisfied by"
+" for example: `def loader(self, path, device):`"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.mark_as_transfer:17
+msgid ""
+"The transfer hook is prioritized over the loader hook by the "
+"``Pretrainer`` However, if no transfer hook is registered, the Pretrainer"
+" will use the loader hook."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.register_checkpoint_hooks:3
+msgid ""
+"The hooks must have been marked with mark_as_loader and mark_as_saver, "
+"and possibly mark_as_transfer."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.register_checkpoint_hooks:6
+msgid "Class to decorate"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.get_default_hook:3
+msgid ""
+"Follows the Method Resolution Order, i.e., if no hook is registered for "
+"the class of the object itself, also searches classes which the object "
+"inherits from."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.get_default_hook:7
+msgid "Instance of a class."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.get_default_hook:9
+msgid "Mapping from classes to (checkpointing hook) functions."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpoint:1
+msgid "Bases: :class:`tuple`"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpoint:3
+msgid ""
+"To select a checkpoint to load from many checkpoint, Checkpoints are "
+"first filtered and sorted based on this namedtuple. Checkpointers put "
+"pathlib.Path in path and a dict in meta. You can essentially add any info"
+" you want to meta when saving a checkpoint. The only default key in meta "
+"is \"unixtime\". Checkpoint.paramfiles is a dict from recoverable name to"
+" parameter filepath."
+msgstr ""
+
+#: ../../docstring of speechbrain.utils.checkpoints.Checkpoint.meta:1
+msgid "Alias for field number 1"
+msgstr ""
+
+#: ../../docstring of speechbrain.utils.checkpoints.Checkpoint.paramfiles:1
+msgid "Alias for field number 2"
+msgstr ""
+
+#: ../../docstring of speechbrain.utils.checkpoints.Checkpoint.path:1
+msgid "Alias for field number 0"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.ckpt_recency:3
+msgid ""
+"This function can also act as an example of how to make checkpoint "
+"importance keyfuncs. This is a named function, but as you can see it "
+"could be easily implemented as a lambda in a pinch."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer:3
+msgid "Arguments:"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer:5
+msgid "checkpoints_dir"
+msgstr ""
+
+#: of
+msgid "str, pathlib.Path"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer:6
+msgid "Path to directory where to save checkpoints."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer:12
+msgid "recoverables"
+msgstr ""
+
+#: of
+msgid "mapping, optional"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer:8
+msgid ""
+"Objects to to recover. They need a (unique) name: this is used to connect"
+" the parameters in a checkpoint to the correct recoverable. The name is "
+"also used in the filename of the savefile for the objects parameters. "
+"These can also be added with add_recoverable or add_recoverables or just "
+"modifying checkpointer.recoverables directly."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer:18
+msgid "custom_load_hooks"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer:15
+msgid ""
+"A mapping from name [same as in recoverables] to function or method. Sets"
+" a custom loading hook for a particular object. The function/method must "
+"be callable with signature (instance, path) using positional arguments. "
+"This is satisfied by for example: `def loader(self, path)`."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer:24
+msgid "custom_save_hooks"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer:21
+msgid ""
+"Mapping from name [same as in recoverables] to function or method. Sets a"
+" custom saving hook for a particular object. The function/method must be "
+"callable with signature (instance, path) using positional arguments. This"
+" is satisfied by for example: def saver(self, path):"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer:30
+msgid "allow_partial_load"
+msgstr ""
+
+#: of
+msgid "bool, optional"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer:27
+msgid ""
+"If True, allows loading a checkpoint where a savefile is not found for "
+"every registered recoverable. In that case, only the found savefiles are "
+"loaded. When False, loading such a save will raise RuntimeError. "
+"(default: False)"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.add_recoverable:1
+msgid "Register a recoverable with possible custom hooks."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.add_recoverable:3
+msgid "Unique name for recoverable. Used to map savefiles to objects."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.add_recoverable:5
+msgid "The object to recover."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.add_recoverable:7
+msgid ""
+"Called to load the object's savefile. The function/method must be "
+"callable with signature (instance, path) using positional arguments. This"
+" is satisfied by for example: def load(self, path):"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.add_recoverable:11
+msgid ""
+"Called to save the object's parameters. The function/method must be "
+"callable with signature (instance, path) using positional arguments. This"
+" is satisfied by for example: def saver(self, path):"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.add_recoverables:1
+msgid "Update the recoverables dict from the given mapping."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.add_recoverables:3
+msgid ""
+"Objects to recover. They need a (unique) name: this is used to connect "
+"the parameters in a checkpoint to the correct recoverable. The name is "
+"also used in the filename of the savefile for the objects parameters."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.save_checkpoint:1
+msgid "Saves a checkpoint."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.save_checkpoint:3
+msgid ""
+"The whole checkpoint becomes a directory. Saves each registered object's "
+"parameters in a separate file. Also a meta file is added. The meta file "
+"by default has just the unixtime (seconds since unix epoch), but you can "
+"add anything relevant yourself. The meta information is later used to "
+"pick the checkpoint to load."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.save_checkpoint:10
+msgid ""
+"The value of end_of_epoch is saved in the meta. This can affect how epoch"
+" counters and dataset iterators load their state."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.save_and_keep_only:6
+#: speechbrain.utils.checkpoints.Checkpointer.save_checkpoint:13
+msgid ""
+"A mapping which is added to the meta file in the checkpoint. The key "
+"\"unixtime\" is included by default."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.save_and_keep_only:9
+#: speechbrain.utils.checkpoints.Checkpointer.save_checkpoint:16
+msgid ""
+"Whether the checkpoint is at the end of an epoch. True by default. May "
+"affect loading."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.save_and_keep_only:12
+#: speechbrain.utils.checkpoints.Checkpointer.save_checkpoint:19
+msgid ""
+"Specify a custom name for your checkpoint. The name will still have a "
+"prefix added. If no name is given, a name is created from a timestamp and"
+" a random unique id."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.save_checkpoint:23
+msgid "Set logging level this save."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.save_checkpoint:26
+msgid "namedtuple [see above], the saved checkpoint."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.save_and_keep_only:1
+msgid "Saves a checkpoint, then deletes the least important checkpoints."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.save_and_keep_only:3
+msgid ""
+"Essentially this combines ``save_checkpoint()`` and "
+"``delete_checkpoints()`` in one call, providing short syntax."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.save_and_keep_only:16
+msgid ""
+"Number of checkpoints to keep. Defaults to 1. This deletes all "
+"checkpoints remaining after filtering. Must be >=0."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.save_and_keep_only:19
+msgid "Whether to keep the most recent ``num_to_keep`` checkpoints."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.save_and_keep_only:21
+msgid ""
+"A list of key functions used in sorting (see the sorted built-in). Each "
+"callable defines a sort order and num_to_keep checkpoints are kept for "
+"callable. The checkpoint with the highest keys are kept. The functions "
+"are passed Checkpoint namedtuples (see above)."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.save_and_keep_only:26
+msgid "A list of keys for which the *highest* value will be kept."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.save_and_keep_only:28
+msgid "A list of keys for which the *lowest* value will be kept."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.delete_checkpoints:32
+#: speechbrain.utils.checkpoints.Checkpointer.save_and_keep_only:30
+msgid ""
+"Use this to exclude some checkpoints from deletion. Before any sorting, "
+"the list of checkpoints is filtered with this predicate. Only the "
+"checkpoints for which ckpt_predicate is True can be deleted. The function"
+" is called with Checkpoint namedtuples (see above)."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.save_and_keep_only:37
+msgid ""
+"Unlike save_checkpoint, this does not return anything, since we cannot "
+"guarantee that the saved checkpoint actually survives deletion."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.find_checkpoint:1
+msgid "Picks a particular checkpoint from all available checkpoints."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.find_checkpoint:3
+#: speechbrain.utils.checkpoints.Checkpointer.recover_if_possible:5
+msgid ""
+"If none of ``importance_key``, ``max_key``, and ``min_key`` is used, then"
+" most recent checkpoint will be returned. No more than one of them may be"
+" used."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.find_checkpoint:7
+msgid ""
+"Most functionality is actually implemented in ``find_checkpoints()`` but "
+"this is kept as a useful interface."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.find_checkpoint:10
+#: speechbrain.utils.checkpoints.Checkpointer.find_checkpoints:7
+msgid ""
+"The key function used in sorting. The checkpoint with the highest "
+"returned value is picked. The function is called with Checkpoint "
+"namedtuples."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.find_checkpoint:14
+#: speechbrain.utils.checkpoints.Checkpointer.find_checkpoints:11
+msgid ""
+"The checkpoint with the highest value for this key will be returned. Only"
+" checkpoints with this key will be considered!"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.find_checkpoint:17
+#: speechbrain.utils.checkpoints.Checkpointer.find_checkpoints:14
+msgid ""
+"The checkpoint with the lowest value for this key will be returned. Only "
+"checkpoints with this key will be considered!"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.find_checkpoint:20
+#: speechbrain.utils.checkpoints.Checkpointer.find_checkpoints:17
+#: speechbrain.utils.checkpoints.Checkpointer.recover_if_possible:19
+msgid ""
+"Before sorting, the list of checkpoints is filtered with this predicate. "
+"See the filter builtin. The function is called with Checkpoint "
+"namedtuples (see above). By default, all checkpoints are considered."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.find_checkpoint:27
+#: speechbrain.utils.checkpoints.Checkpointer.recover_if_possible:28
+msgid ""
+"* *Checkpoint* -- If found. * *None* -- If no Checkpoints exist/remain "
+"after filtering."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.find_checkpoint:27
+#: speechbrain.utils.checkpoints.Checkpointer.recover_if_possible:28
+msgid "*Checkpoint* -- If found."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.find_checkpoint:28
+#: speechbrain.utils.checkpoints.Checkpointer.recover_if_possible:29
+msgid "*None* -- If no Checkpoints exist/remain after filtering."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.find_checkpoints:1
+msgid "Picks multiple checkpoints."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.find_checkpoints:3
+msgid ""
+"If none of ``importance_key``, ``max_key``, and ``min_key`` is used, then"
+" the most recent checkpoints will be returned. No more than one of these "
+"may be used."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.find_checkpoints:23
+msgid ""
+"The maximum number of checkpoints to return, or None to return all found "
+"checkpoints."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.find_checkpoints:27
+msgid "List containing at most the max specified number of Checkpoints."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.recover_if_possible:1
+msgid "Picks a checkpoint and recovers from that, if one is found."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.recover_if_possible:3
+msgid "If a checkpoint is not found, no recovery is run."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.recover_if_possible:9
+msgid ""
+"The key function used in sorting. The checkpoint with the highest "
+"returned value is loaded. The function is called with Checkpoint "
+"namedtuples."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.recover_if_possible:13
+msgid ""
+"The checkpoint with the highest value for this key will be loaded. Only "
+"checkpoints with this key will be considered!"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.recover_if_possible:16
+msgid ""
+"The checkpoint with the lowest value for this key will be loaded. Only "
+"checkpoints with this key will be considered!"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.recover_if_possible:25
+msgid "Device to load models to."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.load_checkpoint:1
+msgid "Loads the specified checkpoint."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.load_checkpoint:3
+msgid "Checkpoint to load."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.list_checkpoints:1
+msgid "List all checkpoints in the checkpoints directory."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.list_checkpoints:3
+msgid "List of Checkpoint namedtuple (see above)."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.delete_checkpoints:1
+msgid "Deletes least important checkpoints."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.delete_checkpoints:3
+msgid ""
+"Since there can be many ways to define importance (e.g. lowest WER, "
+"lowest loss), the user should provide a list of sort key functions, each "
+"defining a particular importance order. In essence, each importance key "
+"function extracts one importance metric (higher is more important). For "
+"each of these orders, num_to_keep checkpoints are kept. However if there "
+"is overlap between each orders' preserved checkpoints, the additional "
+"checkpoints are not preserved, so the total number of preserved "
+"checkpoints can be less than::"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.delete_checkpoints:14
+msgid ""
+"Number of checkpoints to keep. Defaults to 10. You choose to keep 0. This"
+" deletes all checkpoints remaining after filtering. Must be >=0"
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.delete_checkpoints:18
+msgid ""
+"List of strings representing keys in the meta. The lowest of these values"
+" will be kept, up to num_to_keep."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.delete_checkpoints:21
+msgid ""
+"List of strings representing keys in the meta. The highest of these "
+"values will be kept, up to num_to_keep."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.delete_checkpoints:24
+msgid ""
+"A list of key functions used in sorting (see the sorted built-in). Each "
+"callable defines a sort order and num_to_keep checkpoints are kept for  "
+"callable. To be clear, those with the highest key are kept. The functions"
+" are called with Checkpoint namedtuples (see above). See also the default"
+" (ckpt_recency, above). The default deletes all but the latest "
+"checkpoint."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.delete_checkpoints:38
+msgid "Set logging level for this deletion."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.Checkpointer.delete_checkpoints:43
+msgid ""
+"Must be called with keyword arguments, as a signoff that you know what "
+"you are doing. Deletion is permanent."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.average_state_dicts:3
+msgid ""
+"Note that at one time, this keeps two of the state_dicts in memory, which"
+" is the minimum memory requirement."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.average_state_dicts:6
+msgid "The state_dicts to average."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.average_state_dicts:9
+msgid "The averaged state_dict."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.average_checkpoints:3
+msgid ""
+"Use Checkpointer.find_checkpoints() to get the list of checkpoints to "
+"average over. Averaging parameters from some of the last checkpoints in "
+"training has been shown to sometimes improve performance."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.average_checkpoints:8
+msgid "The default loader and averager work for standard PyTorch modules."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.average_checkpoints:10
+msgid "List of checkpoints to average."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.average_checkpoints:12
+msgid ""
+"The name of the recoverable, the parameters of which are loaded and "
+"averaged."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.average_checkpoints:15
+msgid ""
+"A function which takes a single argument, the path to a parameter file, "
+"and loads the parameters from that file. By default, torch.load, which "
+"produces state_dict dictionaries."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.average_checkpoints:19
+msgid ""
+"A function which takes an iterator over the parameters from each "
+"checkpoint, as loaded by parameter_loader, and produces their average. "
+"Note that the function is called with an iterator, so the length is "
+"initially unknown; the implementation should simply count the number of "
+"different parameter sets as they are yielded. See average_state_dicts "
+"above for an example. It is the default averager, and averages "
+"state_dicts."
+msgstr ""
+
+#: of speechbrain.utils.checkpoints.average_checkpoints:28
+msgid "The output of the averager function."
+msgstr ""
+

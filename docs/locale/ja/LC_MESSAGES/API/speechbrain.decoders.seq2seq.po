@@ -1,0 +1,695 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:5
+msgid "speechbrain.decoders.seq2seq module"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq:1
+msgid "Decoding methods for seq2seq autoregressive model."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq:7
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq:4
+msgid "Ju-Chieh Chou 2020"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq:5
+msgid "Peter Plantinga 2020"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq:6
+msgid "Mirco Ravanelli 2020"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq:7
+msgid "Sung-Lin Yeh 2020"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:31:<autosummary>:1
+msgid ":obj:`S2SBaseSearcher <speechbrain.decoders.seq2seq.S2SBaseSearcher>`"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:31:<autosummary>:1 of
+#: speechbrain.decoders.seq2seq.S2SBaseSearcher:1
+msgid ""
+"S2SBaseSearcher class to be inherited by other decoding approches for "
+"seq2seq model."
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:31:<autosummary>:1
+msgid ":obj:`S2SBeamSearcher <speechbrain.decoders.seq2seq.S2SBeamSearcher>`"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:31:<autosummary>:1
+msgid "This class implements the beam-search algorithm for the seq2seq model."
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:31:<autosummary>:1
+msgid ":obj:`S2SGreedySearcher <speechbrain.decoders.seq2seq.S2SGreedySearcher>`"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:31:<autosummary>:1
+msgid ""
+"This class implements the general forward-pass of greedy decoding "
+"approach."
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:31:<autosummary>:1
+msgid ""
+":obj:`S2SRNNBeamSearchLM "
+"<speechbrain.decoders.seq2seq.S2SRNNBeamSearchLM>`"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:31:<autosummary>:1
+msgid ""
+"This class implements the beam search decoding for AttentionalRNNDecoder "
+"(speechbrain/nnet/RNN.py) with LM."
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:31:<autosummary>:1
+msgid ""
+":obj:`S2SRNNBeamSearchTransformerLM "
+"<speechbrain.decoders.seq2seq.S2SRNNBeamSearchTransformerLM>`"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:31:<autosummary>:1
+msgid ""
+":obj:`S2SRNNBeamSearcher "
+"<speechbrain.decoders.seq2seq.S2SRNNBeamSearcher>`"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:31:<autosummary>:1
+msgid ""
+"This class implements the beam search decoding for AttentionalRNNDecoder "
+"(speechbrain/nnet/RNN.py)."
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:31:<autosummary>:1
+msgid ""
+":obj:`S2SRNNGreedySearcher "
+"<speechbrain.decoders.seq2seq.S2SRNNGreedySearcher>`"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:31:<autosummary>:1
+msgid ""
+"This class implements the greedy decoding for AttentionalRNNDecoder "
+"(speechbrain/nnet/RNN.py)."
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:31:<autosummary>:1
+msgid ""
+":obj:`S2STransformerBeamSearch "
+"<speechbrain.decoders.seq2seq.S2STransformerBeamSearch>`"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:31:<autosummary>:1
+msgid "This class implements the beam search decoding for Transformer."
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:32
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:48:<autosummary>:1
+msgid ""
+":obj:`batch_filter_seq2seq_output "
+"<speechbrain.decoders.seq2seq.batch_filter_seq2seq_output>`"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:48:<autosummary>:1 of
+#: speechbrain.decoders.seq2seq.batch_filter_seq2seq_output:1
+msgid "Calling batch_size times of filter_seq2seq_output."
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:48:<autosummary>:1
+msgid ""
+":obj:`filter_seq2seq_output "
+"<speechbrain.decoders.seq2seq.filter_seq2seq_output>`"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:48:<autosummary>:1 of
+#: speechbrain.decoders.seq2seq.filter_seq2seq_output:1
+msgid "Filter the output until the first eos occurs (exclusive)."
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:48:<autosummary>:1
+msgid ":obj:`inflate_tensor <speechbrain.decoders.seq2seq.inflate_tensor>`"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:48:<autosummary>:1 of
+#: speechbrain.decoders.seq2seq.inflate_tensor:1
+msgid "This function inflates the tensor for times along dim."
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:48:<autosummary>:1
+msgid ":obj:`mask_by_condition <speechbrain.decoders.seq2seq.mask_by_condition>`"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:48:<autosummary>:1 of
+#: speechbrain.decoders.seq2seq.mask_by_condition:1
+msgid ""
+"This function will mask some element in the tensor with fill_value, if "
+"condition=False."
+msgstr ""
+
+#: ../../API/speechbrain.decoders.seq2seq.rst:50
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher
+#: speechbrain.decoders.seq2seq.S2SBaseSearcher.forward
+#: speechbrain.decoders.seq2seq.S2SBaseSearcher.forward_step
+#: speechbrain.decoders.seq2seq.S2SBaseSearcher.lm_forward_step
+#: speechbrain.decoders.seq2seq.S2SBaseSearcher.reset_lm_mem
+#: speechbrain.decoders.seq2seq.S2SBaseSearcher.reset_mem
+#: speechbrain.decoders.seq2seq.S2SBeamSearcher
+#: speechbrain.decoders.seq2seq.S2SBeamSearcher.permute_lm_mem
+#: speechbrain.decoders.seq2seq.S2SBeamSearcher.permute_mem
+#: speechbrain.decoders.seq2seq.S2SRNNBeamSearchLM
+#: speechbrain.decoders.seq2seq.S2SRNNBeamSearchTransformerLM
+#: speechbrain.decoders.seq2seq.S2SRNNBeamSearcher
+#: speechbrain.decoders.seq2seq.S2SRNNGreedySearcher
+#: speechbrain.decoders.seq2seq.S2STransformerBeamSearch
+#: speechbrain.decoders.seq2seq.batch_filter_seq2seq_output
+#: speechbrain.decoders.seq2seq.filter_seq2seq_output
+#: speechbrain.decoders.seq2seq.inflate_tensor
+#: speechbrain.decoders.seq2seq.mask_by_condition
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher:4
+msgid "The index of the beginning-of-sequence (bos) token."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher:6
+#: speechbrain.decoders.seq2seq.S2SBeamSearcher:6
+msgid "The index of end-of-sequence token."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher:8
+msgid "The ratio of minimum decoding steps to the length of encoder states."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher:10
+msgid "The ratio of maximum decoding steps to the length of encoder states."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher
+#: speechbrain.decoders.seq2seq.S2SBaseSearcher.forward_step
+#: speechbrain.decoders.seq2seq.S2SBaseSearcher.lm_forward_step
+#: speechbrain.decoders.seq2seq.S2SBaseSearcher.reset_lm_mem
+#: speechbrain.decoders.seq2seq.S2SBaseSearcher.reset_mem
+#: speechbrain.decoders.seq2seq.S2SBeamSearcher.permute_lm_mem
+#: speechbrain.decoders.seq2seq.S2SBeamSearcher.permute_mem
+#: speechbrain.decoders.seq2seq.batch_filter_seq2seq_output
+#: speechbrain.decoders.seq2seq.filter_seq2seq_output
+#: speechbrain.decoders.seq2seq.inflate_tensor
+#: speechbrain.decoders.seq2seq.mask_by_condition
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher:13
+msgid ""
+"* *predictions* -- Outputs as Python list of lists, with \"ragged\" "
+"dimensions; padding   has been removed. * *scores* -- The sum of log "
+"probabilities (and possibly   additional heuristic scores) for each "
+"prediction."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher:13
+msgid ""
+"*predictions* -- Outputs as Python list of lists, with \"ragged\" "
+"dimensions; padding has been removed."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher:15
+msgid ""
+"*scores* -- The sum of log probabilities (and possibly additional "
+"heuristic scores) for each prediction."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.forward:1
+msgid "This method should implement the forward algorithm of decoding method."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.forward:3
+msgid ""
+"The precomputed encoder states to be used when decoding. (ex. the encoded"
+" speech representation to be attended)."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.forward:6
+msgid "The speechbrain-style relative length."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.forward_step:1
+msgid ""
+"This method should implement one step of forwarding operation in the "
+"autoregressive model."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.forward_step:4
+#: speechbrain.decoders.seq2seq.S2SBaseSearcher.lm_forward_step:4
+msgid "The input tensor of the current timestep."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.forward_step:6
+msgid "The memory variables input for this timestep. (ex. RNN hidden states)."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.forward_step:9
+msgid "The encoder states to be attended."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.forward_step:11
+msgid "The actual length of each enc_states sequence."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.forward_step:14
+msgid ""
+"* **log_probs** (*torch.Tensor*) -- Log-probabilities of the current "
+"timestep output. * **memory** (*No limit*) -- The memory variables "
+"generated in this timestep.   (ex. RNN hidden states). * **attn** "
+"(*torch.Tensor*) -- The attention weight for doing penalty."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.forward_step:14
+#: speechbrain.decoders.seq2seq.S2SBaseSearcher.lm_forward_step:10
+msgid ""
+"**log_probs** (*torch.Tensor*) -- Log-probabilities of the current "
+"timestep output."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.forward_step:15
+msgid ""
+"**memory** (*No limit*) -- The memory variables generated in this "
+"timestep. (ex. RNN hidden states)."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.forward_step:17
+msgid "**attn** (*torch.Tensor*) -- The attention weight for doing penalty."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.reset_mem:1
+msgid ""
+"This method should implement the resetting of memory variables for the "
+"seq2seq model. E.g., initializing zero vector as initial hidden states."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.reset_lm_mem:5
+#: speechbrain.decoders.seq2seq.S2SBaseSearcher.reset_mem:5
+msgid "The size of the batch."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.reset_lm_mem:7
+#: speechbrain.decoders.seq2seq.S2SBaseSearcher.reset_mem:7
+msgid "The device to put the initial variables."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.reset_lm_mem:10
+#: speechbrain.decoders.seq2seq.S2SBaseSearcher.reset_mem:10
+msgid "**memory** -- The initial memory variable."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.reset_lm_mem
+#: speechbrain.decoders.seq2seq.S2SBaseSearcher.reset_mem
+#: speechbrain.decoders.seq2seq.S2SBeamSearcher.permute_lm_mem
+#: speechbrain.decoders.seq2seq.S2SBeamSearcher.permute_mem
+#: speechbrain.decoders.seq2seq.batch_filter_seq2seq_output
+#: speechbrain.decoders.seq2seq.filter_seq2seq_output
+#: speechbrain.decoders.seq2seq.inflate_tensor
+#: speechbrain.decoders.seq2seq.mask_by_condition
+msgid "Return type"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.lm_forward_step:1
+msgid ""
+"This method should implement one step of forwarding operation for "
+"language model."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.lm_forward_step:6
+msgid "The momory variables input for this timestep. (e.g., RNN hidden states)."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.lm_forward_step:10
+msgid ""
+"* **log_probs** (*torch.Tensor*) -- Log-probabilities of the current "
+"timestep output. * **memory** (*No limit*) -- The memory variables "
+"generated in this timestep.   (e.g., RNN hidden states)."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.lm_forward_step:11
+msgid ""
+"**memory** (*No limit*) -- The memory variables generated in this "
+"timestep. (e.g., RNN hidden states)."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBaseSearcher.reset_lm_mem:1
+msgid ""
+"This method should implement the resetting of memory variables in the "
+"language model. E.g., initializing zero vector as initial hidden states."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:1
+#: speechbrain.decoders.seq2seq.S2SGreedySearcher:1
+msgid "Bases: :class:`speechbrain.decoders.seq2seq.S2SBaseSearcher`"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SGreedySearcher:1
+msgid ""
+"This class implements the general forward-pass of greedy decoding "
+"approach. See also S2SBaseSearcher()."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SRNNGreedySearcher:1
+msgid "Bases: :class:`speechbrain.decoders.seq2seq.S2SGreedySearcher`"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SRNNGreedySearcher:1
+msgid ""
+"This class implements the greedy decoding for AttentionalRNNDecoder "
+"(speechbrain/nnet/RNN.py). See also S2SBaseSearcher() and "
+"S2SGreedySearcher()."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SRNNBeamSearchLM:5
+#: speechbrain.decoders.seq2seq.S2SRNNBeamSearchTransformerLM:5
+#: speechbrain.decoders.seq2seq.S2SRNNBeamSearcher:5
+#: speechbrain.decoders.seq2seq.S2SRNNGreedySearcher:5
+msgid "An embedding layer."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SRNNBeamSearchLM:7
+#: speechbrain.decoders.seq2seq.S2SRNNBeamSearchTransformerLM:7
+#: speechbrain.decoders.seq2seq.S2SRNNBeamSearcher:7
+#: speechbrain.decoders.seq2seq.S2SRNNGreedySearcher:7
+msgid "Attentional RNN decoder."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SRNNBeamSearchLM:9
+#: speechbrain.decoders.seq2seq.S2SRNNBeamSearchTransformerLM:9
+#: speechbrain.decoders.seq2seq.S2SRNNBeamSearcher:9
+#: speechbrain.decoders.seq2seq.S2SRNNGreedySearcher:9
+#: speechbrain.decoders.seq2seq.S2STransformerBeamSearch:7
+msgid "A linear output layer."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SRNNGreedySearcher:11
+msgid "see S2SBaseSearcher, arguments are directly passed."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SRNNBeamSearchLM:19
+#: speechbrain.decoders.seq2seq.S2SRNNBeamSearchTransformerLM:19
+#: speechbrain.decoders.seq2seq.S2SRNNBeamSearcher:17
+#: speechbrain.decoders.seq2seq.S2SRNNGreedySearcher:14
+#: speechbrain.decoders.seq2seq.batch_filter_seq2seq_output:12
+#: speechbrain.decoders.seq2seq.filter_seq2seq_output:12
+#: speechbrain.decoders.seq2seq.inflate_tensor:14
+#: speechbrain.decoders.seq2seq.mask_by_condition:15
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SRNNGreedySearcher.reset_mem:1
+msgid ""
+"When doing greedy search, keep hidden state (hs) adn context vector (c) "
+"as memory."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:1
+msgid ""
+"This class implements the beam-search algorithm for the seq2seq model. "
+"See also S2SBaseSearcher()."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:4
+msgid "The index of beginning-of-sequence token."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:8
+msgid "The ratio of minimum decoding steps to length of encoder states."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:10
+msgid "The ratio of maximum decoding steps to length of encoder states."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:12
+msgid "The width of beam."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:14
+msgid "The number of hypothesis to return. (default: 1)"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:16
+msgid "Whether to return log-probabilities. (default: False)"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:18
+msgid "Whether to use eos threshold. (default: true)"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:20
+msgid ""
+"The threshold coefficient for eos token (default: 1.5). See 3.1.2 in "
+"reference: https://arxiv.org/abs/1904.02619"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:23
+msgid "Whether to divide the scores by the length. (default: True)"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:25
+msgid ""
+"The coefficient of length rewarding (γ). log P(y|x) + λ log P_LM(y) + "
+"γ*len(y). (default: 0.0)"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:28
+msgid ""
+"The coefficient of coverage penalty (η). log P(y|x) + λ log P_LM(y) + "
+"γ*len(y) + η*coverage(x,y). (default: 0.0) Reference: "
+"https://arxiv.org/pdf/1612.02695.pdf, "
+"https://arxiv.org/pdf/1808.10792.pdf"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:32
+msgid ""
+"The weight of LM when performing beam search (λ). log P(y|x) + λ log "
+"P_LM(y). (default: 0.0)"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:35
+msgid ""
+"The weight of CTC probabilities when performing beam search (λ). (1-λ) "
+"log P(y|x) + λ log P_CTC(y|x). (default: 0.0)"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:38
+msgid "The index of the blank token."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:40
+msgid ""
+"Default: \"full\" CTC prefix scoring on \"partial\" token or \"full: "
+"token."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:43
+msgid ""
+"Default: 0 Compute the ctc scores over the time frames using windowing "
+"based on attention peaks. If 0, no windowing applied."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:47
+msgid "Whether using the max_attn_shift constaint. (default: False)"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:49
+msgid ""
+"Beam search will block the beams that attention shift more than "
+"max_attn_shift. Reference: https://arxiv.org/abs/1904.02619"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher:53
+msgid ""
+"DefaultL -1e20 The value of minus infinity to block some path of the "
+"search."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher.permute_mem:1
+msgid ""
+"This method permutes the seq2seq model memory to synchronize the memory "
+"index with the current output."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher.permute_lm_mem:4
+#: speechbrain.decoders.seq2seq.S2SBeamSearcher.permute_mem:4
+msgid "The memory variable to be permuted."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher.permute_lm_mem:6
+#: speechbrain.decoders.seq2seq.S2SBeamSearcher.permute_mem:6
+msgid "The index of the previous path."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SBeamSearcher.permute_lm_mem:1
+msgid ""
+"This method permutes the language model memory to synchronize the memory "
+"index with the current output."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SRNNBeamSearcher:1
+#: speechbrain.decoders.seq2seq.S2STransformerBeamSearch:1
+msgid "Bases: :class:`speechbrain.decoders.seq2seq.S2SBeamSearcher`"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SRNNBeamSearcher:1
+msgid ""
+"This class implements the beam search decoding for AttentionalRNNDecoder "
+"(speechbrain/nnet/RNN.py). See also S2SBaseSearcher(), S2SBeamSearcher()."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SRNNBeamSearchLM:13
+#: speechbrain.decoders.seq2seq.S2SRNNBeamSearchTransformerLM:13
+#: speechbrain.decoders.seq2seq.S2SRNNBeamSearcher:11
+msgid ""
+"Temperature factor applied to softmax. It changes the probability "
+"distribution, being softer when T>1 and sharper with T<1."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SRNNBeamSearcher:14
+msgid "see S2SBeamSearcher, arguments are directly passed."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SRNNBeamSearchLM:1
+#: speechbrain.decoders.seq2seq.S2SRNNBeamSearchTransformerLM:1
+msgid "Bases: :class:`speechbrain.decoders.seq2seq.S2SRNNBeamSearcher`"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SRNNBeamSearchLM:1
+#: speechbrain.decoders.seq2seq.S2SRNNBeamSearchTransformerLM:1
+msgid ""
+"This class implements the beam search decoding for AttentionalRNNDecoder "
+"(speechbrain/nnet/RNN.py) with LM. See also S2SBaseSearcher(), "
+"S2SBeamSearcher(), S2SRNNBeamSearcher()."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SRNNBeamSearchLM:11
+#: speechbrain.decoders.seq2seq.S2SRNNBeamSearchTransformerLM:11
+msgid "A language model."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SRNNBeamSearchLM:16
+#: speechbrain.decoders.seq2seq.S2SRNNBeamSearchTransformerLM:16
+msgid "Arguments to pass to S2SBeamSearcher."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2SRNNBeamSearchLM.permute_lm_mem:1
+msgid ""
+"This is to permute lm memory to synchronize with current index during "
+"beam search. The order of beams will be shuffled by scores every timestep"
+" to allow batched beam search. Further details please refer to "
+"speechbrain/decoder/seq2seq.py."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.inflate_tensor:3
+msgid "The tensor to be inflated."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.inflate_tensor:5
+msgid "The tensor will inflate for this number of times."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.inflate_tensor:7
+msgid "The dim to be inflated."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.inflate_tensor:10
+msgid "The inflated tensor."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.mask_by_condition:3
+msgid "The tensor to be masked."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.mask_by_condition:5
+msgid ""
+"This tensor has to be the same size as tensor. Each element represents "
+"whether to keep the value in tensor."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.mask_by_condition:8
+msgid "The value to fill in the masked element."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.mask_by_condition:11
+msgid "The masked tensor."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2STransformerBeamSearch:1
+msgid ""
+"This class implements the beam search decoding for Transformer. See also "
+"S2SBaseSearcher(), S2SBeamSearcher()."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2STransformerBeamSearch:5
+msgid "The model to use for decoding."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.S2STransformerBeamSearch:9
+msgid "Arguments to pass to S2SBeamSearcher"
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.batch_filter_seq2seq_output:3
+msgid "A list containing the output ints predicted by the seq2seq system."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.batch_filter_seq2seq_output:5
+#: speechbrain.decoders.seq2seq.filter_seq2seq_output:5
+msgid "The id of the eos."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.batch_filter_seq2seq_output:8
+#: speechbrain.decoders.seq2seq.filter_seq2seq_output:8
+msgid "The output predicted by seq2seq model."
+msgstr ""
+
+#: of speechbrain.decoders.seq2seq.filter_seq2seq_output:3
+msgid "A list containing the output strings/ints predicted by the seq2seq system."
+msgstr ""
+

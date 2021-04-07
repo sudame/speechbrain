@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.lm.ngram.rst:5
+msgid "speechbrain.lm.ngram module"
+msgstr ""
+
+#: of speechbrain.lm.ngram:1
+msgid "N-gram language model query interface"
+msgstr ""
+
+#: of speechbrain.lm.ngram:4
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.lm.ngram:4
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: ../../API/speechbrain.lm.ngram.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.lm.ngram.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.lm.ngram.rst:24:<autosummary>:1
+msgid ":obj:`BackoffNgramLM <speechbrain.lm.ngram.BackoffNgramLM>`"
+msgstr ""
+
+#: ../../API/speechbrain.lm.ngram.rst:24:<autosummary>:1 of
+#: speechbrain.lm.ngram.BackoffNgramLM:1
+msgid "Query interface for backoff N-gram language models"
+msgstr ""
+
+#: ../../API/speechbrain.lm.ngram.rst:25
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.lm.ngram.rst:39:<autosummary>:1
+msgid ""
+":obj:`ngram_evaluation_details "
+"<speechbrain.lm.ngram.ngram_evaluation_details>`"
+msgstr ""
+
+#: ../../API/speechbrain.lm.ngram.rst:39:<autosummary>:1 of
+#: speechbrain.lm.ngram.ngram_evaluation_details:1
+msgid "Evaluates the N-gram LM on each sentence in data"
+msgstr ""
+
+#: ../../API/speechbrain.lm.ngram.rst:39:<autosummary>:1
+msgid ":obj:`ngram_perplexity <speechbrain.lm.ngram.ngram_perplexity>`"
+msgstr ""
+
+#: ../../API/speechbrain.lm.ngram.rst:39:<autosummary>:1 of
+#: speechbrain.lm.ngram.ngram_perplexity:1
+msgid "Computes perplexity from a list of individual sentence evaluations."
+msgstr ""
+
+#: ../../API/speechbrain.lm.ngram.rst:41
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.lm.ngram.BackoffNgramLM:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: of speechbrain.lm.ngram.BackoffNgramLM:3
+msgid ""
+"The ngrams format is best explained by an example query: P( world | <s>, "
+"hello ), i.e. trigram model, probability of \"world\" given \"<s> "
+"hello\", is: `ngrams[2][(\"<s>\", \"hello\")][\"world\"]`"
+msgstr ""
+
+#: of speechbrain.lm.ngram.BackoffNgramLM:7
+msgid ""
+"On the top level, ngrams is a dict of different history lengths, and each"
+" order is a dict, with contexts (tuples) as keys and (log-)distributions "
+"(dicts) as values."
+msgstr ""
+
+#: of speechbrain.lm.ngram.BackoffNgramLM:11
+msgid ""
+"The backoffs format is a little simpler. On the top level, backoffs is a "
+"list of different context-orders, and each order is a mapping (dict) from"
+" backoff context to backoff (log-)weight"
+msgstr ""
+
+#: of speechbrain.lm.ngram.BackoffNgramLM
+#: speechbrain.lm.ngram.ngram_evaluation_details
+#: speechbrain.lm.ngram.ngram_perplexity
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.lm.ngram.BackoffNgramLM:15
+msgid ""
+"The N-gram log probabilities. This is a triply nested dict. The first "
+"layer is indexed by N-gram order (integer). The second layer is indexed "
+"by the context (tuple of tokens). The third layer is indexed by tokens, "
+"and maps to the log prob. Example: log(P(fox|a quick red)) = -5.3 is "
+"accessed by: `ngrams[4][('a', 'quick', 'red')]['fox']`"
+msgstr ""
+
+#: of speechbrain.lm.ngram.BackoffNgramLM:24
+msgid ""
+"The backoff log weights. This is a doubly nested dict. The first layer is"
+" indexed by N-gram order (integer). The second layer is indexed by the "
+"backoff history (tuple of tokens) i.e. the context on which the "
+"probability distribution is conditioned on. This maps to the log weights."
+" Example: If log(P(fox|a quick red)) is not listed, we find log(backoff(a"
+" quick red)) = -23.4, which is accessed: `backoffs[3][('a', 'quick', "
+"'red')]` This dict needs to have entries for orders up to at least N-1 "
+"(even if they are empty). It may also have entries for order N, though "
+"those can never be accessed."
+msgstr ""
+
+#: of speechbrain.lm.ngram.BackoffNgramLM:40
+#: speechbrain.lm.ngram.ngram_evaluation_details:23
+#: speechbrain.lm.ngram.ngram_perplexity:13
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.lm.ngram.ngram_evaluation_details:3
+msgid ""
+"Call `ngram_preplexity` with the output of this function to compute the "
+"perplexity."
+msgstr ""
+
+#: of speechbrain.lm.ngram.ngram_evaluation_details:6
+msgid ""
+"An iterator over sentences, where each sentence should be an iterator as "
+"returned by `speechbrain.lm.counting.ngrams_for_evaluation`"
+msgstr ""
+
+#: of speechbrain.lm.ngram.ngram_evaluation_details:9
+msgid "The language model to evaluate"
+msgstr ""
+
+#: of speechbrain.lm.ngram.ngram_evaluation_details
+#: speechbrain.lm.ngram.ngram_perplexity
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.lm.ngram.ngram_evaluation_details:12
+msgid ""
+"List of `collections.Counter`s which have the keys \"num_tokens\" and "
+"\"neglogprob\", giving the number of tokens and logprob of each sentence "
+"(in the same order as data)."
+msgstr ""
+
+#: of speechbrain.lm.ngram.ngram_evaluation_details
+#: speechbrain.lm.ngram.ngram_perplexity
+msgid "Return type"
+msgstr ""
+
+#: of speechbrain.lm.ngram.ngram_evaluation_details:19
+msgid ""
+"The `collections.Counter` cannot add negative numbers. Thus it is "
+"important to use negative log probabilities (always >=0)."
+msgstr ""
+
+#: of speechbrain.lm.ngram.ngram_perplexity:3
+msgid ""
+"List of individual sentence evaluations. As returned by "
+"`ngram_evaluation_details`"
+msgstr ""
+
+#: of speechbrain.lm.ngram.ngram_perplexity:6
+msgid "The logarithm base to use."
+msgstr ""
+
+#: of speechbrain.lm.ngram.ngram_perplexity:9
+msgid "The computed perplexity."
+msgstr ""
+

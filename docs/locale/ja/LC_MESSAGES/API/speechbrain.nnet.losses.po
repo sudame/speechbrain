@@ -1,0 +1,778 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.nnet.losses.rst:5
+msgid "speechbrain.nnet.losses module"
+msgstr ""
+
+#: of speechbrain.nnet.losses:1
+msgid "Losses for training neural networks."
+msgstr ""
+
+#: of speechbrain.nnet.losses:8
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.nnet.losses:4
+msgid "Mirco Ravanelli 2020"
+msgstr ""
+
+#: of speechbrain.nnet.losses:5
+msgid "Samuele Cornell 2020"
+msgstr ""
+
+#: of speechbrain.nnet.losses:6
+msgid "Hwidong Na 2020"
+msgstr ""
+
+#: of speechbrain.nnet.losses:7
+msgid "Yan Gao 2020"
+msgstr ""
+
+#: of speechbrain.nnet.losses:8
+msgid "Titouan Parcollet 2020"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:27:<autosummary>:1
+msgid ""
+":obj:`AdditiveAngularMargin "
+"<speechbrain.nnet.losses.AdditiveAngularMargin>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:27:<autosummary>:1 of
+#: speechbrain.nnet.losses.AdditiveAngularMargin:1
+msgid ""
+"An implementation of Additive Angular Margin (AAM) proposed in the "
+"following paper: '''Margin Matters: Towards More Discriminative Deep "
+"Neural Network Embeddings for Speaker Recognition''' "
+"(https://arxiv.org/abs/1906.07317)"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:27:<autosummary>:1
+msgid ":obj:`AngularMargin <speechbrain.nnet.losses.AngularMargin>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:27:<autosummary>:1 of
+#: speechbrain.nnet.losses.AngularMargin:1
+msgid ""
+"An implementation of Angular Margin (AM) proposed in the following paper:"
+" '''Margin Matters: Towards More Discriminative Deep Neural Network "
+"Embeddings for Speaker Recognition''' (https://arxiv.org/abs/1906.07317)"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:27:<autosummary>:1
+msgid ":obj:`LogSoftmaxWrapper <speechbrain.nnet.losses.LogSoftmaxWrapper>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:27:<autosummary>
+msgid "returns"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:27:<autosummary>:1 of
+#: speechbrain.nnet.losses.LogSoftmaxWrapper:2
+msgid "**loss** (*torch.Tensor*) -- Learning loss"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:27:<autosummary>:1
+msgid ":obj:`PitWrapper <speechbrain.nnet.losses.PitWrapper>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:27:<autosummary>:1 of
+#: speechbrain.nnet.losses.PitWrapper:1
+msgid ""
+"Permutation Invariant Wrapper to allow Permutation Invariant Training "
+"(PIT) with existing losses."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:28
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1
+msgid ":obj:`bce_loss <speechbrain.nnet.losses.bce_loss>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1
+msgid "Computes binary cross-entropy (BCE) loss."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1
+msgid ":obj:`cal_si_snr <speechbrain.nnet.losses.cal_si_snr>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1 of
+#: speechbrain.nnet.losses.cal_si_snr:1
+msgid "Calculate SI-SNR."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1
+msgid ":obj:`ce_kd <speechbrain.nnet.losses.ce_kd>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1 of
+#: speechbrain.nnet.losses.ce_kd:1
+msgid "Simple version of distillation for cross-entropy loss."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1
+msgid ":obj:`classification_error <speechbrain.nnet.losses.classification_error>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1 of
+#: speechbrain.nnet.losses.classification_error:1
+msgid "Computes the classification error at frame or batch level."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1
+msgid ":obj:`compute_masked_loss <speechbrain.nnet.losses.compute_masked_loss>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1 of
+#: speechbrain.nnet.losses.compute_masked_loss:1
+msgid "Compute the true average loss of a set of waveforms of unequal length."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1
+msgid ":obj:`ctc_loss <speechbrain.nnet.losses.ctc_loss>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1 of
+#: speechbrain.nnet.losses.ctc_loss:1
+msgid "CTC loss."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1
+msgid ":obj:`ctc_loss_kd <speechbrain.nnet.losses.ctc_loss_kd>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1 of
+#: speechbrain.nnet.losses.ctc_loss_kd:1
+msgid "Knowledge distillation for CTC loss."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1
+msgid ":obj:`get_mask <speechbrain.nnet.losses.get_mask>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>
+msgid "param source"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1
+msgid ""
+":obj:`get_si_snr_with_pitwrapper "
+"<speechbrain.nnet.losses.get_si_snr_with_pitwrapper>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1 of
+#: speechbrain.nnet.losses.get_si_snr_with_pitwrapper:1
+msgid "This function wraps si_snr calculation with the speechbrain pit-wrapper."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1
+msgid ":obj:`kldiv_loss <speechbrain.nnet.losses.kldiv_loss>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1
+msgid "Computes the KL-divergence error at the batch level."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1
+msgid ":obj:`l1_loss <speechbrain.nnet.losses.l1_loss>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1 of
+#: speechbrain.nnet.losses.l1_loss:1
+msgid "Compute the true l1 loss, accounting for length differences."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1
+msgid ":obj:`mse_loss <speechbrain.nnet.losses.mse_loss>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1 of
+#: speechbrain.nnet.losses.mse_loss:1
+msgid "Compute the true mean squared error, accounting for length differences."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1
+msgid ":obj:`nll_loss <speechbrain.nnet.losses.nll_loss>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1 of
+#: speechbrain.nnet.losses.nll_loss:1
+msgid "Computes negative log likelihood loss."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1
+msgid ":obj:`nll_loss_kd <speechbrain.nnet.losses.nll_loss_kd>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1 of
+#: speechbrain.nnet.losses.nll_loss_kd:1
+msgid "Knowledge distillation for negative log-likelihood loss."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1
+msgid ":obj:`transducer_loss <speechbrain.nnet.losses.transducer_loss>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1 of
+#: speechbrain.nnet.losses.transducer_loss:1
+msgid "Transducer loss, see `speechbrain/nnet/transducer/transducer_loss.py`."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1
+msgid ":obj:`truncate <speechbrain.nnet.losses.truncate>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:56:<autosummary>:1 of
+#: speechbrain.nnet.losses.truncate:1
+msgid "Ensure that predictions and targets are the same length."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.losses.rst:58
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.nnet.losses.AdditiveAngularMargin
+#: speechbrain.nnet.losses.AdditiveAngularMargin.forward
+#: speechbrain.nnet.losses.AngularMargin
+#: speechbrain.nnet.losses.AngularMargin.forward
+#: speechbrain.nnet.losses.LogSoftmaxWrapper.forward
+#: speechbrain.nnet.losses.PitWrapper
+#: speechbrain.nnet.losses.PitWrapper.forward
+#: speechbrain.nnet.losses.PitWrapper.reorder_tensor
+#: speechbrain.nnet.losses.bce_loss speechbrain.nnet.losses.ce_kd
+#: speechbrain.nnet.losses.classification_error
+#: speechbrain.nnet.losses.compute_masked_loss speechbrain.nnet.losses.ctc_loss
+#: speechbrain.nnet.losses.ctc_loss_kd speechbrain.nnet.losses.get_mask
+#: speechbrain.nnet.losses.kldiv_loss speechbrain.nnet.losses.l1_loss
+#: speechbrain.nnet.losses.mse_loss speechbrain.nnet.losses.nll_loss
+#: speechbrain.nnet.losses.nll_loss_kd speechbrain.nnet.losses.transducer_loss
+#: speechbrain.nnet.losses.truncate
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.nnet.losses.ctc_loss:3
+#: speechbrain.nnet.losses.transducer_loss:3
+msgid "Predicted tensor, of shape [batch, time, chars]."
+msgstr ""
+
+#: of speechbrain.nnet.losses.transducer_loss:5
+msgid "Target tensor, without any blanks, of shape [batch, target_len]."
+msgstr ""
+
+#: of speechbrain.nnet.losses.ctc_loss:7 speechbrain.nnet.losses.ctc_loss_kd:12
+#: speechbrain.nnet.losses.transducer_loss:7
+msgid "Length of each utterance."
+msgstr ""
+
+#: of speechbrain.nnet.losses.ctc_loss:9
+#: speechbrain.nnet.losses.transducer_loss:9
+msgid "Length of each target sequence."
+msgstr ""
+
+#: of speechbrain.nnet.losses.ctc_loss:11
+#: speechbrain.nnet.losses.ctc_loss_kd:14
+#: speechbrain.nnet.losses.transducer_loss:11
+msgid "The location of the blank symbol among the character indexes."
+msgstr ""
+
+#: of speechbrain.nnet.losses.transducer_loss:13
+msgid ""
+"Specifies the reduction to apply to the output: 'mean' | 'batchmean' | "
+"'sum'."
+msgstr ""
+
+#: of speechbrain.nnet.losses.AngularMargin:1
+#: speechbrain.nnet.losses.LogSoftmaxWrapper:1
+#: speechbrain.nnet.losses.PitWrapper:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.nnet.losses.PitWrapper:4
+msgid ""
+"Permutation invariance is calculated over the sources/classes axis which "
+"is assumed to be the rightmost dimension: predictions and targets tensors"
+" are assumed to have shape [batch, ..., channels, sources]."
+msgstr ""
+
+#: of speechbrain.nnet.losses.PitWrapper:8
+msgid ""
+"Base loss function, e.g. torch.nn.MSELoss. It is assumed that it takes "
+"two arguments: predictions and targets and no reduction is performed. (if"
+" a pytorch loss is used, the user must specify reduction=\"none\")."
+msgstr ""
+
+#: of speechbrain.nnet.losses.AdditiveAngularMargin
+#: speechbrain.nnet.losses.AdditiveAngularMargin.forward
+#: speechbrain.nnet.losses.AngularMargin
+#: speechbrain.nnet.losses.AngularMargin.forward
+#: speechbrain.nnet.losses.LogSoftmaxWrapper
+#: speechbrain.nnet.losses.LogSoftmaxWrapper.forward
+#: speechbrain.nnet.losses.PitWrapper
+#: speechbrain.nnet.losses.PitWrapper.forward
+#: speechbrain.nnet.losses.PitWrapper.reorder_tensor
+#: speechbrain.nnet.losses.get_mask
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.nnet.losses.PitWrapper:14
+msgid "**pit_loss** -- Torch module supporting forward method for PIT."
+msgstr ""
+
+#: of speechbrain.nnet.losses.AdditiveAngularMargin
+#: speechbrain.nnet.losses.AdditiveAngularMargin.forward
+#: speechbrain.nnet.losses.AngularMargin
+#: speechbrain.nnet.losses.AngularMargin.forward
+#: speechbrain.nnet.losses.LogSoftmaxWrapper.forward
+#: speechbrain.nnet.losses.PitWrapper
+#: speechbrain.nnet.losses.PitWrapper.reorder_tensor
+msgid "Return type"
+msgstr ""
+
+#: of speechbrain.nnet.losses.AdditiveAngularMargin:15
+#: speechbrain.nnet.losses.AngularMargin:14
+#: speechbrain.nnet.losses.LogSoftmaxWrapper:6
+#: speechbrain.nnet.losses.PitWrapper:18 speechbrain.nnet.losses.bce_loss:26
+#: speechbrain.nnet.losses.classification_error:18
+#: speechbrain.nnet.losses.kldiv_loss:19 speechbrain.nnet.losses.l1_loss:17
+#: speechbrain.nnet.losses.mse_loss:17 speechbrain.nnet.losses.nll_loss:18
+#: speechbrain.nnet.losses.nll_loss_kd:18
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.nnet.losses.PitWrapper.reorder_tensor:1
+msgid ""
+"Tensor to reorder given the optimal permutation, of shape [batch, ..., "
+"sources]."
+msgstr ""
+
+#: of speechbrain.nnet.losses.PitWrapper.reorder_tensor:4
+msgid ""
+"List of optimal permutations, e.g. for batch=2 and n_sources=3 [(0, 1, "
+"2), (0, 2, 1]."
+msgstr ""
+
+#: of speechbrain.nnet.losses.PitWrapper.reorder_tensor:8
+msgid "**reordered** -- Reordered tensor given permutation p."
+msgstr ""
+
+#: of speechbrain.nnet.losses.PitWrapper.forward:1
+msgid "Network predictions tensor, of shape [batch, channels, ..., sources]."
+msgstr ""
+
+#: of speechbrain.nnet.losses.PitWrapper.forward:4
+msgid "Target tensor, of shape [batch, channels, ..., sources]."
+msgstr ""
+
+#: of speechbrain.nnet.losses.PitWrapper.forward:7
+msgid ""
+"* **loss** (*torch.Tensor*) -- Permutation invariant loss for current "
+"examples, tensor of   shape [batch] * **perms** (*list*) -- List of "
+"indexes for optimal permutation of the inputs over   sources.   e.g., "
+"[(0, 1, 2), (2, 1, 0)] for three sources and 2 examples   per batch."
+msgstr ""
+
+#: of speechbrain.nnet.losses.PitWrapper.forward:7
+msgid ""
+"**loss** (*torch.Tensor*) -- Permutation invariant loss for current "
+"examples, tensor of shape [batch]"
+msgstr ""
+
+#: of speechbrain.nnet.losses.PitWrapper.forward:9
+msgid ""
+"**perms** (*list*) -- List of indexes for optimal permutation of the "
+"inputs over sources. e.g., [(0, 1, 2), (2, 1, 0)] for three sources and 2"
+" examples per batch."
+msgstr ""
+
+#: of speechbrain.nnet.losses.ctc_loss:5
+msgid "Target tensor, without any blanks, of shape [batch, target_len]"
+msgstr ""
+
+#: of speechbrain.nnet.losses.ctc_loss:13
+msgid ""
+"What reduction to apply to the output. 'mean', 'sum', 'batch', "
+"'batchmean', 'none'. See pytorch for 'mean', 'sum', 'none'. The 'batch' "
+"option returns one loss per item in the batch, 'batchmean' returns sum / "
+"batch size."
+msgstr ""
+
+#: of speechbrain.nnet.losses.l1_loss:3 speechbrain.nnet.losses.mse_loss:3
+msgid "Predicted tensor, of shape ``[batch, time, *]``."
+msgstr ""
+
+#: of speechbrain.nnet.losses.l1_loss:5 speechbrain.nnet.losses.mse_loss:5
+msgid "Target tensor with the same size as predicted tensor."
+msgstr ""
+
+#: of speechbrain.nnet.losses.l1_loss:7 speechbrain.nnet.losses.mse_loss:7
+msgid "Length of each utterance for computing true error with a mask."
+msgstr ""
+
+#: of speechbrain.nnet.losses.bce_loss:18
+#: speechbrain.nnet.losses.classification_error:10
+#: speechbrain.nnet.losses.kldiv_loss:11 speechbrain.nnet.losses.l1_loss:9
+#: speechbrain.nnet.losses.mse_loss:9 speechbrain.nnet.losses.nll_loss:10
+#: speechbrain.nnet.losses.truncate:7
+msgid "Length difference that will be tolerated before raising an exception."
+msgstr ""
+
+#: of speechbrain.nnet.losses.bce_loss:20
+#: speechbrain.nnet.losses.classification_error:12
+#: speechbrain.nnet.losses.kldiv_loss:13 speechbrain.nnet.losses.l1_loss:11
+#: speechbrain.nnet.losses.mse_loss:11 speechbrain.nnet.losses.nll_loss:12
+msgid ""
+"Options are 'mean', 'batch', 'batchmean', 'sum'. See pytorch for 'mean', "
+"'sum'. The 'batch' option returns one loss per item in the batch, "
+"'batchmean' returns sum / batch size."
+msgstr ""
+
+#: of speechbrain.nnet.losses.classification_error:3
+msgid ""
+"The posterior probabilities of shape [batch, prob] or [batch, frames, "
+"prob]"
+msgstr ""
+
+#: of speechbrain.nnet.losses.classification_error:6
+msgid "The targets, of shape [batch] or [batch, frames]"
+msgstr ""
+
+#: of speechbrain.nnet.losses.bce_loss:10
+#: speechbrain.nnet.losses.classification_error:8
+#: speechbrain.nnet.losses.kldiv_loss:9 speechbrain.nnet.losses.nll_loss:8
+msgid "Length of each utterance, if frame-level loss is desired."
+msgstr ""
+
+#: of speechbrain.nnet.losses.nll_loss:3
+msgid ""
+"The probabilities after log has been applied. Format is [batch, log_p] or"
+" [batch, frames, log_p]."
+msgstr ""
+
+#: of speechbrain.nnet.losses.bce_loss:8 speechbrain.nnet.losses.kldiv_loss:7
+#: speechbrain.nnet.losses.nll_loss:6
+msgid "The targets, of shape [batch] or [batch, frames]."
+msgstr ""
+
+#: of speechbrain.nnet.losses.bce_loss:1
+msgid ""
+"Computes binary cross-entropy (BCE) loss. It also applies the sigmoid "
+"function directly (this improves the numerical stability)."
+msgstr ""
+
+#: of speechbrain.nnet.losses.bce_loss:4
+msgid ""
+"The output before applying the final softmax Format is [batch[, 1]?] or "
+"[batch, frames[, 1]?]. (Works with or without a singleton dimension at "
+"the end)."
+msgstr ""
+
+#: of speechbrain.nnet.losses.bce_loss:12
+msgid ""
+"A manual rescaling weight if provided it’s repeated to match input tensor"
+" shape."
+msgstr ""
+
+#: of speechbrain.nnet.losses.bce_loss:15
+msgid ""
+"A weight of positive examples. Must be a vector with length equal to the "
+"number of classes."
+msgstr ""
+
+#: of speechbrain.nnet.losses.kldiv_loss:1
+msgid ""
+"Computes the KL-divergence error at the batch level. This loss applies "
+"label smoothing directly to the targets"
+msgstr ""
+
+#: of speechbrain.nnet.losses.kldiv_loss:4
+msgid ""
+"The posterior probabilities of shape [batch, prob] or [batch, frames, "
+"prob]."
+msgstr ""
+
+#: of speechbrain.nnet.losses.truncate:3
+msgid "First tensor for checking length."
+msgstr ""
+
+#: of speechbrain.nnet.losses.truncate:5
+msgid "Second tensor for checking length."
+msgstr ""
+
+#: of speechbrain.nnet.losses.compute_masked_loss:3
+msgid ""
+"A function for computing the loss taking just predictions and targets. "
+"Should return all the losses, not a reduction (e.g. reduction=\"none\")."
+msgstr ""
+
+#: of speechbrain.nnet.losses.compute_masked_loss:6
+msgid "First argument to loss function."
+msgstr ""
+
+#: of speechbrain.nnet.losses.compute_masked_loss:8
+msgid "Second argument to loss function."
+msgstr ""
+
+#: of speechbrain.nnet.losses.compute_masked_loss:10
+msgid ""
+"Length of each utterance to compute mask. If None, global average is "
+"computed and returned."
+msgstr ""
+
+#: of speechbrain.nnet.losses.compute_masked_loss:13
+msgid ""
+"The proportion of label smoothing. Should only be used for NLL loss. Ref:"
+" Regularizing Neural Networks by Penalizing Confident Output "
+"Distributions. https://arxiv.org/abs/1701.06548"
+msgstr ""
+
+#: of speechbrain.nnet.losses.compute_masked_loss:17
+msgid ""
+"One of 'mean', 'batch', 'batchmean', 'none' where 'mean' returns a single"
+" value and 'batch' returns one per item in the batch and 'batchmean' is "
+"sum / batch_size and 'none' returns all."
+msgstr ""
+
+#: of speechbrain.nnet.losses.get_si_snr_with_pitwrapper:8
+msgid "source: [B, T, C],"
+msgstr ""
+
+#: of speechbrain.nnet.losses.get_si_snr_with_pitwrapper:6
+msgid ""
+"Where B is the batch size, T is the length of the sources, C is the "
+"number of sources the ordering is made so that this loss is compatible "
+"with the class PitWrapper."
+msgstr ""
+
+#: of speechbrain.nnet.losses.get_si_snr_with_pitwrapper:11
+msgid "estimate_source: [B, T, C]"
+msgstr ""
+
+#: of speechbrain.nnet.losses.cal_si_snr:10
+#: speechbrain.nnet.losses.get_si_snr_with_pitwrapper:11
+msgid "The estimated source."
+msgstr ""
+
+#: of speechbrain.nnet.losses.cal_si_snr:7
+msgid "source: [T, B, C],"
+msgstr ""
+
+#: of speechbrain.nnet.losses.cal_si_snr:6
+msgid ""
+"Where B is batch size, T is the length of the sources, C is the number of"
+" sources the ordering is made so that this loss is compatible with the "
+"class PitWrapper."
+msgstr ""
+
+#: of speechbrain.nnet.losses.cal_si_snr:10
+msgid "estimate_source: [T, B, C]"
+msgstr ""
+
+#: of speechbrain.nnet.losses.get_mask:6
+msgid ""
+"* **mask** (*[T, B, 1]*) * *Example* * *---------* * *>>> source = "
+"torch.randn(4, 3, 2)* * *>>> source_lengths = torch.Tensor([2, 1, "
+"4]).int()* * *>>> mask = get_mask(source, source_lengths)* * *>>> "
+"print(mask)* * *tensor([[[1.],* -- [1.],   [1.]], * *<BLANKLINE>* --    "
+"[[1.],    [0.],    [1.]], * *<BLANKLINE>* --    [[0.],    [0.],    [1.]],"
+" * *<BLANKLINE>* --    [[0.],    [0.],    [1.]]])"
+msgstr ""
+
+#: of speechbrain.nnet.losses.get_mask:6
+msgid "**mask** (*[T, B, 1]*)"
+msgstr ""
+
+#: of speechbrain.nnet.losses.get_mask:7
+msgid "*Example*"
+msgstr ""
+
+#: of speechbrain.nnet.losses.get_mask:8
+msgid "*---------*"
+msgstr ""
+
+#: of speechbrain.nnet.losses.get_mask:9
+msgid "*>>> source = torch.randn(4, 3, 2)*"
+msgstr ""
+
+#: of speechbrain.nnet.losses.get_mask:10
+msgid "*>>> source_lengths = torch.Tensor([2, 1, 4]).int()*"
+msgstr ""
+
+#: of speechbrain.nnet.losses.get_mask:11
+msgid "*>>> mask = get_mask(source, source_lengths)*"
+msgstr ""
+
+#: of speechbrain.nnet.losses.get_mask:12
+msgid "*>>> print(mask)*"
+msgstr ""
+
+#: of speechbrain.nnet.losses.get_mask:13
+msgid "*tensor([[[1.],* -- [1.], [1.]],"
+msgstr ""
+
+#: of speechbrain.nnet.losses.get_mask:15 speechbrain.nnet.losses.get_mask:20
+#: speechbrain.nnet.losses.get_mask:25
+msgid "*<BLANKLINE>* --"
+msgstr ""
+
+#: of speechbrain.nnet.losses.get_mask:18
+msgid "[[1.],"
+msgstr ""
+
+#: of speechbrain.nnet.losses.get_mask:18 speechbrain.nnet.losses.get_mask:23
+msgid "[0.], [1.]],"
+msgstr ""
+
+#: of speechbrain.nnet.losses.get_mask:23 speechbrain.nnet.losses.get_mask:28
+msgid "[[0.],"
+msgstr ""
+
+#: of speechbrain.nnet.losses.get_mask:28
+msgid "[0.], [1.]]])"
+msgstr ""
+
+#: of speechbrain.nnet.losses.AngularMargin:5
+msgid "The margin for cosine similiarity"
+msgstr ""
+
+#: of speechbrain.nnet.losses.AngularMargin:7
+msgid "The scale for cosine similiarity"
+msgstr ""
+
+#: of speechbrain.nnet.losses.AdditiveAngularMargin.forward:8
+#: speechbrain.nnet.losses.AngularMargin:10
+#: speechbrain.nnet.losses.AngularMargin.forward:8
+msgid "**predictions**"
+msgstr ""
+
+#: of speechbrain.nnet.losses.AngularMargin.forward:1
+msgid "Compute AM between two tensors"
+msgstr ""
+
+#: of speechbrain.nnet.losses.AdditiveAngularMargin.forward:3
+#: speechbrain.nnet.losses.AngularMargin.forward:3
+msgid "The outputs of shape [N, C], cosine simiarity is required."
+msgstr ""
+
+#: of speechbrain.nnet.losses.AdditiveAngularMargin.forward:5
+#: speechbrain.nnet.losses.AngularMargin.forward:5
+msgid "The targets of shape [N, C], where the margin is applied for."
+msgstr ""
+
+#: of speechbrain.nnet.losses.AdditiveAngularMargin:1
+msgid "Bases: :class:`speechbrain.nnet.losses.AngularMargin`"
+msgstr ""
+
+#: of speechbrain.nnet.losses.AdditiveAngularMargin:6
+msgid "The margin for cosine similiarity."
+msgstr ""
+
+#: of speechbrain.nnet.losses.AdditiveAngularMargin:8
+msgid "The scale for cosine similiarity."
+msgstr ""
+
+#: of speechbrain.nnet.losses.AdditiveAngularMargin:11
+msgid "**predictions** -- Tensor."
+msgstr ""
+
+#: of speechbrain.nnet.losses.AdditiveAngularMargin.forward:1
+msgid "Compute AAM between two tensors"
+msgstr ""
+
+#: of speechbrain.nnet.losses.LogSoftmaxWrapper:2
+msgid ""
+"* **loss** (*torch.Tensor*) -- Learning loss * **predictions** "
+"(*torch.Tensor*) -- Log probabilities"
+msgstr ""
+
+#: of speechbrain.nnet.losses.LogSoftmaxWrapper:3
+msgid "**predictions** (*torch.Tensor*) -- Log probabilities"
+msgstr ""
+
+#: of speechbrain.nnet.losses.LogSoftmaxWrapper.forward:1
+msgid "Network output tensor, of shape [batch, 1, outdim]."
+msgstr ""
+
+#: of speechbrain.nnet.losses.LogSoftmaxWrapper.forward:4
+msgid "Target tensor, of shape [batch, 1]."
+msgstr ""
+
+#: of speechbrain.nnet.losses.LogSoftmaxWrapper.forward:7
+msgid "**loss** -- Loss for current examples."
+msgstr ""
+
+#: of speechbrain.nnet.losses.ctc_loss_kd:5
+#: speechbrain.nnet.losses.nll_loss_kd:5
+msgid ""
+"Distilling Knowledge from Ensembles of Acoustic Models for Joint CTC-"
+"Attention End-to-End Speech Recognition. https://arxiv.org/abs/2005.09310"
+msgstr ""
+
+#: of speechbrain.nnet.losses.ctc_loss_kd:8
+msgid "Predicted tensor from student model, of shape [batch, time, chars]."
+msgstr ""
+
+#: of speechbrain.nnet.losses.ctc_loss_kd:10
+msgid "Predicted tensor from single teacher model, of shape [batch, time, chars]."
+msgstr ""
+
+#: of speechbrain.nnet.losses.ctc_loss_kd:16
+msgid "Device for computing."
+msgstr ""
+
+#: of speechbrain.nnet.losses.ce_kd:3
+msgid ""
+"The probabilities from student model, of shape [batch_size * length, "
+"feature]"
+msgstr ""
+
+#: of speechbrain.nnet.losses.ce_kd:5
+msgid ""
+"The probabilities from teacher model, of shape [batch_size * length, "
+"feature]"
+msgstr ""
+
+#: of speechbrain.nnet.losses.nll_loss_kd:8
+msgid ""
+"The predicted probabilities from the student model. Format is [batch, "
+"frames, p]"
+msgstr ""
+
+#: of speechbrain.nnet.losses.nll_loss_kd:11
+msgid ""
+"The target probabilities from the teacher model. Format is [batch, "
+"frames, p]"
+msgstr ""
+
+#: of speechbrain.nnet.losses.nll_loss_kd:14
+msgid "Length of each utterance, if the frame-level loss is desired."
+msgstr ""
+

@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.dataio.rst:5
+msgid "speechbrain.dataio"
+msgstr ""
+
+#: of speechbrain.dataio:1
+msgid "Data loading and dataset preprocessing"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:41:<autosummary>:1
+msgid ":obj:`speechbrain.dataio.batch <speechbrain.dataio.batch>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:41:<autosummary>:1
+msgid "Batch collation"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:41:<autosummary>:1
+msgid ":obj:`speechbrain.dataio.dataio <speechbrain.dataio.dataio>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:41:<autosummary>:1
+msgid "Data reading and writing."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:41:<autosummary>:1
+msgid ":obj:`speechbrain.dataio.dataloader <speechbrain.dataio.dataloader>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:41:<autosummary>:1
+msgid "PyTorch compatible DataLoaders"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:41:<autosummary>:1
+msgid ":obj:`speechbrain.dataio.dataset <speechbrain.dataio.dataset>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:41:<autosummary>:1
+msgid "Dataset examples for loading individual data points"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:41:<autosummary>:1
+msgid ":obj:`speechbrain.dataio.encoder <speechbrain.dataio.encoder>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:41:<autosummary>:1
+msgid "Encoding categorical data as integers"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:41:<autosummary>:1
+msgid ":obj:`speechbrain.dataio.legacy <speechbrain.dataio.legacy>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:41:<autosummary>:1
+msgid "SpeechBrain Extended CSV Compatibility."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:41:<autosummary>:1
+msgid ":obj:`speechbrain.dataio.preprocess <speechbrain.dataio.preprocess>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:41:<autosummary>:1
+msgid "Preprocessors for audio"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:41:<autosummary>:1
+msgid ":obj:`speechbrain.dataio.sampler <speechbrain.dataio.sampler>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:41:<autosummary>:1
+msgid "PyTorch compatible samplers."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:41:<autosummary>:1
+msgid ":obj:`speechbrain.dataio.wer <speechbrain.dataio.wer>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:41:<autosummary>:1
+msgid "WER print functions."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:43
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.rst:48
+msgid "Reference"
+msgstr ""
+

@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.lobes.features.rst:5
+msgid "speechbrain.lobes.features module"
+msgstr ""
+
+#: of speechbrain.lobes.features:1
+msgid "Basic feature pipelines."
+msgstr ""
+
+#: of speechbrain.lobes.features:5
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.lobes.features:4
+msgid "Mirco Ravanelli 2020"
+msgstr ""
+
+#: of speechbrain.lobes.features:5
+msgid "Peter Plantinga 2020"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.features.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.features.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.features.rst:32:<autosummary>:1
+msgid ":obj:`Fbank <speechbrain.lobes.features.Fbank>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.features.rst:32:<autosummary>:1 of
+#: speechbrain.lobes.features.Fbank:1 speechbrain.lobes.features.MFCC:1
+msgid "Generate features for input to the speech pipeline."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.features.rst:32:<autosummary>:1
+msgid ":obj:`MFCC <speechbrain.lobes.features.MFCC>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.features.rst:34
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.lobes.features.Fbank:1 speechbrain.lobes.features.MFCC:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.lobes.features.Fbank speechbrain.lobes.features.Fbank.forward
+#: speechbrain.lobes.features.MFCC speechbrain.lobes.features.MFCC.forward
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.lobes.features.Fbank:3 speechbrain.lobes.features.MFCC:3
+msgid ""
+"Whether or not to append derivatives and second derivatives to the "
+"features."
+msgstr ""
+
+#: of speechbrain.lobes.features.Fbank:6 speechbrain.lobes.features.MFCC:6
+msgid "Whether or not to append forward and backward contexts to the features."
+msgstr ""
+
+#: of speechbrain.lobes.features.Fbank:9 speechbrain.lobes.features.MFCC:9
+msgid ""
+"Whether to allow parameters (i.e. fbank centers and spreads) to update "
+"during training."
+msgstr ""
+
+#: of speechbrain.lobes.features.Fbank:12 speechbrain.lobes.features.MFCC:12
+msgid "Sampling rate for the input waveforms."
+msgstr ""
+
+#: of speechbrain.lobes.features.Fbank:14 speechbrain.lobes.features.MFCC:14
+msgid ""
+"Lowest frequency for the Mel filters. Note that f_max (i.e highest "
+"frequency for the Mel filters) is determined by sample_rate // 2."
+msgstr ""
+
+#: of speechbrain.lobes.features.Fbank:17 speechbrain.lobes.features.MFCC:17
+msgid "Number of samples to use in each stft."
+msgstr ""
+
+#: of speechbrain.lobes.features.Fbank:19
+msgid "Number of Mel filters."
+msgstr ""
+
+#: of speechbrain.lobes.features.Fbank:21 speechbrain.lobes.features.MFCC:23
+msgid "Shape of the filters ('triangular', 'rectangular', 'gaussian')."
+msgstr ""
+
+#: of speechbrain.lobes.features.Fbank:23 speechbrain.lobes.features.MFCC:25
+msgid ""
+"If freeze=False, this parameter affects the speed at which the filter "
+"parameters (i.e., central_freqs and bands) can be changed.  When high "
+"(e.g., param_change_factor=1) the filters change a lot during training. "
+"When low (e.g. param_change_factor=0.1) the filter parameters are more "
+"stable during training."
+msgstr ""
+
+#: of speechbrain.lobes.features.Fbank:29 speechbrain.lobes.features.MFCC:31
+#, python-format
+msgid ""
+"This parameter can be used to randomly change the filter parameters (i.e,"
+" central frequencies and bands) during training.  It is thus a sort of "
+"regularization. param_rand_factor=0 does not affect, while "
+"param_rand_factor=0.15 allows random variations within +-15% of the "
+"standard values of the filter parameters (e.g., if the central freq is "
+"100 Hz, we can randomly change it from 85 Hz to 115 Hz)."
+msgstr ""
+
+#: of speechbrain.lobes.features.Fbank:36 speechbrain.lobes.features.MFCC:38
+msgid "Number of frames of left context to add."
+msgstr ""
+
+#: of speechbrain.lobes.features.Fbank:38 speechbrain.lobes.features.MFCC:40
+msgid "Number of frames of right context to add."
+msgstr ""
+
+#: of speechbrain.lobes.features.Fbank:42 speechbrain.lobes.features.MFCC:44
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.lobes.features.Fbank.forward:1
+msgid "Returns a set of features generated from the input waveforms."
+msgstr ""
+
+#: of speechbrain.lobes.features.Fbank.forward:3
+#: speechbrain.lobes.features.MFCC.forward:3
+msgid "A batch of audio signals to transform to features."
+msgstr ""
+
+#: of speechbrain.lobes.features.MFCC:19
+msgid "Number of filters to use for creating filterbank."
+msgstr ""
+
+#: of speechbrain.lobes.features.MFCC:21
+msgid "Number of output coefficients"
+msgstr ""
+
+#: of speechbrain.lobes.features.MFCC.forward:1
+msgid "Returns a set of mfccs generated from the input waveforms."
+msgstr ""
+

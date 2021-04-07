@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.utils.Accuracy.rst:5
+msgid "speechbrain.utils.Accuracy module"
+msgstr ""
+
+#: of speechbrain.utils.Accuracy:1
+msgid "Calculate accuracy."
+msgstr ""
+
+#: of speechbrain.utils.Accuracy:3
+msgid "Authors * Jianyuan Zhong 2020"
+msgstr ""
+
+#: ../../API/speechbrain.utils.Accuracy.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.utils.Accuracy.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.utils.Accuracy.rst:24:<autosummary>:1
+msgid ":obj:`AccuracyStats <speechbrain.utils.Accuracy.AccuracyStats>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.Accuracy.rst:24:<autosummary>:1 of
+#: speechbrain.utils.Accuracy.AccuracyStats:1
+msgid "Module for calculate the overall one-step-forward prediction accuracy."
+msgstr ""
+
+#: ../../API/speechbrain.utils.Accuracy.rst:25
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.utils.Accuracy.rst:38:<autosummary>:1
+msgid ":obj:`Accuracy <speechbrain.utils.Accuracy.Accuracy>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.Accuracy.rst:38:<autosummary>:1 of
+#: speechbrain.utils.Accuracy.Accuracy:1
+msgid ""
+"Calculates the accuracy for predicted log probabilities and targets in a "
+"batch."
+msgstr ""
+
+#: ../../API/speechbrain.utils.Accuracy.rst:40
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.utils.Accuracy.Accuracy
+#: speechbrain.utils.Accuracy.AccuracyStats.append
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.utils.Accuracy.Accuracy:3
+#: speechbrain.utils.Accuracy.AccuracyStats.append:4
+msgid "Predicted log probabilities (batch_size, time, feature)."
+msgstr ""
+
+#: of speechbrain.utils.Accuracy.Accuracy:5
+#: speechbrain.utils.Accuracy.AccuracyStats.append:6
+msgid "Target (batch_size, time)."
+msgstr ""
+
+#: of speechbrain.utils.Accuracy.Accuracy:7
+#: speechbrain.utils.Accuracy.AccuracyStats.append:8
+msgid "Length of target (batch_size,)."
+msgstr ""
+
+#: of speechbrain.utils.Accuracy.Accuracy:11
+#: speechbrain.utils.Accuracy.AccuracyStats:4
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.utils.Accuracy.AccuracyStats:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: of speechbrain.utils.Accuracy.AccuracyStats.append:1
+msgid ""
+"This function is for updating the stats according to the prediction and "
+"target in the current batch."
+msgstr ""
+

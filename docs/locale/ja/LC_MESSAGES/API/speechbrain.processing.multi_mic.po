@@ -1,0 +1,585 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.processing.multi_mic.rst:5
+msgid "speechbrain.processing.multi_mic module"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic:1
+msgid "Multi-microphone components."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic:3
+msgid "This library contains functions for multi-microphone signal processing."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic:6
+#: speechbrain.processing.multi_mic.Covariance:11
+#: speechbrain.processing.multi_mic.DelaySum:5
+#: speechbrain.processing.multi_mic.GccPhat:14
+#: speechbrain.processing.multi_mic.Gev:4
+#: speechbrain.processing.multi_mic.Music:26
+#: speechbrain.processing.multi_mic.SrpPhat:23
+#: speechbrain.processing.multi_mic.doas2taus:18
+#: speechbrain.processing.multi_mic.sphere:18
+#: speechbrain.processing.multi_mic.tdoas2taus:13
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic:74
+msgid "Authors:"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic:73
+msgid "William Aris"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic:74
+msgid "Francois Grondin"
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:30:<autosummary>:1
+msgid ":obj:`Covariance <speechbrain.processing.multi_mic.Covariance>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:30:<autosummary>:1 of
+#: speechbrain.processing.multi_mic.Covariance:1
+msgid "Computes the covariance matrices of the signals."
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:30:<autosummary>:1
+msgid ":obj:`DelaySum <speechbrain.processing.multi_mic.DelaySum>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:30:<autosummary>:1 of
+#: speechbrain.processing.multi_mic.DelaySum:1
+msgid ""
+"Performs delay and sum beamforming by using the TDOAs and the first "
+"channel as a reference."
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:30:<autosummary>:1
+msgid ":obj:`GccPhat <speechbrain.processing.multi_mic.GccPhat>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:30:<autosummary>:1 of
+#: speechbrain.processing.multi_mic.GccPhat:1
+msgid "Generalized Cross-Correlation with Phase Transform localization."
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:30:<autosummary>:1
+msgid ":obj:`Gev <speechbrain.processing.multi_mic.Gev>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:30:<autosummary>:1 of
+#: speechbrain.processing.multi_mic.Gev:1
+msgid "Generalized EigenValue decomposition (GEV) Beamforming."
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:30:<autosummary>:1
+msgid ":obj:`Music <speechbrain.processing.multi_mic.Music>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:30:<autosummary>:1 of
+#: speechbrain.processing.multi_mic.Music:1
+msgid "Multiple Signal Classification (MUSIC) localization."
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:30:<autosummary>:1
+msgid ":obj:`Mvdr <speechbrain.processing.multi_mic.Mvdr>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:30:<autosummary>:1 of
+#: speechbrain.processing.multi_mic.Mvdr:1
+msgid ""
+"Perform minimum variance distortionless response (MVDR) beamforming by "
+"using an input signal in the frequency domain, its covariance matrices "
+"and tdoas (to compute a steering vector)."
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:30:<autosummary>:1
+msgid ":obj:`SrpPhat <speechbrain.processing.multi_mic.SrpPhat>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:30:<autosummary>:1 of
+#: speechbrain.processing.multi_mic.SrpPhat:1
+msgid "Steered-Response Power with Phase Transform Localization."
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:31
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:47:<autosummary>:1
+msgid ":obj:`doas2taus <speechbrain.processing.multi_mic.doas2taus>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:47:<autosummary>:1
+msgid ""
+"This function converts directions of arrival (xyz coordinates expressed "
+"in meters) in time differences of arrival (expressed in samples)."
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:47:<autosummary>:1
+msgid ":obj:`sphere <speechbrain.processing.multi_mic.sphere>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:47:<autosummary>:1
+msgid ""
+"This function generates cartesian coordinates (xyz) for a set of points "
+"forming a 3D sphere."
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:47:<autosummary>:1
+msgid ":obj:`steering <speechbrain.processing.multi_mic.steering>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:47:<autosummary>:1
+msgid ""
+"This function computes a steering vector by using the time differences of"
+" arrival for each channel (in samples) and the number of bins (n_fft)."
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:47:<autosummary>:1
+msgid ":obj:`tdoas2taus <speechbrain.processing.multi_mic.tdoas2taus>`"
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:47:<autosummary>:1
+msgid "This function selects the tdoas of each channel and put them in a tensor."
+msgstr ""
+
+#: ../../API/speechbrain.processing.multi_mic.rst:49
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Covariance:1
+#: speechbrain.processing.multi_mic.DelaySum:1
+#: speechbrain.processing.multi_mic.GccPhat:1
+#: speechbrain.processing.multi_mic.Gev:1
+#: speechbrain.processing.multi_mic.Music:1
+#: speechbrain.processing.multi_mic.Mvdr:1
+#: speechbrain.processing.multi_mic.SrpPhat:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Covariance:8
+msgid "average"
+msgstr ""
+
+#: of
+msgid "bool"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Covariance:6
+msgid ""
+"Informs the module if it should return an average (computed on the time "
+"dimension) of the covariance matrices. The Default value is True."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Covariance.forward:1
+msgid ""
+"This method uses the utility function _cov to compute covariance "
+"matrices. Therefore, the result has the following format: (batch, "
+"time_step, n_fft/2 + 1, 2, n_mics + n_pairs)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Covariance.forward:5
+msgid ""
+"The order on the last dimension corresponds to the triu_indices for a "
+"square matrix. For instance, if we have 4 channels, we get the following "
+"order: (0, 0), (0, 1), (0, 2), (0, 3), (1, 1), (1, 2), (1, 3), (2, 2), "
+"(2, 3) and (3, 3). Therefore, XXs[..., 0] corresponds to channels (0, 0) "
+"and XXs[..., 1] corresponds to channels (0, 1)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Covariance.forward:15
+msgid "Xs"
+msgstr ""
+
+#: of
+msgid "tensor"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Covariance.forward:14
+#: speechbrain.processing.multi_mic.DelaySum.forward:5
+#: speechbrain.processing.multi_mic.Mvdr.forward:5
+msgid ""
+"A batch of audio signals in the frequency domain. The tensor must have "
+"the following format: (batch, time_step, n_fft/2 + 1, 2, n_mics)"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.DelaySum.forward:1
+msgid ""
+"This method computes a steering vector by using the TDOAs/DOAs and then "
+"calls the utility function _delaysum to perform beamforming. The result "
+"has the following format: (batch, time_step, n_fft, 2, 1)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.DelaySum.forward
+#: speechbrain.processing.multi_mic.GccPhat
+#: speechbrain.processing.multi_mic.Gev.forward
+#: speechbrain.processing.multi_mic.Music
+#: speechbrain.processing.multi_mic.Music.forward
+#: speechbrain.processing.multi_mic.Mvdr.forward
+#: speechbrain.processing.multi_mic.SrpPhat
+#: speechbrain.processing.multi_mic.SrpPhat.forward
+#: speechbrain.processing.multi_mic.doas2taus
+#: speechbrain.processing.multi_mic.sphere
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.DelaySum.forward:9
+#: speechbrain.processing.multi_mic.Mvdr.forward:12
+msgid ""
+"A tensor containing either time differences of arrival (TDOAs) (in "
+"samples) for each timestamp or directions of arrival (DOAs) (xyz "
+"coordinates in meters). If localization_tensor represents TDOAs, then its"
+" format is (batch, time_steps, n_mics + n_pairs). If localization_tensor "
+"represents DOAs, then its format is (batch, time_steps, 3)"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.DelaySum.forward:16
+#: speechbrain.processing.multi_mic.Mvdr.forward:19
+msgid ""
+"The user needs to set this parameter to True if localization_tensor "
+"represents DOAs instead of TDOAs. Its default value is set to False."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.DelaySum.forward:19
+#: speechbrain.processing.multi_mic.Mvdr.forward:22
+msgid ""
+"The cartesian position (xyz coordinates in meters) of each microphone. "
+"The tensor must have the following format (n_mics, 3). This parameter is "
+"only mandatory when localization_tensor represents DOAs."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.DelaySum.forward:24
+#: speechbrain.processing.multi_mic.Mvdr.forward:27
+msgid ""
+"The sample rate in Hertz of the signals. This parameter is only mandatory"
+" when localization_tensor represents DOAs."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.DelaySum.forward:27
+#: speechbrain.processing.multi_mic.Mvdr.forward:30
+msgid ""
+"The speed of sound in the medium. The speed is expressed in meters per "
+"second and the default value of this parameter is 343 m/s. This parameter"
+" is only used when localization_tensor represents DOAs."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Mvdr.forward:1
+msgid ""
+"This method computes a steering vector before using the utility function "
+"_mvdr to perform beamforming. The result has the following format: "
+"(batch, time_step, n_fft, 2, 1)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Mvdr.forward:9
+msgid ""
+"The covariance matrices of the input signal. The tensor must have the "
+"format (batch, time_steps, n_fft/2 + 1, 2, n_mics + n_pairs)"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Gev.forward:1
+msgid ""
+"This method uses the utility function _gev to perform generalized "
+"eigenvalue decomposition beamforming. Therefore, the result has the "
+"following format: (batch, time_step, n_fft, 2, 1)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Gev.forward:5
+msgid ""
+"A batch of audio signals in the frequency domain. The tensor must have "
+"the following format: (batch, time_step, n_fft/2 + 1, 2, n_mics)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Gev.forward:9
+msgid ""
+"The covariance matrices of the target signal. The tensor must have the "
+"format (batch, time_steps, n_fft/2 + 1, 2, n_mics + n_pairs)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Gev.forward:12
+msgid ""
+"The covariance matrices of the noise signal. The tensor must have the "
+"format (batch, time_steps, n_fft/2 + 1, 2, n_mics + n_pairs)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.GccPhat:3
+msgid ""
+"Specifies a range to search for delays. For example, if tdoa_max = 10, "
+"the method will restrict its search for delays between -10 and 10 "
+"samples. This parameter is optional and its default value is None. When "
+"tdoa_max is None, the method will search for delays between -n_fft/2 and "
+"n_fft/2 (full range)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.GccPhat:9
+msgid ""
+"A small value to avoid divisions by 0 with the phase transformation. The "
+"default value is 1e-20."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.GccPhat.forward:1
+msgid ""
+"Perform generalized cross-correlation with phase transform localization "
+"by using the utility function _gcc_phat and by extracting the delays (in "
+"samples) before performing a quadratic interpolation to improve the "
+"accuracy. The result has the format: (batch, time_steps, n_mics + "
+"n_pairs)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.GccPhat.forward:6
+msgid ""
+"The order on the last dimension corresponds to the triu_indices for a "
+"square matrix. For instance, if we have 4 channels, we get the following "
+"order: (0, 0), (0, 1), (0, 2), (0, 3), (1, 1), (1, 2), (1, 3), (2, 2), "
+"(2, 3) and (3, 3). Therefore, delays[..., 0] corresponds to channels (0, "
+"0) and delays[..., 1] corresponds to channels (0, 1)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.GccPhat.forward:15
+msgid "XXs"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.GccPhat.forward:15
+#: speechbrain.processing.multi_mic.Music.forward:7
+#: speechbrain.processing.multi_mic.SrpPhat.forward:10
+msgid ""
+"The covariance matrices of the input signal. The tensor must have the "
+"format (batch, time_steps, n_fft/2 + 1, 2, n_mics + n_pairs)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Music:3
+#: speechbrain.processing.multi_mic.SrpPhat:3
+msgid ""
+"The cartesian coordinates (xyz) in meters of each microphone. The tensor "
+"must have the following format (n_mics, 3)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Music:6
+#: speechbrain.processing.multi_mic.SrpPhat:6
+msgid ""
+"If this parameter is set to 'sphere', the localization will be done in 3D"
+" by searching in a sphere of possible doas. If it set to 'circle', the "
+"search will be done in 2D by searching in a circle. By default, this "
+"parameter is set to 'sphere'. Note: The 'circle' option isn't implemented"
+" yet."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Music:12
+#: speechbrain.processing.multi_mic.SrpPhat:12
+msgid ""
+"The sample rate in Hertz of the signals to perform SRP-PHAT on. By "
+"default, this parameter is set to 16000 Hz."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Music:15
+#: speechbrain.processing.multi_mic.SrpPhat:15
+#: speechbrain.processing.multi_mic.doas2taus:13
+msgid ""
+"The speed of sound in the medium. The speed is expressed in meters per "
+"second and the default value of this parameter is 343 m/s."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Music:18
+#: speechbrain.processing.multi_mic.SrpPhat:18
+msgid ""
+"A small value to avoid errors like division by 0. The default value of "
+"this parameter is 1e-20."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.SrpPhat.forward:1
+msgid ""
+"Perform SRP-PHAT localization on a signal by computing a steering vector "
+"and then by using the utility function _srp_phat to extract the doas. The"
+" result is a tensor containing the directions of arrival (xyz coordinates"
+" (in meters) in the direction of the sound source). The output tensor has"
+" the format (batch, time_steps, 3)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.SrpPhat.forward:7
+msgid ""
+"This localization method uses Global Coherence Field (GCF): "
+"https://www.researchgate.net/publication/221491705_Speaker_localization_based_on_oriented_global_coherence_field"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Music:21
+msgid ""
+"An estimation of the number of sound sources. The default value is set to"
+" one source."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.Music.forward:1
+msgid ""
+"Perform MUSIC localization on a signal by computing a steering vector and"
+" then by using the utility function _music to extract the doas. The "
+"result is a tensor containing the directions of arrival (xyz coordinates "
+"(in meters) in the direction of the sound source). The output tensor has "
+"the format (batch, time_steps, 3)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.doas2taus:1
+msgid ""
+"This function converts directions of arrival (xyz coordinates expressed "
+"in meters) in time differences of arrival (expressed in samples). The "
+"result has the following format: (batch, time_steps, n_mics)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.doas2taus:5
+msgid ""
+"The directions of arrival expressed with cartesian coordinates (xyz) in "
+"meters. The tensor must have the following format: (batch, time_steps, "
+"3)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.doas2taus:8
+msgid ""
+"The cartesian position (xyz) in meters of each microphone. The tensor "
+"must have the following format (n_mics, 3)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.doas2taus:11
+msgid "The sample rate in Hertz of the signals."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.tdoas2taus:1
+msgid ""
+"This function selects the tdoas of each channel and put them in a tensor."
+" The result has the following format: (batch, time_steps, n_mics)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.tdoas2taus:10
+msgid "tdoas"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.tdoas2taus:8
+msgid ""
+"The time difference of arrival (TDOA) (in samples) for each timestamp. "
+"The tensor has the format (batch, time_steps, n_mics + n_pairs)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.steering:1
+msgid ""
+"This function computes a steering vector by using the time differences of"
+" arrival for each channel (in samples) and the number of bins (n_fft). "
+"The result has the following format: (batch, time_step, n_fft/2 + 1, 2, "
+"n_mics)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.steering:9
+msgid "taus"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.steering:8
+msgid ""
+"The time differences of arrival for each channel. The tensor must have "
+"the following format: (batch, time_steps, n_mics)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.steering:13
+msgid "n_fft"
+msgstr ""
+
+#: of
+msgid "int"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.steering:12
+msgid ""
+"The number of bins resulting of the STFT. It is assumed that the argument"
+" \"onesided\" was set to True for the STFT."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.steering:15
+msgid ""
+"Example: --------f >>> import torch >>> from speechbrain.dataio.dataio "
+"import read_audio >>> from speechbrain.processing.features import STFT "
+">>> from speechbrain.processing.multi_mic import Covariance >>> from "
+"speechbrain.processing.multi_mic import GccPhat, tdoas2taus, steering >>>"
+" >>> xs_speech = read_audio( ...    "
+"'samples/audio_samples/multi_mic/speech_-0.82918_0.55279_-0.082918.flac' "
+"... ) >>> xs_noise = "
+"read_audio('samples/audio_samples/multi_mic/noise_diffuse.flac') >>> xs ="
+" xs_speech + 0.05 * xs_noise >>> xs = xs.unsqueeze(0) # [batch, time, "
+"channels] >>> fs = 16000"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.sphere:1
+msgid ""
+"This function generates cartesian coordinates (xyz) for a set of points "
+"forming a 3D sphere. The coordinates are expressed in meters and can be "
+"used as doas. The result has the format: (n_points, 3)."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.sphere:6
+msgid ""
+"A number proportional to the number of points that the user wants to "
+"generate.     - If levels_count = 1, then the sphere will have 42 points"
+"     - If levels_count = 2, then the sphere will have 162 points     - If"
+" levels_count = 3, then the sphere will have 642 points     - If "
+"levels_count = 4, then the sphere will have 2562 points     - If "
+"levels_count = 5, then the sphere will have 10242 points     - ... By "
+"default, levels_count is set to 4."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.sphere:6
+msgid ""
+"A number proportional to the number of points that the user wants to "
+"generate."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.sphere:8
+msgid "If levels_count = 1, then the sphere will have 42 points"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.sphere:9
+msgid "If levels_count = 2, then the sphere will have 162 points"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.sphere:10
+msgid "If levels_count = 3, then the sphere will have 642 points"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.sphere:11
+msgid "If levels_count = 4, then the sphere will have 2562 points"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.sphere:12
+msgid "If levels_count = 5, then the sphere will have 10242 points"
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.sphere:13
+msgid "..."
+msgstr ""
+
+#: of speechbrain.processing.multi_mic.sphere:14
+msgid "By default, levels_count is set to 4."
+msgstr ""
+

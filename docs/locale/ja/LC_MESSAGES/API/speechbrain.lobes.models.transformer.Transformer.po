@@ -1,0 +1,526 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:5
+msgid "speechbrain.lobes.models.transformer.Transformer module"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer:1
+msgid "Transformer implementaion in the SpeechBrain sytle."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer:3
+msgid "Authors * Jianyuan Zhong 2020"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:30:<autosummary>:1
+msgid ""
+":obj:`NormalizedEmbedding "
+"<speechbrain.lobes.models.transformer.Transformer.NormalizedEmbedding>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:30:<autosummary>:1
+#: of speechbrain.lobes.models.transformer.Transformer.NormalizedEmbedding:1
+msgid "This class implements the normalized embedding layer for the transformer."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:30:<autosummary>:1
+msgid ""
+":obj:`PositionalEncoding "
+"<speechbrain.lobes.models.transformer.Transformer.PositionalEncoding>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:30:<autosummary>:1
+#: of speechbrain.lobes.models.transformer.Transformer.PositionalEncoding:1
+msgid "This class implements the positional encoding function."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:30:<autosummary>:1
+msgid ""
+":obj:`TransformerDecoder "
+"<speechbrain.lobes.models.transformer.Transformer.TransformerDecoder>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:30:<autosummary>:1
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerDecoder:1
+msgid "This class implements the Transformer decoder."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:30:<autosummary>:1
+msgid ""
+":obj:`TransformerDecoderLayer "
+"<speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:30:<autosummary>:1
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer:1
+msgid "This class implements the self-attention decoder layer."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:30:<autosummary>:1
+msgid ""
+":obj:`TransformerEncoder "
+"<speechbrain.lobes.models.transformer.Transformer.TransformerEncoder>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:30:<autosummary>:1
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerEncoder:1
+msgid "This class implements the transformer encoder."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:30:<autosummary>:1
+msgid ""
+":obj:`TransformerEncoderLayer "
+"<speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:30:<autosummary>:1
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer:1
+msgid "This is an implementation of self-attention encoder layer."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:30:<autosummary>:1
+msgid ""
+":obj:`TransformerInterface "
+"<speechbrain.lobes.models.transformer.Transformer.TransformerInterface>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:30:<autosummary>:1
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerInterface:1
+msgid "This is an interface for transformer model."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:31
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:45:<autosummary>:1
+msgid ""
+":obj:`get_key_padding_mask "
+"<speechbrain.lobes.models.transformer.Transformer.get_key_padding_mask>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:45:<autosummary>:1
+#: of speechbrain.lobes.models.transformer.Transformer.get_key_padding_mask:1
+msgid "Creates a binary mask to prevent attention to padded locations."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:45:<autosummary>:1
+msgid ""
+":obj:`get_lookahead_mask "
+"<speechbrain.lobes.models.transformer.Transformer.get_lookahead_mask>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:45:<autosummary>:1
+#: of speechbrain.lobes.models.transformer.Transformer.get_lookahead_mask:1
+msgid "Creates a binary mask for each sequence."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.Transformer.rst:47
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.NormalizedEmbedding:1
+#: speechbrain.lobes.models.transformer.Transformer.PositionalEncoding:1
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoder:1
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer:1
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoder:1
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer:1
+#: speechbrain.lobes.models.transformer.Transformer.TransformerInterface:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerInterface:3
+msgid ""
+"Users can modify the attributes and define the forward function as needed"
+" according to their own tasks."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerInterface:6
+msgid ""
+"The architecture is based on the paper \"Attention Is All You Need\": "
+"https://arxiv.org/pdf/1706.03762.pdf"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.NormalizedEmbedding
+#: speechbrain.lobes.models.transformer.Transformer.PositionalEncoding
+#: speechbrain.lobes.models.transformer.Transformer.PositionalEncoding.forward
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoder
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoder.forward
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoder
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoder.forward
+#: speechbrain.lobes.models.transformer.Transformer.TransformerInterface
+#: speechbrain.lobes.models.transformer.Transformer.get_lookahead_mask
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.NormalizedEmbedding:7
+#: speechbrain.lobes.models.transformer.Transformer.TransformerInterface:9
+msgid ""
+"The number of expected features in the encoder/decoder inputs "
+"(default=512)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerInterface:11
+msgid "The number of heads in the multi-head attention models (default=8)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerInterface:13
+msgid "The number of sub-encoder-layers in the encoder (default=6)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerInterface:15
+msgid "The number of sub-decoder-layers in the decoder (default=6)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerInterface:17
+msgid "The dimension of the feedforward network model (default=2048)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerInterface:19
+msgid "The dropout value (default=0.1)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerInterface:21
+msgid ""
+"The activation function of encoder/decoder intermediate layer, e.g., relu"
+" or gelu (default=relu)"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerInterface:24
+#: speechbrain.lobes.models.transformer.Transformer.TransformerInterface:26
+msgid "Module that processes the src features to expected feature dim."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerInterface.forward:1
+msgid "Users should modify this function according to their own tasks."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.PositionalEncoding:3
+msgid ""
+"PE(pos, 2i)   = sin(pos/(10000^(2i/dmodel))) PE(pos, 2i+1) = "
+"cos(pos/(10000^(2i/dmodel)))"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.PositionalEncoding:6
+msgid "Max length of the input sequences (default 2500)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.NormalizedEmbedding:13
+#: speechbrain.lobes.models.transformer.Transformer.PositionalEncoding:10
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoder:17
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer:17
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoder:24
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer:21
+#: speechbrain.lobes.models.transformer.Transformer.get_key_padding_mask:11
+#: speechbrain.lobes.models.transformer.Transformer.get_lookahead_mask:7
+msgid "Example"
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.PositionalEncoding.forward:1
+msgid "Input feature shape (batch, time, fea)"
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer:5
+msgid "d_ffn"
+msgstr ""
+
+#: of
+msgid "int"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerDecoder:3
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer:3
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoder:7
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer:6
+msgid "Hidden size of self-attention Feed Forward layer."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer:7
+msgid "nhead"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerDecoder:5
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer:5
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoder:5
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer:8
+msgid "Number of attention heads."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer:9
+msgid "d_model"
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer:10
+msgid "The expected size of the input embedding."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer:11
+msgid "reshape"
+msgstr ""
+
+#: of
+msgid "bool"
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer:12
+msgid "Whether to automatically shape 4-d input to 3-d."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer:13
+msgid "kdim"
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer:14
+msgid "Dimension of the key (Optional)."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer:15
+msgid "vdim"
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer:16
+msgid "Dimension of the value (Optional)."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer:18
+msgid "dropout"
+msgstr ""
+
+#: of
+msgid "float"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerEncoder:17
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer:18
+msgid "Dropout for the encoder (Optional)."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer.forward:3
+msgid "src"
+msgstr ""
+
+#: of
+msgid "tensor"
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoder.forward:1
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer.forward:4
+msgid "The sequence to the encoder layer (required)."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer.forward:5
+msgid "src_mask"
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoder.forward:3
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer.forward:6
+msgid "The mask for the src sequence (optional)."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer.forward:7
+msgid "src_key_padding_mask"
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoder.forward:5
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoderLayer.forward:8
+msgid "The mask for the src keys per batch (optional)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerEncoder:3
+msgid "Number of transformer layers to include."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerEncoder:9
+msgid "Expected shape of an example input."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerEncoder:11
+msgid "The dimension of the input embedding."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerDecoder:9
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoder:13
+msgid "Dimension for key (Optional)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerDecoder:11
+#: speechbrain.lobes.models.transformer.Transformer.TransformerEncoder:15
+msgid "Dimension for value (Optional)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerEncoder:19
+msgid ""
+"The module to process the source input feature to expected feature "
+"dimension (Optional)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerDecoder:7
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer:7
+msgid "Dimension of the model."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer:9
+msgid "Dimension for key (optional)."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer:11
+msgid "Dimension for value (optional)."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer:13
+msgid "Dropout for the decoder (optional)."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer.forward:3
+msgid "tgt: tensor"
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoder.forward:1
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer.forward:4
+msgid "The sequence to the decoder layer (required)."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer.forward:5
+msgid "memory: tensor"
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoder.forward:3
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer.forward:6
+msgid "The sequence from the last layer of the encoder (required)."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer.forward:7
+msgid "tgt_mask: tensor"
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoder.forward:5
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer.forward:8
+msgid "The mask for the tgt sequence (optional)."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer.forward:9
+msgid "memory_mask: tensor"
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoder.forward:7
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer.forward:10
+msgid "The mask for the memory sequence (optional)."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer.forward:11
+msgid "tgt_key_padding_mask: tensor"
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoder.forward:9
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer.forward:12
+msgid "The mask for the tgt keys per batch (optional)."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer.forward:13
+msgid "memory_key_padding_mask: tensor"
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoder.forward:11
+#: speechbrain.lobes.models.transformer.Transformer.TransformerDecoderLayer.forward:14
+msgid "The mask for the memory keys per batch (optional)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.TransformerDecoder:13
+msgid "Dropout for the decoder (Optional)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.NormalizedEmbedding:3
+msgid ""
+"Since the dot product of the self-attention is always normalized by "
+"sqrt(d_model) and the final linear projection for prediction shares "
+"weight with the embedding layer, we multiply the output of the embedding "
+"by sqrt(d_model)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.NormalizedEmbedding:9
+msgid "The vocab size."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.get_key_padding_mask:5
+msgid "padded_input: int"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.get_key_padding_mask:6
+msgid "Padded input."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.get_key_padding_mask:8
+msgid "pad_idx:"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.get_key_padding_mask:8
+msgid "idx for padding element."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.Transformer.get_lookahead_mask:3
+msgid "Padded input tensor."
+msgstr ""
+

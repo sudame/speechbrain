@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.lm.counting.rst:5
+msgid "speechbrain.lm.counting module"
+msgstr ""
+
+#: of speechbrain.lm.counting:1
+msgid "N-gram counting, discounting, interpolation, and backoff"
+msgstr ""
+
+#: of speechbrain.lm.counting:4
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.lm.counting:4
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: ../../API/speechbrain.lm.counting.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.lm.counting.rst:18
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.lm.counting.rst:33:<autosummary>:1
+msgid ":obj:`ngrams <speechbrain.lm.counting.ngrams>`"
+msgstr ""
+
+#: ../../API/speechbrain.lm.counting.rst:33:<autosummary>:1 of
+#: speechbrain.lm.counting.ngrams:1
+msgid "Produce all Nth order N-grams from the sequence."
+msgstr ""
+
+#: ../../API/speechbrain.lm.counting.rst:33:<autosummary>:1
+msgid ""
+":obj:`ngrams_for_evaluation "
+"<speechbrain.lm.counting.ngrams_for_evaluation>`"
+msgstr ""
+
+#: ../../API/speechbrain.lm.counting.rst:33:<autosummary>:1 of
+#: speechbrain.lm.counting.ngrams_for_evaluation:1
+msgid "Produce each token with the appropriate context."
+msgstr ""
+
+#: ../../API/speechbrain.lm.counting.rst:33:<autosummary>:1
+msgid ":obj:`pad_ends <speechbrain.lm.counting.pad_ends>`"
+msgstr ""
+
+#: ../../API/speechbrain.lm.counting.rst:33:<autosummary>:1 of
+#: speechbrain.lm.counting.pad_ends:1
+msgid "Pad sentence ends with start- and end-of-sentence tokens"
+msgstr ""
+
+#: ../../API/speechbrain.lm.counting.rst:35
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.lm.counting.pad_ends:3
+msgid ""
+"In speech recognition, it is important to predict the end of sentence and"
+" use the start of sentence to condition predictions. Typically this is "
+"done by adding special tokens (usually <s> and </s>) at the ends of each "
+"sentence. The <s> token should not be predicted, so some special care "
+"needs to be taken for unigrams."
+msgstr ""
+
+#: of speechbrain.lm.counting.ngrams
+#: speechbrain.lm.counting.ngrams_for_evaluation
+#: speechbrain.lm.counting.pad_ends
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.lm.counting.pad_ends:9
+msgid "The sequence (any iterable type) to pad."
+msgstr ""
+
+#: of speechbrain.lm.counting.pad_ends:11
+msgid "Whether to pad on the left side as well. True by default."
+msgstr ""
+
+#: of speechbrain.lm.counting.pad_ends:13
+msgid "The token to use for left side padding. \"<s>\" by default."
+msgstr ""
+
+#: of speechbrain.lm.counting.pad_ends:15
+msgid "The token to use for right side padding. \"</s>\" by deault."
+msgstr ""
+
+#: of speechbrain.lm.counting.pad_ends
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.lm.counting.pad_ends:18
+msgid "A generator that yields the padded sequence."
+msgstr ""
+
+#: of speechbrain.lm.counting.pad_ends
+msgid "Return type"
+msgstr ""
+
+#: of speechbrain.lm.counting.ngrams:13
+#: speechbrain.lm.counting.ngrams_for_evaluation:24
+#: speechbrain.lm.counting.pad_ends:22
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.lm.counting.ngrams:3
+msgid "This will generally be used in an N-gram counting pipeline."
+msgstr ""
+
+#: of speechbrain.lm.counting.ngrams:5
+msgid "The sequence from which to produce N-grams."
+msgstr ""
+
+#: of speechbrain.lm.counting.ngrams:7
+msgid "The order of N-grams to produce"
+msgstr ""
+
+#: of speechbrain.lm.counting.ngrams
+#: speechbrain.lm.counting.ngrams_for_evaluation
+msgid "Yields"
+msgstr ""
+
+#: of speechbrain.lm.counting.ngrams:10
+msgid "*tuple* -- Yields each ngram as a tuple."
+msgstr ""
+
+#: of speechbrain.lm.counting.ngrams_for_evaluation:3
+msgid ""
+"The function produces as large N-grams as possible, so growing from "
+"unigrams/bigrams to max_n."
+msgstr ""
+
+#: of speechbrain.lm.counting.ngrams_for_evaluation:6
+msgid ""
+"E.G. when your model is a trigram model, you'll still only have one token"
+" of context (the start of sentence) for the first token."
+msgstr ""
+
+#: of speechbrain.lm.counting.ngrams_for_evaluation:9
+msgid "In general this is useful when evaluating an N-gram model."
+msgstr ""
+
+#: of speechbrain.lm.counting.ngrams_for_evaluation:11
+msgid "The sequence to produce tokens and context from."
+msgstr ""
+
+#: of speechbrain.lm.counting.ngrams_for_evaluation:13
+msgid "The maximum N-gram length to produce."
+msgstr ""
+
+#: of speechbrain.lm.counting.ngrams_for_evaluation:15
+msgid ""
+"To produce the first token in the sequence to predict (without context) "
+"or not. Essentially this should be False when the start of sentence "
+"symbol is the first in the sequence."
+msgstr ""
+
+#: of speechbrain.lm.counting.ngrams_for_evaluation:20
+msgid "*Any* -- The token to predict"
+msgstr ""
+
+#: of speechbrain.lm.counting.ngrams_for_evaluation:21
+msgid "*tuple* -- The context to predict conditional on."
+msgstr ""
+

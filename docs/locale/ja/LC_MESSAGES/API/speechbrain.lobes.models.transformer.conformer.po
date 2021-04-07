@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.lobes.models.transformer.conformer.rst:5
+msgid "speechbrain.lobes.models.transformer.conformer module"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer:1
+msgid "Conformer implementaion in the SpeechBrain sytle."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer:3
+msgid "Authors * Jianyuan Zhong 2020"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.conformer.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.conformer.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.conformer.rst:33:<autosummary>:1
+msgid ""
+":obj:`ConformerEncoder "
+"<speechbrain.lobes.models.transformer.conformer.ConformerEncoder>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.conformer.rst:33:<autosummary>:1
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoder:1
+msgid "This class implements the Conformer encoder."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.conformer.rst:33:<autosummary>:1
+msgid ""
+":obj:`ConformerEncoderLayer "
+"<speechbrain.lobes.models.transformer.conformer.ConformerEncoderLayer>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.conformer.rst:33:<autosummary>:1
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoderLayer:1
+msgid "This is an implementation of Conformer encoder layer."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.conformer.rst:33:<autosummary>:1
+msgid ""
+":obj:`ConvolutionModule "
+"<speechbrain.lobes.models.transformer.conformer.ConvolutionModule>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.conformer.rst:33:<autosummary>:1
+#: of speechbrain.lobes.models.transformer.conformer.ConvolutionModule:1
+msgid "This is an implementation of convolution module in Conformer."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.conformer.rst:35
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoder:1
+#: speechbrain.lobes.models.transformer.conformer.ConformerEncoderLayer:1
+#: speechbrain.lobes.models.transformer.conformer.ConvolutionModule:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoder
+#: speechbrain.lobes.models.transformer.conformer.ConformerEncoder.forward
+#: speechbrain.lobes.models.transformer.conformer.ConformerEncoderLayer
+#: speechbrain.lobes.models.transformer.conformer.ConvolutionModule
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoderLayer:7
+#: speechbrain.lobes.models.transformer.conformer.ConvolutionModule:3
+msgid "The expected size of the input embedding."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoder:17
+#: speechbrain.lobes.models.transformer.conformer.ConformerEncoderLayer:15
+#: speechbrain.lobes.models.transformer.conformer.ConvolutionModule:5
+msgid "Dropout for the encoder (Optional)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoderLayer:17
+#: speechbrain.lobes.models.transformer.conformer.ConvolutionModule:7
+msgid "Bias to convolution module."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoderLayer:19
+#: speechbrain.lobes.models.transformer.conformer.ConvolutionModule:9
+msgid "Kernel size of convolution model."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoder:24
+#: speechbrain.lobes.models.transformer.conformer.ConformerEncoderLayer:23
+#: speechbrain.lobes.models.transformer.conformer.ConvolutionModule:13
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoder:7
+#: speechbrain.lobes.models.transformer.conformer.ConformerEncoderLayer:3
+msgid "Hidden size of self-attention Feed Forward layer."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoder:5
+#: speechbrain.lobes.models.transformer.conformer.ConformerEncoderLayer:5
+msgid "Number of attention heads."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoderLayer:9
+msgid "Whether to automatically shape 4-d input to 3-d."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoderLayer:11
+msgid "Dimension of the key (Optional)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoderLayer:13
+msgid "Dimension of the value (Optional)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoder:3
+msgid "Number of Conformer layers to include."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoder:9
+msgid "Expected shape of an example input."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoder:11
+msgid "The dimension of the input embedding."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoder:13
+msgid "Dimension for key (Optional)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoder:15
+msgid "Dimension for value (Optional)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoder:19
+msgid ""
+"The module to process the source input feature to expected feature "
+"dimension (Optional)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoder.forward:1
+msgid "The sequence to the encoder layer (required)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoder.forward:3
+msgid "The mask for the src sequence (optional)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.conformer.ConformerEncoder.forward:5
+msgid "The mask for the src keys per batch (optional)."
+msgstr ""
+

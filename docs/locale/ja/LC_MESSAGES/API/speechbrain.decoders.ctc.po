@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.decoders.ctc.rst:5
+msgid "speechbrain.decoders.ctc module"
+msgstr ""
+
+#: of speechbrain.decoders.ctc:1
+msgid "Decoders and output normalization for CTC."
+msgstr ""
+
+#: of speechbrain.decoders.ctc:6
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.decoders.ctc:4
+msgid "Mirco Ravanelli 2020"
+msgstr ""
+
+#: of speechbrain.decoders.ctc:5
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: of speechbrain.decoders.ctc:6
+msgid "Sung-Lin Yeh 2020"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.ctc.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.ctc.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.ctc.rst:24:<autosummary>:1
+msgid ":obj:`CTCPrefixScorer <speechbrain.decoders.ctc.CTCPrefixScorer>`"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.ctc.rst:24:<autosummary>:1
+msgid ""
+"This class implements the CTC prefix scorer of Algorithm 2 in reference: "
+"https://www.merl.com/publications/docs/TR2017-190.pdf."
+msgstr ""
+
+#: ../../API/speechbrain.decoders.ctc.rst:25
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.ctc.rst:39:<autosummary>:1
+msgid ":obj:`ctc_greedy_decode <speechbrain.decoders.ctc.ctc_greedy_decode>`"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.ctc.rst:39:<autosummary>:1 of
+#: speechbrain.decoders.ctc.ctc_greedy_decode:1
+msgid "Greedy decode a batch of probabilities and apply CTC rules."
+msgstr ""
+
+#: ../../API/speechbrain.decoders.ctc.rst:39:<autosummary>:1
+msgid ":obj:`filter_ctc_output <speechbrain.decoders.ctc.filter_ctc_output>`"
+msgstr ""
+
+#: ../../API/speechbrain.decoders.ctc.rst:39:<autosummary>:1 of
+#: speechbrain.decoders.ctc.filter_ctc_output:1
+msgid "Apply CTC output merge and filter rules."
+msgstr ""
+
+#: ../../API/speechbrain.decoders.ctc.rst:41
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.decoders.ctc.CTCPrefixScorer:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: of speechbrain.decoders.ctc.CTCPrefixScorer:1
+msgid ""
+"This class implements the CTC prefix scorer of Algorithm 2 in reference: "
+"https://www.merl.com/publications/docs/TR2017-190.pdf. Official "
+"implementation: "
+"https://github.com/espnet/espnet/blob/master/espnet/nets/ctc_prefix_score.py"
+msgstr ""
+
+#: of speechbrain.decoders.ctc.CTCPrefixScorer
+#: speechbrain.decoders.ctc.CTCPrefixScorer.forward_step
+#: speechbrain.decoders.ctc.CTCPrefixScorer.permute_mem
+#: speechbrain.decoders.ctc.ctc_greedy_decode
+#: speechbrain.decoders.ctc.filter_ctc_output
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.decoders.ctc.CTCPrefixScorer:5
+msgid "The encoder states."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.CTCPrefixScorer:7
+msgid "The actual length of each enc_states sequence."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.CTCPrefixScorer:9
+msgid "The size of the batch."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.CTCPrefixScorer:11
+msgid "The width of beam."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.CTCPrefixScorer:13
+msgid "The index of the blank token."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.CTCPrefixScorer:15
+msgid "The index of the end-of-sequence (eos) token."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.CTCPrefixScorer:17
+msgid ""
+"Compute the ctc scores over the time frames using windowing based on "
+"attention peaks. If 0, no windowing applied."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.CTCPrefixScorer.forward_step:1
+msgid "This method if one step of forwarding operation for the prefix ctc scorer."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.CTCPrefixScorer.forward_step:4
+msgid "The tensor of prefix label sequences, h = g + c."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.CTCPrefixScorer.forward_step:6
+msgid "Previous ctc states."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.CTCPrefixScorer.forward_step:8
+msgid ""
+"(batch_size * beam_size, ctc_beam_size), The topk candidates for "
+"rescoring. The ctc_beam_size is set as 2 * beam_size. If given, "
+"performing partial ctc scoring."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.CTCPrefixScorer.permute_mem:1
+msgid ""
+"This method permutes the CTC model memory to synchronize the memory index"
+" with the current output."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.CTCPrefixScorer.permute_mem:4
+msgid "The memory variable to be permuted."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.CTCPrefixScorer.permute_mem:6
+msgid "The index of the previous path."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.CTCPrefixScorer.permute_mem
+#: speechbrain.decoders.ctc.ctc_greedy_decode
+#: speechbrain.decoders.ctc.filter_ctc_output
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.decoders.ctc.CTCPrefixScorer.permute_mem
+#: speechbrain.decoders.ctc.ctc_greedy_decode
+#: speechbrain.decoders.ctc.filter_ctc_output
+msgid "Return type"
+msgstr ""
+
+#: of speechbrain.decoders.ctc.filter_ctc_output:3
+msgid "Removes the blank symbol and output repetitions."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.filter_ctc_output:5
+msgid "A list containing the output strings/ints predicted by the CTC system."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.filter_ctc_output:7
+msgid "The id of the blank."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.filter_ctc_output:10
+msgid "The output predicted by CTC without the blank symbol and the repetitions."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.ctc_greedy_decode:20
+#: speechbrain.decoders.ctc.filter_ctc_output:15
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.decoders.ctc.ctc_greedy_decode:3
+msgid ""
+"Output probabilities (or log-probabilities) from the network with shape "
+"[batch, probabilities, time]"
+msgstr ""
+
+#: of speechbrain.decoders.ctc.ctc_greedy_decode:6
+msgid ""
+"Relative true sequence lengths (to deal with padded inputs), the longest "
+"sequence has length 1.0, others a value between zero and one shape "
+"[batch, lengths]."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.ctc_greedy_decode:10
+msgid ""
+"The blank symbol/index. Default: -1. If a negative number is given, it is"
+" assumed to mean counting down from the maximum possible index, so that "
+"-1 refers to the maximum possible index."
+msgstr ""
+
+#: of speechbrain.decoders.ctc.ctc_greedy_decode:15
+msgid ""
+"Outputs as Python list of lists, with \"ragged\" dimensions; padding has "
+"been removed."
+msgstr ""
+

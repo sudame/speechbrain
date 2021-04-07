@@ -1,0 +1,711 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.utils.edit_distance.rst:5
+msgid "speechbrain.utils.edit_distance module"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance:1
+msgid "Edit distance and WER computation."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance:4
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance:4
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:18
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1
+msgid ""
+":obj:`accumulatable_wer_stats "
+"<speechbrain.utils.edit_distance.accumulatable_wer_stats>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1 of
+#: speechbrain.utils.edit_distance.accumulatable_wer_stats:1
+msgid "Computes word error rate and the related counts for a batch."
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1
+msgid ":obj:`alignment <speechbrain.utils.edit_distance.alignment>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1 of
+#: speechbrain.utils.edit_distance.alignment:1
+msgid "Get the edit distance alignment from an edit op table."
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1
+msgid ":obj:`count_ops <speechbrain.utils.edit_distance.count_ops>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1 of
+#: speechbrain.utils.edit_distance.count_ops:1
+msgid "Count the edit operations in the shortest edit path in edit op table."
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1
+msgid ":obj:`op_table <speechbrain.utils.edit_distance.op_table>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1 of
+#: speechbrain.utils.edit_distance.op_table:1
+msgid "Table of edit operations between a and b."
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1
+msgid ":obj:`top_wer_spks <speechbrain.utils.edit_distance.top_wer_spks>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1 of
+#: speechbrain.utils.edit_distance.top_wer_spks:1
+msgid "Finds the K speakers with the highest word error rates."
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1
+msgid ":obj:`top_wer_utts <speechbrain.utils.edit_distance.top_wer_utts>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1 of
+#: speechbrain.utils.edit_distance.top_wer_utts:1
+msgid "Finds the k utterances with highest word error rates."
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1
+msgid ""
+":obj:`wer_details_by_speaker "
+"<speechbrain.utils.edit_distance.wer_details_by_speaker>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1 of
+#: speechbrain.utils.edit_distance.wer_details_by_speaker:1
+msgid "Compute word error rate and another salient info grouping by speakers."
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1
+msgid ""
+":obj:`wer_details_by_utterance "
+"<speechbrain.utils.edit_distance.wer_details_by_utterance>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1 of
+#: speechbrain.utils.edit_distance.wer_details_by_utterance:1
+msgid "Computes a wealth WER info about each single utterance."
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1
+msgid ""
+":obj:`wer_details_for_batch "
+"<speechbrain.utils.edit_distance.wer_details_for_batch>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1 of
+#: speechbrain.utils.edit_distance.wer_details_for_batch:1
+msgid "Convenient batch interface for ``wer_details_by_utterance``."
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1
+msgid ":obj:`wer_summary <speechbrain.utils.edit_distance.wer_summary>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:40:<autosummary>:1 of
+#: speechbrain.utils.edit_distance.wer_summary:1
+msgid "Computes summary stats from the output of details_by_utterance"
+msgstr ""
+
+#: ../../API/speechbrain.utils.edit_distance.rst:42
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.accumulatable_wer_stats:3
+msgid ""
+"Can also be used to accumulate the counts over many batches, by passing "
+"the output back to the function in the call for the next batch."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.accumulatable_wer_stats
+#: speechbrain.utils.edit_distance.alignment
+#: speechbrain.utils.edit_distance.count_ops
+#: speechbrain.utils.edit_distance.op_table
+#: speechbrain.utils.edit_distance.top_wer_spks
+#: speechbrain.utils.edit_distance.top_wer_utts
+#: speechbrain.utils.edit_distance.wer_details_by_speaker
+#: speechbrain.utils.edit_distance.wer_details_by_utterance
+#: speechbrain.utils.edit_distance.wer_details_for_batch
+#: speechbrain.utils.edit_distance.wer_summary
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.accumulatable_wer_stats:6
+msgid "Batch of reference sequences."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.accumulatable_wer_stats:8
+msgid "Batch of hypothesis sequences."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.accumulatable_wer_stats:10
+msgid ""
+"The running statistics. Pass the output of this function back as this "
+"parameter to accumulate the counts. It may be cleanest to initialize the "
+"stats yourself; then an empty collections.Counter() should be used."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.accumulatable_wer_stats
+#: speechbrain.utils.edit_distance.alignment
+#: speechbrain.utils.edit_distance.count_ops
+#: speechbrain.utils.edit_distance.op_table
+#: speechbrain.utils.edit_distance.top_wer_spks
+#: speechbrain.utils.edit_distance.top_wer_utts
+#: speechbrain.utils.edit_distance.wer_details_by_speaker
+#: speechbrain.utils.edit_distance.wer_details_by_utterance
+#: speechbrain.utils.edit_distance.wer_details_for_batch
+#: speechbrain.utils.edit_distance.wer_summary
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.accumulatable_wer_stats:17
+msgid ""
+"The updated running statistics, with keys:  * \"WER\" - word error rate *"
+" \"insertions\" - number of insertions * \"deletions\" - number of "
+"deletions * \"substitutions\" - number of substitutions * "
+"\"num_ref_tokens\" - number of reference tokens"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.accumulatable_wer_stats:17
+msgid "The updated running statistics, with keys:"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.accumulatable_wer_stats:19
+msgid "\"WER\" - word error rate"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.accumulatable_wer_stats:20
+msgid "\"insertions\" - number of insertions"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.accumulatable_wer_stats:21
+msgid "\"deletions\" - number of deletions"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.accumulatable_wer_stats:22
+msgid "\"substitutions\" - number of substitutions"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.accumulatable_wer_stats:23
+msgid "\"num_ref_tokens\" - number of reference tokens"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.accumulatable_wer_stats
+#: speechbrain.utils.edit_distance.alignment
+#: speechbrain.utils.edit_distance.count_ops
+#: speechbrain.utils.edit_distance.op_table
+#: speechbrain.utils.edit_distance.top_wer_spks
+#: speechbrain.utils.edit_distance.top_wer_utts
+#: speechbrain.utils.edit_distance.wer_details_by_speaker
+#: speechbrain.utils.edit_distance.wer_details_by_utterance
+#: speechbrain.utils.edit_distance.wer_details_for_batch
+#: speechbrain.utils.edit_distance.wer_summary
+msgid "Return type"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.accumulatable_wer_stats:27
+#: speechbrain.utils.edit_distance.alignment:19
+#: speechbrain.utils.edit_distance.count_ops:22
+#: speechbrain.utils.edit_distance.op_table:26
+#: speechbrain.utils.edit_distance.wer_details_for_batch:21
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.op_table:3
+msgid ""
+"Solves for the table of edit operations, which is mainly used to compute "
+"word error rate. The table is of size ``[|a|+1, |b|+1]``, and each point "
+"``(i, j)`` in the table has an edit operation. The edit operations can be"
+" deterministically followed backwards to find the shortest edit path to "
+"from ``a[:i-1] to b[:j-1]``. Indexes of zero (``i=0`` or ``j=0``) "
+"correspond to an empty sequence."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.op_table:10
+msgid "The algorithm itself is well known, see"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.op_table:12
+msgid ""
+"`Levenshtein distance "
+"<https://en.wikipedia.org/wiki/Levenshtein_distance>`_"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.op_table:14
+msgid ""
+"Note that in some cases there are multiple valid edit operation paths "
+"which lead to the same edit distance minimum."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.op_table:17
+#: speechbrain.utils.edit_distance.op_table:19
+msgid "Sequence for which the edit operations are solved."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.op_table:22
+msgid "List of lists, Matrix, Table of edit operations."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.alignment:3
+msgid ""
+"Walks back an edit operations table, produced by calling ``table(a, b)``,"
+" and collects the edit distance alignment of a to b. The alignment shows "
+"which token in a corresponds to which token in b. Note that the alignment"
+" is monotonic, one-to-zero-or-one."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.alignment:8
+#: speechbrain.utils.edit_distance.count_ops:8
+msgid "Edit operations table from ``op_table(a, b)``."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.alignment:11
+msgid ""
+"Schema: ``[(str <edit-op>, int-or-None <i>, int-or-None <j>),]`` List of "
+"edit operations, and the corresponding indices to a and b. See the "
+"EDIT_SYMBOLS dict for the edit-ops. The i indexes a, j indexes b, and the"
+" indices can be None, which means aligning to nothing."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.count_ops:3
+msgid ""
+"Walks back an edit operations table produced by table(a, b) and counts "
+"the number of insertions, deletions, and substitutions in the shortest "
+"edit path. This information is typically used in speech recognition to "
+"report the number of different error types separately."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.count_ops:11
+msgid ""
+"The counts of the edit operations, with keys:  * \"insertions\" * "
+"\"deletions\" * \"substitutions\"  NOTE: not all of the keys might appear"
+" explicitly in the output, but for the missing keys collections. The "
+"counter will return 0."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.count_ops:11
+msgid "The counts of the edit operations, with keys:"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.count_ops:13
+msgid "\"insertions\""
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.count_ops:14
+msgid "\"deletions\""
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.count_ops:15
+msgid "\"substitutions\""
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.count_ops:17
+msgid ""
+"NOTE: not all of the keys might appear explicitly in the output, but for "
+"the missing keys collections. The counter will return 0."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_for_batch:3
+msgid ""
+"``wer_details_by_utterance`` can handle missing hypotheses, but sometimes"
+" (e.g. CTC training with greedy decoding) they are not needed, and this "
+"is a convenient interface in that case."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_for_batch:7
+msgid "Utterance ids for the batch."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_for_batch:9
+msgid "Reference sequences."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_for_batch:11
+msgid "Hypothesis sequences."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_for_batch:13
+msgid ""
+"Whether to compute alignments or not. If computed, the details will also "
+"store the refs and hyps. (default: False)"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_for_batch:17
+msgid "See ``wer_details_by_utterance``"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:3
+msgid "This info can then be used to compute summary details (WER, SER)."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:5
+msgid ""
+"Should be indexable by utterance ids, and return the reference tokens for"
+" each utterance id as iterable"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:8
+msgid ""
+"Should be indexable by utterance ids, and return the hypothesis tokens "
+"for each utterance id as iterable"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:11
+msgid ""
+"Whether alignments should also be saved. This also saves the tokens "
+"themselves, as they are probably required for printing the alignments."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:15
+msgid ""
+"How to deal with missing hypotheses (reference utterance id not found in "
+"hyp_dict).  * 'strict': Raise error for missing hypotheses. * 'all': "
+"Score missing hypotheses as empty. * 'present': Only score existing "
+"hypotheses."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:15
+msgid ""
+"How to deal with missing hypotheses (reference utterance id not found in "
+"hyp_dict)."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:18
+msgid "'strict': Raise error for missing hypotheses."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:19
+msgid "'all': Score missing hypotheses as empty."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:20
+msgid "'present': Only score existing hypotheses."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:23
+msgid ""
+"A list with one entry for every reference utterance. Each entry is a dict"
+" with keys:  * \"key\": utterance id * \"scored\": (bool) Whether "
+"utterance was scored. * \"hyp_absent\": (bool) True if a hypothesis was "
+"NOT found. * \"hyp_empty\": (bool) True if hypothesis was considered "
+"empty   (either because it was empty, or not found and mode 'all'). * "
+"\"num_edits\": (int) Number of edits in total. * \"num_ref_tokens\": "
+"(int) Number of tokens in the reference. * \"WER\": (float) Word error "
+"rate of the utterance. * \"insertions\": (int) Number of insertions. * "
+"\"deletions\": (int) Number of deletions. * \"substitutions\": (int) "
+"Number of substitutions. * \"alignment\": If compute_alignments is True, "
+"alignment as list,   see ``speechbrain.utils.edit_distance.alignment``."
+"   If compute_alignments is False, this is None. * \"ref_tokens\": "
+"(iterable) The reference tokens   only saved if alignments were computed,"
+" else None. * \"hyp_tokens\": (iterable) the hypothesis tokens,   only "
+"saved if alignments were computed, else None."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:23
+msgid ""
+"A list with one entry for every reference utterance. Each entry is a dict"
+" with keys:"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:26
+msgid "\"key\": utterance id"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:27
+msgid "\"scored\": (bool) Whether utterance was scored."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:28
+msgid "\"hyp_absent\": (bool) True if a hypothesis was NOT found."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:29
+msgid ""
+"\"hyp_empty\": (bool) True if hypothesis was considered empty (either "
+"because it was empty, or not found and mode 'all')."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:31
+msgid "\"num_edits\": (int) Number of edits in total."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:32
+msgid "\"num_ref_tokens\": (int) Number of tokens in the reference."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:33
+msgid "\"WER\": (float) Word error rate of the utterance."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:34
+msgid "\"insertions\": (int) Number of insertions."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:35
+msgid "\"deletions\": (int) Number of deletions."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:36
+msgid "\"substitutions\": (int) Number of substitutions."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:37
+msgid ""
+"\"alignment\": If compute_alignments is True, alignment as list, see "
+"``speechbrain.utils.edit_distance.alignment``. If compute_alignments is "
+"False, this is None."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:40
+msgid ""
+"\"ref_tokens\": (iterable) The reference tokens only saved if alignments "
+"were computed, else None."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:42
+msgid ""
+"\"hyp_tokens\": (iterable) the hypothesis tokens, only saved if "
+"alignments were computed, else None."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance
+msgid "Raises"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_utterance:46
+msgid "If scoring mode is 'strict' and a hypothesis is not found."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_summary:3
+msgid "Summary stats like WER"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_speaker:3
+#: speechbrain.utils.edit_distance.wer_summary:5
+msgid "See the output of wer_details_by_utterance"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_summary:8
+msgid ""
+"Dictionary with keys:  * \"WER\": (float) Word Error Rate. * \"SER\": "
+"(float) Sentence Error Rate (percentage of utterances   which had at "
+"least one error). * \"num_edits\": (int) Total number of edits. * "
+"\"num_scored_tokens\": (int) Total number of tokens in scored   reference"
+" utterances (a missing hypothesis might still   have been scored with "
+"'all' scoring mode). * \"num_erraneous_sents\": (int) Total number of "
+"utterances   which had at least one error. * \"num_scored_sents\": (int) "
+"Total number of utterances   which were scored. * \"num_absent_sents\": "
+"(int) Hypotheses which were not found. * \"num_ref_sents\": (int) Number "
+"of all reference utterances. * \"insertions\": (int) Total number of "
+"insertions. * \"deletions\": (int) Total number of deletions. * "
+"\"substitutions\": (int) Total number of substitutions.  NOTE: Some cases"
+" lead to ambiguity over number of insertions, deletions and "
+"substitutions. We aim to replicate Kaldi compute_wer numbers."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_summary:8
+msgid "Dictionary with keys:"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_summary:10
+msgid "\"WER\": (float) Word Error Rate."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_summary:11
+msgid ""
+"\"SER\": (float) Sentence Error Rate (percentage of utterances which had "
+"at least one error)."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_summary:13
+msgid "\"num_edits\": (int) Total number of edits."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_summary:14
+msgid ""
+"\"num_scored_tokens\": (int) Total number of tokens in scored reference "
+"utterances (a missing hypothesis might still have been scored with 'all' "
+"scoring mode)."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_summary:17
+msgid ""
+"\"num_erraneous_sents\": (int) Total number of utterances which had at "
+"least one error."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_summary:19
+msgid "\"num_scored_sents\": (int) Total number of utterances which were scored."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_summary:21
+msgid "\"num_absent_sents\": (int) Hypotheses which were not found."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_summary:22
+msgid "\"num_ref_sents\": (int) Number of all reference utterances."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_summary:23
+msgid "\"insertions\": (int) Total number of insertions."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_summary:24
+msgid "\"deletions\": (int) Total number of deletions."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_summary:25
+msgid "\"substitutions\": (int) Total number of substitutions."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_summary:27
+msgid ""
+"NOTE: Some cases lead to ambiguity over number of insertions, deletions "
+"and substitutions. We aim to replicate Kaldi compute_wer numbers."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_speaker:5
+msgid "Map from utterance id to speaker id"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_speaker:8
+msgid ""
+"Maps speaker id to a dictionary of the statistics, with keys:  * "
+"\"speaker\": Speaker id, * \"num_edits\": (int) Number of edits in total "
+"by this speaker. * \"insertions\": (int) Number insertions by this "
+"speaker. * \"dels\": (int) Number of deletions by this speaker. * "
+"\"subs\": (int) Number of substitutions by this speaker. * "
+"\"num_scored_tokens\": (int) Number of scored reference   tokens by this "
+"speaker (a missing hypothesis might still   have been scored with 'all' "
+"scoring mode). * \"num_scored_sents\": (int) number of scored utterances"
+"   by this speaker. * \"num_erraneous_sents\": (int) number of utterance "
+"with at least   one error, by this speaker. * \"num_absent_sents\": (int)"
+" number of utterances for which no   hypotheses was found, by this "
+"speaker. * \"num_ref_sents\": (int) number of utterances by this speaker"
+"   in total."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_speaker:8
+msgid "Maps speaker id to a dictionary of the statistics, with keys:"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_speaker:10
+msgid "\"speaker\": Speaker id,"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_speaker:11
+msgid "\"num_edits\": (int) Number of edits in total by this speaker."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_speaker:12
+msgid "\"insertions\": (int) Number insertions by this speaker."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_speaker:13
+msgid "\"dels\": (int) Number of deletions by this speaker."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_speaker:14
+msgid "\"subs\": (int) Number of substitutions by this speaker."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_speaker:15
+msgid ""
+"\"num_scored_tokens\": (int) Number of scored reference tokens by this "
+"speaker (a missing hypothesis might still have been scored with 'all' "
+"scoring mode)."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_speaker:18
+msgid "\"num_scored_sents\": (int) number of scored utterances by this speaker."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_speaker:20
+msgid ""
+"\"num_erraneous_sents\": (int) number of utterance with at least one "
+"error, by this speaker."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_speaker:22
+msgid ""
+"\"num_absent_sents\": (int) number of utterances for which no hypotheses "
+"was found, by this speaker."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.wer_details_by_speaker:24
+msgid "\"num_ref_sents\": (int) number of utterances by this speaker in total."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.top_wer_utts:3
+msgid ""
+"Useful for diagnostic purposes, to see where the system is making the "
+"most mistakes. Returns results utterances which were not empty i.e. had "
+"to have been present in the hypotheses, with output produced"
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.top_wer_utts:8
+msgid "See output of wer_details_by_utterance."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.top_wer_utts:10
+msgid "Number of utterances to return."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.top_wer_utts:13
+msgid ""
+"List of at most K utterances, with the highest word error rates, which "
+"were not empty. The utterance dict has the same keys as "
+"details_by_utterance."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.top_wer_spks:3
+msgid "Useful for diagnostic purposes."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.top_wer_spks:5
+msgid "See output of wer_details_by_speaker."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.top_wer_spks:7
+msgid "Number of seakers to return."
+msgstr ""
+
+#: of speechbrain.utils.edit_distance.top_wer_spks:10
+msgid ""
+"List of at most K dicts (with the same keys as details_by_speaker) of "
+"speakers sorted by WER."
+msgstr ""
+

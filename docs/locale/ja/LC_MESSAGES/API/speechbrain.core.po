@@ -1,0 +1,729 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.core.rst:5
+msgid "speechbrain.core module"
+msgstr ""
+
+#: of speechbrain.core:1
+msgid "Core SpeechBrain code for running experiments."
+msgstr ""
+
+#: of speechbrain.core:6
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.core:4
+msgid "Peter Plantinga 2020"
+msgstr ""
+
+#: of speechbrain.core:5
+msgid "Abdel Heba 2020"
+msgstr ""
+
+#: of speechbrain.core:6
+msgid "Mirco Ravanelli 2020"
+msgstr ""
+
+#: ../../API/speechbrain.core.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.core.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.core.rst:25:<autosummary>:1
+msgid ":obj:`Brain <speechbrain.core.Brain>`"
+msgstr ""
+
+#: ../../API/speechbrain.core.rst:25:<autosummary>:1 of
+#: speechbrain.core.Brain:1
+msgid "Brain class abstracts away the details of data loops."
+msgstr ""
+
+#: ../../API/speechbrain.core.rst:25:<autosummary>:1
+msgid ":obj:`Stage <speechbrain.core.Stage>`"
+msgstr ""
+
+#: ../../API/speechbrain.core.rst:25:<autosummary>:1 of
+#: speechbrain.core.Stage:1
+msgid "Simple enum to track stage of experiments."
+msgstr ""
+
+#: ../../API/speechbrain.core.rst:26
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.core.rst:40:<autosummary>:1
+msgid ""
+":obj:`create_experiment_directory "
+"<speechbrain.core.create_experiment_directory>`"
+msgstr ""
+
+#: ../../API/speechbrain.core.rst:40:<autosummary>:1 of
+#: speechbrain.core.create_experiment_directory:1
+msgid "Create the output folder and relevant experimental files."
+msgstr ""
+
+#: ../../API/speechbrain.core.rst:40:<autosummary>:1
+msgid ":obj:`parse_arguments <speechbrain.core.parse_arguments>`"
+msgstr ""
+
+#: ../../API/speechbrain.core.rst:40:<autosummary>:1 of
+#: speechbrain.core.parse_arguments:1
+msgid "Parse command-line arguments to the experiment."
+msgstr ""
+
+#: ../../API/speechbrain.core.rst:42
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.core.Brain speechbrain.core.Brain.check_gradients
+#: speechbrain.core.Brain.compute_forward
+#: speechbrain.core.Brain.compute_objectives speechbrain.core.Brain.evaluate
+#: speechbrain.core.Brain.evaluate_batch speechbrain.core.Brain.fit
+#: speechbrain.core.Brain.fit_batch speechbrain.core.Brain.make_dataloader
+#: speechbrain.core.Brain.on_evaluate_start speechbrain.core.Brain.on_stage_end
+#: speechbrain.core.Brain.on_stage_start speechbrain.core.Brain.update_average
+#: speechbrain.core.create_experiment_directory
+#: speechbrain.core.parse_arguments
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.core.create_experiment_directory:3
+msgid "The place where the experiment directory should be created."
+msgstr ""
+
+#: of speechbrain.core.create_experiment_directory:5
+msgid ""
+"A filename of a yaml file representing the parameters for this "
+"experiment. If passed, references are resolved, and the result is written"
+" to a file in the experiment directory called \"hyperparams.yaml\"."
+msgstr ""
+
+#: of speechbrain.core.create_experiment_directory:9
+msgid "A mapping of replacements made in the yaml file, to save in yaml."
+msgstr ""
+
+#: of speechbrain.core.create_experiment_directory:11
+msgid "A yaml filename containing configuration options for the logger."
+msgstr ""
+
+#: of speechbrain.core.create_experiment_directory:13
+msgid ""
+"If True, an environment state description is saved to the experiment "
+"directory, in a file called env.log in the experiment directory."
+msgstr ""
+
+#: of speechbrain.core.parse_arguments:3
+msgid "A list of arguments to parse, most often from `sys.argv[1:]`."
+msgstr ""
+
+#: of speechbrain.core.Brain.check_gradients
+#: speechbrain.core.Brain.compute_forward
+#: speechbrain.core.Brain.compute_objectives speechbrain.core.Brain.evaluate
+#: speechbrain.core.Brain.evaluate_batch speechbrain.core.Brain.fit_batch
+#: speechbrain.core.Brain.update_average speechbrain.core.parse_arguments
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.core.parse_arguments:6
+msgid ""
+"* **param_file** (*str*) -- The location of the parameters file. * "
+"**run_opts** (*dict*) -- Run options, such as distributed, device, etc. *"
+" **overrides** (*dict*) -- The overrides to pass to ``load_hyperpyyaml``."
+msgstr ""
+
+#: of speechbrain.core.parse_arguments:6
+msgid "**param_file** (*str*) -- The location of the parameters file."
+msgstr ""
+
+#: of speechbrain.core.parse_arguments:7
+msgid "**run_opts** (*dict*) -- Run options, such as distributed, device, etc."
+msgstr ""
+
+#: of speechbrain.core.parse_arguments:8
+msgid "**overrides** (*dict*) -- The overrides to pass to ``load_hyperpyyaml``."
+msgstr ""
+
+#: of speechbrain.core.Brain:75 speechbrain.core.parse_arguments:11
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.core.Stage:1
+msgid "Bases: :class:`enum.Enum`"
+msgstr ""
+
+#: of speechbrain.core.Brain:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: of speechbrain.core.Brain:3
+msgid ""
+"The primary purpose of the `Brain` class is the implementation of the "
+"``fit()`` method, which iterates epochs and datasets for the purpose of "
+"\"fitting\" a set of modules to a set of data."
+msgstr ""
+
+#: of speechbrain.core.Brain:7
+msgid ""
+"In order to use the ``fit()`` method, one should sub-class the ``Brain`` "
+"class and override any methods for which the default behavior does not "
+"match the use case. For a simple use case (e.g., training a single model "
+"with a single dataset) the only methods that need to be overridden are:"
+msgstr ""
+
+#: of speechbrain.core.Brain:12 speechbrain.core.Brain.evaluate_batch:6
+#: speechbrain.core.Brain.fit_batch:6
+msgid "``compute_forward()``"
+msgstr ""
+
+#: of speechbrain.core.Brain:13 speechbrain.core.Brain.evaluate_batch:7
+#: speechbrain.core.Brain.fit_batch:7
+msgid "``compute_objectives()``"
+msgstr ""
+
+#: of speechbrain.core.Brain:15
+msgid "The example below illustrates how overriding these two methods is done."
+msgstr ""
+
+#: of speechbrain.core.Brain:17
+msgid ""
+"For more complicated use cases, such as multiple modules that need to be "
+"updated, the following methods can be overridden:"
+msgstr ""
+
+#: of speechbrain.core.Brain:20 speechbrain.core.Brain.fit:7
+msgid "``fit_batch()``"
+msgstr ""
+
+#: of speechbrain.core.Brain:21 speechbrain.core.Brain.fit:8
+msgid "``evaluate_batch()``"
+msgstr ""
+
+#: of speechbrain.core.Brain:23
+msgid ""
+"These modules are passed to the optimizer by default if they have "
+"trainable parameters, and will have ``train()``/``eval()`` called on "
+"them."
+msgstr ""
+
+#: of speechbrain.core.Brain:26
+msgid ""
+"A torch optimizer constructor that has takes only the list of parameters "
+"(e.g. a lambda or partial function definition). By default, this will be "
+"passed all modules in ``modules`` at the beginning of the ``fit()`` "
+"method. This behavior can be changed by overriding the "
+"``configure_optimizers()`` method."
+msgstr ""
+
+#: of speechbrain.core.Brain:32
+msgid ""
+"Each key:value pair should consist of a string key and a hyperparameter "
+"that is used within the overridden methods. These will be accessible via "
+"an ``hparams`` attribute, using \"dot\" notation: e.g., "
+"self.hparams.model(x)."
+msgstr ""
+
+#: of speechbrain.core.Brain:37
+msgid ""
+"A set of options to change the runtime environment, including  debug "
+"(bool)     If ``True``, this will only iterate a few batches for all     "
+"datasets, to ensure code runs without crashing. debug_batches (int)     "
+"Number of batches to run in debug mode, Default ``2``. debug_epochs (int)"
+"     Number of epochs to run in debug mode, Default ``2``.     If a non-"
+"positive number is passed, all epochs are run. jit_module_keys (list of "
+"str)     List of keys in ``modules`` that should be jit compiled. "
+"distributed_count (int)     Number of devices to run on. "
+"distributed_backend (str)     One of ``ddp_nccl``, ``ddp_gloo``, "
+"``ddp_mpi``, ``data_parallel``. device (str)     The location for "
+"performing computations. auto_mix_prec (bool)     If ``True``, automatic "
+"mixed-precision is used.     Activate it only with cuda. max_grad_norm "
+"(float)     Default implementation of ``fit_batch()`` uses     "
+"``clip_grad_norm_`` with this value. Default: ``5``. nonfinite_patience "
+"(int)     Number of times to ignore non-finite losses before stopping."
+"     Default: ``3``. noprogressbar (bool)     Whether to turn off "
+"progressbar when training. Default: ``False``. ckpt_interval_minutes "
+"(float)     Amount of time between saving intra-epoch checkpoints,     in"
+" minutes, default: ``15.0``. If non-positive, these are not saved."
+msgstr ""
+
+#: of speechbrain.core.Brain:37
+msgid "A set of options to change the runtime environment, including"
+msgstr ""
+
+#: of speechbrain.core.Brain:40
+msgid "debug (bool)"
+msgstr ""
+
+#: of speechbrain.core.Brain:40
+msgid ""
+"If ``True``, this will only iterate a few batches for all datasets, to "
+"ensure code runs without crashing."
+msgstr ""
+
+#: of speechbrain.core.Brain:42
+msgid "debug_batches (int)"
+msgstr ""
+
+#: of speechbrain.core.Brain:43
+msgid "Number of batches to run in debug mode, Default ``2``."
+msgstr ""
+
+#: of speechbrain.core.Brain:45
+msgid "debug_epochs (int)"
+msgstr ""
+
+#: of speechbrain.core.Brain:45
+msgid ""
+"Number of epochs to run in debug mode, Default ``2``. If a non-positive "
+"number is passed, all epochs are run."
+msgstr ""
+
+#: of speechbrain.core.Brain:47
+msgid "jit_module_keys (list of str)"
+msgstr ""
+
+#: of speechbrain.core.Brain:48
+msgid "List of keys in ``modules`` that should be jit compiled."
+msgstr ""
+
+#: of speechbrain.core.Brain:49
+msgid "distributed_count (int)"
+msgstr ""
+
+#: of speechbrain.core.Brain:50
+msgid "Number of devices to run on."
+msgstr ""
+
+#: of speechbrain.core.Brain:51
+msgid "distributed_backend (str)"
+msgstr ""
+
+#: of speechbrain.core.Brain:52
+msgid "One of ``ddp_nccl``, ``ddp_gloo``, ``ddp_mpi``, ``data_parallel``."
+msgstr ""
+
+#: of speechbrain.core.Brain:53
+msgid "device (str)"
+msgstr ""
+
+#: of speechbrain.core.Brain:54
+msgid "The location for performing computations."
+msgstr ""
+
+#: of speechbrain.core.Brain:56
+msgid "auto_mix_prec (bool)"
+msgstr ""
+
+#: of speechbrain.core.Brain:56
+msgid ""
+"If ``True``, automatic mixed-precision is used. Activate it only with "
+"cuda."
+msgstr ""
+
+#: of speechbrain.core.Brain:59
+msgid "max_grad_norm (float)"
+msgstr ""
+
+#: of speechbrain.core.Brain:59
+msgid ""
+"Default implementation of ``fit_batch()`` uses ``clip_grad_norm_`` with "
+"this value. Default: ``5``."
+msgstr ""
+
+#: of speechbrain.core.Brain:62
+msgid "nonfinite_patience (int)"
+msgstr ""
+
+#: of speechbrain.core.Brain:62
+msgid ""
+"Number of times to ignore non-finite losses before stopping. Default: "
+"``3``."
+msgstr ""
+
+#: of speechbrain.core.Brain:64
+msgid "noprogressbar (bool)"
+msgstr ""
+
+#: of speechbrain.core.Brain:65
+msgid "Whether to turn off progressbar when training. Default: ``False``."
+msgstr ""
+
+#: of speechbrain.core.Brain:67
+msgid "ckpt_interval_minutes (float)"
+msgstr ""
+
+#: of speechbrain.core.Brain:67
+msgid ""
+"Amount of time between saving intra-epoch checkpoints, in minutes, "
+"default: ``15.0``. If non-positive, these are not saved."
+msgstr ""
+
+#: of speechbrain.core.Brain:70
+msgid ""
+"By default, this will be used to load checkpoints, and will have the "
+"optimizer added to continue training if interrupted."
+msgstr ""
+
+#: of speechbrain.core.Brain.compute_forward:1
+msgid "Forward pass, to be overridden by sub-classes."
+msgstr ""
+
+#: of speechbrain.core.Brain.compute_forward:3
+msgid "An element from the dataloader, including inputs for processing."
+msgstr ""
+
+#: of speechbrain.core.Brain.compute_forward:5
+#: speechbrain.core.Brain.compute_objectives:8
+#: speechbrain.core.Brain.make_dataloader:31
+#: speechbrain.core.Brain.on_stage_end:5
+#: speechbrain.core.Brain.on_stage_start:5
+msgid "The stage of the experiment: Stage.TRAIN, Stage.VALID, Stage.TEST"
+msgstr ""
+
+#: of speechbrain.core.Brain.compute_forward:8
+msgid ""
+"The outputs after all processing is complete. Directly passed to "
+"``compute_objectives()``."
+msgstr ""
+
+#: of speechbrain.core.Brain.check_gradients
+#: speechbrain.core.Brain.compute_forward
+#: speechbrain.core.Brain.compute_objectives speechbrain.core.Brain.evaluate
+#: speechbrain.core.Brain.evaluate_batch speechbrain.core.Brain.fit_batch
+#: speechbrain.core.Brain.update_average
+msgid "Return type"
+msgstr ""
+
+#: of speechbrain.core.Brain.compute_objectives:1
+msgid "Compute loss, to be overridden by sub-classes."
+msgstr ""
+
+#: of speechbrain.core.Brain.compute_objectives:3
+msgid ""
+"The output tensor or tensors to evaluate. Comes directly from "
+"``compute_forward()``."
+msgstr ""
+
+#: of speechbrain.core.Brain.compute_objectives:6
+msgid "An element from the dataloader, including targets for comparison."
+msgstr ""
+
+#: of speechbrain.core.Brain.compute_objectives:11
+msgid "**loss** -- A tensor with the computed loss."
+msgstr ""
+
+#: of speechbrain.core.Brain.on_stage_start:1
+msgid "Gets called when a stage starts."
+msgstr ""
+
+#: of speechbrain.core.Brain.on_stage_start:3
+msgid "Useful for defining class variables used during the stage."
+msgstr ""
+
+#: of speechbrain.core.Brain.on_stage_end:9
+#: speechbrain.core.Brain.on_stage_start:7
+msgid "The current epoch count."
+msgstr ""
+
+#: of speechbrain.core.Brain.on_stage_end:1
+msgid "Gets called at the end of a stage."
+msgstr ""
+
+#: of speechbrain.core.Brain.on_stage_end:3
+msgid "Useful for computing stage statistics, saving checkpoints, etc."
+msgstr ""
+
+#: of speechbrain.core.Brain.on_stage_end:7
+msgid "The average loss over the completed stage."
+msgstr ""
+
+#: of speechbrain.core.Brain.make_dataloader:1
+msgid "Creates DataLoaders for Datasets."
+msgstr ""
+
+#: of speechbrain.core.Brain.make_dataloader:3
+msgid ""
+"This is used by ``fit()`` and ``evaluate()`` if they just receive "
+"Datasets."
+msgstr ""
+
+#: of speechbrain.core.Brain.make_dataloader:6
+msgid ""
+"Alternatively, this can be called from outside the Brain subclass. In "
+"that case, the DataLoader should be passed to ``fit()`` in place of the "
+"dataset."
+msgstr ""
+
+#: of speechbrain.core.Brain.make_dataloader:10
+msgid ""
+"The Stage.TRAIN DataLoader is handled specially. It has extra args for "
+"shuffle and drop_last. In DDP a DistributedSampler is created (unless the"
+" dataset is an IterableDataset)."
+msgstr ""
+
+#: of speechbrain.core.Brain.make_dataloader:16
+msgid ""
+"Some important DataLoader arguments are passed via **loader_kwargs, e.g.,"
+" batch_size, num_workers, pin_memory."
+msgstr ""
+
+#: of speechbrain.core.Brain.make_dataloader:21
+msgid ""
+"By default, ``evaluate()`` specifies ckpt_prefix=None to stop the test "
+"DataLoader being added to the checkpointer. If you need to add a "
+"recoverable after saving checkpoints (e.g., at test time, after "
+"checkpointing the training), and still be able to recover reasonably, you"
+" should probably specify ``allow_partial_load=True``."
+msgstr ""
+
+#: of speechbrain.core.Brain.make_dataloader:27
+msgid ""
+"A set of data to use to create data loader. If the Dataset is a "
+"DynamicItemDataset, PaddedBatch is used as the default collate_fn, unless"
+" specified in loader_kwargs."
+msgstr ""
+
+#: of speechbrain.core.Brain.make_dataloader:33
+msgid ""
+"Prefix to use for SaveableDataLoader Checkpoint name. The Stage name is "
+"added to this to create the full key. Set to None to not save the "
+"DataLoader."
+msgstr ""
+
+#: of speechbrain.core.Brain.make_dataloader:37
+msgid ""
+"Additional keyword arguments to the DataLoader. E.g., batch_size, "
+"num_workers, pin_memory."
+msgstr ""
+
+#: of speechbrain.core.Brain.on_fit_start:1
+msgid ""
+"Gets called at the beginning of ``fit()``, on multiple processes if "
+"``distributed_count > 0`` and backend is ddp."
+msgstr ""
+
+#: of speechbrain.core.Brain.on_fit_start:4
+msgid ""
+"Default implementation compiles the jit modules, initializes optimizers, "
+"and loads the latest checkpoint to resume training."
+msgstr ""
+
+#: of speechbrain.core.Brain.init_optimizers:1
+msgid ""
+"Called during ``on_fit_start()``, initialize optimizers after parameters "
+"are fully configured (e.g. DDP, jit)."
+msgstr ""
+
+#: of speechbrain.core.Brain.init_optimizers:4
+msgid ""
+"The default implementation of this method depends on an optimizer class "
+"being passed at initialization that takes only a list of parameters "
+"(e.g., a lambda or a partial function definition). This creates a single "
+"optimizer that optimizes all trainable params."
+msgstr ""
+
+#: of speechbrain.core.Brain.init_optimizers:9
+msgid "Override this class if there are multiple optimizers."
+msgstr ""
+
+#: of speechbrain.core.Brain.on_evaluate_start:1
+msgid "Gets called at the beginning of ``evaluate()``"
+msgstr ""
+
+#: of speechbrain.core.Brain.on_evaluate_start:3
+msgid ""
+"Default implementation loads the best-performing checkpoint for "
+"evaluation, based on stored metrics."
+msgstr ""
+
+#: of speechbrain.core.Brain.on_evaluate_start:6
+msgid ""
+"Key to use for finding best checkpoint (higher is better). By default, "
+"passed to ``self.checkpointer.recover_if_possible()``."
+msgstr ""
+
+#: of speechbrain.core.Brain.on_evaluate_start:9
+msgid ""
+"Key to use for finding best checkpoint (lower is better). By default, "
+"passed to ``self.checkpointer.recover_if_possible()``."
+msgstr ""
+
+#: of speechbrain.core.Brain.fit_batch:1
+msgid "Fit one batch, override to do multiple updates."
+msgstr ""
+
+#: of speechbrain.core.Brain.fit_batch:3
+msgid ""
+"The default implementation depends on a few methods being defined with a "
+"particular behavior:"
+msgstr ""
+
+#: of speechbrain.core.Brain.fit_batch:9
+msgid "Also depends on having optimizers passed at initialization."
+msgstr ""
+
+#: of speechbrain.core.Brain.fit_batch:11
+msgid ""
+"Batch of data to use for training. Default implementation assumes this "
+"batch has two elements: inputs and targets."
+msgstr ""
+
+#: of speechbrain.core.Brain.check_gradients:1
+msgid "Check if gradients are finite and not too large."
+msgstr ""
+
+#: of speechbrain.core.Brain.check_gradients:3
+msgid "Automatically clips large gradients."
+msgstr ""
+
+#: of speechbrain.core.Brain.check_gradients:5
+msgid ""
+"The loss tensor after ``backward()`` has been called but before the "
+"optimizers ``step()``."
+msgstr ""
+
+#: of speechbrain.core.Brain.check_gradients:9
+msgid "Whether or not the optimizer step should be carried out."
+msgstr ""
+
+#: of speechbrain.core.Brain.evaluate_batch:1
+msgid "Evaluate one batch, override for different procedure than train."
+msgstr ""
+
+#: of speechbrain.core.Brain.evaluate_batch:3
+msgid ""
+"The default implementation depends on two methods being defined with a "
+"particular behavior:"
+msgstr ""
+
+#: of speechbrain.core.Brain.evaluate_batch:9
+msgid ""
+"Batch of data to use for evaluation. Default implementation assumes this "
+"batch has two elements: inputs and targets."
+msgstr ""
+
+#: of speechbrain.core.Brain.evaluate_batch:12
+msgid "The stage of the experiment: Stage.VALID, Stage.TEST"
+msgstr ""
+
+#: of speechbrain.core.Brain.fit:1
+msgid "Iterate epochs and datasets to improve objective."
+msgstr ""
+
+#: of speechbrain.core.Brain.fit:3
+msgid ""
+"Relies on the existence of multiple functions that can (or should) be "
+"overridden. The following methods are used and expected to have a certain"
+" behavior:"
+msgstr ""
+
+#: of speechbrain.core.Brain.fit:9
+msgid "``update_average()``"
+msgstr ""
+
+#: of speechbrain.core.Brain.fit:11
+msgid ""
+"If the initialization was done with distributed_count > 0 and the "
+"distributed_backend is ddp, this will generally handle multiprocess "
+"logic, like splitting the training data into subsets for each device and "
+"only saving a checkpoint on the main process."
+msgstr ""
+
+#: of speechbrain.core.Brain.fit:16
+msgid "Each call should return an integer indicating the epoch count."
+msgstr ""
+
+#: of speechbrain.core.Brain.fit:18
+msgid ""
+"A set of data to use for training. If a Dataset is given, a DataLoader is"
+" automatically created. If a DataLoader is given, it is used directly."
+msgstr ""
+
+#: of speechbrain.core.Brain.fit:22
+msgid ""
+"A set of data to use for validation. If a Dataset is given, a DataLoader "
+"is automatically created. If a DataLoader is given, it is used directly."
+msgstr ""
+
+#: of speechbrain.core.Brain.fit:26
+msgid ""
+"Kwargs passed to `make_dataloader()` for making the train_loader (if "
+"train_set is a Dataset, not DataLoader). E.G. batch_size, num_workers. "
+"DataLoader kwargs are all valid."
+msgstr ""
+
+#: of speechbrain.core.Brain.fit:31
+msgid ""
+"Kwargs passed to `make_dataloader()` for making the valid_loader (if "
+"valid_set is a Dataset, not DataLoader). E.g., batch_size, num_workers. "
+"DataLoader kwargs are all valid."
+msgstr ""
+
+#: of speechbrain.core.Brain.fit:36
+msgid "Whether to display the progress of each epoch in a progressbar."
+msgstr ""
+
+#: of speechbrain.core.Brain.evaluate:1
+msgid ""
+"Iterate test_set and evaluate brain performance. By default, loads the "
+"best-performing checkpoint (as recorded using the checkpointer)."
+msgstr ""
+
+#: of speechbrain.core.Brain.evaluate:4
+msgid ""
+"If a DataLoader is given, it is iterated directly. Otherwise passed to "
+"``self.make_dataloader()``."
+msgstr ""
+
+#: of speechbrain.core.Brain.evaluate:7 speechbrain.core.Brain.evaluate:10
+msgid "Key to use for finding best checkpoint, passed to ``on_evaluate_start()``."
+msgstr ""
+
+#: of speechbrain.core.Brain.evaluate:13
+msgid "Whether to display the progress in a progressbar."
+msgstr ""
+
+#: of speechbrain.core.Brain.evaluate:15
+msgid ""
+"Kwargs passed to ``make_dataloader()`` if ``test_set`` is not a "
+"DataLoader. NOTE: ``loader_kwargs[\"ckpt_prefix\"]`` gets automatically "
+"overwritten to ``None`` (so that the test DataLoader is not added to the "
+"checkpointer)."
+msgstr ""
+
+#: of speechbrain.core.Brain.update_average:1
+msgid "Update running average of the loss."
+msgstr ""
+
+#: of speechbrain.core.Brain.update_average:3
+msgid "detached loss, a single float value."
+msgstr ""
+
+#: of speechbrain.core.Brain.update_average:5
+msgid "current running average."
+msgstr ""
+
+#: of speechbrain.core.Brain.update_average:8
+msgid "**avg_loss** -- The average loss."
+msgstr ""
+

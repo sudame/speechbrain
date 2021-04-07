@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.lobes.models.transformer.TransformerASR.rst:5
+msgid "speechbrain.lobes.models.transformer.TransformerASR module"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerASR:1
+msgid "Transformer for ASR in the SpeechBrain sytle."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerASR:3
+msgid "Authors * Jianyuan Zhong 2020"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.TransformerASR.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.TransformerASR.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.TransformerASR.rst:31:<autosummary>:1
+msgid ""
+":obj:`TransformerASR "
+"<speechbrain.lobes.models.transformer.TransformerASR.TransformerASR>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.TransformerASR.rst:31:<autosummary>:1
+#: of speechbrain.lobes.models.transformer.TransformerASR.TransformerASR:1
+msgid "This is an implementation of transformer model for ASR."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.TransformerASR.rst:33
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerASR.TransformerASR:1
+msgid ""
+"Bases: "
+":class:`speechbrain.lobes.models.transformer.Transformer.TransformerInterface`"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerASR.TransformerASR:3
+msgid ""
+"The architecture is based on the paper \"Attention Is All You Need\": "
+"https://arxiv.org/pdf/1706.03762.pdf"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerASR.TransformerASR
+#: speechbrain.lobes.models.transformer.TransformerASR.TransformerASR.decode
+#: speechbrain.lobes.models.transformer.TransformerASR.TransformerASR.encode
+#: speechbrain.lobes.models.transformer.TransformerASR.TransformerASR.forward
+#: speechbrain.lobes.models.transformer.TransformerASR.TransformerASR.make_masks
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerASR.TransformerASR:6
+msgid ""
+"The number of expected features in the encoder/decoder inputs "
+"(default=512)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerASR.TransformerASR:9
+msgid "The number of heads in the multi-head attention models (default=8)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerASR.TransformerASR:11
+msgid "The number of sub-encoder-layers in the encoder (default=6)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerASR.TransformerASR:13
+msgid "The number of sub-decoder-layers in the decoder (default=6)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerASR.TransformerASR:15
+msgid "The dimension of the feedforward network model (default=2048)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerASR.TransformerASR:17
+msgid "The dropout value (default=0.1)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerASR.TransformerASR:19
+msgid ""
+"The activation function of encoder/decoder intermediate layer. "
+"Recommended: relu or gelu (default=relu)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerASR.TransformerASR:24
+msgid "Example"
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.TransformerASR.TransformerASR.encode:3
+#: speechbrain.lobes.models.transformer.TransformerASR.TransformerASR.forward:1
+#: speechbrain.lobes.models.transformer.TransformerASR.TransformerASR.make_masks:3
+msgid "The sequence to the encoder (required)."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.TransformerASR.TransformerASR.decode:3
+#: speechbrain.lobes.models.transformer.TransformerASR.TransformerASR.forward:3
+#: speechbrain.lobes.models.transformer.TransformerASR.TransformerASR.make_masks:5
+msgid "The sequence to the decoder (required)."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.TransformerASR.TransformerASR.forward:5
+#: speechbrain.lobes.models.transformer.TransformerASR.TransformerASR.make_masks:7
+msgid "The index for <pad> token (default=0)."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.TransformerASR.TransformerASR.make_masks:1
+msgid "This method generates the masks for training the transformer model."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.TransformerASR.TransformerASR.decode:1
+msgid "This method implements a decoding step for the transformer model."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.TransformerASR.TransformerASR.decode:5
+msgid "Hidden output of the encoder (required)."
+msgstr ""
+
+#: of
+#: speechbrain.lobes.models.transformer.TransformerASR.TransformerASR.encode:1
+msgid "forward the encoder with source input"
+msgstr ""
+

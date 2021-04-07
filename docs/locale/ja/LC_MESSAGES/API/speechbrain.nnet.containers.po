@@ -1,0 +1,269 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.nnet.containers.rst:5
+msgid "speechbrain.nnet.containers module"
+msgstr ""
+
+#: of speechbrain.nnet.containers:1
+msgid "Library for implementing cascade (sequences) of different neural modules."
+msgstr ""
+
+#: of speechbrain.nnet.containers:4
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.nnet.containers:4
+msgid "Peter Plantinga 2020"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.containers.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.containers.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.containers.rst:34:<autosummary>:1
+msgid ":obj:`ConnectBlocks <speechbrain.nnet.containers.ConnectBlocks>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.containers.rst:34:<autosummary>:1 of
+#: speechbrain.nnet.containers.ConnectBlocks:1
+msgid "Connect a sequence of blocks with shortcut connections."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.containers.rst:34:<autosummary>:1
+msgid ""
+":obj:`LengthsCapableSequential "
+"<speechbrain.nnet.containers.LengthsCapableSequential>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.containers.rst:34:<autosummary>:1 of
+#: speechbrain.nnet.containers.LengthsCapableSequential:1
+msgid "Sequential model that can take ``lengths`` in the forward method."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.containers.rst:34:<autosummary>:1
+msgid ":obj:`ModuleList <speechbrain.nnet.containers.ModuleList>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.containers.rst:34:<autosummary>:1
+msgid ""
+"This class implements a wrapper to torch.nn.ModuleList with a forward() "
+"method to forward all the layers sequentially."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.containers.rst:34:<autosummary>:1
+msgid ":obj:`Sequential <speechbrain.nnet.containers.Sequential>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.containers.rst:34:<autosummary>:1 of
+#: speechbrain.nnet.containers.Sequential:1
+msgid "A sequence of modules with potentially inferring shape on construction."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.containers.rst:36
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.nnet.containers.Sequential:1
+msgid "Bases: :class:`torch.nn.modules.container.ModuleDict`"
+msgstr ""
+
+#: of speechbrain.nnet.containers.Sequential:3
+msgid ""
+"If layers are passed with names, these can be referenced with dot "
+"notation."
+msgstr ""
+
+#: of speechbrain.nnet.containers.ConnectBlocks
+#: speechbrain.nnet.containers.ConnectBlocks.append
+#: speechbrain.nnet.containers.ConnectBlocks.forward
+#: speechbrain.nnet.containers.LengthsCapableSequential.forward
+#: speechbrain.nnet.containers.ModuleList
+#: speechbrain.nnet.containers.Sequential
+#: speechbrain.nnet.containers.Sequential.append
+#: speechbrain.nnet.containers.Sequential.forward
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.nnet.containers.Sequential:5
+msgid ""
+"A list or tuple of ints or None, representing the expected shape of an "
+"input tensor. None represents a variable-length dimension. If no "
+"``input_shape`` is passed, no shape inference will be performed."
+msgstr ""
+
+#: of speechbrain.nnet.containers.Sequential:9
+#: speechbrain.nnet.containers.Sequential:14
+msgid ""
+"The inputs are treated as a list of layers to be applied in sequence. The"
+" output shape of each layer is used to infer the shape of the following "
+"layer. If a tuple is returned, only the shape of the first element is "
+"used to determine input shape of the next layer (e.g. RNN returns output,"
+" hidden)."
+msgstr ""
+
+#: of speechbrain.nnet.containers.ConnectBlocks:24
+#: speechbrain.nnet.containers.Sequential:21
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.nnet.containers.Sequential.append:1
+msgid "Add a layer to the list of layers, inferring shape if necessary."
+msgstr ""
+
+#: of speechbrain.nnet.containers.Sequential.append:3
+msgid ""
+"If the layer is a class, it should accept an argument called "
+"``input_shape`` which will be inferred and passed. If the layer is a "
+"module object, it is added as-is."
+msgstr ""
+
+#: of speechbrain.nnet.containers.Sequential.append:7
+msgid ""
+"The name of the layer, for reference. If the name is in use, ``_{count}``"
+" will be appended."
+msgstr ""
+
+#: of speechbrain.nnet.containers.Sequential.append:10
+#: speechbrain.nnet.containers.Sequential.append:11
+msgid "These are passed to the layer if it is constructed."
+msgstr ""
+
+#: of speechbrain.nnet.containers.Sequential.get_output_shape:1
+msgid "Returns expected shape of the output."
+msgstr ""
+
+#: of speechbrain.nnet.containers.Sequential.get_output_shape:3
+msgid ""
+"Computed by passing dummy input constructed with the ``self.input_shape``"
+" attribute."
+msgstr ""
+
+#: of speechbrain.nnet.containers.LengthsCapableSequential.forward:1
+#: speechbrain.nnet.containers.Sequential.forward:1
+msgid "Applies layers in sequence, passing only the first element of tuples."
+msgstr ""
+
+#: of speechbrain.nnet.containers.LengthsCapableSequential.forward:6
+#: speechbrain.nnet.containers.Sequential.forward:3
+msgid "The input tensor to run through the network."
+msgstr ""
+
+#: of speechbrain.nnet.containers.LengthsCapableSequential:1
+msgid "Bases: :class:`speechbrain.nnet.containers.Sequential`"
+msgstr ""
+
+#: of speechbrain.nnet.containers.LengthsCapableSequential:3
+msgid ""
+"This is useful for Sequential models that include RNNs where it is "
+"important to avoid padding, or for some feature normalization layers."
+msgstr ""
+
+#: of speechbrain.nnet.containers.LengthsCapableSequential:6
+msgid ""
+"Unfortunately, this module is not jit-able because the compiler doesn't "
+"know ahead of time if the length will be passed, and some layers don't "
+"accept the length parameter."
+msgstr ""
+
+#: of speechbrain.nnet.containers.LengthsCapableSequential.forward:3
+msgid ""
+"In addition, forward the ``lengths`` argument to all layers that accept a"
+" ``lengths`` argument in their ``forward()`` method (e.g. RNNs)."
+msgstr ""
+
+#: of speechbrain.nnet.containers.LengthsCapableSequential.forward:8
+msgid "The relative lengths of each signal in the tensor."
+msgstr ""
+
+#: of speechbrain.nnet.containers.ConnectBlocks:1
+#: speechbrain.nnet.containers.ModuleList:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.nnet.containers.ModuleList:1
+msgid ""
+"This class implements a wrapper to torch.nn.ModuleList with a forward() "
+"method to forward all the layers sequentially. For some pretained model "
+"with the SpeechBrain older implementation of Sequential class, user can "
+"use this class to load those pretrained models"
+msgstr ""
+
+#: of speechbrain.nnet.containers.ModuleList:6
+msgid "Torch objects to be put in a ModuleList."
+msgstr ""
+
+#: of speechbrain.nnet.containers.ConnectBlocks:3
+msgid ""
+"Note: all shortcuts start from the output of the first block, since the "
+"first block may change the shape significantly."
+msgstr ""
+
+#: of speechbrain.nnet.containers.ConnectBlocks:6
+msgid "The shape of the"
+msgstr ""
+
+#: of speechbrain.nnet.containers.ConnectBlocks:8
+msgid ""
+"One of: * \"residual\" - first block output passed to final output, * "
+"\"dense\" - input of each block is from all previous blocks, * \"skip\" -"
+" output of each block is passed to final output."
+msgstr ""
+
+#: of speechbrain.nnet.containers.ConnectBlocks:13
+msgid ""
+"Only has an effect if `shortcut_type` is passed. Whether to add a linear "
+"projection layer to the shortcut connection before combining with the "
+"output, to handle different sizes."
+msgstr ""
+
+#: of speechbrain.nnet.containers.ConnectBlocks:17
+msgid ""
+"Either a pre-defined function (one of \"add\", \"sub\", \"mul\", \"div\","
+" \"avg\", \"cat\") or a user-defined function that takes the shortcut and"
+" next input, and combines them, as well as `init_params` in case "
+"parameters need to be initialized inside of the function."
+msgstr ""
+
+#: of speechbrain.nnet.containers.ConnectBlocks.append:1
+msgid "Appends the specified module to the shortcut model."
+msgstr ""
+
+#: of speechbrain.nnet.containers.ConnectBlocks.append:3
+msgid ""
+"This layer will get initialized with *args and **kwargs. Also, the "
+"argument ``input_shape`` will be passed if the layer takes it."
+msgstr ""
+
+#: of speechbrain.nnet.containers.ConnectBlocks.append:6
+#: speechbrain.nnet.containers.ConnectBlocks.append:8
+msgid ""
+"Passed unchanged to the layer **EXCEPT** the kwarg ``end_of_block`` which"
+" is used to indicate that the shortcut should be added in."
+msgstr ""
+
+#: of speechbrain.nnet.containers.ConnectBlocks.forward:1
+msgid "The inputs to the replicated modules."
+msgstr ""
+

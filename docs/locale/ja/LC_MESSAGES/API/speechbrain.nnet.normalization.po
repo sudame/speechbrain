@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.nnet.normalization.rst:5
+msgid "speechbrain.nnet.normalization module"
+msgstr ""
+
+#: of speechbrain.nnet.normalization:1
+msgid "Library implementing normalization."
+msgstr ""
+
+#: of speechbrain.nnet.normalization:4
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.nnet.normalization:4
+msgid "Mirco Ravanelli 2020"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.normalization.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.normalization.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.normalization.rst:35:<autosummary>:1
+msgid ":obj:`BatchNorm1d <speechbrain.nnet.normalization.BatchNorm1d>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.normalization.rst:35:<autosummary>:1 of
+#: speechbrain.nnet.normalization.BatchNorm1d:1
+msgid "Applies 1d batch normalization to the input tensor."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.normalization.rst:35:<autosummary>:1
+msgid ":obj:`BatchNorm2d <speechbrain.nnet.normalization.BatchNorm2d>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.normalization.rst:35:<autosummary>:1 of
+#: speechbrain.nnet.normalization.BatchNorm2d:1
+msgid "Applies 2d batch normalization to the input tensor."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.normalization.rst:35:<autosummary>:1
+msgid ":obj:`InstanceNorm1d <speechbrain.nnet.normalization.InstanceNorm1d>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.normalization.rst:35:<autosummary>:1 of
+#: speechbrain.nnet.normalization.InstanceNorm1d:1
+msgid "Applies 1d instance normalization to the input tensor."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.normalization.rst:35:<autosummary>:1
+msgid ":obj:`InstanceNorm2d <speechbrain.nnet.normalization.InstanceNorm2d>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.normalization.rst:35:<autosummary>:1 of
+#: speechbrain.nnet.normalization.InstanceNorm2d:1
+msgid "Applies 2d instance normalization to the input tensor."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.normalization.rst:35:<autosummary>:1
+msgid ":obj:`LayerNorm <speechbrain.nnet.normalization.LayerNorm>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.normalization.rst:35:<autosummary>:1 of
+#: speechbrain.nnet.normalization.LayerNorm:1
+msgid "Applies layer normalization to the input tensor."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.normalization.rst:37
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.nnet.normalization.BatchNorm1d:1
+#: speechbrain.nnet.normalization.BatchNorm2d:1
+#: speechbrain.nnet.normalization.InstanceNorm1d:1
+#: speechbrain.nnet.normalization.InstanceNorm2d:1
+#: speechbrain.nnet.normalization.LayerNorm:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.nnet.normalization.BatchNorm1d
+#: speechbrain.nnet.normalization.BatchNorm1d.forward
+#: speechbrain.nnet.normalization.BatchNorm2d
+#: speechbrain.nnet.normalization.BatchNorm2d.forward
+#: speechbrain.nnet.normalization.InstanceNorm1d
+#: speechbrain.nnet.normalization.InstanceNorm1d.forward
+#: speechbrain.nnet.normalization.InstanceNorm2d
+#: speechbrain.nnet.normalization.InstanceNorm2d.forward
+#: speechbrain.nnet.normalization.LayerNorm
+#: speechbrain.nnet.normalization.LayerNorm.forward
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.nnet.normalization.BatchNorm1d:3
+#: speechbrain.nnet.normalization.BatchNorm2d:3
+#: speechbrain.nnet.normalization.InstanceNorm1d:3
+#: speechbrain.nnet.normalization.InstanceNorm2d:3
+msgid "The expected shape of the input. Alternatively, use ``input_size``."
+msgstr ""
+
+#: of speechbrain.nnet.normalization.BatchNorm1d:5
+#: speechbrain.nnet.normalization.BatchNorm2d:5
+#: speechbrain.nnet.normalization.InstanceNorm1d:5
+#: speechbrain.nnet.normalization.InstanceNorm2d:5
+msgid "The expected size of the input. Alternatively, use ``input_shape``."
+msgstr ""
+
+#: of speechbrain.nnet.normalization.BatchNorm1d:7
+#: speechbrain.nnet.normalization.BatchNorm2d:7
+#: speechbrain.nnet.normalization.InstanceNorm1d:7
+#: speechbrain.nnet.normalization.InstanceNorm2d:7
+#: speechbrain.nnet.normalization.LayerNorm:5
+msgid ""
+"This value is added to std deviation estimation to improve the numerical "
+"stability."
+msgstr ""
+
+#: of speechbrain.nnet.normalization.BatchNorm1d:10
+#: speechbrain.nnet.normalization.BatchNorm2d:10
+#: speechbrain.nnet.normalization.InstanceNorm1d:10
+#: speechbrain.nnet.normalization.InstanceNorm2d:10
+msgid "It is a value used for the running_mean and running_var computation."
+msgstr ""
+
+#: of speechbrain.nnet.normalization.BatchNorm1d:12
+#: speechbrain.nnet.normalization.BatchNorm2d:12
+msgid "When set to True, the affine parameters are learned."
+msgstr ""
+
+#: of speechbrain.nnet.normalization.BatchNorm1d:14
+#: speechbrain.nnet.normalization.BatchNorm2d:14
+#: speechbrain.nnet.normalization.InstanceNorm1d:12
+#: speechbrain.nnet.normalization.InstanceNorm2d:12
+msgid ""
+"When set to True, this module tracks the running mean and variance, and "
+"when set to False, this module does not track such statistics."
+msgstr ""
+
+#: of speechbrain.nnet.normalization.BatchNorm1d:17
+msgid "When true, it combines batch an time axis."
+msgstr ""
+
+#: of speechbrain.nnet.normalization.BatchNorm1d:21
+#: speechbrain.nnet.normalization.BatchNorm2d:19
+#: speechbrain.nnet.normalization.InstanceNorm1d:21
+#: speechbrain.nnet.normalization.InstanceNorm2d:21
+#: speechbrain.nnet.normalization.LayerNorm:13
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.nnet.normalization.BatchNorm1d.forward:1
+#: speechbrain.nnet.normalization.BatchNorm2d.forward:1
+#: speechbrain.nnet.normalization.InstanceNorm1d.forward:1
+#: speechbrain.nnet.normalization.InstanceNorm2d.forward:1
+#: speechbrain.nnet.normalization.LayerNorm.forward:1
+msgid "Returns the normalized input tensor."
+msgstr ""
+
+#: of speechbrain.nnet.normalization.BatchNorm1d.forward:3
+msgid ""
+"input to normalize. 2d or 3d tensors are expected in input 4d tensors can"
+" be used when combine_dims=True."
+msgstr ""
+
+#: of speechbrain.nnet.normalization.BatchNorm2d.forward:3
+#: speechbrain.nnet.normalization.InstanceNorm2d.forward:3
+msgid "input to normalize. 4d tensors are expected."
+msgstr ""
+
+#: of speechbrain.nnet.normalization.LayerNorm:3
+msgid "The expected shape of the input."
+msgstr ""
+
+#: of speechbrain.nnet.normalization.LayerNorm:8
+msgid ""
+"If True, this module has learnable per-element affine parameters "
+"initialized to ones (for weights) and zeros (for biases)."
+msgstr ""
+
+#: of speechbrain.nnet.normalization.LayerNorm.forward:3
+msgid "input to normalize. 3d or 4d tensors are expected."
+msgstr ""
+
+#: of speechbrain.nnet.normalization.InstanceNorm1d:15
+#: speechbrain.nnet.normalization.InstanceNorm2d:15
+msgid ""
+"A boolean value that when set to True, this module has learnable affine "
+"parameters, initialized the same way as done for batch normalization. "
+"Default: False."
+msgstr ""
+
+#: of speechbrain.nnet.normalization.InstanceNorm1d.forward:3
+msgid "input to normalize. 3d tensors are expected."
+msgstr ""
+

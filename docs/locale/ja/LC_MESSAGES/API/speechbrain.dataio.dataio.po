@@ -1,0 +1,802 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.dataio.dataio.rst:5
+msgid "speechbrain.dataio.dataio module"
+msgstr ""
+
+#: of speechbrain.dataio.dataio:1
+msgid "Data reading and writing."
+msgstr ""
+
+#: of speechbrain.dataio.dataio:8
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.dataio.dataio:4
+msgid "Mirco Ravanelli 2020"
+msgstr ""
+
+#: of speechbrain.dataio.dataio:5
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: of speechbrain.dataio.dataio:6
+msgid "Ju-Chieh Chou 2020"
+msgstr ""
+
+#: of speechbrain.dataio.dataio:7
+msgid "Samuele Cornell 2020"
+msgstr ""
+
+#: of speechbrain.dataio.dataio:8
+msgid "Abdel HEBA 2020"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:24:<autosummary>:1
+msgid ":obj:`IterativeCSVWriter <speechbrain.dataio.dataio.IterativeCSVWriter>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:24:<autosummary>:1 of
+#: speechbrain.dataio.dataio.IterativeCSVWriter:1
+msgid "Write CSV files a line at a time."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:25
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`append_eos_token <speechbrain.dataio.dataio.append_eos_token>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.append_eos_token:1
+msgid "Create labels with <eos> token appended."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ""
+":obj:`convert_index_to_lab "
+"<speechbrain.dataio.dataio.convert_index_to_lab>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.convert_index_to_lab:1
+msgid "Convert a batch of integer IDs to string labels."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`get_md5 <speechbrain.dataio.dataio.get_md5>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.get_md5:1
+msgid "Get the md5 checksum of an input file."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`length_to_mask <speechbrain.dataio.dataio.length_to_mask>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.length_to_mask:1
+msgid "Creates a binary mask for each sequence."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`load_data_csv <speechbrain.dataio.dataio.load_data_csv>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.load_data_csv:1
+msgid "Loads CSV and formats string values."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`load_data_json <speechbrain.dataio.dataio.load_data_json>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.load_data_json:1
+msgid "Loads JSON and recursively formats string values."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`load_pickle <speechbrain.dataio.dataio.load_pickle>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.load_pickle:1
+msgid "Utility function for loading .pkl pickle files."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`load_pkl <speechbrain.dataio.dataio.load_pkl>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.load_pkl:1
+msgid "Loads a pkl file."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`merge_char <speechbrain.dataio.dataio.merge_char>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.merge_char:1
+msgid "Merge characters sequences into word sequences."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`merge_csvs <speechbrain.dataio.dataio.merge_csvs>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.merge_csvs:1
+msgid "Merging several csv files into one file."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`prepend_bos_token <speechbrain.dataio.dataio.prepend_bos_token>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.prepend_bos_token:1
+msgid "Create labels with <bos> token at the beginning."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`read_audio <speechbrain.dataio.dataio.read_audio>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.read_audio:1
+#: speechbrain.dataio.dataio.read_audio_multichannel:1
+msgid "General audio loading, based on a custom notation."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ""
+":obj:`read_audio_multichannel "
+"<speechbrain.dataio.dataio.read_audio_multichannel>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`read_kaldi_lab <speechbrain.dataio.dataio.read_kaldi_lab>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.read_kaldi_lab:1
+msgid "Read labels in kaldi format."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ""
+":obj:`relative_time_to_absolute "
+"<speechbrain.dataio.dataio.relative_time_to_absolute>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.relative_time_to_absolute:1
+msgid "Converts SpeechBrain style relative length to the absolute duration."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`save_md5 <speechbrain.dataio.dataio.save_md5>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.save_md5:1
+msgid "Saves the md5 of a list of input files as a pickled dict into a file."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`save_pkl <speechbrain.dataio.dataio.save_pkl>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.save_pkl:1
+msgid "Save an object in pkl format."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`split_word <speechbrain.dataio.dataio.split_word>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.split_word:1
+msgid "Split word sequences into character sequences."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`to_doubleTensor <speechbrain.dataio.dataio.to_doubleTensor>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>
+msgid "param x"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.to_doubleTensor:1
+msgid "Input data to be converted to torch double."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`to_floatTensor <speechbrain.dataio.dataio.to_floatTensor>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.to_floatTensor:1
+msgid "Input data to be converted to torch float."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`to_longTensor <speechbrain.dataio.dataio.to_longTensor>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.to_longTensor:1
+msgid "Input data to be converted to torch long."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`write_audio <speechbrain.dataio.dataio.write_audio>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid "Write audio on disk."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`write_stdout <speechbrain.dataio.dataio.write_stdout>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.write_stdout:1
+msgid "Write data to standard output."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1
+msgid ":obj:`write_txt_file <speechbrain.dataio.dataio.write_txt_file>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:61:<autosummary>:1 of
+#: speechbrain.dataio.dataio.write_txt_file:1
+msgid "Write data in text format."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataio.rst:63
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.IterativeCSVWriter
+#: speechbrain.dataio.dataio.IterativeCSVWriter.set_default
+#: speechbrain.dataio.dataio.IterativeCSVWriter.write
+#: speechbrain.dataio.dataio.IterativeCSVWriter.write_batch
+#: speechbrain.dataio.dataio.append_eos_token
+#: speechbrain.dataio.dataio.convert_index_to_lab
+#: speechbrain.dataio.dataio.get_md5 speechbrain.dataio.dataio.length_to_mask
+#: speechbrain.dataio.dataio.load_data_csv
+#: speechbrain.dataio.dataio.load_data_json
+#: speechbrain.dataio.dataio.load_pickle speechbrain.dataio.dataio.load_pkl
+#: speechbrain.dataio.dataio.merge_char speechbrain.dataio.dataio.merge_csvs
+#: speechbrain.dataio.dataio.prepend_bos_token
+#: speechbrain.dataio.dataio.read_audio
+#: speechbrain.dataio.dataio.read_audio_multichannel
+#: speechbrain.dataio.dataio.read_kaldi_lab
+#: speechbrain.dataio.dataio.relative_time_to_absolute
+#: speechbrain.dataio.dataio.save_md5 speechbrain.dataio.dataio.save_pkl
+#: speechbrain.dataio.dataio.split_word
+#: speechbrain.dataio.dataio.to_doubleTensor
+#: speechbrain.dataio.dataio.to_floatTensor
+#: speechbrain.dataio.dataio.to_longTensor
+#: speechbrain.dataio.dataio.write_audio speechbrain.dataio.dataio.write_stdout
+#: speechbrain.dataio.dataio.write_txt_file
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.load_data_csv:11
+#: speechbrain.dataio.dataio.load_data_json:3
+msgid "Path to CSV file."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.load_data_json:5
+msgid ""
+"(Optional dict), e.g., {\"data_folder\": \"/home/speechbrain/data\"}. "
+"This is used to recursively format all string values in the data."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.append_eos_token
+#: speechbrain.dataio.dataio.convert_index_to_lab
+#: speechbrain.dataio.dataio.get_md5 speechbrain.dataio.dataio.length_to_mask
+#: speechbrain.dataio.dataio.load_data_csv
+#: speechbrain.dataio.dataio.load_data_json
+#: speechbrain.dataio.dataio.load_pickle speechbrain.dataio.dataio.load_pkl
+#: speechbrain.dataio.dataio.merge_char
+#: speechbrain.dataio.dataio.prepend_bos_token
+#: speechbrain.dataio.dataio.read_audio
+#: speechbrain.dataio.dataio.read_audio_multichannel
+#: speechbrain.dataio.dataio.read_kaldi_lab
+#: speechbrain.dataio.dataio.relative_time_to_absolute
+#: speechbrain.dataio.dataio.save_md5 speechbrain.dataio.dataio.split_word
+#: speechbrain.dataio.dataio.to_doubleTensor
+#: speechbrain.dataio.dataio.to_floatTensor
+#: speechbrain.dataio.dataio.to_longTensor
+#: speechbrain.dataio.dataio.write_stdout
+#: speechbrain.dataio.dataio.write_txt_file
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.load_data_json:9
+msgid "JSON data with replacements applied."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.append_eos_token
+#: speechbrain.dataio.dataio.convert_index_to_lab
+#: speechbrain.dataio.dataio.get_md5 speechbrain.dataio.dataio.length_to_mask
+#: speechbrain.dataio.dataio.load_data_csv
+#: speechbrain.dataio.dataio.load_data_json
+#: speechbrain.dataio.dataio.load_pickle speechbrain.dataio.dataio.load_pkl
+#: speechbrain.dataio.dataio.merge_char
+#: speechbrain.dataio.dataio.prepend_bos_token
+#: speechbrain.dataio.dataio.read_audio
+#: speechbrain.dataio.dataio.read_audio_multichannel
+#: speechbrain.dataio.dataio.read_kaldi_lab
+#: speechbrain.dataio.dataio.relative_time_to_absolute
+#: speechbrain.dataio.dataio.split_word
+#: speechbrain.dataio.dataio.to_doubleTensor
+#: speechbrain.dataio.dataio.to_floatTensor
+#: speechbrain.dataio.dataio.to_longTensor
+#: speechbrain.dataio.dataio.write_stdout
+#: speechbrain.dataio.dataio.write_txt_file
+msgid "Return type"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.IterativeCSVWriter:10
+#: speechbrain.dataio.dataio.append_eos_token:14
+#: speechbrain.dataio.dataio.convert_index_to_lab:12
+#: speechbrain.dataio.dataio.get_md5:10
+#: speechbrain.dataio.dataio.length_to_mask:18
+#: speechbrain.dataio.dataio.load_data_csv:21
+#: speechbrain.dataio.dataio.load_data_json:13
+#: speechbrain.dataio.dataio.merge_char:12
+#: speechbrain.dataio.dataio.merge_csvs:11
+#: speechbrain.dataio.dataio.prepend_bos_token:12
+#: speechbrain.dataio.dataio.read_audio:24
+#: speechbrain.dataio.dataio.read_audio_multichannel:39
+#: speechbrain.dataio.dataio.read_kaldi_lab:19
+#: speechbrain.dataio.dataio.relative_time_to_absolute:19
+#: speechbrain.dataio.dataio.save_pkl:11
+#: speechbrain.dataio.dataio.split_word:12
+#: speechbrain.dataio.dataio.write_audio:12
+#: speechbrain.dataio.dataio.write_stdout:14
+#: speechbrain.dataio.dataio.write_txt_file:14
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.load_data_csv:3
+msgid ""
+"Uses the SpeechBrain legacy CSV data format, where the CSV must have an "
+"'ID' field. If there is a field called duration, it is interpreted as a "
+"float. The rest of the fields are left as they are (legacy _format and "
+"_opts fields are not used to load the data in any special way)."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.load_data_csv:9
+msgid "Bash-like string replacements with $to_replace are supported."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.load_data_csv:13
+msgid ""
+"(Optional dict), e.g., {\"data_folder\": \"/home/speechbrain/data\"} This"
+" is used to recursively format all string values in the data."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.load_data_csv:17
+msgid "CSV data with replacements applied."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.read_audio:3
+#: speechbrain.dataio.dataio.read_audio_multichannel:3
+msgid "Expected use case is in conjunction with Datasets specified by JSON."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.read_audio:6
+#: speechbrain.dataio.dataio.read_audio_multichannel:6
+msgid "The custom notation:"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.read_audio:8
+#: speechbrain.dataio.dataio.read_audio_multichannel:8
+msgid "The annotation can be just a path to a file: \"/path/to/wav1.wav\""
+msgstr ""
+
+#: of speechbrain.dataio.dataio.read_audio:11
+msgid ""
+"Or can specify more options in a dict: {\"file\": \"/path/to/wav2.wav\", "
+"\"start\": 8000, \"stop\": 16000 }"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.read_audio:17
+#: speechbrain.dataio.dataio.read_audio_multichannel:32
+msgid "Audio reading annotation, see above for format."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.read_audio:20
+#: speechbrain.dataio.dataio.read_audio_multichannel:35
+msgid "Audio tensor with shape: (samples, )."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.read_audio_multichannel:11
+msgid ""
+"Multiple (possibly multi-channel) files can be specified, as long as they"
+" have the same length: {\"files\": ["
+msgstr ""
+
+#: of speechbrain.dataio.dataio.read_audio_multichannel:14
+#: speechbrain.dataio.dataio.read_audio_multichannel:25
+msgid "\"/path/to/wav1.wav\", \"/path/to/wav2.wav\" ]"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.read_audio_multichannel:17
+msgid "}"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.read_audio_multichannel:19
+msgid ""
+"Or you can specify a single file more succinctly: {\"files\": "
+"\"/path/to/wav2.wav\"}"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.read_audio_multichannel:22
+msgid ""
+"Offset number samples and stop number samples also can be specified to "
+"read only a segment within the files. {\"files\": ["
+msgstr ""
+
+#: of speechbrain.dataio.dataio.read_audio_multichannel:28
+msgid "\"start\": 8000 \"stop\": 16000 }"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.write_audio:1
+msgid ""
+"Write audio on disk. It is basically a wrapper to support saving audio "
+"signals in the speechbrain format (audio, channels)."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.write_audio:4
+msgid "Path where to save the audio file."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.write_audio:6
+msgid "Audio file in the expected speechbrain format (signal, channels)."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.write_audio:8
+msgid "Sample rate (e.g., 16000)."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.load_pickle:3
+msgid "Path to pickle file."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.load_pickle:6
+msgid "**out** -- Python object loaded from pickle."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.to_floatTensor:4
+msgid "**tensor** -- Data now in torch.tensor float datatype."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.to_doubleTensor:4
+msgid "**tensor** -- Data now in torch.tensor double datatype."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.to_longTensor:4
+msgid "**tensor** -- Data now in torch.tensor long datatype."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.convert_index_to_lab:3
+msgid "List of lists, a batch of sequences."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.convert_index_to_lab:5
+msgid "Mapping from integer IDs to labels."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.convert_index_to_lab:8
+msgid "List of lists, same size as batch, with labels from ind2lab."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.relative_time_to_absolute:3
+msgid "Operates on batch level."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.relative_time_to_absolute:5
+msgid "Sequences to determine the duration for."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.relative_time_to_absolute:7
+msgid ""
+"The relative length of each sequence in batch. The longest sequence in "
+"the batch needs to have relative length 1.0."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.relative_time_to_absolute:10
+msgid ""
+"The rate at which sequence elements occur in real-world time. Sample "
+"rate, if batch is raw wavs (recommended) or 1/frame_shift if batch is "
+"features. This has to have 1/s as the unit."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.relative_time_to_absolute:15
+msgid "Duration of each sequence in seconds."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.IterativeCSVWriter:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.IterativeCSVWriter:3
+msgid "A writeable stream"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.IterativeCSVWriter:5
+msgid ""
+"List of the optional keys to write. Each key will be expanded to the "
+"SpeechBrain format, producing three fields: key, key_format, key_opts."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.IterativeCSVWriter.set_default:1
+msgid "Sets a default value for the given CSV field."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.IterativeCSVWriter.set_default:3
+msgid "A field in the CSV."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.IterativeCSVWriter.set_default:5
+msgid "The default value."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.IterativeCSVWriter.write:1
+msgid "Writes one data line into the CSV."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.IterativeCSVWriter.write:3
+#: speechbrain.dataio.dataio.IterativeCSVWriter.write_batch:5
+msgid "Supply every field with a value in positional form OR."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.IterativeCSVWriter.write:4
+#: speechbrain.dataio.dataio.IterativeCSVWriter.write_batch:6
+msgid ""
+"Supply certain fields by key. The ID field is mandatory for all lines, "
+"but others can be left empty."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.IterativeCSVWriter.write_batch:1
+msgid "Writes a batch of lines into the CSV."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.IterativeCSVWriter.write_batch:3
+msgid "Here each argument should be a list with the same length."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.write_stdout:3
+#: speechbrain.dataio.dataio.write_txt_file:3
+msgid "The data to write in the text file."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.write_txt_file:5
+msgid "Path to file where to write the data."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.write_txt_file:7
+msgid "Not used, just here for interface compatibility."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.write_stdout:5
+#: speechbrain.dataio.dataio.write_stdout:7
+msgid "Not used, just here for compatibility."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.length_to_mask:3
+msgid ""
+"Reference: https://discuss.pytorch.org/t/how-to-generate-variable-length-"
+"mask/23397/3"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.length_to_mask:5
+msgid "Containing the length of each sequence in the batch. Must be 1D."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.length_to_mask:7
+msgid "Max length for the mask, also the size of the second dimension."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.length_to_mask:9
+msgid "The dtype of the generated mask."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.length_to_mask:11
+msgid "The device to put the mask variable."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.length_to_mask:14
+msgid "**mask** -- The binary mask."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.read_kaldi_lab:3
+msgid "Uses kaldi IO."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.read_kaldi_lab:5
+msgid "Path to directory where kaldi alignents are stored."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.read_kaldi_lab:7
+msgid "A string that contains the options for reading the kaldi alignments."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.read_kaldi_lab:10
+msgid "**lab** -- A dictionary contaning the labels."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.read_kaldi_lab:15
+msgid ""
+"This depends on kaldi-io-for-python. Install it separately. See: "
+"https://github.com/vesis84/kaldi-io-for-python"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.read_kaldi_lab:20
+msgid ""
+"This example requires kaldi files. ``` lab_folder = "
+"'/home/kaldi/egs/TIMIT/s5/exp/dnn4_pretrain-dbn_dnn_ali' "
+"read_kaldi_lab(lab_folder, 'ali-to-pdf') ```"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.get_md5:3
+msgid "Path to file for which compute the checksum."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.get_md5:6
+msgid "Checksum for the given filepath."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.save_md5:3
+msgid "List of input files from which we will compute the md5."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.save_md5:5
+msgid "The path where to store the output pkl file."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.save_md5:8
+msgid ""
+"* *None* * *Example* * *>>> files = "
+"['samples/audio_samples/example1.wav']* * *>>> tmpdir = "
+"getfixture('tmpdir')* * *>>> save_md5(files, os.path.join(tmpdir, "
+"\"md5.pkl\"))*"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.save_md5:8
+msgid "*None*"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.save_md5:9
+msgid "*Example*"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.save_md5:10
+msgid "*>>> files = ['samples/audio_samples/example1.wav']*"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.save_md5:11
+msgid "*>>> tmpdir = getfixture('tmpdir')*"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.save_md5:12
+msgid "*>>> save_md5(files, os.path.join(tmpdir, \"md5.pkl\"))*"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.save_pkl:3
+msgid "Object to save in pkl format"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.save_pkl:5
+msgid "Path to the output file"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.save_pkl:7
+msgid "Sampling rate of the audio file, TODO: this is not used?"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.load_pkl:3
+msgid "For an example, see `save_pkl`."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.load_pkl:5
+msgid "Path to the input pkl file."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.prepend_bos_token:3
+msgid "Containing the original labels. Must be of size: [batch_size, max_length]."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.prepend_bos_token:5
+msgid "The index for <bos> token."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.prepend_bos_token:8
+msgid "**new_label** -- The new label with <bos> at the beginning."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.append_eos_token:3
+msgid "Containing the original labels. Must be of size: [batch_size, max_length]"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.append_eos_token:5
+msgid "Cotaining the original length of each label sequences. Must be 1D."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.append_eos_token:7
+msgid "The index for <eos> token."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.append_eos_token:10
+msgid "**new_label** -- The new label with <eos> appended."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.merge_char:3
+msgid "Each item contains a list, and this list contains a character sequence."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.merge_char:5
+#: speechbrain.dataio.dataio.split_word:5
+msgid "The token represents space. Default: _"
+msgstr ""
+
+#: of speechbrain.dataio.dataio.merge_csvs:3
+msgid "The folder to store csv files to be merged and after merging."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.merge_csvs:5
+msgid "Filenames of csv file to be merged."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.merge_csvs:7
+msgid "The filename to write the merged csv file."
+msgstr ""
+
+#: of speechbrain.dataio.dataio.split_word:3
+msgid "Each item contains a list, and this list contains a words sequence."
+msgstr ""
+

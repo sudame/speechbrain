@@ -1,0 +1,420 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/hyperpyyaml.core.rst:5
+msgid "hyperpyyaml.core module"
+msgstr ""
+
+#: hyperpyyaml.core:1 of
+msgid "This library gathers utilities for hyperpyyaml loading"
+msgstr ""
+
+#: hyperpyyaml.core:5 of
+msgid "Authors"
+msgstr ""
+
+#: hyperpyyaml.core:4 of
+msgid "Peter Plantinga 2020"
+msgstr ""
+
+#: hyperpyyaml.core:5 of
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:25:<autosummary>:1
+msgid ":obj:`Placeholder <hyperpyyaml.core.Placeholder>`"
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:25:<autosummary>:1
+#: hyperpyyaml.core.Placeholder:1 of
+msgid "Class for dumping !PLACEHOLDER tags to yaml"
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:25:<autosummary>:1
+msgid ":obj:`RefTag <hyperpyyaml.core.RefTag>`"
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:25:<autosummary>:1 hyperpyyaml.core.RefTag:1
+#: of
+msgid "Class for dumping !ref tags to yaml"
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:26
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:45:<autosummary>:1
+msgid ":obj:`deref <hyperpyyaml.core.deref>`"
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:45:<autosummary>:1 hyperpyyaml.core.deref:1
+#: of
+msgid "Find the value referred to by a reference in dot-notation"
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:45:<autosummary>:1
+msgid ":obj:`dump_hyperpyyaml <hyperpyyaml.core.dump_hyperpyyaml>`"
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:45:<autosummary>:1
+#: hyperpyyaml.core.dump_hyperpyyaml:1 of
+msgid "Dump yaml including placeholder and reference tags."
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:45:<autosummary>:1
+msgid ":obj:`load_hyperpyyaml <hyperpyyaml.core.load_hyperpyyaml>`"
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:45:<autosummary>:1
+#: hyperpyyaml.core.load_hyperpyyaml:1 of
+msgid "This function implements the HyperPyYAML syntax"
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:45:<autosummary>:1
+msgid ":obj:`parse_arithmetic <hyperpyyaml.core.parse_arithmetic>`"
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:45:<autosummary>:1
+#: hyperpyyaml.core.parse_arithmetic:1 of
+msgid "Parses simple arithmetic operations in references"
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:45:<autosummary>:1
+msgid ":obj:`recursive_resolve <hyperpyyaml.core.recursive_resolve>`"
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:45:<autosummary>:1
+#: hyperpyyaml.core.recursive_resolve:1 of
+msgid "Resolve a reference to a value, following chained references"
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:45:<autosummary>:1
+msgid ":obj:`recursive_update <hyperpyyaml.core.recursive_update>`"
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:45:<autosummary>:1
+#: hyperpyyaml.core.recursive_update:1 of
+msgid "Similar function to `dict.update`, but for a nested `dict`."
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:45:<autosummary>:1
+msgid ":obj:`resolve_references <hyperpyyaml.core.resolve_references>`"
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:45:<autosummary>:1
+#: hyperpyyaml.core.resolve_references:1 of
+msgid "Resolves inter-document references, a component of HyperPyYAML."
+msgstr ""
+
+#: ../../API/hyperpyyaml.core.rst:47
+msgid "Reference"
+msgstr ""
+
+#: hyperpyyaml.core.load_hyperpyyaml:3 of
+msgid ""
+"The purpose for this syntax is a compact, structured hyperparameter and "
+"function definition. This function implements a few extensions to the "
+"yaml syntax, listed below."
+msgstr ""
+
+#: hyperpyyaml.core.load_hyperpyyaml:7 of
+msgid "**PyYAML complex tag shortcuts**"
+msgstr ""
+
+#: hyperpyyaml.core.load_hyperpyyaml:9 of
+msgid ""
+"Part of our clean structured hyperparameter interface is being able to "
+"specify python objects easily and cleanly. This is possible with native "
+"YAML using the following syntax:"
+msgstr ""
+
+#: hyperpyyaml.core.load_hyperpyyaml:18 of
+msgid ""
+"However, due to the extensive use within speechbrain yaml files, we have "
+"added a shortcut for this that has the following syntax:"
+msgstr ""
+
+#: hyperpyyaml.core.load_hyperpyyaml:26 of
+msgid ""
+"In this example, the alignment_saver will be an instance of the "
+"``TensorSaver`` class, with ``'exp/asr/ali'`` passed to the "
+"``__init__()`` method as a keyword argument. This is equivalent to:"
+msgstr ""
+
+#: hyperpyyaml.core.load_hyperpyyaml:37 of
+msgid "We have also implemented a few more shortcuts:::"
+msgstr ""
+
+#: hyperpyyaml.core.load_hyperpyyaml:43 of
+msgid "**References and copies**"
+msgstr ""
+
+#: hyperpyyaml.core.load_hyperpyyaml:45 of
+msgid ""
+"Allows internal references to any node in the file. Any node with tag "
+"``!ref`` will create an object reference to the yaml object at the "
+"``<key.subkey>`` location within the yaml itself, following reference "
+"chains."
+msgstr ""
+
+#: hyperpyyaml.core.load_hyperpyyaml:56 of
+msgid ""
+"Strings values are handled specially: references are substituted but the "
+"rest of the string is left in place, allowing filepaths to be easily "
+"extended:"
+msgstr ""
+
+#: hyperpyyaml.core.load_hyperpyyaml:66 of
+msgid "A more complex example for demonstration purposes:"
+msgstr ""
+
+#: hyperpyyaml.core.load_hyperpyyaml:73 of
+msgid ""
+"Here, ``key2`` will contain a reference to the ``a`` object, so changing "
+"``a.arg1`` will also change ``key2.arg1``. If you need a deep copy of the"
+" object instead of a shallow reference, you can use a similar syntax with"
+" the tag ``!copy``. For example:"
+msgstr ""
+
+#: hyperpyyaml.core.load_hyperpyyaml:83 of
+msgid "These will also implement very basic arithmetic, so:"
+msgstr ""
+
+#: hyperpyyaml.core.load_hyperpyyaml:90 of
+msgid "**Tuples**"
+msgstr ""
+
+#: hyperpyyaml.core.load_hyperpyyaml:92 of
+msgid ""
+"One last minor enhancement is an implicit tuple resolver. Passing a "
+"string value of ``(3, 4)`` will be given a tag of ``!tuple`` which is "
+"then interpreted as a tuple."
+msgstr ""
+
+#: hyperpyyaml.core.RefTag hyperpyyaml.core.deref
+#: hyperpyyaml.core.dump_hyperpyyaml hyperpyyaml.core.load_hyperpyyaml
+#: hyperpyyaml.core.parse_arithmetic hyperpyyaml.core.recursive_resolve
+#: hyperpyyaml.core.recursive_update hyperpyyaml.core.resolve_references of
+msgid "Parameters"
+msgstr ""
+
+#: hyperpyyaml.core.load_hyperpyyaml:96 of
+msgid "A file-like object or string from which to read."
+msgstr ""
+
+#: hyperpyyaml.core.load_hyperpyyaml:98 of
+msgid ""
+"A set of overrides for the values read from the stream. As yaml "
+"implements a nested structure, so can the overrides. See "
+"`speechbrain.utils.data_utils.recursive_update`"
+msgstr ""
+
+#: hyperpyyaml.core.load_hyperpyyaml:102 of
+msgid ""
+"Whether an error will be thrown when an override does not match a "
+"corresponding key in the yaml_stream."
+msgstr ""
+
+#: hyperpyyaml.core.load_hyperpyyaml:105 of
+msgid "Whether to return a dictionary rather than the default namespace."
+msgstr ""
+
+#: hyperpyyaml.core.deref hyperpyyaml.core.load_hyperpyyaml
+#: hyperpyyaml.core.parse_arithmetic hyperpyyaml.core.recursive_resolve
+#: hyperpyyaml.core.resolve_references of
+msgid "Returns"
+msgstr ""
+
+#: hyperpyyaml.core.load_hyperpyyaml:108 of
+msgid "**hparams** -- Reflects the structure of ``yaml_stream``."
+msgstr ""
+
+#: hyperpyyaml.core.deref hyperpyyaml.core.load_hyperpyyaml
+#: hyperpyyaml.core.parse_arithmetic hyperpyyaml.core.recursive_resolve
+#: hyperpyyaml.core.resolve_references of
+msgid "Return type"
+msgstr ""
+
+#: hyperpyyaml.core.Placeholder:4 hyperpyyaml.core.RefTag:7
+#: hyperpyyaml.core.deref:14 hyperpyyaml.core.dump_hyperpyyaml:11
+#: hyperpyyaml.core.load_hyperpyyaml:112 hyperpyyaml.core.parse_arithmetic:12
+#: hyperpyyaml.core.recursive_resolve:20 hyperpyyaml.core.recursive_update:29
+#: hyperpyyaml.core.resolve_references:18 of
+msgid "Example"
+msgstr ""
+
+#: hyperpyyaml.core.Placeholder:1 hyperpyyaml.core.RefTag:1 of
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: hyperpyyaml.core.RefTag:3 of
+msgid "String including yaml keys in `<key>` notation"
+msgstr ""
+
+#: hyperpyyaml.core.Placeholder:5 hyperpyyaml.core.RefTag:8 of
+msgid "See ``dump_hyperpyyaml``"
+msgstr ""
+
+#: hyperpyyaml.core.dump_hyperpyyaml:3 of
+msgid "An object to dump"
+msgstr ""
+
+#: hyperpyyaml.core.dump_hyperpyyaml:5 of
+msgid "A file stream for putting the yaml"
+msgstr ""
+
+#: hyperpyyaml.core.dump_hyperpyyaml:7 hyperpyyaml.core.dump_hyperpyyaml:8 of
+msgid "Arguments to forward to ruamel.yaml.YAML().dump()"
+msgstr ""
+
+#: hyperpyyaml.core.resolve_references:3 of
+msgid ""
+"A file-like object or string with the contents of a yaml file written "
+"with the HyperPyYAML syntax."
+msgstr ""
+
+#: hyperpyyaml.core.resolve_references:6 of
+msgid "Replacement values, either in a yaml-formatted string or a dict."
+msgstr ""
+
+#: hyperpyyaml.core.resolve_references:8 of
+msgid ""
+"Whether an error will be thrown when an override does not match a "
+"corresponding key in the yaml_stream. This is the opposite default from "
+"``load_hyperpyyaml`` because ``resolve_references`` doesn't need to be as"
+" strict by default."
+msgstr ""
+
+#: hyperpyyaml.core.resolve_references:14 of
+msgid "A yaml-formatted stream with all references and overrides resolved."
+msgstr ""
+
+#: hyperpyyaml.core.deref:3 of
+msgid "The location of the requested value, e.g. 'constants.param'"
+msgstr ""
+
+#: hyperpyyaml.core.deref:5 of
+msgid "The dictionary to use for finding values"
+msgstr ""
+
+#: hyperpyyaml.core.deref:7 of
+msgid "Whether to copy the node before dereferencing."
+msgstr ""
+
+#: hyperpyyaml.core.deref:10 of
+msgid "The node in the full_tree dictionary referenced by ``ref``."
+msgstr ""
+
+#: hyperpyyaml.core.recursive_resolve:3 of
+msgid ""
+"a string containing '<x[y]>' in it where x[y] refers to a scalar node in "
+"the file."
+msgstr ""
+
+#: hyperpyyaml.core.recursive_resolve:6 of
+msgid ""
+"list of prior references in the chain, in order to catch circular "
+"references."
+msgstr ""
+
+#: hyperpyyaml.core.recursive_resolve:9 of
+msgid "the dictionary in which to find all references and their values."
+msgstr ""
+
+#: hyperpyyaml.core.recursive_resolve:11 of
+msgid ""
+"Whether to perform a deep copy of the referenced node, rather than a "
+"shallow reference to the same object."
+msgstr ""
+
+#: hyperpyyaml.core.recursive_resolve:15 of
+msgid ""
+"The dereferenced value, with possible string interpolation and arithmetic"
+" parsing."
+msgstr ""
+
+#: hyperpyyaml.core.parse_arithmetic:3 of
+msgid "Adapted from https://stackoverflow.com/a/9558001/1761970"
+msgstr ""
+
+#: hyperpyyaml.core.parse_arithmetic:5 of
+msgid "A string with references and possible arithmetic operations."
+msgstr ""
+
+#: hyperpyyaml.core.parse_arithmetic:8 of
+msgid "Result of parsing and applying the arithmetic."
+msgstr ""
+
+#: hyperpyyaml.core.recursive_update:3 of
+msgid "From: https://stackoverflow.com/a/3233356"
+msgstr ""
+
+#: hyperpyyaml.core.recursive_update:5 of
+msgid "If you have to a nested mapping structure, for example:"
+msgstr ""
+
+#: hyperpyyaml.core.recursive_update:7 of
+msgid "{\"a\": 1, \"b\": {\"c\": 2}}"
+msgstr ""
+
+#: hyperpyyaml.core.recursive_update:9 of
+msgid "Say you want to update the above structure with:"
+msgstr ""
+
+#: hyperpyyaml.core.recursive_update:11 of
+msgid "{\"b\": {\"d\": 3}}"
+msgstr ""
+
+#: hyperpyyaml.core.recursive_update:13 of
+msgid "This function will produce:"
+msgstr ""
+
+#: hyperpyyaml.core.recursive_update:15 of
+msgid "{\"a\": 1, \"b\": {\"c\": 2, \"d\": 3}}"
+msgstr ""
+
+#: hyperpyyaml.core.recursive_update:17 of
+msgid "Instead of:"
+msgstr ""
+
+#: hyperpyyaml.core.recursive_update:19 of
+msgid "{\"a\": 1, \"b\": {\"d\": 3}}"
+msgstr ""
+
+#: hyperpyyaml.core.recursive_update:21 of
+msgid "mapping to be updated"
+msgstr ""
+
+#: hyperpyyaml.core.recursive_update:23 of
+msgid "mapping to update with"
+msgstr ""
+
+#: hyperpyyaml.core.recursive_update:25 of
+msgid "Whether to throw an error if the key in `u` does not exist in `d`."
+msgstr ""
+

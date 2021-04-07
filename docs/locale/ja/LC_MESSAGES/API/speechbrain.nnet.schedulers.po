@@ -1,0 +1,463 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.nnet.schedulers.rst:5
+msgid "speechbrain.nnet.schedulers module"
+msgstr ""
+
+#: of speechbrain.nnet.schedulers:1
+msgid "Schedulers for updating hyperparameters (such as learning rate)."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers:6
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.nnet.schedulers:4
+msgid "Mirco Ravanelli 2020"
+msgstr ""
+
+#: of speechbrain.nnet.schedulers:5
+msgid "Peter Plantinga 2020"
+msgstr ""
+
+#: of speechbrain.nnet.schedulers:6
+msgid "Loren Lugosch 2020"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:30:<autosummary>:1
+msgid ""
+":obj:`CyclicCosineScheduler "
+"<speechbrain.nnet.schedulers.CyclicCosineScheduler>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:30:<autosummary>:1 of
+#: speechbrain.nnet.schedulers.CyclicCosineScheduler:1
+msgid ""
+"The is an implementation of the Cyclic-Cosine learning rate scheduler "
+"with warmup."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:30:<autosummary>:1
+msgid ":obj:`CyclicLRScheduler <speechbrain.nnet.schedulers.CyclicLRScheduler>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:30:<autosummary>:1
+msgid "This implements a cyclical learning rate policy (CLR)."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:30:<autosummary>:1
+msgid ":obj:`LinearScheduler <speechbrain.nnet.schedulers.LinearScheduler>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:30:<autosummary>:1 of
+#: speechbrain.nnet.schedulers.LinearScheduler:1
+msgid "Scheduler with linear annealing technique."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:30:<autosummary>:1
+msgid ":obj:`NewBobScheduler <speechbrain.nnet.schedulers.NewBobScheduler>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:30:<autosummary>:1 of
+#: speechbrain.nnet.schedulers.NewBobScheduler:1
+msgid "Scheduler with new-bob technique, used for LR annealing."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:30:<autosummary>:1
+msgid ":obj:`NoamScheduler <speechbrain.nnet.schedulers.NoamScheduler>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:30:<autosummary>:1
+msgid ""
+"The is an implementation of the transformer's learning rate scheduler "
+"with warmup."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:30:<autosummary>:1
+msgid ":obj:`ReduceLROnPlateau <speechbrain.nnet.schedulers.ReduceLROnPlateau>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:30:<autosummary>:1
+msgid ""
+"Learning rate scheduler which decreases the learning rate if the loss "
+"function of interest gets stuck on a plateau, or starts to increase."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:30:<autosummary>:1
+msgid ":obj:`StepScheduler <speechbrain.nnet.schedulers.StepScheduler>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:30:<autosummary>:1 of
+#: speechbrain.nnet.schedulers.StepScheduler:1
+msgid "Learning rate scheduler with step annealing technique."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:31
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:44:<autosummary>:1
+msgid ""
+":obj:`update_learning_rate "
+"<speechbrain.nnet.schedulers.update_learning_rate>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:44:<autosummary>:1 of
+#: speechbrain.nnet.schedulers.update_learning_rate:1
+msgid "Change the learning rate value within an optimizer."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.schedulers.rst:46
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicCosineScheduler
+#: speechbrain.nnet.schedulers.CyclicCosineScheduler.__call__
+#: speechbrain.nnet.schedulers.CyclicLRScheduler
+#: speechbrain.nnet.schedulers.CyclicLRScheduler.on_batch_end
+#: speechbrain.nnet.schedulers.LinearScheduler
+#: speechbrain.nnet.schedulers.LinearScheduler.__call__
+#: speechbrain.nnet.schedulers.NewBobScheduler
+#: speechbrain.nnet.schedulers.NewBobScheduler.__call__
+#: speechbrain.nnet.schedulers.NoamScheduler
+#: speechbrain.nnet.schedulers.NoamScheduler.__call__
+#: speechbrain.nnet.schedulers.ReduceLROnPlateau
+#: speechbrain.nnet.schedulers.ReduceLROnPlateau.__call__
+#: speechbrain.nnet.schedulers.StepScheduler
+#: speechbrain.nnet.schedulers.StepScheduler.__call__
+#: speechbrain.nnet.schedulers.update_learning_rate
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.update_learning_rate:3
+msgid "Updates the learning rate for this optimizer."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.update_learning_rate:5
+msgid "The new value to use for the learning rate."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.update_learning_rate:7
+msgid "The param group indices to update. If not provided, all groups updated."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicCosineScheduler:16
+#: speechbrain.nnet.schedulers.CyclicLRScheduler:51
+#: speechbrain.nnet.schedulers.LinearScheduler:13
+#: speechbrain.nnet.schedulers.NewBobScheduler:19
+#: speechbrain.nnet.schedulers.NoamScheduler:13
+#: speechbrain.nnet.schedulers.ReduceLROnPlateau:15
+#: speechbrain.nnet.schedulers.StepScheduler:17
+#: speechbrain.nnet.schedulers.update_learning_rate:11
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicCosineScheduler:1
+#: speechbrain.nnet.schedulers.CyclicLRScheduler:1
+#: speechbrain.nnet.schedulers.LinearScheduler:1
+#: speechbrain.nnet.schedulers.NewBobScheduler:1
+#: speechbrain.nnet.schedulers.NoamScheduler:1
+#: speechbrain.nnet.schedulers.ReduceLROnPlateau:1
+#: speechbrain.nnet.schedulers.StepScheduler:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.NewBobScheduler:3
+msgid ""
+"The learning rate is annealed based on the validation performance. In "
+"particular: if (past_loss-current_loss)/past_loss< impr_threshold: lr=lr "
+"* annealing_factor."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.NewBobScheduler:7
+msgid "The initial hyperparameter value."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.NewBobScheduler:9
+msgid "It is annealing factor used in new_bob strategy."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.NewBobScheduler:11
+msgid ""
+"It is the improvement rate between losses used to perform learning "
+"annealing in new_bob strategy."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.NewBobScheduler:14
+msgid ""
+"When the annealing condition is violated patient times, the learning rate"
+" is finally reduced."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.LinearScheduler.__call__:1
+#: speechbrain.nnet.schedulers.NewBobScheduler.__call__:1
+msgid "Returns the current and new value for the hyperparameter."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.NewBobScheduler.__call__:3
+msgid "A number for determining whether to change the hyperparameter value."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.LinearScheduler:3
+msgid "The learning rate linearly decays over the specified number of epochs."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.LinearScheduler:5
+msgid "The value upon initialization."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.LinearScheduler:7
+msgid "The value used when the epoch count reaches ``epoch_count - 1``."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.LinearScheduler:9
+msgid "Number of epochs."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicCosineScheduler.__call__:3
+#: speechbrain.nnet.schedulers.LinearScheduler.__call__:3
+#: speechbrain.nnet.schedulers.ReduceLROnPlateau.__call__:3
+#: speechbrain.nnet.schedulers.StepScheduler.__call__:3
+msgid "Number of times the dataset has been iterated."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.StepScheduler:3
+msgid ""
+"The hyperparameter's value decays over the epochs with the selected "
+"``epoch_decay`` factor."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.StepScheduler:6
+msgid "``value = init_value * decay_factor ^ floor((1 + epoch) / decay_drop)``"
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.StepScheduler:8
+msgid "Initial value for the hyperparameter being updated."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.StepScheduler:10
+msgid "Factor multiplied with the initial_value"
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.StepScheduler:12
+msgid ""
+"Annealing factor (the decay of the hyperparameter value is faster with "
+"higher ``decay_drop`` values)."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.StepScheduler.__call__:1
+msgid "Returns current and new hyperparameter value."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.NoamScheduler:1
+msgid ""
+"The is an implementation of the transformer's learning rate scheduler "
+"with warmup. Reference: https://arxiv.org/abs/1706.03762"
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicCosineScheduler:5
+#: speechbrain.nnet.schedulers.NoamScheduler:4
+msgid ""
+"Note: this scheduler anneals the lr at each update of the model's weight,"
+" and n_steps must be saved for restarting."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicCosineScheduler:8
+#: speechbrain.nnet.schedulers.NoamScheduler:7
+msgid "Initial learning rate (i.e. the lr used at epoch 0)."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.NoamScheduler:9
+msgid "numer of warm-up steps"
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.NoamScheduler.__call__:1
+msgid "The optimizer to update using this scheduler."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicCosineScheduler.__call__
+#: speechbrain.nnet.schedulers.NoamScheduler.__call__
+#: speechbrain.nnet.schedulers.ReduceLROnPlateau.__call__
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicCosineScheduler.__call__:8
+#: speechbrain.nnet.schedulers.NoamScheduler.__call__:4
+msgid ""
+"* **current_lr** (*float*) -- The learning rate before the update. * "
+"**lr** (*float*) -- The learning rate after the update."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicCosineScheduler.__call__:8
+#: speechbrain.nnet.schedulers.NoamScheduler.__call__:4
+#: speechbrain.nnet.schedulers.ReduceLROnPlateau.__call__:8
+msgid "**current_lr** (*float*) -- The learning rate before the update."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicCosineScheduler.__call__:9
+#: speechbrain.nnet.schedulers.NoamScheduler.__call__:5
+msgid "**lr** (*float*) -- The learning rate after the update."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicCosineScheduler:3
+msgid "Reference:  https://openreview.net/pdf?id=BJYwwY9ll"
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicCosineScheduler:10
+msgid "Number of warm up steps."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicCosineScheduler:12
+msgid "Total number of updating steps."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicCosineScheduler.__call__:1
+#: speechbrain.nnet.schedulers.CyclicLRScheduler.on_batch_end:1
+#: speechbrain.nnet.schedulers.ReduceLROnPlateau.__call__:1
+msgid "The optimizers to update using this scheduler."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicCosineScheduler.__call__:5
+#: speechbrain.nnet.schedulers.ReduceLROnPlateau.__call__:5
+msgid "A number for determining whether to change the learning rate."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.ReduceLROnPlateau:1
+msgid ""
+"Learning rate scheduler which decreases the learning rate if the loss "
+"function of interest gets stuck on a plateau, or starts to increase. The "
+"difference from NewBobLRScheduler is that, this one keeps a memory of the"
+" last step where do not observe improvement, and compares against that "
+"particular loss value as opposed to the most recent loss."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.ReduceLROnPlateau:7
+msgid "The minimum allowable learning rate."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.ReduceLROnPlateau:9
+msgid "Factor with which to reduce the learning rate."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.ReduceLROnPlateau:11
+msgid "How many epochs to wait before reducing the learning rate."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.ReduceLROnPlateau.__call__:8
+msgid ""
+"* **current_lr** (*float*) -- The learning rate before the update. * "
+"**next_lr** (*float*) -- The learning rate after the update."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.ReduceLROnPlateau.__call__:9
+msgid "**next_lr** (*float*) -- The learning rate after the update."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicLRScheduler:1
+msgid ""
+"This implements a cyclical learning rate policy (CLR). The method cycles "
+"the learning rate between two boundaries with some constant frequency, as"
+" detailed in this paper (https://arxiv.org/abs/1506.01186). The amplitude"
+" of the cycle can be scaled on a per-iteration or per-cycle basis."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicLRScheduler:7
+msgid ""
+"This class has three built-in policies, as put forth in the paper. "
+"\"triangular\":"
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicLRScheduler:9
+msgid "A basic triangular cycle w/ no amplitude scaling."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicLRScheduler:10
+msgid "\"triangular2\":"
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicLRScheduler:11
+msgid "A basic triangular cycle that scales initial amplitude by half each cycle."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicLRScheduler:13
+msgid "\"exp_range\":"
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicLRScheduler:13
+msgid ""
+"A cycle that scales initial amplitude by gamma**(cycle iterations) at "
+"each cycle iteration."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicLRScheduler:15
+msgid "For more detail, please see the reference paper."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicLRScheduler:17
+msgid "initial learning rate which is the lower boundary in the cycle."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicLRScheduler:20
+msgid ""
+"upper boundary in the cycle. Functionally, it defines the cycle amplitude"
+" (max_lr - base_lr). The lr at any cycle is the sum of base_lr and some "
+"scaling of the amplitude; therefore max_lr may not actually be reached "
+"depending on scalling function."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicLRScheduler:27
+msgid ""
+"number of training iterations per half cycle. The authors suggest setting"
+" step_size 2-8 x training iterations in epoch."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicLRScheduler:31
+msgid ""
+"one of {triangular, triangular2, exp_range}. Default 'triangular'. Values"
+" correspond to policies detailed above. If scale_fn is not None, this "
+"argument is ignored."
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicLRScheduler:36
+msgid "constant in 'exp_range' scaling function: gamma**(cycle iterations)"
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicLRScheduler:39
+msgid ""
+"Custom scaling policy defined by a single argument lambda function, where"
+" 0 <= scale_fn(x) <= 1 for all x >= 0. mode paramater is ignored"
+msgstr ""
+
+#: of speechbrain.nnet.schedulers.CyclicLRScheduler:44
+msgid ""
+"{'cycle', 'iterations'}. Defines whether scale_fn is evaluated on cycle "
+"number or cycle iterations (training iterations since start of cycle). "
+"Default is 'cycle'."
+msgstr ""
+

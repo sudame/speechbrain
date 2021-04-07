@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/hyperpyyaml.rst:5
+msgid "hyperpyyaml"
+msgstr ""
+
+#: hyperpyyaml:1 of
+msgid "HyperPyYAML -- an extended yaml syntax for use with python."
+msgstr ""
+
+#: hyperpyyaml:5 of
+msgid "Authors:"
+msgstr ""
+
+#: hyperpyyaml:4 of
+msgid "Peter Plantinga 2020, 2021"
+msgstr ""
+
+#: hyperpyyaml:5 of
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: ../../API/hyperpyyaml.rst:25:<autosummary>:1
+msgid ":obj:`hyperpyyaml.core <hyperpyyaml.core>`\\"
+msgstr ""
+
+#: ../../API/hyperpyyaml.rst:25:<autosummary>:1
+msgid "This library gathers utilities for hyperpyyaml loading"
+msgstr ""
+
+#: ../../API/hyperpyyaml.rst:27
+msgid "Summary"
+msgstr ""
+
+#: ../../API/hyperpyyaml.rst:32
+msgid "Reference"
+msgstr ""
+
+#: hyperpyyaml.TestThing:1 of
+msgid "Bases: :class:`object`"
+msgstr ""
+

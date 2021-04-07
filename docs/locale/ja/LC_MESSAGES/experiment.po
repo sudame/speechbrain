@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../experiment.md:1
+msgid "Running an experiment"
+msgstr ""
+
+#: ../../experiment.md:2
+msgid "In SpeechBrain, you can run experiments in this way:"
+msgstr ""
+
+#: ../../experiment.md:9
+msgid ""
+"The results will be saved in the output_folder specified in the yaml "
+"file. The folder is created by calling "
+"sb.core.create_experiment_directory() in experiment.py. Both detailed "
+"logs and experiment outputs are saved there. Furthermore, less verbose "
+"logs are output to stdout."
+msgstr ""
+
+#: ../../experiment.md:12
+msgid "YAML basics"
+msgstr ""
+
+#: ../../experiment.md:14
+msgid ""
+"The YAML syntax offers an elegant way to specify the hyperparameters of a"
+" recipe. In SpeechBrain, the YAML file is not a plain list of parameters,"
+" but for each parameter, we specify the function (or class) that is using"
+" it. This not only makes the specification of the parameters more "
+"transparent but also allows us to properly initialize all the entries by "
+"simply calling the load_extended_yaml (in speechbrain.utils.data_utils)."
+msgstr ""
+
+#: ../../experiment.md:18
+msgid ""
+"Let's now take a quick look at the extended YAML features, using an "
+"example:"
+msgstr ""
+
+#: ../../experiment.md:31
+msgid ""
+"!new:speechbrain.lobes.models.CRDNN.CRDNN creates a CRDNN instance from "
+"the module speechbrain.lobes.models.CRDNN"
+msgstr ""
+
+#: ../../experiment.md:33
+msgid ""
+"The indented keywords (output_size etc.) after it are passed as keyword "
+"arguments."
+msgstr ""
+
+#: ../../experiment.md:35
+msgid ""
+"!ref <output_dir>/save evaluates the part in angle brackets, referencing "
+"the YAML itself."
+msgstr ""
+
+#: ../../experiment.md:37
+msgid ""
+"!PLACEHOLDER simply errors out when loaded; it should be replaced by "
+"every user either by editing the yaml, or with an override (passed to "
+"load_extended_yaml)."
+msgstr ""
+
+#: ../../experiment.md:41
+msgid ""
+"For more details on YAML and our extensions, please see our dedicated "
+"tutorial."
+msgstr ""
+
+#: ../../experiment.md:43
+msgid "Running arguments"
+msgstr ""
+
+#: ../../experiment.md:44
+msgid ""
+"SpeechBrain defines a set of running arguments that can be set from the "
+"command line args (or within the YAML file)."
+msgstr ""
+
+#: ../../experiment.md:45
+msgid "device: set the device to be used for computation."
+msgstr ""
+
+#: ../../experiment.md:46
+msgid ""
+"debug: a flag that enables debug mode, only running a few iterations to "
+"verify that program won't crash."
+msgstr ""
+
+#: ../../experiment.md:47
+msgid ""
+"data_parallel_backend: a flag that enables data_parallel for multigpu "
+"training on a single machine."
+msgstr ""
+
+#: ../../experiment.md:48
+msgid ""
+"data_parallel_count: default \"-1\" (use all gpus), if > 0, use a subset "
+"of gpus available [0, 1, ..., data_parallel_count]."
+msgstr ""
+
+#: ../../experiment.md:49
+msgid ""
+"distributed_launch: A flag that enables training with ddp for multiGPU "
+"training. Assumes torch.distributed.launch was used to start script. the "
+"local_rank and rank UNIX arguments are parsed."
+msgstr ""
+
+#: ../../experiment.md:50
+msgid ""
+"distributed_backend: default \"nccl\", options: [\"nccl\", \"gloo\", "
+"\"mpi\"], this backend will be used as a DDP communication protocol. See "
+"PyTorch documentation for more details."
+msgstr ""
+
+#: ../../experiment.md:51
+msgid "Additional runtime arguments are documented in the Brain class."
+msgstr ""
+
+#: ../../experiment.md:53
+msgid ""
+"Please note that we provide a dedicated tutorial to document the "
+"different multi-gpu training strategies:"
+msgstr ""
+
+#: ../../experiment.md:55
+msgid "You can also override parameters in YAML in this way:"
+msgstr ""
+
+#: ../../experiment.md:61
+msgid ""
+"This call would override hyperparameters seed and data_folder and "
+"num_layers."
+msgstr ""
+
+#: ../../experiment.md:63
+msgid "Important:"
+msgstr ""
+
+#: ../../experiment.md:64
+msgid "The command line args will always override the hparams file args."
+msgstr ""
+
+#: ../../experiment.md:66
+msgid "Tensor format"
+msgstr ""
+
+#: ../../experiment.md:67
+msgid ""
+"All the tensors within SpeechBrain are formatted using the following "
+"convention:"
+msgstr ""
+
+#: ../../experiment.md:71
+msgid ""
+"The batch is always the first element, and time_steps is always the "
+"second one. The remaining optional dimensions are channels. (there might "
+"be as many channels as you need)."
+msgstr ""
+
+#: ../../experiment.md:73
+msgid ""
+"Why do we need all tensors to have the same format? It is crucial to have"
+" a shared format for all the classes and functions. This makes model "
+"combination easier. Many formats are possible. For SpeechBrain we "
+"selected this one because it is commonly used in recurrent neural "
+"networks."
+msgstr ""
+
+#: ../../experiment.md:77
+msgid ""
+"The adopted format is very flexible and allows users to read different "
+"types of data. For instance, with single-channel raw waveform signals, "
+"the tensor will be tensor=(batch, time_steps), while for multi-channel "
+"raw waveform it will be tensor=(batch, time_steps, n_channel). Beyond "
+"waveforms, this format is used for any tensor in the computation "
+"pipeline. For instance, fbank features that are formatted in this way:"
+msgstr ""
+
+#: ../../experiment.md:81
+msgid "The Short-Time Fourier Transform (STFT) tensor, instead, will be:"
+msgstr ""
+
+#: ../../experiment.md:85
+msgid ""
+"where the “2” corresponds to the real and imaginary parts of the STFT. We"
+" can also read multi-channel SFT data, that will be formatted in this "
+"way:"
+msgstr ""
+

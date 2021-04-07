@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.nnet.activations.rst:5
+msgid "speechbrain.nnet.activations module"
+msgstr ""
+
+#: of speechbrain.nnet.activations:1
+msgid "Library implementing activation functions."
+msgstr ""
+
+#: of speechbrain.nnet.activations:5
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.nnet.activations:4
+msgid "Mirco Ravanelli 2020"
+msgstr ""
+
+#: of speechbrain.nnet.activations:5
+msgid "Jianyuan Zhong 2020"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.activations.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.activations.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.activations.rst:33:<autosummary>:1
+msgid ":obj:`GumbelSoftmax <speechbrain.nnet.activations.GumbelSoftmax>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.activations.rst:33:<autosummary>:1 of
+#: speechbrain.nnet.activations.GumbelSoftmax:1
+msgid "Samples from the Gumbel-Softmax distribution and optionally discretizes."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.activations.rst:33:<autosummary>:1
+msgid ":obj:`Softmax <speechbrain.nnet.activations.Softmax>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.activations.rst:33:<autosummary>:1 of
+#: speechbrain.nnet.activations.Softmax:1
+msgid "Computes the softmax of a 2d, 3d, or 4d input tensor."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.activations.rst:33:<autosummary>:1
+msgid ":obj:`Swish <speechbrain.nnet.activations.Swish>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.activations.rst:33:<autosummary>:1 of
+#: speechbrain.nnet.activations.Swish:1
+msgid ""
+"The class implements the Swish activation function from "
+"https://arxiv.org/pdf/2005.03191.pdf"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.activations.rst:35
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.nnet.activations.GumbelSoftmax:1
+#: speechbrain.nnet.activations.Softmax:1 speechbrain.nnet.activations.Swish:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.nnet.activations.GumbelSoftmax
+#: speechbrain.nnet.activations.Softmax
+#: speechbrain.nnet.activations.Softmax.forward
+#: speechbrain.nnet.activations.Swish
+#: speechbrain.nnet.activations.Swish.forward
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.nnet.activations.Softmax:3
+msgid "Whether to apply the log function before softmax."
+msgstr ""
+
+#: of speechbrain.nnet.activations.Softmax:5
+msgid "If the dimension where softmax is applied."
+msgstr ""
+
+#: of speechbrain.nnet.activations.GumbelSoftmax:13
+#: speechbrain.nnet.activations.Softmax:9 speechbrain.nnet.activations.Swish:10
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.nnet.activations.Softmax.forward:1
+msgid "Returns the softmax of the input tensor."
+msgstr ""
+
+#: of speechbrain.nnet.activations.Softmax.forward:3
+#: speechbrain.nnet.activations.Swish.forward:3
+msgid "Input tensor."
+msgstr ""
+
+#: of speechbrain.nnet.activations.GumbelSoftmax:3
+msgid ""
+"Reference: https://arxiv.org/abs/1611.00712, "
+"https://arxiv.org/abs/1611.01144"
+msgstr ""
+
+#: of speechbrain.nnet.activations.GumbelSoftmax:5
+msgid "non-negative scalar temperature"
+msgstr ""
+
+#: of speechbrain.nnet.activations.GumbelSoftmax:7
+msgid ""
+"if True, the returned samples will be discretized as one-hot vectors, but"
+" will be differentiated as if it is the soft sample in autograd"
+msgstr ""
+
+#: of speechbrain.nnet.activations.GumbelSoftmax:9
+msgid "A dimension along which softmax will be computed (default: -1)."
+msgstr ""
+
+#: of speechbrain.nnet.activations.Swish:4
+msgid "given input x. Swish(x) = x / (1 + exp(beta * x))"
+msgstr ""
+
+#: of speechbrain.nnet.activations.Swish:6
+msgid "Beta value."
+msgstr ""
+
+#: of speechbrain.nnet.activations.Swish.forward:1
+msgid "Returns the Swished input tensor."
+msgstr ""
+

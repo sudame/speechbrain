@@ -1,0 +1,390 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:5
+msgid "speechbrain.nnet.quaternion_networks.q_ops module"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops:1
+msgid ""
+"This library implements different operations needed by quaternion- valued"
+" architectures. This work is inspired by: \"Quaternion neural networks\" "
+"- Parcollet T. \"Quaternion recurrent neural networks\" - Parcollet T. et"
+" al. \"Quaternion convolutional neural networks for end-to-end automatic "
+"speech recognition\" - Parcollet T. et al. \"Deep quaternion networks\" -"
+" Gaudet Chase J. et al."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops:11
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops:11
+msgid "Titouan Parcollet 2020"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:24:<autosummary>:1
+msgid ""
+":obj:`QuaternionLinearCustomBackward "
+"<speechbrain.nnet.quaternion_networks.q_ops.QuaternionLinearCustomBackward>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:24:<autosummary>:1
+msgid ""
+"This class redefine the backpropagation of a quaternion linear layer (not"
+" a spinor layer)."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:25
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:46:<autosummary>:1
+msgid ""
+":obj:`affect_conv_init "
+"<speechbrain.nnet.quaternion_networks.q_ops.affect_conv_init>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:46:<autosummary>:1
+#: of speechbrain.nnet.quaternion_networks.q_ops.affect_init:1
+msgid "Applies the weight initialization function given to the parameters."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:46:<autosummary>:1
+msgid ""
+":obj:`affect_init "
+"<speechbrain.nnet.quaternion_networks.q_ops.affect_init>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:46:<autosummary>:1
+msgid ""
+":obj:`check_quaternion_input "
+"<speechbrain.nnet.quaternion_networks.q_ops.check_quaternion_input>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:46:<autosummary>:1
+#: of speechbrain.nnet.quaternion_networks.q_ops.check_quaternion_input:1
+msgid "Check the quaternion-valued shape for a linear layer."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:46:<autosummary>:1
+msgid ""
+":obj:`quaternion_conv_op "
+"<speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_op>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:46:<autosummary>:1
+msgid ""
+"Applies a quaternion convolution transformation to the incoming data: It "
+"is important to notice that the forward phase of a QCNN is defined as W *"
+" Inputs (with * equal to the Hamilton product)."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:46:<autosummary>:1
+msgid ""
+":obj:`quaternion_conv_rotation_op "
+"<speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_rotation_op>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:46:<autosummary>:1
+msgid ""
+"Applies a quaternion rotation transformation to the incoming data: The "
+"rotation W*x*W^t can be replaced by R*x following: "
+"https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation Works for "
+"unitary and non-unitary weights (they will be normalized)."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:46:<autosummary>:1
+msgid ""
+":obj:`quaternion_init "
+"<speechbrain.nnet.quaternion_networks.q_ops.quaternion_init>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:46:<autosummary>:1
+#: of speechbrain.nnet.quaternion_networks.q_ops.quaternion_init:1
+msgid ""
+"Returns a matrix of quaternion numbers initialized with the method "
+"described in \"Quaternion Recurrent Neural Network \" - Parcollt T."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:46:<autosummary>:1
+msgid ""
+":obj:`quaternion_linear_op "
+"<speechbrain.nnet.quaternion_networks.q_ops.quaternion_linear_op>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:46:<autosummary>:1
+msgid ""
+"Applies a quaternion linear transformation to the incoming data: It is "
+"important to notice that the forward phase of a QNN is defined as W * "
+"Inputs (with * equal to the Hamilton product)."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:46:<autosummary>:1
+msgid ""
+":obj:`quaternion_linear_rotation_op "
+"<speechbrain.nnet.quaternion_networks.q_ops.quaternion_linear_rotation_op>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:46:<autosummary>:1
+msgid ""
+":obj:`unitary_init "
+"<speechbrain.nnet.quaternion_networks.q_ops.unitary_init>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:46:<autosummary>:1
+#: of speechbrain.nnet.quaternion_networks.q_ops.unitary_init:1
+msgid "Returns a matrix of unitary quaternion numbers."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_ops.rst:48
+msgid "Reference"
+msgstr ""
+
+#: of
+#: speechbrain.nnet.quaternion_networks.q_ops.QuaternionLinearCustomBackward:1
+msgid "Bases: :class:`torch.autograd.function.Function`"
+msgstr ""
+
+#: of
+#: speechbrain.nnet.quaternion_networks.q_ops.QuaternionLinearCustomBackward:1
+msgid ""
+"This class redefine the backpropagation of a quaternion linear layer (not"
+" a spinor layer). By doing so, we can save up to 4x memory, but it is "
+"also 2x slower than 'quaternion_linear_op'. It should be used within "
+"speechbrain.nnet.quaternion_networks.linear.QuaternionLinear."
+msgstr ""
+
+#: of
+#: speechbrain.nnet.quaternion_networks.q_ops.QuaternionLinearCustomBackward.forward:1
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_linear_op:1
+msgid ""
+"Applies a quaternion linear transformation to the incoming data: It is "
+"important to notice that the forward phase of a QNN is defined as W * "
+"Inputs (with * equal to the Hamilton product). The constructed "
+"cat_kernels_4_quaternion is a modified version of the quaternion "
+"representation so when we do torch.mm(Input,W) it's equivalent to W * "
+"Inputs."
+msgstr ""
+
+#: of
+#: speechbrain.nnet.quaternion_networks.q_ops.QuaternionLinearCustomBackward.backward
+#: speechbrain.nnet.quaternion_networks.q_ops.QuaternionLinearCustomBackward.forward
+#: speechbrain.nnet.quaternion_networks.q_ops.affect_conv_init
+#: speechbrain.nnet.quaternion_networks.q_ops.affect_init
+#: speechbrain.nnet.quaternion_networks.q_ops.check_quaternion_input
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_op
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_rotation_op
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_init
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_linear_op
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_linear_rotation_op
+#: speechbrain.nnet.quaternion_networks.q_ops.unitary_init
+msgid "Parameters"
+msgstr ""
+
+#: of
+#: speechbrain.nnet.quaternion_networks.q_ops.QuaternionLinearCustomBackward.forward:8
+msgid "Quaternion input tensor to be transformed. Shape: [batch*time, X]."
+msgstr ""
+
+#: of
+#: speechbrain.nnet.quaternion_networks.q_ops.QuaternionLinearCustomBackward.backward:8
+#: speechbrain.nnet.quaternion_networks.q_ops.QuaternionLinearCustomBackward.forward:10
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_op:13
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_rotation_op:13
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_linear_op:10
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_linear_rotation_op:10
+msgid "Real part of the quaternion weight matrix of this layer."
+msgstr ""
+
+#: of
+#: speechbrain.nnet.quaternion_networks.q_ops.QuaternionLinearCustomBackward.backward:10
+#: speechbrain.nnet.quaternion_networks.q_ops.QuaternionLinearCustomBackward.forward:12
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_op:15
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_rotation_op:15
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_linear_op:12
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_linear_rotation_op:12
+msgid "First imaginary part of the quaternion weight matrix of this layer."
+msgstr ""
+
+#: of
+#: speechbrain.nnet.quaternion_networks.q_ops.QuaternionLinearCustomBackward.backward:12
+#: speechbrain.nnet.quaternion_networks.q_ops.QuaternionLinearCustomBackward.forward:14
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_op:17
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_rotation_op:17
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_linear_op:14
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_linear_rotation_op:14
+msgid "Second imaginary part of the quaternion weight matrix of this layer."
+msgstr ""
+
+#: of
+#: speechbrain.nnet.quaternion_networks.q_ops.QuaternionLinearCustomBackward.backward:14
+#: speechbrain.nnet.quaternion_networks.q_ops.QuaternionLinearCustomBackward.forward:16
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_op:19
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_rotation_op:19
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_linear_op:16
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_linear_rotation_op:16
+msgid "Third imaginary part of the quaternion weight matrix of this layer."
+msgstr ""
+
+#: of
+#: speechbrain.nnet.quaternion_networks.q_ops.QuaternionLinearCustomBackward.backward:1
+msgid ""
+"Run the backward phase of the forward call defined above. This "
+"implementation follows the quaternion backpropagation of a quaternion "
+"layer that can be found in \"Quaternion neural networks\" - Parcollet T. "
+"Page 48."
+msgstr ""
+
+#: of
+#: speechbrain.nnet.quaternion_networks.q_ops.QuaternionLinearCustomBackward.backward:6
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_op:8
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_rotation_op:8
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_linear_op:8
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_linear_rotation_op:8
+msgid "Quaternion input tensor to be transformed."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_rotation_op:1
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_linear_rotation_op:1
+msgid ""
+"Applies a quaternion rotation transformation to the incoming data: The "
+"rotation W*x*W^t can be replaced by R*x following: "
+"https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation Works for "
+"unitary and non-unitary weights (they will be normalized). The initial "
+"size of the input must be a multiple of 4 with the real part equal to "
+"zero. Rotations only affect the vector part of a quaternion."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_rotation_op:23
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_linear_rotation_op:20
+msgid ""
+"In the context of a spinor neural network, multiple rotations of the "
+"input vector x are performed and summed. Hence, the norm of the output "
+"vector always increases with the number of layers, making the neural "
+"network instable with deep configurations. The scale parameters are "
+"learnable parameters that acts like gates by multiplying the output "
+"vector with a small trainable parameter."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_rotation_op:30
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_linear_rotation_op:27
+msgid ""
+"The zero kernel is simply a tensor of zeros with require grad = False. "
+"Its shape is equivalent to a quaternion component shape. In fact, it is "
+"only needed to make the dimensions match when using the rotation matrix :"
+" https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_op:10
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_rotation_op:10
+msgid ""
+"If true, a 1D convolution operation will be applied. Otherwise, a 2D "
+"convolution is called."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_op:1
+msgid ""
+"Applies a quaternion convolution transformation to the incoming data: It "
+"is important to notice that the forward phase of a QCNN is defined as W *"
+" Inputs (with * equal to the Hamilton product). The constructed "
+"cat_kernels_4_quaternion is a modified version of the quaternion "
+"representation so when we do torch.mm(Input,W) it's equivalent to W * "
+"Inputs."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_op:23
+msgid "Stride factor of the convolutional filters."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_op:25
+msgid "Amount of padding. See torch.nn documentation for more information."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_op:27
+msgid ""
+"This option specifies the convolutional groups. See torch.nn "
+"documentation for more information."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops.quaternion_conv_op:30
+msgid "Dilation factor of the convolutional filters."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops.quaternion_init:4
+#: speechbrain.nnet.quaternion_networks.q_ops.unitary_init:3
+msgid "Number of real values of the input layer (quaternion // 4)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops.quaternion_init:6
+#: speechbrain.nnet.quaternion_networks.q_ops.unitary_init:5
+msgid "Number of real values of the output layer (quaternion // 4)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops.quaternion_init:8
+#: speechbrain.nnet.quaternion_networks.q_ops.unitary_init:7
+msgid "Kernel_size for convolutional layers (ex: (3,3))."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops.affect_conv_init:16
+#: speechbrain.nnet.quaternion_networks.q_ops.affect_init:13
+#: speechbrain.nnet.quaternion_networks.q_ops.quaternion_init:10
+#: speechbrain.nnet.quaternion_networks.q_ops.unitary_init:9
+msgid "(glorot, he)"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops.affect_conv_init:4
+#: speechbrain.nnet.quaternion_networks.q_ops.affect_conv_init:6
+#: speechbrain.nnet.quaternion_networks.q_ops.affect_conv_init:8
+#: speechbrain.nnet.quaternion_networks.q_ops.affect_conv_init:10
+#: speechbrain.nnet.quaternion_networks.q_ops.affect_init:3
+#: speechbrain.nnet.quaternion_networks.q_ops.affect_init:5
+#: speechbrain.nnet.quaternion_networks.q_ops.affect_init:7
+#: speechbrain.nnet.quaternion_networks.q_ops.affect_init:9
+msgid "(nb_quaternion_in, nb_quaternion_out)"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops.affect_conv_init:14
+#: speechbrain.nnet.quaternion_networks.q_ops.affect_init:11
+msgid "(unitary_init, quaternion_init)"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops.affect_conv_init:1
+msgid ""
+"Applies the weight initialization function given to the parameters. This "
+"is specificaly written for convolutional layers."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops.affect_conv_init:12
+msgid "Kernel size."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_ops.check_quaternion_input:3
+msgid "Expected shape of the input."
+msgstr ""
+

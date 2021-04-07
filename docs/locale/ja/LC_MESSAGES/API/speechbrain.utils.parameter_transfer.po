@@ -1,0 +1,223 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.utils.parameter_transfer.rst:5
+msgid "speechbrain.utils.parameter_transfer module"
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer:1
+msgid "Convenience functions for the simplest parameter transfer cases."
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer:3
+msgid ""
+"Use `speechbrain.utils.checkpoints.Checkpointer` to find a checkpoint and"
+" the path to the parameter file."
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer:7
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer:7
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: ../../API/speechbrain.utils.parameter_transfer.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.utils.parameter_transfer.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.utils.parameter_transfer.rst:31:<autosummary>:1
+msgid ":obj:`Pretrainer <speechbrain.utils.parameter_transfer.Pretrainer>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.parameter_transfer.rst:31:<autosummary>:1 of
+#: speechbrain.utils.parameter_transfer.Pretrainer:1
+msgid "Orchestrates pretraining"
+msgstr ""
+
+#: ../../API/speechbrain.utils.parameter_transfer.rst:33
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer:3
+msgid ""
+"First collects parameter file symlinks into the given directory. Then "
+"calls load hooks for each of those parameter files."
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer
+#: speechbrain.utils.parameter_transfer.Pretrainer.add_custom_hooks
+#: speechbrain.utils.parameter_transfer.Pretrainer.add_loadables
+#: speechbrain.utils.parameter_transfer.Pretrainer.add_paths
+#: speechbrain.utils.parameter_transfer.Pretrainer.collect_files
+#: speechbrain.utils.parameter_transfer.Pretrainer.load_collected
+#: speechbrain.utils.parameter_transfer.Pretrainer.split_path
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer:6
+msgid "Path to directory where the parameter file symlinks are collected."
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer:8
+msgid ""
+"Mapping from loadable key to object. This connects the keys to the actual"
+" object instances."
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer:11
+msgid ""
+"Mapping from loadable key to filepath. The last part of the path is "
+"treated as file name, the rest of it is treated as a \"source\" which can"
+" be either a directory path or a magic source like Huggingface hub ID. "
+"e.g. sb/asr-crdnn-libri/lm.ckpt -> source=sb/asr-crdnn-libri, "
+"file=lm.ckpt Note that when collecting, you can specify a default source,"
+" which is used for all loadables that don't have a path specified."
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer:20
+#: speechbrain.utils.parameter_transfer.Pretrainer.add_custom_hooks:5
+msgid ""
+"Mapping from loadable key to parameter transfer hook function. If you "
+"want to use a custom loading function, specify it here."
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.set_collect_in:1
+msgid "Change the collecting path"
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.add_loadables:1
+msgid "Update the loadables dict from the given mapping."
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.add_loadables:3
+msgid "Mapping from loadable key to object"
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.add_paths:1
+msgid "Update the paths for different loadables."
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.add_paths:3
+msgid ""
+"When collecting parameters, paths here are preferred. Note that when "
+"collecting, you can specify a default source, which is used for all "
+"loadables that don't have a path specified."
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.add_paths:7
+msgid ""
+"Mapping from loadable key to filepath. The last part of the path is "
+"treated as file name, the rest of it is treated as a \"source\" which can"
+" be either a directory path or a magic source like Huggingface hub ID. "
+"e.g. sb/asr-crdnn-libri/lm.ckpt -> source=sb/asr-crdnn-libri, "
+"file=lm.ckpt"
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.add_custom_hooks:1
+msgid "Update the custom hooks."
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.add_custom_hooks:3
+msgid "When loading parameters, hooks here are preferred over class defaults."
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.split_path:1
+msgid "Splits a path to source and filename"
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.split_path:3
+msgid ""
+"This also handles URLs and Huggingface hub paths, in addition to regular "
+"paths."
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.collect_files
+#: speechbrain.utils.parameter_transfer.Pretrainer.split_path
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.split_path:9
+msgid "* *str* -- Source * *str* -- Filename"
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.split_path:9
+msgid "*str* -- Source"
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.split_path:10
+msgid "*str* -- Filename"
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.collect_files:1
+msgid "Fetches parameters from known paths with fallback default_source"
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.collect_files:3
+msgid ""
+"The actual parameter files may reside elsewhere, but this ensures a "
+"symlink in the self.collect_in directory. The symlink always uses the "
+"loadable key in the filename. This standardization makes it easier to "
+"orchestrate pretraining on e.g. distributed setups."
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.collect_files:8
+msgid ""
+"Use the default_source if you have everything organized neatly into one "
+"location, like a Huggingface hub repo."
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.collect_files:11
+msgid ""
+"This is used for each loadable which doesn't have a path already "
+"specified. If the loadable has key \"asr\", then the file to look for is "
+"default_source/asr.ckpt"
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.collect_files:16
+msgid ""
+"Mapping from loadable key to a local path from which loadable's "
+"parameters can be loaded. This is not used in this class, but can "
+"possibly be helpful."
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.collect_files
+msgid "Return type"
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.load_collected:1
+msgid "Loads the files that have been collected."
+msgstr ""
+
+#: of speechbrain.utils.parameter_transfer.Pretrainer.load_collected:3
+msgid ""
+"Device on which to load, if you want to load to a specific device "
+"directly ( otherwise just leave it to None )."
+msgstr ""
+

@@ -1,0 +1,363 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.dataio.dataset.rst:5
+msgid "speechbrain.dataio.dataset module"
+msgstr ""
+
+#: of speechbrain.dataio.dataset:1
+msgid "Dataset examples for loading individual data points"
+msgstr ""
+
+#: of speechbrain.dataio.dataset:5
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.dataio.dataset:4
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: of speechbrain.dataio.dataset:5
+msgid "Samuele Cornell 2020"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataset.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataset.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataset.rst:25:<autosummary>:1
+msgid ":obj:`DynamicItemDataset <speechbrain.dataio.dataset.DynamicItemDataset>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataset.rst:25:<autosummary>:1 of
+#: speechbrain.dataio.dataset.DynamicItemDataset:1
+msgid "Dataset that reads, wrangles, and produces dicts."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataset.rst:25:<autosummary>:1
+msgid ""
+":obj:`FilteredSortedDynamicItemDataset "
+"<speechbrain.dataio.dataset.FilteredSortedDynamicItemDataset>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataset.rst:25:<autosummary>:1 of
+#: speechbrain.dataio.dataset.FilteredSortedDynamicItemDataset:1
+msgid "Possibly filtered, possibly sorted DynamicItemDataset."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataset.rst:26
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataset.rst:40:<autosummary>:1
+msgid ":obj:`add_dynamic_item <speechbrain.dataio.dataset.add_dynamic_item>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataset.rst:40:<autosummary>:1 of
+#: speechbrain.dataio.dataset.add_dynamic_item:1
+msgid "Helper for adding the same item to multiple datasets."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataset.rst:40:<autosummary>:1
+msgid ":obj:`set_output_keys <speechbrain.dataio.dataset.set_output_keys>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataset.rst:40:<autosummary>:1 of
+#: speechbrain.dataio.dataset.set_output_keys:1
+msgid "Helper for setting the same item to multiple datasets."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.dataset.rst:42
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset:1
+#: speechbrain.dataio.dataset.FilteredSortedDynamicItemDataset:1
+msgid "Bases: :class:`Generic`\\ [:obj:`torch.utils.data.dataset.T_co`]"
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset:3
+msgid ""
+"Each data point dict provides some items (by key), for example, a path to"
+" a wavefile with the key \"wav_file\". When a data point is fetched from "
+"this Dataset, more items are produced dynamically, based on pre-existing "
+"items and other dynamic created items. For example, a dynamic item could "
+"take the wavfile path and load the audio from the disk."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset:9
+msgid ""
+"The dynamic items can depend on other dynamic items: a suitable "
+"evaluation order is used automatically,  as long as there are no circular"
+" dependencies."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset:12
+msgid ""
+"A specified list of keys is collected in the output dict. These can be "
+"items in the original data or dynamic items. If some dynamic items are "
+"not requested, nor depended on by other requested items, they won't be "
+"computed. So for example if a user simply wants to iterate over the text,"
+" the time-consuming audio loading can be skipped."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset:18
+msgid ""
+"About the format: Takes a dict of dicts as the collection of data points "
+"to read/wrangle. The top level keys are data point IDs. Each data point "
+"(example) dict should have the same keys, corresponding to different "
+"items in that data point."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset:24
+msgid "Altogether the data collection could look like this:"
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset:41
+msgid ""
+"The top-level key, the data point id, is implicitly added as an item in "
+"the data point, with the key \"id\""
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset:44
+msgid ""
+"Each dynamic item is configured by three things: a key, a func, and a "
+"list of argkeys. The key should be unique among all the items (dynamic or"
+" not) in each data point. The func is any callable, and it returns the "
+"dynamic item's value. The callable is called with the values of other "
+"items as specified by the argkeys list (as positional args, passed in the"
+" order specified by argkeys)."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset:51
+msgid "The dynamic_items configuration could look like this:"
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset:65
+msgid "With these, different views of the data can be loaded:"
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset:99
+msgid "Output keys can also be a map:"
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset
+#: speechbrain.dataio.dataset.DynamicItemDataset.add_dynamic_item
+#: speechbrain.dataio.dataset.DynamicItemDataset.filtered_sorted
+#: speechbrain.dataio.dataset.DynamicItemDataset.set_output_keys
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset:108
+msgid "Dictionary containing single data points (e.g. utterances)."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset:110
+msgid ""
+"Configuration for the dynamic items produced when fetching an example. "
+"List of DynamicItems or dicts with the format::     func: <callable> # To"
+" be called     takes: <list> # key or list of keys of args this takes"
+"     provides: key # key or list of keys that this provides"
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset:110
+msgid ""
+"Configuration for the dynamic items produced when fetching an example. "
+"List of DynamicItems or dicts with the format::"
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset:116
+msgid ""
+"List of keys (either directly available in data or dynamic items) to "
+"include in the output dict when data points are fetched.  If a dict is "
+"given; it is used to map internal keys to output keys. From the "
+"output_keys dict key:value pairs the key appears outside, and value is "
+"the internal key."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset:116
+msgid ""
+"List of keys (either directly available in data or dynamic items) to "
+"include in the output dict when data points are fetched."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset:119
+#: speechbrain.dataio.dataset.DynamicItemDataset.set_output_keys:8
+msgid ""
+"If a dict is given; it is used to map internal keys to output keys. From "
+"the output_keys dict key:value pairs the key appears outside, and value "
+"is the internal key."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.add_dynamic_item:1
+msgid "Makes a new dynamic item available on the dataset."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.add_dynamic_item:3
+msgid ""
+"Two calling conventions. For DynamicItem objects, just use: "
+"add_dynamic_item(dynamic_item). But otherwise, should use: "
+"add_dynamic_item(func, takes, provides)."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.add_dynamic_item:8
+msgid "See `speechbrain.utils.data_pipeline`."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.add_dynamic_item:10
+msgid ""
+"If a DynamicItem is given, adds that directly. Otherwise a DynamicItem is"
+" created, and this specifies the callable to use. If a generator function"
+" is given, then create a GeneratorDynamicItem. Otherwise creates a normal"
+" DynamicItem."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.add_dynamic_item:15
+msgid ""
+"List of keys. When func is called, each key is resolved to either an "
+"entry in the data or the output of another dynamic_item. The func is then"
+" called with these as positional arguments, in the same order as "
+"specified here. A single arg can be given directly."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.add_dynamic_item:21
+msgid "Unique key or keys that this provides."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.set_output_keys:1
+msgid "Use this to change the output keys."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.set_output_keys:3
+msgid ""
+"These are the keys that are actually evaluated when a data point is "
+"fetched from the dataset."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.set_output_keys:6
+msgid ""
+"List of keys (str) to produce in output.  If a dict is given; it is used "
+"to map internal keys to output keys. From the output_keys dict key:value "
+"pairs the key appears outside, and value is the internal key."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.set_output_keys:6
+msgid "List of keys (str) to produce in output."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.output_keys_as:1
+msgid "Context manager to temporarily set output keys."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.output_keys_as:4
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.output_keys_as:15
+msgid ""
+"Not thread-safe. While in this context manager, the output keys are "
+"affected for any call."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.filtered_sorted:1
+msgid "Get a filtered and/or sorted version of this, shares static data."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.filtered_sorted:3
+msgid ""
+"The reason to implement these operations in the same method is that "
+"computing some dynamic items may be expensive, and this way the filtering"
+" and sorting steps don't need to compute the dynamic items twice."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.filtered_sorted:8
+msgid ""
+"Map from key (in data or in dynamic items) to limit, will only keep "
+"data_point if data_point[key] >= limit"
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.filtered_sorted:11
+msgid ""
+"Map from key (in data or in dynamic items) to limit, will only keep "
+"data_point if data_point[key] <= limit"
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.filtered_sorted:14
+msgid ""
+"Map from key (in data or in dynamic items) to func, will only keep "
+"data_point if bool(func(data_point[key])) == True"
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.filtered_sorted:17
+msgid "If not None, sort by data_point[sort_key]. Default is ascending order."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.filtered_sorted:20
+msgid "If True, sort in descending order."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.filtered_sorted:22
+msgid ""
+"If not None, only keep (at most) the first n filtered data_points. The "
+"possible sorting is applied, but only on the first n data points found. "
+"Meant for debugging."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.filtered_sorted
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.filtered_sorted:27
+msgid ""
+"Shares the static data, but has its own output keys and dynamic items "
+"(initially deep copied from this, so they have the same dynamic items "
+"available)"
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.filtered_sorted
+msgid "Return type"
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.filtered_sorted:32
+msgid "Temporarily changes the output keys!"
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.from_json:1
+msgid "Load a data prep JSON file and create a Dataset based on it."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.from_csv:1
+msgid "Load a data prep CSV file and create a Dataset based on it."
+msgstr ""
+
+#: of speechbrain.dataio.dataset.DynamicItemDataset.from_arrow_dataset:1
+msgid "Loading a prepared huggingface dataset"
+msgstr ""
+
+#: of speechbrain.dataio.dataset.FilteredSortedDynamicItemDataset:3
+msgid ""
+"Shares the static data (reference). Has its own dynamic_items and "
+"output_keys (deepcopy)."
+msgstr ""
+

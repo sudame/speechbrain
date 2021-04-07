@@ -1,0 +1,275 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:5
+msgid "speechbrain.nnet.complex_networks.c_ops module"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops:4
+msgid "This library implements different operations needed by complex-"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops:2
+msgid ""
+"valued architectures. This work is inspired by: \"Deep Complex Networks\""
+" from Trabelsi C. et al."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops:7
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops:7
+msgid "Titouan Parcollet 2020"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:18
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1
+msgid ""
+":obj:`affect_conv_init "
+"<speechbrain.nnet.complex_networks.c_ops.affect_conv_init>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1 of
+#: speechbrain.nnet.complex_networks.c_ops.affect_init:1
+msgid "Applies the weight initialization function given to the parameters."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1
+msgid ":obj:`affect_init <speechbrain.nnet.complex_networks.c_ops.affect_init>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1
+msgid ""
+":obj:`check_complex_input "
+"<speechbrain.nnet.complex_networks.c_ops.check_complex_input>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1 of
+#: speechbrain.nnet.complex_networks.c_ops.check_complex_input:1
+msgid "Check the complex-valued shape for a linear layer."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1
+msgid ""
+":obj:`complex_conv_op "
+"<speechbrain.nnet.complex_networks.c_ops.complex_conv_op>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1 of
+#: speechbrain.nnet.complex_networks.c_ops.complex_conv_op:1
+msgid "Applies a complex convolution to the incoming data."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1
+msgid ":obj:`complex_init <speechbrain.nnet.complex_networks.c_ops.complex_init>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1
+msgid ""
+"Returns a matrice of complex numbers initialized as described in: \"Deep "
+"Complex Networks\", Trabelsi C."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1
+msgid ""
+":obj:`complex_linear_op "
+"<speechbrain.nnet.complex_networks.c_ops.complex_linear_op>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1 of
+#: speechbrain.nnet.complex_networks.c_ops.complex_linear_op:1
+msgid "Applies a complex linear transformation to the incoming data."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1
+msgid ""
+":obj:`get_conjugate "
+"<speechbrain.nnet.complex_networks.c_ops.get_conjugate>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1 of
+#: speechbrain.nnet.complex_networks.c_ops.get_conjugate:1
+msgid "Returns the conjugate (z = r - xi) of the input complex numbers."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1
+msgid ":obj:`get_imag <speechbrain.nnet.complex_networks.c_ops.get_imag>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1 of
+#: speechbrain.nnet.complex_networks.c_ops.get_imag:1
+msgid "Returns the imaginary components of the complex-valued input."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1
+msgid ":obj:`get_real <speechbrain.nnet.complex_networks.c_ops.get_real>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1 of
+#: speechbrain.nnet.complex_networks.c_ops.get_real:1
+msgid "Returns the real components of the complex-valued input."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1
+msgid ":obj:`multi_mean <speechbrain.nnet.complex_networks.c_ops.multi_mean>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1 of
+#: speechbrain.nnet.complex_networks.c_ops.multi_mean:1
+msgid "Performs `torch.mean` over multiple dimensions of `input`."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1
+msgid ":obj:`unitary_init <speechbrain.nnet.complex_networks.c_ops.unitary_init>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:41:<autosummary>:1 of
+#: speechbrain.nnet.complex_networks.c_ops.unitary_init:1
+msgid "Returns a matrice of unitary complex numbers."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.c_ops.rst:43
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.affect_conv_init
+#: speechbrain.nnet.complex_networks.c_ops.affect_init
+#: speechbrain.nnet.complex_networks.c_ops.check_complex_input
+#: speechbrain.nnet.complex_networks.c_ops.complex_conv_op
+#: speechbrain.nnet.complex_networks.c_ops.complex_init
+#: speechbrain.nnet.complex_networks.c_ops.complex_linear_op
+#: speechbrain.nnet.complex_networks.c_ops.get_conjugate
+#: speechbrain.nnet.complex_networks.c_ops.get_imag
+#: speechbrain.nnet.complex_networks.c_ops.get_real
+#: speechbrain.nnet.complex_networks.c_ops.unitary_init
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.check_complex_input:3
+msgid "Expected shape of the input."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.get_imag:3
+#: speechbrain.nnet.complex_networks.c_ops.get_real:3
+msgid "Input tensor."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.get_conjugate:5
+#: speechbrain.nnet.complex_networks.c_ops.get_imag:5
+#: speechbrain.nnet.complex_networks.c_ops.get_real:5
+msgid "(convolution, linear) (default \"linear\")"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.get_conjugate:7
+#: speechbrain.nnet.complex_networks.c_ops.get_imag:7
+#: speechbrain.nnet.complex_networks.c_ops.get_real:7
+msgid "Default 1."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.get_conjugate:3
+msgid "Input tensor"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.complex_conv_op:3
+#: speechbrain.nnet.complex_networks.c_ops.complex_linear_op:3
+msgid "Complex input tensor to be transformed."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.complex_conv_op:8
+#: speechbrain.nnet.complex_networks.c_ops.complex_linear_op:5
+msgid "Real part of the quaternion weight matrix of this layer."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.complex_conv_op:10
+#: speechbrain.nnet.complex_networks.c_ops.complex_linear_op:7
+msgid "First imaginary part of the quaternion weight matrix of this layer."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.complex_conv_op:5
+msgid ""
+"If true, a 1D convolution operation will be applied. Otherwise, a 2D "
+"convolution is called."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.complex_conv_op:14
+msgid "Stride factor of the convolutional filters."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.complex_conv_op:16
+msgid "Amount of padding. See torch.nn documentation for more information."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.complex_conv_op:18
+msgid "Dilation factor of the convolutional filters."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.complex_init:4
+#: speechbrain.nnet.complex_networks.c_ops.unitary_init:3
+msgid "Number of real values of the input layer (quaternion // 4)."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.complex_init:6
+#: speechbrain.nnet.complex_networks.c_ops.unitary_init:5
+msgid "Number of real values of the output layer (quaternion // 4)."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.complex_init:8
+#: speechbrain.nnet.complex_networks.c_ops.unitary_init:7
+msgid "Kernel_size for convolutional layers (ex: (3,3))."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.unitary_init:9
+msgid "(glorot, he) (default \"glorot\")."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.complex_init:1
+msgid ""
+"Returns a matrice of complex numbers initialized as described in: \"Deep "
+"Complex Networks\", Trabelsi C. et al."
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.complex_init:10
+msgid "(glorot, he) (default \"glorot\")"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.affect_conv_init:10
+#: speechbrain.nnet.complex_networks.c_ops.affect_init:7
+msgid "(unitary_init, complex_init)"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.affect_conv_init:12
+#: speechbrain.nnet.complex_networks.c_ops.affect_init:9
+msgid "(glorot, he)"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks.c_ops.affect_conv_init:1
+msgid ""
+"Applies the weight initialization function given to the parameters. This "
+"is specificaly written for convolutional layers."
+msgstr ""
+

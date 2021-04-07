@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.nnet.complex_networks.rst:5
+msgid "speechbrain.nnet.complex_networks"
+msgstr ""
+
+#: of speechbrain.nnet.complex_networks:1
+msgid "Package containing complex neural networks"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.rst:28:<autosummary>:1
+msgid ""
+":obj:`speechbrain.nnet.complex_networks.c_CNN "
+"<speechbrain.nnet.complex_networks.c_CNN>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.rst:28:<autosummary>:1
+msgid "Library implementing complex-valued convolutional neural networks."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.rst:28:<autosummary>:1
+msgid ""
+":obj:`speechbrain.nnet.complex_networks.c_RNN "
+"<speechbrain.nnet.complex_networks.c_RNN>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.rst:28:<autosummary>:1
+msgid "Library implementing complex-valued recurrent neural networks."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.rst:28:<autosummary>:1
+msgid ""
+":obj:`speechbrain.nnet.complex_networks.c_linear "
+"<speechbrain.nnet.complex_networks.c_linear>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.rst:28:<autosummary>:1
+msgid "Library implementing complex-valued linear transformation."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.rst:28:<autosummary>:1
+msgid ""
+":obj:`speechbrain.nnet.complex_networks.c_normalization "
+"<speechbrain.nnet.complex_networks.c_normalization>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.rst:28:<autosummary>:1
+msgid "Library implementing complex-valued normalization."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.rst:28:<autosummary>:1
+msgid ""
+":obj:`speechbrain.nnet.complex_networks.c_ops "
+"<speechbrain.nnet.complex_networks.c_ops>`\\"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.complex_networks.rst:28:<autosummary>:1
+msgid "This library implements different operations needed by complex-"
+msgstr ""
+

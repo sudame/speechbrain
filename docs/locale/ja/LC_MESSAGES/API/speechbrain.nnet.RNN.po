@@ -1,0 +1,713 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.nnet.RNN.rst:5
+msgid "speechbrain.nnet.RNN module"
+msgstr ""
+
+#: of speechbrain.nnet.RNN:1
+msgid "Library implementing recurrent neural networks."
+msgstr ""
+
+#: of speechbrain.nnet.RNN:7
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.nnet.RNN:4
+msgid "Mirco Ravanelli 2020"
+msgstr ""
+
+#: of speechbrain.nnet.RNN:5
+msgid "Ju-Chieh Chou 2020"
+msgstr ""
+
+#: of speechbrain.nnet.RNN:6
+msgid "Jianyuan Zhong 2020"
+msgstr ""
+
+#: of speechbrain.nnet.RNN:7
+msgid "Loren Lugosch 2020"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1
+msgid ":obj:`AttentionalRNNDecoder <speechbrain.nnet.RNN.AttentionalRNNDecoder>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1 of
+#: speechbrain.nnet.RNN.AttentionalRNNDecoder:1
+msgid "This function implements RNN decoder model with attention."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1
+msgid ":obj:`GRU <speechbrain.nnet.RNN.GRU>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1 of
+#: speechbrain.nnet.RNN.GRU:1
+msgid "This function implements a basic GRU."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1
+msgid ":obj:`GRUCell <speechbrain.nnet.RNN.GRUCell>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1 of
+#: speechbrain.nnet.RNN.GRUCell:1
+msgid ""
+"This class implements a basic GRU Cell for a timestep of input, while "
+"GRU() takes the whole sequence as input."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1
+msgid ":obj:`LSTM <speechbrain.nnet.RNN.LSTM>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1 of
+#: speechbrain.nnet.RNN.LSTM:1
+msgid "This function implements a basic LSTM."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1
+msgid ":obj:`LSTMCell <speechbrain.nnet.RNN.LSTMCell>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1 of
+#: speechbrain.nnet.RNN.LSTMCell:1
+msgid ""
+"This class implements a basic LSTM Cell for a timestep of input, while "
+"LSTM() takes the whole sequence as input."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1
+msgid ":obj:`LiGRU <speechbrain.nnet.RNN.LiGRU>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1 of
+#: speechbrain.nnet.RNN.LiGRU:1
+msgid "This function implements a Light GRU (liGRU)."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1
+msgid ":obj:`LiGRU_Layer <speechbrain.nnet.RNN.LiGRU_Layer>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1 of
+#: speechbrain.nnet.RNN.LiGRU_Layer:1
+msgid "This function implements Light-Gated Recurrent Units (ligru) layer."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1
+msgid ":obj:`QuasiRNN <speechbrain.nnet.RNN.QuasiRNN>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1 of
+#: speechbrain.nnet.RNN.QuasiRNN:1
+msgid "This is a implementation for the Quasi-RNN."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1
+msgid ":obj:`QuasiRNNLayer <speechbrain.nnet.RNN.QuasiRNNLayer>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1 of
+#: speechbrain.nnet.RNN.QuasiRNNLayer:1
+msgid ""
+"Applies a single layer Quasi-Recurrent Neural Network (QRNN) to an input "
+"sequence."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1
+msgid ":obj:`RNN <speechbrain.nnet.RNN.RNN>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1 of
+#: speechbrain.nnet.RNN.RNN:1
+msgid "This function implements a vanilla RNN."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1
+msgid ":obj:`RNNCell <speechbrain.nnet.RNN.RNNCell>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:34:<autosummary>:1 of
+#: speechbrain.nnet.RNN.RNNCell:1
+msgid ""
+"This class implements a basic RNN Cell for a timestep of input, while "
+"RNN() takes the whole sequence as input."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:35
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:50:<autosummary>:1
+msgid ":obj:`pack_padded_sequence <speechbrain.nnet.RNN.pack_padded_sequence>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:50:<autosummary>:1 of
+#: speechbrain.nnet.RNN.pack_padded_sequence:1
+msgid "Returns packed speechbrain-formatted tensors."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:50:<autosummary>:1
+msgid ":obj:`pad_packed_sequence <speechbrain.nnet.RNN.pad_packed_sequence>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:50:<autosummary>:1 of
+#: speechbrain.nnet.RNN.pad_packed_sequence:1
+msgid "Returns speechbrain-formatted tensor from packed sequences."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:50:<autosummary>:1
+msgid ":obj:`rnn_init <speechbrain.nnet.RNN.rnn_init>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:50:<autosummary>:1
+msgid "This function is used to initialize the RNN weight."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.RNN.rst:52
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder
+#: speechbrain.nnet.RNN.AttentionalRNNDecoder.forward
+#: speechbrain.nnet.RNN.AttentionalRNNDecoder.forward_step
+#: speechbrain.nnet.RNN.GRU speechbrain.nnet.RNN.GRU.forward
+#: speechbrain.nnet.RNN.GRUCell speechbrain.nnet.RNN.GRUCell.forward
+#: speechbrain.nnet.RNN.LSTM speechbrain.nnet.RNN.LSTM.forward
+#: speechbrain.nnet.RNN.LSTMCell speechbrain.nnet.RNN.LSTMCell.forward
+#: speechbrain.nnet.RNN.LiGRU speechbrain.nnet.RNN.LiGRU.forward
+#: speechbrain.nnet.RNN.LiGRU_Layer speechbrain.nnet.RNN.LiGRU_Layer.forward
+#: speechbrain.nnet.RNN.QuasiRNN speechbrain.nnet.RNN.QuasiRNNLayer
+#: speechbrain.nnet.RNN.QuasiRNNLayer.forgetMult
+#: speechbrain.nnet.RNN.QuasiRNNLayer.forward speechbrain.nnet.RNN.RNN
+#: speechbrain.nnet.RNN.RNN.forward speechbrain.nnet.RNN.RNNCell
+#: speechbrain.nnet.RNN.RNNCell.forward
+#: speechbrain.nnet.RNN.pack_padded_sequence
+#: speechbrain.nnet.RNN.pad_packed_sequence speechbrain.nnet.RNN.rnn_init
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.nnet.RNN.pack_padded_sequence:3
+msgid "The sequences to pack."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.pack_padded_sequence:5
+msgid "The length of each sequence."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.pad_packed_sequence:3
+msgid "An input set of sequences to convert to a tensor."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder:1 speechbrain.nnet.RNN.GRU:1
+#: speechbrain.nnet.RNN.GRUCell:1 speechbrain.nnet.RNN.LSTM:1
+#: speechbrain.nnet.RNN.LSTMCell:1 speechbrain.nnet.RNN.LiGRU:1
+#: speechbrain.nnet.RNN.LiGRU_Layer:1 speechbrain.nnet.RNN.QuasiRNN:1
+#: speechbrain.nnet.RNN.QuasiRNNLayer:1 speechbrain.nnet.RNN.RNN:1
+#: speechbrain.nnet.RNN.RNNCell:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LSTM:3 speechbrain.nnet.RNN.LiGRU:14
+#: speechbrain.nnet.RNN.RNN:3
+msgid ""
+"It accepts in input tensors formatted as (batch, time, fea). In the case "
+"of 4d inputs like (batch, time, fea, channel) the tensor is flattened as "
+"(batch, time, fea*channel)."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.GRU:7 speechbrain.nnet.RNN.LSTM:7
+#: speechbrain.nnet.RNN.LiGRU:18 speechbrain.nnet.RNN.RNN:7
+msgid ""
+"Number of output neurons (i.e, the dimensionality of the output). values "
+"(i.e, time and frequency kernel sizes respectively)."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.GRU:10 speechbrain.nnet.RNN.GRUCell:12
+#: speechbrain.nnet.RNN.LSTM:10 speechbrain.nnet.RNN.LSTMCell:12
+#: speechbrain.nnet.RNN.QuasiRNN:11 speechbrain.nnet.RNN.RNN:10
+#: speechbrain.nnet.RNN.RNNCell:13
+msgid "The shape of an example input. Alternatively, use ``input_size``."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.GRU:12 speechbrain.nnet.RNN.GRUCell:14
+#: speechbrain.nnet.RNN.LSTM:12 speechbrain.nnet.RNN.LSTMCell:14
+#: speechbrain.nnet.RNN.QuasiRNN:13 speechbrain.nnet.RNN.RNN:12
+#: speechbrain.nnet.RNN.RNNCell:15
+msgid "The size of the input. Alternatively, use ``input_shape``."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LiGRU:23 speechbrain.nnet.RNN.LiGRU_Layer:11
+#: speechbrain.nnet.RNN.RNN:14
+msgid "Type of nonlinearity (tanh, relu)."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder:16 speechbrain.nnet.RNN.GRU:14
+#: speechbrain.nnet.RNN.LSTM:14 speechbrain.nnet.RNN.LiGRU:29
+#: speechbrain.nnet.RNN.LiGRU_Layer:9 speechbrain.nnet.RNN.RNN:16
+#: speechbrain.nnet.RNN.RNNCell:17
+msgid "Number of layers to employ in the RNN architecture."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder:38 speechbrain.nnet.RNN.GRU:16
+#: speechbrain.nnet.RNN.GRUCell:18 speechbrain.nnet.RNN.LSTM:16
+#: speechbrain.nnet.RNN.LSTMCell:18 speechbrain.nnet.RNN.LiGRU:31
+#: speechbrain.nnet.RNN.RNN:18 speechbrain.nnet.RNN.RNNCell:19
+msgid "If True, the additive bias b is adopted."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder:40 speechbrain.nnet.RNN.GRU:18
+#: speechbrain.nnet.RNN.GRUCell:20 speechbrain.nnet.RNN.LSTM:18
+#: speechbrain.nnet.RNN.LSTMCell:20 speechbrain.nnet.RNN.LiGRU:33
+#: speechbrain.nnet.RNN.LiGRU_Layer:17 speechbrain.nnet.RNN.RNN:20
+#: speechbrain.nnet.RNN.RNNCell:21
+msgid "It is the dropout factor (must be between 0 and 1)."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.GRU:20 speechbrain.nnet.RNN.LSTMCell:22
+#: speechbrain.nnet.RNN.LiGRU:35 speechbrain.nnet.RNN.RNN:22
+msgid ""
+"If True, orthogonal initialization is used for the recurrent weights. "
+"Xavier initialization is used for the input connection weights."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.GRU:23 speechbrain.nnet.RNN.LiGRU:38
+#: speechbrain.nnet.RNN.RNN:25
+msgid ""
+"If True, a bidirectional model that scans the sequence both right-to-left"
+" and left-to-right is used."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder:44 speechbrain.nnet.RNN.GRU:28
+#: speechbrain.nnet.RNN.GRUCell:27 speechbrain.nnet.RNN.LSTM:28
+#: speechbrain.nnet.RNN.LSTMCell:27 speechbrain.nnet.RNN.LiGRU:43
+#: speechbrain.nnet.RNN.QuasiRNN:25 speechbrain.nnet.RNN.QuasiRNNLayer:17
+#: speechbrain.nnet.RNN.RNN:30 speechbrain.nnet.RNN.RNNCell:28
+#: speechbrain.nnet.RNN.rnn_init:8
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.nnet.RNN.RNN.forward:1
+msgid "Returns the output of the vanilla RNN."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.GRU.forward:3 speechbrain.nnet.RNN.LSTM.forward:3
+#: speechbrain.nnet.RNN.LiGRU_Layer.forward:3
+#: speechbrain.nnet.RNN.RNN.forward:3
+msgid "Input tensor."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.GRU.forward:5 speechbrain.nnet.RNN.LSTM.forward:5
+#: speechbrain.nnet.RNN.LiGRU.forward:5 speechbrain.nnet.RNN.RNN.forward:5
+msgid "Starting hidden state."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.RNN.forward:7
+msgid "Relative lengths of the input signals."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.GRUCell:22 speechbrain.nnet.RNN.LSTM:20
+#: speechbrain.nnet.RNN.RNNCell:23
+msgid ""
+"It True, orthogonal initialization is used for the recurrent weights. "
+"Xavier initialization is used for the input connection weights."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LSTM:23
+msgid ""
+"If True, a bidirectinoal model that scans the sequence both right-to-left"
+" and left-to-right is used."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LSTM.forward:1
+msgid "Returns the output of the LSTM."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.GRU.forward:7 speechbrain.nnet.RNN.LSTM.forward:7
+msgid "Relative length of the input signals."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.GRU:3
+msgid ""
+"It accepts input tensors formatted as (batch, time, fea). In the case of "
+"4d inputs like (batch, time, fea, channel) the tensor is flattened as "
+"(batch, time, fea*channel)."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.GRU.forward:1
+msgid "Returns the output of the GRU."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.RNNCell:4
+msgid ""
+"It is designed for an autoregressive decoder (ex. attentional decoder), "
+"which takes one input at a time. Using torch.nn.RNNCell() instead of "
+"torch.nn.RNN() to reduce VRAM consumption."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.RNNCell:9
+msgid "It accepts in input tensors formatted as (batch, fea)."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.GRUCell:10 speechbrain.nnet.RNN.LSTMCell:10
+#: speechbrain.nnet.RNN.RNNCell:11
+msgid "Number of output neurons (i.e, the dimensionality of the output)."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.RNNCell.forward:1
+msgid "Returns the output of the RNNCell."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.RNNCell.forward:3
+msgid "The input of RNNCell."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.RNNCell.forward:5
+msgid "The hidden states of RNNCell."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.GRUCell:4
+msgid ""
+"It is designed for an autoregressive decoder (ex. attentional decoder), "
+"which takes one input at a time. Using torch.nn.GRUCell() instead of "
+"torch.nn.GRU() to reduce VRAM consumption. It accepts in input tensors "
+"formatted as (batch, fea)."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.GRUCell:16
+msgid "Number of layers to employ in the GRU architecture."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.GRUCell.forward:1
+msgid "Returns the output of the GRUCell."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.GRUCell.forward:3
+msgid "The input of GRUCell."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.GRUCell.forward:5
+msgid "The hidden states of GRUCell."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LSTMCell:4
+msgid ""
+"It is designed for an autoregressive decoder (ex. attentional decoder), "
+"which takes one input at a time. Using torch.nn.LSTMCell() instead of "
+"torch.nn.LSTM() to reduce VRAM consumption. It accepts in input tensors "
+"formatted as (batch, fea)."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LSTMCell:16
+msgid "Number of layers to employ in the LSTM architecture."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LSTMCell.forward:1
+msgid "Returns the output of the LSTMCell."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LSTMCell.forward:3
+msgid "The input of LSTMCell."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LSTMCell.forward:5
+msgid "The hidden states of LSTMCell."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder:3
+msgid ""
+"This function implements different RNN models. It accepts in enc_states "
+"tensors formatted as (batch, time, fea). In the case of 4d inputs like "
+"(batch, time, fea, channel) the tensor is flattened in this way: (batch, "
+"time, fea*channel)."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder:8
+msgid "Type of recurrent neural network to use (rnn, lstm, gru)."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder:10
+msgid "type of attention to use (location, content)."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder:12
+msgid "Number of the neurons."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder:14
+msgid "Number of attention module internal and output neurons."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder:18
+msgid "Expected shape of an input."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder:20
+msgid "Expected size of the relevant input dimension."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder:22
+msgid ""
+"Type of nonlinearity (tanh, relu). This option is active for rnn and "
+"ligru models only. For lstm and gru tanh is used."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder:25
+msgid ""
+"It True, orthogonal init is used for the recurrent weights. Xavier "
+"initialization is used for the input connection weights."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder:28
+#: speechbrain.nnet.RNN.LiGRU:25
+msgid ""
+"Type of normalization for the ligru model (batchnorm, layernorm). Every "
+"string different from batchnorm and layernorm will result in no "
+"normalization."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder:32
+msgid "A scaling factor to sharpen or smoothen the attention distribution."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder:34
+msgid "Number of channels for location-aware attention."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder:36
+msgid "Size of the kernel for location-aware attention."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder.forward_step:1
+msgid "One step of forward pass process."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder.forward_step:3
+msgid "The input of current timestep."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder.forward_step:5
+msgid "The cell state for RNN."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder.forward_step:7
+msgid "The context vector of previous timestep."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder.forward_step:9
+msgid "The tensor generated by encoder, to be attended."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder.forward_step:11
+msgid "The actual length of encoder states."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder.forward
+#: speechbrain.nnet.RNN.AttentionalRNNDecoder.forward_step
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder.forward_step:14
+msgid ""
+"* **dec_out** (*torch.Tensor*) -- The output tensor. * **hs** "
+"(*torch.Tensor or tuple of torch.Tensor*) -- The new cell state for RNN. "
+"* **c** (*torch.Tensor*) -- The context vector of the current timestep. *"
+" **w** (*torch.Tensor*) -- The weight of attention."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder.forward_step:14
+msgid "**dec_out** (*torch.Tensor*) -- The output tensor."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder.forward_step:15
+msgid ""
+"**hs** (*torch.Tensor or tuple of torch.Tensor*) -- The new cell state "
+"for RNN."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder.forward_step:16
+msgid "**c** (*torch.Tensor*) -- The context vector of the current timestep."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder.forward_step:17
+msgid "**w** (*torch.Tensor*) -- The weight of attention."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder.forward:1
+msgid "This method implements the forward pass of the attentional RNN decoder."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder.forward:3
+msgid "The input tensor for each timesteps of RNN decoder."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder.forward:5
+msgid "The tensor to be attended by the decoder."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder.forward:7
+msgid "This variable stores the relative length of wavform."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder.forward:10
+msgid ""
+"* **outputs** (*torch.Tensor*) -- The output of the RNN decoder. * "
+"**attn** (*torch.Tensor*) -- The attention weight of each timestep."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder.forward:10
+msgid "**outputs** (*torch.Tensor*) -- The output of the RNN decoder."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.AttentionalRNNDecoder.forward:11
+msgid "**attn** (*torch.Tensor*) -- The attention weight of each timestep."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LiGRU:3
+msgid ""
+"Ligru is single-gate GRU model based on batch-norm + relu activations + "
+"recurrent dropout. For more info see:"
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LiGRU:6
+msgid ""
+"\"M. Ravanelli, P. Brakel, M. Omologo, Y. Bengio, Light Gated Recurrent "
+"Units for Speech Recognition, in IEEE Transactions on Emerging Topics in "
+"Computational Intelligence, 2018\" (https://arxiv.org/abs/1803.10225)"
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LiGRU:11
+msgid ""
+"To speed it up, it is compiled with the torch just-in-time compiler (jit)"
+" right before using it."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LiGRU:21
+msgid "The shape of an example input."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LiGRU.forward:1
+msgid "Returns the output of the liGRU."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LiGRU.forward:3
+msgid "The input tensor."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LiGRU_Layer:3
+msgid "Feature dimensionality of the input tensors."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LiGRU_Layer:5
+msgid "Batch size of the input tensors."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LiGRU_Layer:7
+msgid "Number of output neurons."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LiGRU_Layer:13
+msgid ""
+"Type of normalization (batchnorm, layernorm). Every string different from"
+" batchnorm and layernorm will result in no normalization."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LiGRU_Layer:19
+msgid ""
+"if True, a bidirectional model that scans the sequence both right-to-left"
+" and left-to-right is used."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.LiGRU_Layer.forward:1
+msgid "Returns the output of the liGRU layer."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.QuasiRNNLayer:4
+msgid "The number of expected features in the input x."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.QuasiRNN:8 speechbrain.nnet.RNN.QuasiRNNLayer:6
+msgid ""
+"The number of features in the hidden state h. If not specified, the input"
+" size is used."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.QuasiRNN:17 speechbrain.nnet.RNN.QuasiRNNLayer:9
+msgid ""
+"Whether to apply zoneout (i.e. failing to update elements in the hidden "
+"state) to the hidden state updates. Default: 0."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.QuasiRNN:20 speechbrain.nnet.RNN.QuasiRNNLayer:12
+msgid ""
+"If True, performs QRNN-fo (applying an output gate to the output). If "
+"False, performs QRNN-f. Default: True."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.QuasiRNNLayer.forgetMult:1
+msgid "Returns the hidden states for each time step."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.QuasiRNNLayer.forgetMult:3
+msgid "Linearly transformed input."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.QuasiRNNLayer.forward:1
+msgid "Returns the output of the QRNN layer."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.QuasiRNNLayer.forward:3
+msgid "Input to transform linearly."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.QuasiRNN:3
+msgid "https://arxiv.org/pdf/1611.01576.pdf"
+msgstr ""
+
+#: of speechbrain.nnet.RNN.QuasiRNN:5
+msgid ""
+"Part of the code is adapted from: https://github.com/salesforce/pytorch-"
+"qrnn"
+msgstr ""
+
+#: of speechbrain.nnet.RNN.QuasiRNN:15
+msgid "The number of QRNN layers to produce."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.rnn_init:1
+msgid ""
+"This function is used to initialize the RNN weight. Recurrent connection:"
+" orthogonal initialization."
+msgstr ""
+
+#: of speechbrain.nnet.RNN.rnn_init:4
+msgid "Recurrent neural network module."
+msgstr ""
+

@@ -1,0 +1,376 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_RNN.rst:5
+msgid "speechbrain.nnet.quaternion_networks.q_RNN module"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN:1
+msgid "Library implementing quaternion-valued recurrent neural networks."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN:4
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN:4
+msgid "Titouan Parcollet 2020"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_RNN.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_RNN.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_RNN.rst:36:<autosummary>:1
+msgid ":obj:`QLSTM <speechbrain.nnet.quaternion_networks.q_RNN.QLSTM>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_RNN.rst:36:<autosummary>:1
+msgid ""
+"This function implements a quaternion-valued LSTM as first introduced in "
+": \"Quaternion Recurrent Neural Networks\", Parcollet T."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_RNN.rst:36:<autosummary>:1
+msgid ""
+":obj:`QLSTM_Layer "
+"<speechbrain.nnet.quaternion_networks.q_RNN.QLSTM_Layer>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_RNN.rst:36:<autosummary>:1
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM_Layer:1
+msgid "This function implements quaternion-valued LSTM layer."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_RNN.rst:36:<autosummary>:1
+msgid ":obj:`QLiGRU <speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_RNN.rst:36:<autosummary>:1
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU:1
+msgid "This function implements a quaternion-valued Light GRU (liGRU)."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_RNN.rst:36:<autosummary>:1
+msgid ""
+":obj:`QLiGRU_Layer "
+"<speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU_Layer>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_RNN.rst:36:<autosummary>:1
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU_Layer:1
+msgid ""
+"This function implements quaternion-valued Light-Gated Recurrent Units "
+"(ligru) layer."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_RNN.rst:36:<autosummary>:1
+msgid ":obj:`QRNN <speechbrain.nnet.quaternion_networks.q_RNN.QRNN>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_RNN.rst:36:<autosummary>:1
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QRNN:1
+msgid "This function implements a vanilla quaternion-valued RNN."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_RNN.rst:36:<autosummary>:1
+msgid ":obj:`QRNN_Layer <speechbrain.nnet.quaternion_networks.q_RNN.QRNN_Layer>`"
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_RNN.rst:36:<autosummary>:1
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QRNN_Layer:1
+msgid "This function implements quaternion-valued recurrent layer."
+msgstr ""
+
+#: ../../API/speechbrain.nnet.quaternion_networks.q_RNN.rst:38
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM:1
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLSTM_Layer:1
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU:1
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU_Layer:1
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN:1
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN_Layer:1
+msgid "Bases: :class:`torch.nn.modules.module.Module`"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM:1
+msgid ""
+"This function implements a quaternion-valued LSTM as first introduced in "
+": \"Quaternion Recurrent Neural Networks\", Parcollet T. et al."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM:4
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN:3
+msgid ""
+"Input format is (batch, time, fea) or (batch, time, fea, channel). In the"
+" latter shape, the two last dimensions will be merged: (batch, time, fea "
+"* channel)"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLSTM.forward
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLSTM_Layer
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLSTM_Layer.forward
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU.forward
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU_Layer
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU_Layer.forward
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN.forward
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN_Layer
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN_Layer.forward
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM:8
+msgid ""
+"Number of output neurons (i.e, the dimensionality of the output). "
+"Specified value is in terms of quaternion-valued neurons. Thus, the "
+"output is 4*hidden_size."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM:12
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLSTM_Layer:9
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN:11
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN_Layer:9
+msgid "Number of layers to employ in the RNN architecture (default 1)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM:14
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN:15
+msgid "If True, the additive bias b is adopted (default True)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM:16
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLSTM_Layer:11
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN:17
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN_Layer:13
+msgid "It is the dropout factor (must be between 0 and 1) (default 0.0)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM:18
+msgid ""
+"If True, a bidirectinoal model that scans the sequence both right-to-left"
+" and left-to-right is used (default False)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM:21
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLSTM_Layer:16
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU:37
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU_Layer:19
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN:22
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN_Layer:18
+msgid ""
+"(glorot, he). This parameter controls the initialization criterion of the"
+" weights. It is combined with weights_init to build the initialization "
+"method of the quaternion-valued weights (default \"glorot\")."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM:26
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLSTM_Layer:21
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN:27
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN_Layer:23
+msgid ""
+"(quaternion, unitary). This parameter defines the initialization "
+"procedure of the quaternion-valued weights. \"quaternion\" will generate "
+"random quaternion weights following the init_criterion and the quaternion"
+" polar form. \"unitary\" will normalize the weights to lie on the unit "
+"circle (default \"quaternion\"). More details in: \"Quaternion Recurrent "
+"Neural Networks\", Parcollet T. et al."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM:34
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLSTM_Layer:29
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU:49
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU_Layer:31
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN:35
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN_Layer:31
+msgid ""
+"When True, the default PyTorch autograd will be used. When False, a "
+"custom backpropagation will be used, reducing by a factor 3 to 4 the "
+"memory consumption. It is also 2x slower (default True)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM:40
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU:55
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN:41
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM.forward:1
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN.forward:1
+msgid "Returns the output of the vanilla QuaternionRNN."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM.forward:3
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLSTM_Layer.forward:3
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU_Layer.forward:3
+msgid "Input tensor."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM_Layer:3
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN_Layer:3
+msgid "Feature dimensionality of the input tensors (in term of real values)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM_Layer:5
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU_Layer:6
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN_Layer:5
+msgid "Batch size of the input tensors."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM_Layer:7
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN_Layer:7
+msgid "Number of output values (in term of real values)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM_Layer:13
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN:19
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN_Layer:15
+msgid ""
+"If True, a bidirectional model that scans the sequence both right-to-left"
+" and left-to-right is used (default False)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLSTM_Layer.forward:1
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN_Layer.forward:1
+msgid "Returns the output of the QuaternionRNN_layer."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QRNN:7
+msgid ""
+"Number of output neurons (i.e, the dimensionality of the output). "
+"Specified value is in term of quaternion-valued neurons. Thus, the output"
+" is 4*hidden_size."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QRNN:13
+#: speechbrain.nnet.quaternion_networks.q_RNN.QRNN_Layer:11
+msgid "Type of nonlinearity (tanh, relu) (default \"tanh\")."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU:3
+msgid ""
+"Ligru is single-gate GRU model based on batch-norm + relu activations + "
+"recurrent dropout. For more info see:"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU:6
+msgid ""
+"\"M. Ravanelli, P. Brakel, M. Omologo, Y. Bengio, Light Gated Recurrent "
+"Units for Speech Recognition, in IEEE Transactions on Emerging Topics in "
+"Computational Intelligence, 2018\" (https://arxiv.org/abs/1803.10225)"
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU:11
+msgid ""
+"To speed it up, it is compiled with the torch just-in-time compiler (jit)"
+" right before using it."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU:14
+msgid ""
+"It accepts in input tensors formatted as (batch, time, fea). In the case "
+"of 4d inputs like (batch, time, fea, channel) the tensor is flattened as "
+"(batch, time, fea*channel)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU:18
+msgid ""
+"Number of output neurons (i.e, the dimensionality of the output). "
+"Specified value is in term of quaternion-valued neurons. Thus, the output"
+" is 2*hidden_size."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU:22
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU_Layer:12
+msgid "Type of nonlinearity (tanh, relu)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU:24
+msgid ""
+"Type of normalization for the ligru model (batchnorm, layernorm). Every "
+"string different from batchnorm and layernorm will result in no "
+"normalization."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU:28
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU_Layer:10
+msgid "Number of layers to employ in the RNN architecture."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU:30
+msgid "If True, the additive bias b is adopted."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU:32
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU_Layer:14
+msgid "It is the dropout factor (must be between 0 and 1)."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU:34
+#: speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU_Layer:16
+msgid ""
+"If True, a bidirectional model that scans the sequence both right-to-left"
+" and left-to-right is used."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU:42
+msgid ""
+"(quaternion, unitary). This parameter defines the initialization "
+"procedure of the quaternion-valued weights. \"quaternion\" will generate "
+"random quaternion-valued weights following the init_criterion and the "
+"quaternion polar form. \"unitary\" will normalize the weights to lie on "
+"the unit circle (default \"quaternion\"). More details in: \"Deep "
+"quaternion Networks\", Trabelsi C. et al."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU.forward:1
+msgid "Returns the output of the QuaternionliGRU."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU_Layer:4
+msgid "Feature dimensionality of the input tensors."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU_Layer:8
+msgid "Number of output values."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU_Layer:24
+msgid ""
+"(quaternion, unitary). This parameter defines the initialization "
+"procedure of the quaternion-valued weights. \"quaternion\" will generate "
+"random quaternion weights following the init_criterion and the quaternion"
+" polar form. \"unitary\" will normalize the weights to lie on the unit "
+"circle (default \"quaternion\"). More details in: \"Deep quaternion "
+"Networks\", Trabelsi C. et al."
+msgstr ""
+
+#: of speechbrain.nnet.quaternion_networks.q_RNN.QLiGRU_Layer.forward:1
+msgid "Returns the output of the quaternion liGRU layer."
+msgstr ""
+

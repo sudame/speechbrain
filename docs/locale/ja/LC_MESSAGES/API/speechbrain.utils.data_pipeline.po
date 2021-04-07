@@ -1,0 +1,363 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.utils.data_pipeline.rst:5
+msgid "speechbrain.utils.data_pipeline module"
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline:1
+msgid "A pipeline for data transformations."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline:4
+#: speechbrain.utils.data_pipeline.DataPipeline:4
+#: speechbrain.utils.data_pipeline.GeneratorDynamicItem:18
+#: speechbrain.utils.data_pipeline.takes:15
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline:23
+msgid "Author:"
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline:23
+msgid "Aku Rouhe"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_pipeline.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_pipeline.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_pipeline.rst:27:<autosummary>:1
+msgid ":obj:`DataPipeline <speechbrain.utils.data_pipeline.DataPipeline>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_pipeline.rst:27:<autosummary>:1 of
+#: speechbrain.utils.data_pipeline.DataPipeline:1
+msgid "Organises data transformations into a pipeline."
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_pipeline.rst:27:<autosummary>:1
+msgid ":obj:`DynamicItem <speechbrain.utils.data_pipeline.DynamicItem>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_pipeline.rst:27:<autosummary>:1 of
+#: speechbrain.utils.data_pipeline.DynamicItem:1
+msgid "Essentially represents a data transformation function."
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_pipeline.rst:27:<autosummary>:1
+msgid ""
+":obj:`GeneratorDynamicItem "
+"<speechbrain.utils.data_pipeline.GeneratorDynamicItem>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_pipeline.rst:27:<autosummary>:1 of
+#: speechbrain.utils.data_pipeline.GeneratorDynamicItem:1
+msgid "Essentially represents a multi-step data transformation."
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_pipeline.rst:27:<autosummary>:1
+msgid ":obj:`StaticItem <speechbrain.utils.data_pipeline.StaticItem>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_pipeline.rst:27:<autosummary>:1 of
+#: speechbrain.utils.data_pipeline.StaticItem:1
+msgid "Data class that represents a static item."
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_pipeline.rst:28
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_pipeline.rst:44:<autosummary>:1
+msgid ":obj:`provides <speechbrain.utils.data_pipeline.provides>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_pipeline.rst:44:<autosummary>:1 of
+#: speechbrain.utils.data_pipeline.provides:1
+msgid "Decorator which makes a DynamicItem and specifies what keys it provides."
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_pipeline.rst:44:<autosummary>:1
+msgid ""
+":obj:`provides_decorator "
+"<speechbrain.utils.data_pipeline.provides_decorator>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_pipeline.rst:44:<autosummary>:1
+msgid ":obj:`takes <speechbrain.utils.data_pipeline.takes>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_pipeline.rst:44:<autosummary>:1 of
+#: speechbrain.utils.data_pipeline.takes:1
+msgid "Decorator which makes a DynamicItem and specifies its argkeys."
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_pipeline.rst:44:<autosummary>:1
+msgid ":obj:`takes_decorator <speechbrain.utils.data_pipeline.takes_decorator>`"
+msgstr ""
+
+#: ../../API/speechbrain.utils.data_pipeline.rst:46
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline:1
+#: speechbrain.utils.data_pipeline.DynamicItem:1
+#: speechbrain.utils.data_pipeline.StaticItem:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.StaticItem:3
+msgid ""
+"Static items are in-memory items so they don't need to be computed "
+"dynamically."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DynamicItem:3
+msgid ""
+"A DynamicItem takes some arguments and computes its value dynamically "
+"when called. A straight-forward use-case is to load something from disk "
+"dynamically; take the path and provide the loaded data."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DynamicItem:7
+msgid ""
+"Instances of this class are often created implicitly via the @takes and "
+"@provides decorators or otherwise from specifying the taken and provided "
+"arguments and the function."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DynamicItem:11
+msgid ""
+"A counterpart is the GeneratorDynamicItem, which should be used for "
+"generator functions."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.add_dynamic_item
+#: speechbrain.utils.data_pipeline.DataPipeline.compute_outputs
+#: speechbrain.utils.data_pipeline.DataPipeline.set_output_keys
+#: speechbrain.utils.data_pipeline.DynamicItem
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DynamicItem:14
+msgid "The keys of the items that this needs to compute its output."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DynamicItem:16
+msgid "The function that is used to compute the output."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DynamicItem:18
+msgid "The keys that this provides."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DynamicItem.next_takes:1
+msgid "The next argkeys to provide to this, when called."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DynamicItem.next_provides:1
+msgid "The next keys that this provides, when called."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DynamicItem.provided_in_order:1
+msgid ""
+"Assuming that this may need to be called multiple times; which keys does "
+"it provide at that call. Returns a list, with len equal to the number of "
+"times that this may be called."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DynamicItem.reset:1
+msgid "Signals that this will not be called any more times on this pipeline call."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.GeneratorDynamicItem:1
+msgid "Bases: :class:`speechbrain.utils.data_pipeline.DynamicItem`"
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.GeneratorDynamicItem:3
+msgid ""
+"This is the generator function counterpart for DynamicItem (which should "
+"be used for regular functions)."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.GeneratorDynamicItem:6
+msgid ""
+"A GeneratorDynamicItem first takes some arguments and then uses those in "
+"multiple steps to incrementally compute some values when called."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.GeneratorDynamicItem:9
+msgid ""
+"A typical use-case is a pipeline of transformations on data: e.g. taking "
+"in text as a string, and first a tokenized version, and then on the "
+"second call providing an integer-encoded version. This can be used even "
+"though the integer-encoder needs to be trained on the first outputs."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.GeneratorDynamicItem:14
+msgid ""
+"The main benefit is to be able to define the pipeline in a clear "
+"function, even if parts of the pipeline depend on others for their "
+"initialization."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.takes:3
+msgid ""
+"If the wrapped object is a generator function (has a yield statement), "
+"Creates a GeneratorDynamicItem. If the object is already a DynamicItem, "
+"just specifies the argkeys for that. Otherwise creates a new regular "
+"DynamicItem, with argkeys specified."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.takes:8
+msgid ""
+"The args are always passed to the function at the start. Generators could"
+" support sending new arguments, but for such use cases, simply create a "
+"new dynamic item. The GeneratorDynamicItem class is meant for pipelines "
+"which take in an input and transform it in multiple ways, where the "
+"intermediate representations may be needed for e.g. fitting a BPE "
+"segmenter."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.provides:3
+msgid ""
+"If the wrapped object is a generator function (has a yield statement), "
+"Creates a GeneratorDynamicItem. If the object is already a DynamicItem, "
+"just specifies the provided keys for that. Otherwise creates a new "
+"regular DynamicItem, with provided keys specified."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.provides:10
+msgid ""
+"The behavior is slightly different for generators and regular functions, "
+"if many output keys are specified, e.g. @provides(\"signal\", \"mfcc\"). "
+"Regular functions should return a tuple with len equal to "
+"len(output_keys), while generators should yield the items one by one."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.provides:27
+msgid "If multiple keys are yielded at once, write e.g.,"
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.add_static_keys:1
+msgid "Informs the pipeline about static items."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.add_static_keys:3
+msgid "Static items are the ones provided to __call__ as data."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.add_dynamic_items:1
+msgid "Add multiple dynamic items at once."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.add_dynamic_item:1
+msgid "Adds a dynamic item to the Pipeline."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.add_dynamic_item:3
+msgid ""
+"Two calling conventions. For DynamicItem objects, just use: "
+"add_dynamic_item(dynamic_item) But otherwise, should use: "
+"add_dynamic_item(func, takes, provides)"
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.add_dynamic_item:8
+msgid ""
+"If a DynamicItem is given, adds that directly. Otherwise a DynamicItem is"
+" created, and this specifies the callable to use. If a generator function"
+" is given, then create a GeneratorDynamicItem. Otherwise creates a normal"
+" DynamicItem."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.add_dynamic_item:13
+msgid ""
+"List of keys. When func is called, each key is resolved to either an "
+"entry in the data or the output of another dynamic_item. The func is then"
+" called with these as positional arguments, in the same order as "
+"specified here. A single key can be given as a bare string."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.add_dynamic_item:19
+msgid ""
+"For regular functions, the key or list of keys that it provides. If you "
+"give a generator function, key or list of keys that it yields, in order. "
+"Also see the provides decorator. A single key can be given as a bare "
+"string."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.set_output_keys:1
+msgid "Use this to change the output keys."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.set_output_keys:3
+msgid ""
+"Also re-evaluates execution order. So if you request different outputs, "
+"some parts of the data pipeline may be skipped."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.set_output_keys:7
+msgid ""
+"List of keys (str) to produce in output.  If a dict is given; it is used "
+"to map internal keys to output keys. From the output_keys dict key:value "
+"pairs the key appears outside, and value is the internal key."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.set_output_keys:7
+msgid "List of keys (str) to produce in output."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.set_output_keys:9
+msgid ""
+"If a dict is given; it is used to map internal keys to output keys. From "
+"the output_keys dict key:value pairs the key appears outside, and value "
+"is the internal key."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.compute_outputs:1
+msgid "Dictionary with data entries by key."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.compute_outputs
+msgid "Returns"
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.compute_outputs:4
+msgid "With the keys that were set."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.compute_outputs
+msgid "Return type"
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.compute_specific:1
+msgid "Compute output of specific item, without changing output_keys."
+msgstr ""
+
+#: of speechbrain.utils.data_pipeline.DataPipeline.get_selected_node_ids:1
+msgid "Translates selected keys to dependency graph keys."
+msgstr ""
+

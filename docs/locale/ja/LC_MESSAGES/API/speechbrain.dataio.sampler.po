@@ -1,0 +1,363 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.dataio.sampler.rst:5
+msgid "speechbrain.dataio.sampler module"
+msgstr ""
+
+#: of speechbrain.dataio.sampler:1
+msgid "PyTorch compatible samplers."
+msgstr ""
+
+#: of speechbrain.dataio.sampler:3
+msgid "These determine the order of iteration through a dataset."
+msgstr ""
+
+#: of speechbrain.dataio.sampler:8
+msgid "Authors:"
+msgstr ""
+
+#: of speechbrain.dataio.sampler:6
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: of speechbrain.dataio.sampler:7
+msgid "Samuele Cornell 2020"
+msgstr ""
+
+#: of speechbrain.dataio.sampler:8
+msgid "Ralf Leibold 2020"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.sampler.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.sampler.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.sampler.rst:35:<autosummary>:1
+msgid ""
+":obj:`ConcatDatasetBatchSampler "
+"<speechbrain.dataio.sampler.ConcatDatasetBatchSampler>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.sampler.rst:35:<autosummary>:1 of
+#: speechbrain.dataio.sampler.ConcatDatasetBatchSampler:1
+msgid "This sampler is built to work with a standard Pytorch ConcatDataset."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.sampler.rst:35:<autosummary>:1
+msgid ""
+":obj:`DistributedSamplerWrapper "
+"<speechbrain.dataio.sampler.DistributedSamplerWrapper>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.sampler.rst:35:<autosummary>:1 of
+#: speechbrain.dataio.sampler.DistributedSamplerWrapper:1
+msgid ""
+"This wrapper allows using any sampler with Distributed Data Parallel "
+"(DDP) correctly."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.sampler.rst:35:<autosummary>:1
+msgid ""
+":obj:`DynamicBatchSampler "
+"<speechbrain.dataio.sampler.DynamicBatchSampler>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.sampler.rst:35:<autosummary>:1 of
+#: speechbrain.dataio.sampler.DynamicBatchSampler:1
+msgid ""
+"This BatchSampler batches examples together by grouping them by their "
+"length."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.sampler.rst:35:<autosummary>:1
+msgid ""
+":obj:`ReproducibleRandomSampler "
+"<speechbrain.dataio.sampler.ReproducibleRandomSampler>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.sampler.rst:35:<autosummary>:1 of
+#: speechbrain.dataio.sampler.ReproducibleRandomSampler:1
+msgid "A modification of RandomSampler which always returns the same values."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.sampler.rst:35:<autosummary>:1
+msgid ""
+":obj:`ReproducibleWeightedRandomSampler "
+"<speechbrain.dataio.sampler.ReproducibleWeightedRandomSampler>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.sampler.rst:35:<autosummary>:1 of
+#: speechbrain.dataio.sampler.ReproducibleWeightedRandomSampler:1
+msgid "A reproducible modification of WeightedRandomSampler."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.sampler.rst:37
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.dataio.sampler.ReproducibleRandomSampler:1
+#: speechbrain.dataio.sampler.ReproducibleWeightedRandomSampler:1
+msgid "Bases: :class:`torch.utils.data.sampler.Sampler`\\ [:class:`int`]"
+msgstr ""
+
+#: of speechbrain.dataio.sampler.ReproducibleRandomSampler:3
+msgid ""
+"Also look at `torch.utils.data.RandomSampler`. This has mostly the same "
+"behaviour and arguments, except for adding 'seed' and 'epoch' and not "
+"supporting 'generator'."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.ReproducibleRandomSampler:9
+#: speechbrain.dataio.sampler.ReproducibleWeightedRandomSampler:9
+msgid ""
+"Call `set_epoch` before every epoch. Otherwise, the sampler will produce "
+"the same sequence of indices every epoch."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.ConcatDatasetBatchSampler
+#: speechbrain.dataio.sampler.DynamicBatchSampler
+#: speechbrain.dataio.sampler.ReproducibleRandomSampler
+#: speechbrain.dataio.sampler.ReproducibleWeightedRandomSampler
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.dataio.sampler.ReproducibleRandomSampler:12
+msgid "The data source to sample indices for."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.ConcatDatasetBatchSampler:16
+#: speechbrain.dataio.sampler.ReproducibleRandomSampler:14
+#: speechbrain.dataio.sampler.ReproducibleWeightedRandomSampler:18
+msgid ""
+"The base seed to use for the random number generator. It is recommended "
+"to use a value which has a good mix of 0 and 1 bits."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.ConcatDatasetBatchSampler:21
+#: speechbrain.dataio.sampler.DynamicBatchSampler:86
+#: speechbrain.dataio.sampler.ReproducibleRandomSampler:17
+#: speechbrain.dataio.sampler.ReproducibleWeightedRandomSampler:21
+msgid "The epoch to start at."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.ConcatDatasetBatchSampler:25
+#: speechbrain.dataio.sampler.DynamicBatchSampler:40
+#: speechbrain.dataio.sampler.ReproducibleRandomSampler:21
+#: speechbrain.dataio.sampler.ReproducibleWeightedRandomSampler:25
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.dataio.sampler.DynamicBatchSampler.set_epoch:1
+#: speechbrain.dataio.sampler.ReproducibleRandomSampler.set_epoch:1
+#: speechbrain.dataio.sampler.ReproducibleWeightedRandomSampler.set_epoch:1
+msgid ""
+"You can also just access self.epoch, but we maintain this interface to "
+"mirror torch.utils.data.distributed.DistributedSampler"
+msgstr ""
+
+#: of speechbrain.dataio.sampler.ReproducibleWeightedRandomSampler:3
+msgid ""
+"Also look at `torch.utils.data.WeightedRandomSampler`. This has the the "
+"same behaviour and arguments, except for adding 'seed' and 'epoch' and "
+"not supporting 'generator'."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.ReproducibleWeightedRandomSampler:12
+msgid "Weights for each index. Doesn't need to sum to one."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.ReproducibleWeightedRandomSampler:14
+msgid "Number of samples to draw"
+msgstr ""
+
+#: of speechbrain.dataio.sampler.ReproducibleWeightedRandomSampler:16
+msgid "To draw with replacement or not (within an epoch of num_samples)."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.ConcatDatasetBatchSampler:1
+#: speechbrain.dataio.sampler.DynamicBatchSampler:1
+msgid "Bases: :class:`Generic`\\ [:obj:`torch.utils.data.sampler.T_co`]"
+msgstr ""
+
+#: of speechbrain.dataio.sampler.ConcatDatasetBatchSampler:3
+msgid ""
+"It is used to retrieve elements from the different concatenated datasets "
+"placing them in the same batch with proportion specified by batch_sizes, "
+"e.g 8, 16 means each batch will be of 24 elements with the first 8 "
+"belonging to the first dataset in ConcatDataset object and the last 16 to"
+" the second. More than two datasets are supported, in that case you need "
+"to provide 3 batch sizes."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.ConcatDatasetBatchSampler:12
+msgid ""
+"Batched are drawn from the datasets till the one with smallest length is "
+"exhausted. Thus number of examples in your training epoch is dictated by "
+"the dataset whose length is the smallest."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.ConcatDatasetBatchSampler:19
+msgid "Batch sizes."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.ConcatDatasetBatchSampler.set_epoch:1
+msgid ""
+"You can also just access self.epoch, but we maintain this interface to "
+"mirror ``torch.utils.data.distributed.DistributedSampler``."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.DynamicBatchSampler:3
+msgid ""
+"Every example in the batch have approximatively the same length and thus "
+"padding is minimized. This enables faster training on datasets where "
+"length of examples can vary significantly (e.g Librispeech). Inspired by:"
+" "
+"https://www.tensorflow.org/api_docs/python/tf/data/experimental/bucket_by_sequence_length"
+msgstr ""
+
+#: of speechbrain.dataio.sampler.DynamicBatchSampler:9
+msgid ""
+"Dynamic batching is performed by specifying a max_batch_length which is "
+"the upper limit for the sum of the length of examples in a batch: e.g., "
+"if ex1 has length 4, ex2 length 5 andn if max_batch_length is set to 6 "
+"ex1 and ex2 will be placed, alone, in two distinct batches."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.DynamicBatchSampler:14
+msgid ""
+"Length for each example can be obtained in two manners. If the input "
+"dataset is a DynamicItemDataset it can be obtained by specifying a "
+"length_func. Default assumes a \"duration\" entry is in the annotation. "
+"Length for each example can also be passed to this class upon "
+"instantiation by specifying a list containing the length for each example"
+" and passing it to lengths_list."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.DynamicBatchSampler:21
+msgid ""
+"Examples are grouped together by defining a set of possible discrete "
+"intervals (buckets) multiple of a left_bucket_length. A "
+"bucket_length_multiplier is used to specify the number of possible "
+"buckets. E.g., if max_batch_length = 32 and left_bucket_length = 10, "
+"bucket_length_multiplier = 2 there will be 3 buckets: [0, 10), [10, 20), "
+"[20, 40). A common choice would be setting left_bucket_length to "
+"approximatively the length of your shortest example in the dataset. "
+"Decreasing bucket_length_multiplier creates more buckets in the whole "
+"interval of [left_bucket_length, max_batch_size]: e.g. if "
+"max_batch_length = 32 and left_bucket_length = 10, "
+"bucket_length_multiplier = 1.5 the number of buckets increases to 8. With"
+" right boundaries: [10 12 14 17 21 25 30 36]. Thus examples with length "
+"less than 10 are all grouped together but more buckets are created for "
+"longer examples. Note that the bucket boundary grows exponentially using "
+"the multiplier."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.DynamicBatchSampler:36
+msgid ""
+"The buckets can also be specified by passing a list to the "
+"bucket_boundaries argument instead of specifying a left_bucket_length and"
+" a bucket_length_multiplier."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.DynamicBatchSampler:59
+msgid "Pytorch Dataset from which elements will be sampled."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.DynamicBatchSampler:61
+msgid ""
+"Upper limit for the sum of the length of examples in a batch. Should be "
+"chosen based on your GPU memory."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.DynamicBatchSampler:64
+msgid ""
+"Minimum length of a bucket. Specifies resolution of buckets and thus this"
+" sampler stochasticity. A common choice is to set this to length of your "
+"shortest example."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.DynamicBatchSampler:68
+msgid ""
+"Multiplier for bucket length, specifies number of buckets from "
+"left_bucket_length to max_batch_length."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.DynamicBatchSampler:71
+msgid ""
+"Function used to get length of each example from the dataset. This "
+"argument can be used only when the dataset is a Speechbrain "
+"DynamicItemDataset object. Can be anything: e.g. lambda x: "
+"x[\"duration\"]*16000 returns number of samples if duration key in the "
+"annotation is in seconds and the file has 16kHz sampling freq."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.DynamicBatchSampler:76
+msgid "Whether or not shuffle examples between each epoch."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.DynamicBatchSampler:78
+msgid ""
+"Overrides bucket_length_multiplier and left_bucket_length by specifying "
+"manually the buckets right boundaries."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.DynamicBatchSampler:81
+msgid ""
+"Overrides length_func by passing a list containing the length of each "
+"example in the dataset. This argument must be set when the dataset is a "
+"plain Pytorch Dataset object and not a DynamicItemDataset object as "
+"length_func cannot be used on Pytorch Datasets."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.DynamicBatchSampler:88
+msgid ""
+"If ``True``, the sampler will drop the last examples which have not been "
+"grouped."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.DistributedSamplerWrapper:1
+msgid ""
+"Bases: :class:`torch.utils.data.sampler.Sampler`\\ "
+"[:obj:`torch.utils.data.distributed.T_co`]"
+msgstr ""
+
+#: of speechbrain.dataio.sampler.DistributedSamplerWrapper:3
+msgid ""
+"Passing blindly the sampler to each DDP process will cause to have access"
+" within each process to all the data in the dataset instead of only a "
+"subset of it which is unique to each process.  This wrapper prevents this"
+" and allows to use only a subset of the original data for each process."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.DistributedSamplerWrapper:10
+msgid ""
+"This is is automatically applied to any sampler in the Brain class when "
+"DDP training is used."
+msgstr ""
+
+#: of speechbrain.dataio.sampler.DistributedSamplerWrapper.set_epoch:1
+msgid "Pass set_epoch() through to DistributedSampler and the wrapper one"
+msgstr ""
+

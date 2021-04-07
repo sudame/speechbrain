@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.lobes.models.transformer.TransformerSE.rst:5
+msgid "speechbrain.lobes.models.transformer.TransformerSE module"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerSE:1
+msgid "CNN Transformer model for SE in the SpeechBrain style."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerSE:3
+msgid "Authors * Chien-Feng Liao 2020"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.TransformerSE.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.TransformerSE.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.TransformerSE.rst:31:<autosummary>:1
+msgid ""
+":obj:`CNNTransformerSE "
+"<speechbrain.lobes.models.transformer.TransformerSE.CNNTransformerSE>`"
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.TransformerSE.rst:31:<autosummary>:1
+#: of speechbrain.lobes.models.transformer.TransformerSE.CNNTransformerSE:1
+msgid ""
+"This is an implementation of transformer model with CNN pre-encoder for "
+"SE."
+msgstr ""
+
+#: ../../API/speechbrain.lobes.models.transformer.TransformerSE.rst:33
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerSE.CNNTransformerSE:1
+msgid ""
+"Bases: "
+":class:`speechbrain.lobes.models.transformer.Transformer.TransformerInterface`"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerSE.CNNTransformerSE
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerSE.CNNTransformerSE:3
+msgid "The number of expected features in the encoder inputs."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerSE.CNNTransformerSE:5
+msgid "The number of neurons in the output layer."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerSE.CNNTransformerSE:7
+msgid "The activation function of the output layer (default=ReLU)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerSE.CNNTransformerSE:9
+msgid "The number of heads in the multi-head attention models (default=8)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerSE.CNNTransformerSE:11
+msgid "The number of sub-layers in the transformer (default=8)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerSE.CNNTransformerSE:13
+msgid "The number of expected features in the encoder layers (default=512)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerSE.CNNTransformerSE:15
+msgid "The dropout value (default=0.1)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerSE.CNNTransformerSE:17
+msgid "The activation function of intermediate layers (default=LeakyReLU)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerSE.CNNTransformerSE:19
+msgid ""
+"True for causal setting, the model is forbidden to see future frames "
+"(default=True)."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerSE.CNNTransformerSE:21
+msgid "Module that processes the input features before the transformer model."
+msgstr ""
+
+#: of speechbrain.lobes.models.transformer.TransformerSE.CNNTransformerSE:25
+msgid "Example"
+msgstr ""
+

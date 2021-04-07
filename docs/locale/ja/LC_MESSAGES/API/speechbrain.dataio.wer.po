@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.dataio.wer.rst:5
+msgid "speechbrain.dataio.wer module"
+msgstr ""
+
+#: of speechbrain.dataio.wer:1
+msgid "WER print functions."
+msgstr ""
+
+#: of speechbrain.dataio.wer:3
+msgid ""
+"The functions here are used to print the computed statistics with human-"
+"readable formatting. They have a file argument, but you can also just use"
+" contextlib.redirect_stdout, which may give a nicer syntax."
+msgstr ""
+
+#: of speechbrain.dataio.wer:9
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.dataio.wer:9
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.wer.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.wer.rst:18
+msgid "Functions:"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.wer.rst:32:<autosummary>:1
+msgid ":obj:`print_alignments <speechbrain.dataio.wer.print_alignments>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.wer.rst:32:<autosummary>:1 of
+#: speechbrain.dataio.wer.print_alignments:1
+msgid "Print WER summary and alignments."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.wer.rst:32:<autosummary>:1
+msgid ":obj:`print_wer_summary <speechbrain.dataio.wer.print_wer_summary>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.wer.rst:32:<autosummary>:1 of
+#: speechbrain.dataio.wer.print_wer_summary:1
+msgid "Prints out WER summary details in human-readable format."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.wer.rst:34
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.dataio.wer.print_wer_summary:3
+msgid "This function essentially mirrors the Kaldi compute-wer output format."
+msgstr ""
+
+#: of speechbrain.dataio.wer.print_alignments
+#: speechbrain.dataio.wer.print_wer_summary
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.dataio.wer.print_wer_summary:5
+msgid ""
+"Dict of wer summary details, see "
+"``speechbrain.utils.edit_distance.wer_summary`` for format."
+msgstr ""
+
+#: of speechbrain.dataio.wer.print_alignments:7
+#: speechbrain.dataio.wer.print_wer_summary:9
+msgid "Where to write. (default: sys.stdout)"
+msgstr ""
+
+#: of speechbrain.dataio.wer.print_alignments:3
+msgid ""
+"List of wer details by utterance, see "
+"``speechbrain.utils.edit_distance.wer_details_by_utterance`` for format. "
+"Has to have alignments included."
+msgstr ""
+
+#: of speechbrain.dataio.wer.print_alignments:9
+msgid "Symbol to use when aligning to nothing."
+msgstr ""
+
+#: of speechbrain.dataio.wer.print_alignments:11
+msgid ""
+"String that separates each token in the output. Note the spaces in the "
+"default."
+msgstr ""
+

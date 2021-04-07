@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.dataio.preprocess.rst:5
+msgid "speechbrain.dataio.preprocess module"
+msgstr ""
+
+#: of speechbrain.dataio.preprocess:1
+msgid "Preprocessors for audio"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.preprocess.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.preprocess.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.preprocess.rst:31:<autosummary>:1
+msgid ":obj:`AudioNormalizer <speechbrain.dataio.preprocess.AudioNormalizer>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.preprocess.rst:31:<autosummary>:1 of
+#: speechbrain.dataio.preprocess.AudioNormalizer:1
+msgid "Normalizes audio into a standard format"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.preprocess.rst:33
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.dataio.preprocess.AudioNormalizer:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: of speechbrain.dataio.preprocess.AudioNormalizer
+#: speechbrain.dataio.preprocess.AudioNormalizer.__call__
+msgid "Parameters"
+msgstr ""
+
+#: of speechbrain.dataio.preprocess.AudioNormalizer:3
+msgid "The sampling rate to which the incoming signals should be converted."
+msgstr ""
+
+#: of speechbrain.dataio.preprocess.AudioNormalizer:5
+msgid ""
+"\"avg-to-mono\" - add all channels together and normalize by number of "
+"channels. This also removes the channel dimension, resulting in [time] "
+"format tensor. \"keep\" - don't normalize channel information"
+msgstr ""
+
+#: of speechbrain.dataio.preprocess.AudioNormalizer:12
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.dataio.preprocess.AudioNormalizer:25
+msgid ""
+"This will also upsample audio. However, upsampling cannot produce "
+"meaningful information in the bandwidth which it adds. Generally models "
+"will not work well for upsampled data if they have not specifically been "
+"trained to do so."
+msgstr ""
+
+#: of speechbrain.dataio.preprocess.AudioNormalizer.__call__:1
+msgid "Perform normalization"
+msgstr ""
+
+#: of speechbrain.dataio.preprocess.AudioNormalizer.__call__:3
+msgid "The input waveform torch tensor. Assuming [time, channels], or [time]."
+msgstr ""
+

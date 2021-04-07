@@ -1,0 +1,668 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, SpeechBrain
+# This file is distributed under the same license as the SpeechBrain
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeechBrain \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-07 13:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../API/speechbrain.dataio.encoder.rst:5
+msgid "speechbrain.dataio.encoder module"
+msgstr ""
+
+#: of speechbrain.dataio.encoder:1
+msgid "Encoding categorical data as integers"
+msgstr ""
+
+#: of speechbrain.dataio.encoder:5
+msgid "Authors"
+msgstr ""
+
+#: of speechbrain.dataio.encoder:4
+msgid "Samuele Cornell 2020"
+msgstr ""
+
+#: of speechbrain.dataio.encoder:5
+msgid "Aku Rouhe 2020"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.encoder.rst:16
+msgid "Summary"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.encoder.rst:18
+msgid "Classes:"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.encoder.rst:33:<autosummary>:1
+msgid ":obj:`CTCTextEncoder <speechbrain.dataio.encoder.CTCTextEncoder>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.encoder.rst:33:<autosummary>:1 of
+#: speechbrain.dataio.encoder.CTCTextEncoder:1
+msgid ""
+"Subclass of TextEncoder which also provides methods to handle CTC blank "
+"token."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.encoder.rst:33:<autosummary>:1
+msgid ":obj:`CategoricalEncoder <speechbrain.dataio.encoder.CategoricalEncoder>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.encoder.rst:33:<autosummary>:1 of
+#: speechbrain.dataio.encoder.CategoricalEncoder:1
+msgid "Encode labels of a discrete set."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.encoder.rst:33:<autosummary>:1
+msgid ":obj:`TextEncoder <speechbrain.dataio.encoder.TextEncoder>`"
+msgstr ""
+
+#: ../../API/speechbrain.dataio.encoder.rst:33:<autosummary>:1
+msgid ""
+"CategoricalEncoder subclass which offers specific methods for encoding "
+"text and handle special tokens for training of sequence to sequence "
+"models."
+msgstr ""
+
+#: ../../API/speechbrain.dataio.encoder.rst:35
+msgid "Reference"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder:3
+msgid ""
+"Used for encoding, e.g., speaker identities in speaker recognition. Given"
+" a collection of hashables (e.g a strings) it encodes every unique item "
+"to an integer value: [\"spk0\", \"spk1\"] --> [0, 1] Internally the "
+"correspondence between each label to its index is handled by two "
+"dictionaries: lab2ind and ind2lab."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder:9
+msgid ""
+"The label integer encoding can be generated automatically from a "
+"SpeechBrain DynamicItemDataset by specifying the desired entry (e.g., "
+"spkid) in the annotation and calling update_from_didataset method:"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder:21
+msgid "However can also be updated from an iterable:"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder:32
+msgid ""
+"In both methods it can be specified it the single element in the iterable"
+" or in the dataset should be treated as a sequence or not (default "
+"False). If it is a sequence each element in the sequence will be encoded."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder:43
+msgid ""
+"This class offers 4 different methods to explicitly add a label in the "
+"internal dicts: add_label, ensure_label, insert_label, enforce_label. "
+"add_label and insert_label will raise an error if it is already present "
+"in the internal dicts. insert_label, enforce_label allow also to specify "
+"the integer value to which the desired label is encoded."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder:49
+msgid ""
+"Encoding can be performed using 4 different methods: encode_label, "
+"encode_sequence, encode_label_torch and encode_sequence_torch. "
+"encode_label operate on single labels and simply returns the "
+"corresponding integer encoding:"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder:80
+msgid ""
+"In some applications, it can happen that during testing a label which has"
+" not been encountered during training is encountered. To handle this out-"
+"of-vocabulary problem add_unk can be used. Every out-of-vocab label is "
+"mapped to this special <unk> label and its corresponding integer "
+"encoding."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder:98
+msgid ""
+"This class offers also methods to save and load the internal mappings "
+"between labels and tokens using: save and load methods as well as "
+"load_or_create."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.from_saved:1
+msgid "Recreate a previously saved encoder directly"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.update_from_iterable:1
+msgid "Update from iterator"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CTCTextEncoder.collapse_indices_ndim
+#: speechbrain.dataio.encoder.CTCTextEncoder.collapse_labels
+#: speechbrain.dataio.encoder.CategoricalEncoder.add_label
+#: speechbrain.dataio.encoder.CategoricalEncoder.add_unk
+#: speechbrain.dataio.encoder.CategoricalEncoder.decode_ndim
+#: speechbrain.dataio.encoder.CategoricalEncoder.decode_torch
+#: speechbrain.dataio.encoder.CategoricalEncoder.encode_label
+#: speechbrain.dataio.encoder.CategoricalEncoder.encode_label_torch
+#: speechbrain.dataio.encoder.CategoricalEncoder.encode_sequence
+#: speechbrain.dataio.encoder.CategoricalEncoder.encode_sequence_torch
+#: speechbrain.dataio.encoder.CategoricalEncoder.ensure_label
+#: speechbrain.dataio.encoder.CategoricalEncoder.insert_label
+#: speechbrain.dataio.encoder.CategoricalEncoder.limited_labelset_from_iterable
+#: speechbrain.dataio.encoder.CategoricalEncoder.load
+#: speechbrain.dataio.encoder.CategoricalEncoder.load_if_possible
+#: speechbrain.dataio.encoder.CategoricalEncoder.save
+#: speechbrain.dataio.encoder.CategoricalEncoder.update_from_didataset
+#: speechbrain.dataio.encoder.CategoricalEncoder.update_from_iterable
+#: speechbrain.dataio.encoder.TextEncoder.add_bos_eos
+#: speechbrain.dataio.encoder.TextEncoder.insert_bos_eos
+msgid "Parameters"
+msgstr ""
+
+#: of
+#: speechbrain.dataio.encoder.CategoricalEncoder.limited_labelset_from_iterable:5
+#: speechbrain.dataio.encoder.CategoricalEncoder.update_from_iterable:3
+msgid "Input sequence on which to operate."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.update_from_iterable:5
+msgid ""
+"Whether iterable yields sequences of labels or individual labels "
+"directly. (default False)"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.update_from_didataset:1
+msgid "Update from DynamicItemDataset."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.update_from_didataset:3
+msgid "Dataset on which to operate."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.update_from_didataset:5
+msgid "Key in the dataset (in data or a dynamic item) to encode."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.update_from_didataset:7
+msgid ""
+"Whether the data yielded with the specified key consists of sequences of "
+"labels or individual labels directly."
+msgstr ""
+
+#: of
+#: speechbrain.dataio.encoder.CategoricalEncoder.limited_labelset_from_iterable:1
+msgid "Produce label mapping from iterable based on label counts"
+msgstr ""
+
+#: of
+#: speechbrain.dataio.encoder.CategoricalEncoder.limited_labelset_from_iterable:3
+msgid "Used to limit label set size."
+msgstr ""
+
+#: of
+#: speechbrain.dataio.encoder.CategoricalEncoder.limited_labelset_from_iterable:7
+msgid ""
+"Whether iterable yields sequences of labels or individual labels "
+"directly. False by default."
+msgstr ""
+
+#: of
+#: speechbrain.dataio.encoder.CategoricalEncoder.limited_labelset_from_iterable:10
+msgid ""
+"Take at most this many labels as the label set, keeping the most common "
+"ones. If None (as by default), take all."
+msgstr ""
+
+#: of
+#: speechbrain.dataio.encoder.CategoricalEncoder.limited_labelset_from_iterable:13
+msgid "Don't take labels if they appear less than this many times."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CTCTextEncoder.collapse_indices_ndim
+#: speechbrain.dataio.encoder.CTCTextEncoder.collapse_labels
+#: speechbrain.dataio.encoder.CategoricalEncoder.add_label
+#: speechbrain.dataio.encoder.CategoricalEncoder.add_unk
+#: speechbrain.dataio.encoder.CategoricalEncoder.decode_ndim
+#: speechbrain.dataio.encoder.CategoricalEncoder.decode_torch
+#: speechbrain.dataio.encoder.CategoricalEncoder.encode_label
+#: speechbrain.dataio.encoder.CategoricalEncoder.encode_label_torch
+#: speechbrain.dataio.encoder.CategoricalEncoder.encode_sequence
+#: speechbrain.dataio.encoder.CategoricalEncoder.encode_sequence_torch
+#: speechbrain.dataio.encoder.CategoricalEncoder.ensure_label
+#: speechbrain.dataio.encoder.CategoricalEncoder.is_continuous
+#: speechbrain.dataio.encoder.CategoricalEncoder.limited_labelset_from_iterable
+#: speechbrain.dataio.encoder.CategoricalEncoder.load_if_possible
+msgid "Returns"
+msgstr ""
+
+#: of
+#: speechbrain.dataio.encoder.CategoricalEncoder.limited_labelset_from_iterable:16
+msgid "The counts of the different labels (unfiltered)."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CTCTextEncoder.collapse_indices_ndim
+#: speechbrain.dataio.encoder.CTCTextEncoder.collapse_labels
+#: speechbrain.dataio.encoder.CategoricalEncoder.add_label
+#: speechbrain.dataio.encoder.CategoricalEncoder.add_unk
+#: speechbrain.dataio.encoder.CategoricalEncoder.decode_ndim
+#: speechbrain.dataio.encoder.CategoricalEncoder.decode_torch
+#: speechbrain.dataio.encoder.CategoricalEncoder.encode_label
+#: speechbrain.dataio.encoder.CategoricalEncoder.encode_label_torch
+#: speechbrain.dataio.encoder.CategoricalEncoder.encode_sequence
+#: speechbrain.dataio.encoder.CategoricalEncoder.encode_sequence_torch
+#: speechbrain.dataio.encoder.CategoricalEncoder.ensure_label
+#: speechbrain.dataio.encoder.CategoricalEncoder.is_continuous
+#: speechbrain.dataio.encoder.CategoricalEncoder.limited_labelset_from_iterable
+#: speechbrain.dataio.encoder.CategoricalEncoder.load_if_possible
+msgid "Return type"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.load_or_create:1
+msgid "Convenient syntax for creating the encoder conditionally"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.load_or_create:3
+msgid ""
+"This pattern would be repeated in so many experiments that we decided to "
+"add a convenient shortcut for it here. The current version is multi-gpu "
+"(DDP) safe."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.add_label:1
+msgid "Add new label to the encoder, at the next free position."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.add_label:3
+#: speechbrain.dataio.encoder.CategoricalEncoder.ensure_label:3
+#: speechbrain.dataio.encoder.CategoricalEncoder.insert_label:6
+msgid ""
+"Most often labels are str, but anything that can act as dict key is "
+"supported. Note that default save/load only supports Python literals."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.add_label:8
+#: speechbrain.dataio.encoder.CategoricalEncoder.ensure_label:8
+msgid "The index that was used to encode this label."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.ensure_label:1
+msgid "Add a label if it is not already present."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.insert_label:1
+msgid "Add a new label, forcing its index to a specific value."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.insert_label:3
+msgid ""
+"If a label already has the specified index, it is moved to the end of the"
+" mapping."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.insert_label:10
+msgid "The specific index to use."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.enforce_label:1
+msgid "Make sure label is present and encoded to a particular index."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.enforce_label:3
+msgid ""
+"If the label is present but encoded to some other index, it is moved to "
+"the given index."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.enforce_label:6
+msgid ""
+"If there is already another label at the given index, that label is moved"
+" to the next free position."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.add_unk:1
+msgid "Add label for unknown tokens (out-of-vocab)."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.add_unk:3
+msgid "When asked to encode unknown labels, they can be mapped to this."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.add_unk:5
+msgid ""
+"Most often labels are str, but anything that can act as dict key is "
+"supported. Note that default save/load only supports Python literals. "
+"Default: <unk>. This can be None, as well!"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.add_unk:10
+msgid "The index that was used to encode this."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.is_continuous:1
+msgid "Check that the set of indices doesn't have gaps"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.is_continuous:3
+msgid ""
+"For example: If starting index = 1 Continuous: [1,2,3,4] Continuous: "
+"[0,1,2] Non-continuous: [2,3,4] Non-continuous: [1,2,4]"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.is_continuous:10
+msgid "True if continuous."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.encode_label:1
+msgid "Encode label to int"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.encode_label:3
+#: speechbrain.dataio.encoder.CategoricalEncoder.encode_label_torch:3
+msgid "Label to encode, must exist in the mapping."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.encode_label:5
+msgid ""
+"If given, that label is not in the label set AND unk_label has been added"
+" with add_unk(), allows encoding to unk_label's index."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.encode_label:10
+msgid "Corresponding encoded int value."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.encode_label_torch:1
+msgid "Encode label to torch.LongTensor."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.encode_label_torch:6
+msgid "Corresponding encoded int value. Tensor shape [1]."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.encode_sequence:1
+msgid "Encode a sequence of labels to list"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.encode_sequence:3
+#: speechbrain.dataio.encoder.CategoricalEncoder.encode_sequence_torch:3
+msgid "Labels to encode, must exist in the mapping."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.encode_sequence:6
+msgid "Corresponding integer labels."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.encode_sequence_torch:1
+msgid "Encode a sequence of labels to torch.LongTensor"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.encode_sequence_torch:6
+msgid "Corresponding integer labels. Tensor shape [len(sequence)]."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.decode_torch:1
+msgid "Decodes an arbitrarily nested torch.Tensor to a list of labels."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.decode_torch:3
+msgid ""
+"Provided separately because Torch provides clearer introspection, and so "
+"doesn't require try-except."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.decode_torch:6
+msgid "Torch tensor of some integer dtype (Long, int) and any shape to decode."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.decode_torch:10
+msgid "list of original labels"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.decode_ndim:1
+msgid "Decodes an arbitrarily nested iterable to a list of labels."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.decode_ndim:3
+msgid ""
+"This works for essentially any pythonic iterable (including torch), and "
+"also single elements."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.decode_ndim:6
+msgid "Python list or other iterable or torch.Tensor or a single integer element"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.decode_ndim:9
+msgid ""
+"ndim list of original labels, or if input was single element, output will"
+" be, too."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.save:1
+msgid "Save the categorical encoding for later use and recovery"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.save:3
+msgid ""
+"Saving uses a Python literal format, which supports things like tuple "
+"labels, but is considered safe to load (unlike e.g. pickle)."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.save:6
+msgid "Where to save. Will overwrite."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.load:1
+msgid "Loads from the given path."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.load:3
+msgid ""
+"CategoricalEncoder uses a Python literal format, which supports things "
+"like tuple labels, but is considered safe to load (unlike e.g. pickle)."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.load:6
+#: speechbrain.dataio.encoder.CategoricalEncoder.load_if_possible:3
+msgid "Where to load from."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.load_if_possible:1
+msgid "Loads if possible, returns a bool indicating if loaded or not."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.load_if_possible:6
+msgid "If load was successful."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CategoricalEncoder.load_if_possible:10
+msgid "Example"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder:1
+msgid "Bases: :class:`speechbrain.dataio.encoder.CategoricalEncoder`"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder:1
+msgid ""
+"CategoricalEncoder subclass which offers specific methods for encoding "
+"text and handle special tokens for training of sequence to sequence "
+"models. In detail, aside special <unk> token already present in "
+"CategoricalEncoder for handling out-of-vocab tokens here special methods "
+"to handle <bos> beginning of sequence and <eos> tokens are defined."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder:7
+msgid ""
+"Note: update_from_iterable and update_from_didataset here have as default"
+" sequence_input=True because it is assumed that this encoder is used on "
+"iterables of strings: e.g."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder:23
+msgid ""
+"Two methods can be used to add <bos> and <eos> to the internal dicts: "
+"insert_bos_eos, add_bos_eos."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder:40
+msgid ""
+"Four methods can be used to prepend <bos> and append <eos>. "
+"prepend_bos_label and append_eos_label add respectively the <bos> and "
+"<eos> string tokens to the input sequence"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder:50
+msgid ""
+"prepend_bos_index and append_eos_index add respectively the <bos> and "
+"<eos> indexes to the input encoded sequence."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder.limited_labelset_from_iterable:1
+#: speechbrain.dataio.encoder.TextEncoder.update_from_didataset:1
+#: speechbrain.dataio.encoder.TextEncoder.update_from_iterable:1
+msgid "Change default for sequence_input to True."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder.add_bos_eos:1
+msgid "Add sentence boundary markers in the label set."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder.add_bos_eos:3
+#: speechbrain.dataio.encoder.TextEncoder.insert_bos_eos:3
+msgid ""
+"If the beginning-of-sentence and end-of-sentence markers are the same, "
+"will just use one sentence-boundary label."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder.add_bos_eos:6
+msgid ""
+"This method adds to the end of the index, rather than at the beginning, "
+"like insert_bos_eos."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder.add_bos_eos:9
+msgid "Beginning-of-sentence label, any label."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder.add_bos_eos:11
+#: speechbrain.dataio.encoder.TextEncoder.insert_bos_eos:8
+msgid ""
+"End-of-sentence label, any label. If set to the same label as bos_label, "
+"will just use one sentence-boundary label."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder.insert_bos_eos:1
+msgid "Insert sentence boundary markers in the label set."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder.insert_bos_eos:6
+msgid "Beginning-of-sentence label, any label"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder.insert_bos_eos:11
+msgid "Where to insert bos_label. eos_index = bos_index + 1"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder.insert_bos_eos:13
+msgid "Where to insert eos_label. Default: eos_index = bos_index + 1"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder.get_bos_index:1
+#: speechbrain.dataio.encoder.TextEncoder.get_eos_index:1
+msgid "Returns the index to which blank encodes"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder.prepend_bos_label:1
+msgid "Returns a list version of x, with BOS prepended"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder.prepend_bos_index:1
+msgid ""
+"Returns a list version of x, with BOS index prepended. If the input is a "
+"tensor, a tensor is returned."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder.append_eos_label:1
+msgid "Returns a list version of x, with EOS appended."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.TextEncoder.append_eos_index:1
+msgid ""
+"Returns a list version of x, with EOS index appended. If the input is a "
+"tensor, a tensor is returned."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CTCTextEncoder:1
+msgid "Bases: :class:`speechbrain.dataio.encoder.TextEncoder`"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CTCTextEncoder:3
+msgid ""
+"add_blank and insert_blank can be used to add <blank> special token to "
+"the encoder state."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CTCTextEncoder:18
+msgid ""
+"collapse_labels and collapse_indices_ndim can be used to apply CTC "
+"collapsing rules: >>> encoder.collapse_labels([\"a\", \"a\", \"b\", "
+"\"c\", \"d\"]) ['a', 'b', 'c', 'd'] >>> encoder.collapse_indices_ndim([4,"
+" 4, 0, 1, 2, 3, 4, 4]) # 4 is <blank> [0, 1, 2, 3]"
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CTCTextEncoder.add_blank:1
+msgid "Add blank symbol to labelset."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CTCTextEncoder.insert_blank:1
+msgid "Insert blank symbol at a given labelset."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CTCTextEncoder.get_blank_index:1
+msgid "Returns the index to which blank encodes."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CTCTextEncoder.collapse_labels:1
+msgid "Applies the CTC collapsing rules on one label sequence."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CTCTextEncoder.collapse_indices_ndim:3
+#: speechbrain.dataio.encoder.CTCTextEncoder.collapse_labels:3
+msgid "Label sequence on which to operate."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CTCTextEncoder.collapse_indices_ndim:5
+#: speechbrain.dataio.encoder.CTCTextEncoder.collapse_labels:5
+msgid ""
+"Whether to merge repeated labels before removing blanks. In the basic CTC"
+" label topology, repeated labels are merged. However, in RNN-T, they are "
+"not."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CTCTextEncoder.collapse_indices_ndim:10
+#: speechbrain.dataio.encoder.CTCTextEncoder.collapse_labels:10
+msgid "List of labels with collapsing rules applied."
+msgstr ""
+
+#: of speechbrain.dataio.encoder.CTCTextEncoder.collapse_indices_ndim:1
+msgid "Applies the CTC collapsing rules on arbitrarily label sequence."
+msgstr ""
+
